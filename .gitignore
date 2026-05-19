@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Node/runtime artifacts
+node_modules/
+npm-debug.log*
+
+# Python test/cache artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+/dist/
+/build/

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Research-to-Project Lab</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <p class="eyebrow">Research intake → project shortlist</p>
+      <h1>Research-to-Project Lab</h1>
+      <p class="lede">
+        Turn recent papers, GitHub repositories, and manual notes into scored experiment candidates.
+      </p>
+    </header>
+
+    <main>
+      <section aria-labelledby="rubric-title" class="panel rubric-panel">
+        <div>
+          <p class="eyebrow">Scoring rubric</p>
+          <h2 id="rubric-title">Rank by experiment value</h2>
+        </div>
+        <ul class="rubric-grid" id="rubric"></ul>
+      </section>
+
+      <section aria-labelledby="candidates-title" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Candidate cards</p>
+            <h2 id="candidates-title">Research candidates</h2>
+          </div>
+          <span id="candidate-count" class="badge">Loading…</span>
+        </div>
+        <div id="candidate-list" class="candidate-list" aria-live="polite"></div>
+      </section>
+
+      <section aria-labelledby="shortlist-title" class="panel shortlist-panel">
+        <div>
+          <p class="eyebrow">Shortlist placeholder</p>
+          <h2 id="shortlist-title">Top experiments to brief next</h2>
+          <p>
+            This area will become the weekly shortlist once source ingestion and human review are added.
+          </p>
+        </div>
+        <ol id="shortlist" class="shortlist"></ol>
+      </section>
+    </main>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>

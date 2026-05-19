@@ -1,0 +1,65 @@
+[
+  {
+    "id": "project-a-research-assistant",
+    "title": "Research assistant with task management adjacency",
+    "source_type": "github",
+    "source_url": "https://github.com/6DEADSHOT9/Project-A",
+    "summary": "An AI assistant pattern that combines web search, task management, and research paper analysis.",
+    "why_interesting": "Validates the adjacent demand for research plus task workflows, but needs a sharper experiment-selection wedge.",
+    "implied_experiment": "Prototype candidate cards that convert source notes into explicit next experiments and risks.",
+    "required_inputs": ["GitHub URL", "project summary", "manual review notes"],
+    "estimated_effort": "one_day",
+    "scores": {
+      "novelty": 3,
+      "feasibility": 5,
+      "leverage": 4,
+      "evidence": 3,
+      "user_fit": 4
+    },
+    "total_score": 19,
+    "risks": ["Could become a generic assistant instead of a decision-quality tool"],
+    "status": "shortlisted"
+  },
+  {
+    "id": "code-as-agent-harness",
+    "title": "Code as Agent Harness",
+    "source_type": "arxiv",
+    "source_url": "http://arxiv.org/abs/2605.18747v1",
+    "summary": "Frames agents as code/harness/evaluable execution units.",
+    "why_interesting": "Matches the need to judge candidates by concrete harnesses and acceptance criteria, not just summaries.",
+    "implied_experiment": "Add an experiment brief template that requires harness, fixture, and acceptance criteria fields.",
+    "required_inputs": ["paper URL", "acceptance criteria draft", "test harness notes"],
+    "estimated_effort": "three_days",
+    "scores": {
+      "novelty": 4,
+      "feasibility": 4,
+      "leverage": 5,
+      "evidence": 4,
+      "user_fit": 5
+    },
+    "total_score": 22,
+    "risks": ["May overfit to agent experiments before validating broader research workflows"],
+    "status": "shortlisted"
+  },
+  {
+    "id": "structured-reviewer-matching",
+    "title": "Structured signals outperform generative matching in reviewer selection",
+    "source_type": "arxiv",
+    "source_url": "http://arxiv.org/abs/2605.18752v1",
+    "summary": "A reminder that simple statistical or structured representations can outperform generative AI for matching/scoring tasks.",
+    "why_interesting": "Supports combining LLM summaries with explicit source metadata, recency, tags, and keyword overlap.",
+    "implied_experiment": "Compare manual scoring against a simple structured scoring baseline before adding LLM recommendations.",
+    "required_inputs": ["paper URL", "rubric weights", "source metadata"],
+    "estimated_effort": "one_day",
+    "scores": {
+      "novelty": 3,
+      "feasibility": 5,
+      "leverage": 4,
+      "evidence": 4,
+      "user_fit": 4
+    },
+    "total_score": 20,
+    "risks": ["Structured signals may be unavailable for manually entered sources"],
+    "status": "new"
+  }
+]

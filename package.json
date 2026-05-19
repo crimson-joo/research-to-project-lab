@@ -1,0 +1,13 @@
+{
+  "name": "research-to-project-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dependency-free static MVP for turning research sources into scored experiment candidates.",
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 5173",
+    "test": "python3 -m unittest discover -s tests"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
