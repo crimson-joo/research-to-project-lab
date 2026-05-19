@@ -1,18 +1,25 @@
 # Research-to-Project Lab
 
-A tiny dependency-free static app scaffold for converting research inputs into experiment candidates.
+Research-to-Project Lab is a tiny dependency-free static MVP for turning research sources into scored experiment candidates.
 
-This C-02 scaffold intentionally avoids package installs and build tooling. It can be verified with Python stdlib tests and served locally with Python's static file server.
+The current repo is a C-02/C-03 scaffold: it renders local fixture candidates, shows a five-dimension scoring rubric, and lists a shortlist placeholder. It does not crawl live sources, score with an LLM, persist data, authenticate users, deploy anywhere, or create implementation tickets.
 
-## Product seed
+## What works now
 
-Based on `product-intake-c01.md`, the MVP focuses on:
+- Serve the static app locally.
+- Render candidate cards from `data/candidates.json`.
+- Show five scoring dimensions: novelty, feasibility, leverage, evidence strength, and user fit.
+- Calculate fixture totals that are checked by Python tests.
+- Show shortlisted candidates from fixture status.
 
-- research candidate cards from GitHub/arXiv/manual sources
-- an explicit scoring rubric: novelty, feasibility, leverage, evidence strength, user fit
-- a ranked shortlist placeholder
-- separation between research backlog and implementation backlog
-- human-in-the-loop recommendations with reasons and risks
+## What is planned, not implemented
+
+- Live arXiv, GitHub, article, or manual source intake.
+- Source records, provenance, duplicate handling, and readiness checks.
+- LLM scoring or score editing.
+- Persistent database storage.
+- Authenticated APIs.
+- Automatic implementation tickets, PRs, or deployment.
 
 ## Run locally
 
@@ -22,20 +29,38 @@ python3 -m http.server 5173
 
 Then open `http://localhost:5173`.
 
+You can also use the npm script alias without installing packages:
+
+```sh
+npm run serve
+```
+
 ## Test
 
 ```sh
 python3 -m unittest discover -s tests
 ```
 
-Or via npm script scaffold, without installing packages:
+Or via npm script scaffold:
 
 ```sh
 npm test
 ```
 
-## Notes
+## Documentation
+
+- [User guide](docs/user-guide.md): run the app and interpret candidate cards.
+- [Scoring rubric](docs/scoring-rubric.md): score dimensions, total-score rule, and current fixture examples.
+- [Known issues](docs/known-issues.md): current limitations and next-owner areas.
+- [Handoff](docs/handoff.md): compact continuation map for product/design/engineering/QA/release owners.
+- [Release notes](docs/release-notes.md): static scaffold and planning-package release evidence.
+
+## Safety note
+
+Current candidate data is trusted local fixture content. Before live or manual source intake ships, fetched/user-supplied text must be treated as data, not instructions or executable HTML.
+
+## Project notes
 
 - No external dependencies are required.
 - `package.json` is present only for script conventions.
-- Graphify/gstack hooks are not installed in C-02 because this is an initial static scaffold verification step; hook installation is better after the scaffold commit is reviewed and the repo shape stabilizes.
+- Graphify/gstack hooks are not installed in the repo scaffold; planning artifacts live under the local gstack project directory.
