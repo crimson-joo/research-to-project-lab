@@ -2,6 +2,8 @@
   {
     "id": "project-a-research-assistant",
     "title": "Research assistant with task management adjacency",
+    "source_ids": ["src_github_project_a"],
+    "primary_source_url": "https://github.com/6DEADSHOT9/Project-A",
     "source_type": "github",
     "source_url": "https://github.com/6DEADSHOT9/Project-A",
     "summary": "An AI assistant pattern that combines web search, task management, and research paper analysis.",
@@ -17,12 +19,25 @@
       "user_fit": 4
     },
     "total_score": 19,
+    "evidence_summary": {
+      "strongest_signals": ["Adjacent demand for research plus task workflows"],
+      "weakest_signals": ["Generic-assistant drift risk"],
+      "confidence": "medium"
+    },
     "risks": ["Could become a generic assistant instead of a decision-quality tool"],
-    "status": "shortlisted"
+    "status": "shortlisted",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": ["src_github_project_a#evidence-0", "src_github_project_a#evidence-1"],
+      "rationale": "Use this as an adjacent-workflow source, not as proof that a generic assistant should be built.",
+      "reviewer_notes": ["Candidate may proceed because the source is candidate_ready and duplicate check is complete."]
+    }
   },
   {
     "id": "code-as-agent-harness",
     "title": "Code as Agent Harness",
+    "source_ids": ["src_arxiv_code_as_agent_harness"],
+    "primary_source_url": "http://arxiv.org/abs/2605.18747v1",
     "source_type": "arxiv",
     "source_url": "http://arxiv.org/abs/2605.18747v1",
     "summary": "Frames agents as code/harness/evaluable execution units.",
@@ -38,12 +53,25 @@
       "user_fit": 5
     },
     "total_score": 22,
+    "evidence_summary": {
+      "strongest_signals": ["Executable harness framing maps directly to experiment brief acceptance criteria"],
+      "weakest_signals": ["May be too agent-specific for broader research workflows"],
+      "confidence": "high"
+    },
     "risks": ["May overfit to agent experiments before validating broader research workflows"],
-    "status": "shortlisted"
+    "status": "shortlisted",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": ["src_arxiv_code_as_agent_harness#evidence-0", "src_arxiv_code_as_agent_harness#evidence-1"],
+      "rationale": "Use this source to require concrete harness, fixture, and acceptance criteria fields before implementation work.",
+      "reviewer_notes": ["Candidate may proceed because the source is candidate_ready and evidence includes a strong paper-method signal."]
+    }
   },
   {
     "id": "structured-reviewer-matching",
     "title": "Structured signals outperform generative matching in reviewer selection",
+    "source_ids": ["src_arxiv_structured_reviewer_matching"],
+    "primary_source_url": "http://arxiv.org/abs/2605.18752v1",
     "source_type": "arxiv",
     "source_url": "http://arxiv.org/abs/2605.18752v1",
     "summary": "A reminder that simple statistical or structured representations can outperform generative AI for matching/scoring tasks.",
@@ -59,7 +87,18 @@
       "user_fit": 4
     },
     "total_score": 20,
+    "evidence_summary": {
+      "strongest_signals": ["Structured scoring is a clear baseline before LLM-only recommendations"],
+      "weakest_signals": ["Manual sources may not provide complete metadata"],
+      "confidence": "medium"
+    },
     "risks": ["Structured signals may be unavailable for manually entered sources"],
-    "status": "new"
+    "status": "new",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": ["src_arxiv_structured_reviewer_matching#evidence-0", "src_arxiv_structured_reviewer_matching#evidence-1"],
+      "rationale": "Use this source to keep scoring deterministic and visible before LLM recommendation features are introduced.",
+      "reviewer_notes": ["Candidate may proceed because the source is candidate_ready and evidence score does not exceed the source strength ceiling."]
+    }
   }
 ]
