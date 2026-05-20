@@ -1,25 +1,31 @@
 # Research-to-Project Lab
 
-Research-to-Project Lab is a tiny dependency-free static MVP for turning research sources into scored experiment candidates.
+[한국어 문서](docs/ko/README.md) · [User guide](docs/user-guide.md) · [Live demo](https://crimson-joo.github.io/research-to-project-lab/)
 
-The current repo is a C-02/C-03 scaffold: it renders local fixture candidates, shows a five-dimension scoring rubric, and lists a shortlist placeholder. It does not crawl live sources, score with an LLM, persist data, authenticate users, deploy anywhere, or create implementation tickets.
+Research-to-Project Lab is a dependency-free static MVP for turning research sources into scored experiment candidates. It helps a solo or small-team builder decide which research-backed experiment deserves attention next.
 
-## What works now
+## Current shipped behavior
 
-- Serve the static app locally.
-- Render candidate cards from `data/candidates.json`.
-- Show five scoring dimensions: novelty, feasibility, leverage, evidence strength, and user fit.
-- Calculate fixture totals that are checked by Python tests.
-- Show shortlisted candidates from fixture status.
+- Static HTML/CSS/JS app deployable on GitHub Pages.
+- Source intake form for GitHub, arXiv, article/blog, and manual notes.
+- Local draft persistence through `localStorage`; this is browser-only draft state, not synced storage.
+- Fixture-backed source records in `data/sources.json` and candidate cards in `data/candidates.json`.
+- Source-to-candidate traceability through `source_ids`, evidence refs, and review rationale.
+- Candidate search, source-type filter, and sorting by priority score, title, or source type.
+- Five-dimension scoring rubric: novelty, feasibility, leverage, evidence strength, and user fit.
+- Priority backlog computed from rubric total, evidence confidence, and estimated effort.
+- Shortlist placeholder for candidates marked `shortlisted`.
+- Markdown clipboard export and JSON download for the current filtered candidate view.
+- Python unittest gates and GitHub Actions CI.
+- GitHub Pages deploy workflow and canary-smoked public demo.
 
-## What is planned, not implemented
+## Still not implemented
 
-- Live arXiv, GitHub, article, or manual source intake.
-- Source records, provenance, duplicate handling, and readiness checks.
-- LLM scoring or score editing.
-- Persistent database storage.
-- Authenticated APIs.
-- Automatic implementation tickets, PRs, or deployment.
+- Live arXiv, GitHub, or article crawling/fetching.
+- LLM scoring, editable scores, reviewer history, or confidence calibration.
+- Server-side persistence, database storage, auth, or multi-user sync.
+- Automatic implementation tickets, PRs, or build handoff.
+- Automated browser QA; current browser/canary smoke is manual.
 
 ## Run locally
 
@@ -47,20 +53,33 @@ Or via npm script scaffold:
 npm test
 ```
 
+## Release/documentation gate
+
+Release is not complete after merge + CI + deploy + canary + cleanup. Before release signoff, run the `document-release` audit, docs freshness QA, and i18n docs link check in [Release checklist](docs/release-checklist.md):
+
+- README and docs match shipped UI behavior.
+- Release notes include merge, CI, deploy, and canary evidence.
+- Known issues distinguish current limitations from already-shipped features.
+- Korean documentation links exist and pass link checks when relevant.
+- Documentation link checks and stale-claim tests pass.
+
 ## Documentation
 
-- [User guide](docs/user-guide.md): run the app and interpret candidate cards.
+- [User guide](docs/user-guide.md): run the app, create drafts, search candidates, export results, and interpret cards.
 - [Scoring rubric](docs/scoring-rubric.md): score dimensions, total-score rule, and current fixture examples.
 - [Known issues](docs/known-issues.md): current limitations and next-owner areas.
+- [Release checklist](docs/release-checklist.md): mandatory release blockers, including document-release and i18n link checks.
 - [Handoff](docs/handoff.md): compact continuation map for product/design/engineering/QA/release owners.
-- [Release notes](docs/release-notes.md): static scaffold and planning-package release evidence.
+- [Release notes](docs/release-notes.md): shipped behavior, CI/deploy evidence, and limitations.
+- [한국어 README](docs/ko/README.md): Korean entry point.
+- [한국어 사용자 가이드](docs/ko/user-guide.md): Korean walkthrough.
 
 ## Safety note
 
-Current candidate data is trusted local fixture content. Before live or manual source intake ships, fetched/user-supplied text must be treated as data, not instructions or executable HTML.
+Current fixture data is trusted local sample content. The app escapes rendered candidate/source text, but any future fetched or user-supplied content must continue to be treated as data, not instructions or executable HTML.
 
 ## Project notes
 
-- No external dependencies are required.
-- `package.json` is present only for script conventions.
-- Graphify/gstack hooks are not installed in the repo scaffold; planning artifacts live under the local gstack project directory.
+- No external runtime or build dependencies are required.
+- `package.json` is present for script conventions.
+- Planning artifacts live under the local gstack project directory; repo docs contain only promoted handoff material.
