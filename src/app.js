@@ -90,7 +90,7 @@ function searchableText(candidate) {
 }
 
 function effortScore(candidate) {
-  const effort = { one_day: 3, three_days: 2, needs_review: 1 };
+  const effort = { one_day: 3, "1 day": 3, "½ day": 3, three_days: 2, "3 days": 2, "1 week": 1, needs_review: 1, unknown: 1 };
   return effort[candidate.estimated_effort] || 1;
 }
 

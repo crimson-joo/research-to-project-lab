@@ -249,6 +249,11 @@
       "reviewer_notes": [
         "Candidate retained from shortlist interaction fixture during integration."
       ]
+    },
+    "evidence_summary": {
+      "confidence": "low",
+      "strength": "weak",
+      "note": "Manual sources are common, but extraction confidence is uneven."
     }
   },
   {
@@ -308,6 +313,11 @@
       "reviewer_notes": [
         "Candidate retained from shortlist interaction fixture during integration."
       ]
+    },
+    "evidence_summary": {
+      "confidence": "medium",
+      "strength": "medium",
+      "note": "Would make later shortlist decisions more consistent."
     }
   },
   {
@@ -364,6 +374,11 @@
       "reviewer_notes": [
         "Candidate retained from shortlist interaction fixture during integration."
       ]
+    },
+    "evidence_summary": {
+      "confidence": "medium",
+      "strength": "medium",
+      "note": "Protects explicit promotion decisions from async failures."
     }
   },
   {
@@ -421,6 +436,11 @@
       "reviewer_notes": [
         "Candidate retained from shortlist interaction fixture during integration."
       ]
+    },
+    "evidence_summary": {
+      "confidence": "medium",
+      "strength": "medium",
+      "note": "Useful only if it differs from the existing board workflow."
     }
   },
   {
@@ -480,6 +500,11 @@
       "reviewer_notes": [
         "Candidate retained from shortlist interaction fixture during integration."
       ]
+    },
+    "evidence_summary": {
+      "confidence": "low",
+      "strength": "weak",
+      "note": "Forces the UI to expose disagreement instead of averaging it away."
     }
   },
   {
@@ -536,6 +561,11 @@
       "reviewer_notes": [
         "Candidate retained from shortlist interaction fixture during integration."
       ]
+    },
+    "evidence_summary": {
+      "confidence": "medium",
+      "strength": "medium",
+      "note": "May support sourcing later, but not the immediate shortlist interaction."
     }
   },
   {
@@ -592,6 +622,11 @@
       "reviewer_notes": [
         "Candidate retained from shortlist interaction fixture during integration."
       ]
+    },
+    "evidence_summary": {
+      "confidence": "high",
+      "strength": "medium",
+      "note": "Out of scope for the current lab unless tied to candidate evidence."
     }
   },
   {
@@ -649,6 +684,11 @@
       "reviewer_notes": [
         "Candidate retained from shortlist interaction fixture during integration."
       ]
+    },
+    "evidence_summary": {
+      "confidence": "low",
+      "strength": "weak",
+      "note": "Ensures source loss does not erase user input."
     }
   }
 ]
