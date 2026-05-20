@@ -1,6 +1,5 @@
 from pathlib import Path
 import json
-import re
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -59,6 +58,7 @@ class StaticAppScaffoldTests(unittest.TestCase):
         self.assertIn("candidate-list", html)
         self.assertIn("shortlist", html)
         self.assertIn('fetch("data/candidates.json")', js)
+        self.assertIn('fetch("data/sources.json")', js)
         self.assertIn("renderCandidates", js)
         self.assertIn("renderShortlist", js)
         self.assertRegex(js, r"novelty|feasibility|leverage|evidence|user_fit")
@@ -94,7 +94,7 @@ class StaticAppScaffoldTests(unittest.TestCase):
         expected_copy = [
             "No candidate cards yet.",
             "Add sources first, then extract candidate experiments from them.",
-            "No candidates match this view.",
+            "No candidates match those filters",
             "This card needs review before it can be ranked.",
             "We couldn’t fetch this source. The URL is saved. Retry, or enter details manually.",
             "Define the smallest test before this can move forward.",
@@ -120,8 +120,8 @@ class StaticAppScaffoldTests(unittest.TestCase):
             "The shortlist is saved, but export failed. Retry or copy the brief manually.",
             "Research next",
             "Prototype next",
-            "Move ${candidate.title} up",
-            "Move ${candidate.title} down",
+            "Move ${escapeHtml(candidate.title)} up",
+            "Move ${escapeHtml(candidate.title)} down",
         ]
         for copy in expected_copy:
             self.assertIn(copy, js)
@@ -157,6 +157,80 @@ class StaticAppScaffoldTests(unittest.TestCase):
             self.assertIn(candidate["source_type"], source_types)
             self.assertIn("source_ids", candidate)
             self.assertIn("trace", candidate)
+
+    def test_search_filter_ui_and_empty_state_are_present(self):
+        html = read_text("index.html")
+        js = read_text("src/app.js")
+        css = read_text("src/styles.css")
+
+        self.assertIn('id="candidate-filters"', html)
+        self.assertIn('id="candidate-search"', html)
+        self.assertIn('id="source-filter"', html)
+        self.assertIn('id="filter-summary"', html)
+        self.assertIn("filterCandidates", js)
+        self.assertIn("searchableText", js)
+        self.assertIn("tagsFor", js)
+        self.assertIn("No candidates match those filters", js)
+        self.assertIn("title, tag, source", html.lower())
+        self.assertIn(".filter-bar", css)
+        self.assertIn(".empty-state", css)
+
+    def test_search_filter_uses_candidate_and_source_tags(self):
+        candidates = json.loads(read_text("data/candidates.json"))
+        sources = json.loads(read_text("data/sources.json"))
+        source_by_id = {source["id"]: source for source in sources}
+
+        for candidate in candidates:
+            self.assertTrue(candidate["source_ids"])
+            tags = []
+            for source_id in candidate["source_ids"]:
+                tags.extend(source_by_id[source_id]["topic_tags"])
+            searchable = " ".join([
+                candidate["title"],
+                candidate["source_type"],
+                candidate["summary"],
+                candidate["implied_experiment"],
+                *tags,
+            ]).lower()
+            self.assertIn(candidate["source_type"], searchable)
+            self.assertTrue(any(tag in searchable for tag in tags))
+
+        harness = next(candidate for candidate in candidates if "Harness" in candidate["title"])
+        harness_tags = source_by_id[harness["source_ids"][0]]["topic_tags"]
+        self.assertIn("harness", harness["title"].lower() + " " + " ".join(harness_tags))
+
+    def test_priority_backlog_and_export_controls_are_present(self):
+        html = read_text("index.html")
+        js = read_text("src/app.js")
+        css = read_text("src/styles.css")
+
+        self.assertIn('id="sort-mode"', html)
+        self.assertIn('id="backlog"', html)
+        self.assertIn('id="export-markdown"', html)
+        self.assertIn('id="export-json"', html)
+        self.assertIn("priorityScore", js)
+        self.assertIn("sortCandidates", js)
+        self.assertIn("renderBacklog", js)
+        self.assertIn("candidatesToMarkdown", js)
+        self.assertIn("downloadJson", js)
+        self.assertIn("Nothing to export", js)
+        self.assertIn(".export-actions", css)
+
+    def test_priority_score_is_derived_from_visible_rubric_confidence_and_effort(self):
+        candidates = json.loads(read_text("data/candidates.json"))
+        confidence = {"high": 3, "medium": 2, "low": 1}
+        effort = {"one_day": 3, "three_days": 2, "needs_review": 1}
+
+        scored = []
+        for candidate in candidates:
+            self.assertIn("evidence_summary", candidate)
+            score = (
+                candidate["total_score"]
+                + confidence[candidate["evidence_summary"]["confidence"]]
+                + effort[candidate["estimated_effort"]]
+            )
+            scored.append((score, candidate["title"]))
+        self.assertEqual(max(scored)[1], "Code as Agent Harness")
 
 
 if __name__ == "__main__":
