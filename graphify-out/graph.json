@@ -9,7 +9,7 @@
       "source_file": "tests/test_traceability.py",
       "source_location": "L1",
       "id": "tests_test_traceability_py",
-      "community": 12,
+      "community": 11,
       "norm_label": "test_traceability.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "tests/test_traceability.py",
       "source_location": "L8",
       "id": "tests_test_traceability_load_json",
-      "community": 12,
+      "community": 11,
       "norm_label": "load_json()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "tests/test_traceability.py",
       "source_location": "L12",
       "id": "tests_test_traceability_candidatetraceabilitytests",
-      "community": 12,
+      "community": 11,
       "norm_label": "candidatetraceabilitytests"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "tests/test_traceability.py",
       "source_location": "L13",
       "id": "tests_test_traceability_candidatetraceabilitytests_setup",
-      "community": 12,
+      "community": 11,
       "norm_label": ".setup()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "tests/test_traceability.py",
       "source_location": "L17",
       "id": "tests_test_traceability_candidatetraceabilitytests_test_each_candidate_references_existing_candidate_ready_sources",
-      "community": 12,
+      "community": 11,
       "norm_label": ".test_each_candidate_references_existing_candidate_ready_sources()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "tests/test_traceability.py",
       "source_location": "L27",
       "id": "tests_test_traceability_candidatetraceabilitytests_test_primary_source_url_resolves_from_source_record",
-      "community": 12,
+      "community": 11,
       "norm_label": ".test_primary_source_url_resolves_from_source_record()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "tests/test_traceability.py",
       "source_location": "L35",
       "id": "tests_test_traceability_candidatetraceabilitytests_test_trace_keeps_extraction_method_evidence_refs_and_rationale",
-      "community": 12,
+      "community": 11,
       "norm_label": ".test_trace_keeps_extraction_method_evidence_refs_and_rationale()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "tests/test_traceability.py",
       "source_location": "L50",
       "id": "tests_test_traceability_candidatetraceabilitytests_test_blocked_status_sources_are_not_used_for_candidate_extraction",
-      "community": 12,
+      "community": 11,
       "norm_label": ".test_blocked_status_sources_are_not_used_for_candidate_extraction()"
     },
     {
@@ -1224,7 +1224,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L1",
       "id": "docs_known_issues_md",
-      "community": 7,
+      "community": 5,
       "norm_label": "known-issues.md"
     },
     {
@@ -1233,7 +1233,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L1",
       "id": "docs_known_issues_known_issues_and_limitations",
-      "community": 7,
+      "community": 5,
       "norm_label": "known issues and limitations"
     },
     {
@@ -1242,7 +1242,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L5",
       "id": "docs_known_issues_static_fixture_backed_app_data",
-      "community": 7,
+      "community": 5,
       "norm_label": "static fixture-backed app data"
     },
     {
@@ -1251,7 +1251,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L11",
       "id": "docs_known_issues_source_intake_is_local_draft_capture_not_live_ingestion",
-      "community": 7,
+      "community": 5,
       "norm_label": "source intake is local draft capture, not live ingestion"
     },
     {
@@ -1260,7 +1260,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L17",
       "id": "docs_known_issues_sourcerecord_contract_is_fixture_level_only",
-      "community": 7,
+      "community": 5,
       "norm_label": "sourcerecord contract is fixture-level only"
     },
     {
@@ -1269,7 +1269,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L23",
       "id": "docs_known_issues_scoring_is_static_fixture_data",
-      "community": 7,
+      "community": 5,
       "norm_label": "scoring is static fixture data"
     },
     {
@@ -1278,7 +1278,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L29",
       "id": "docs_known_issues_research_backlog_vs_implementation_backlog_is_visible_but_not_workflow_backed",
-      "community": 7,
+      "community": 5,
       "norm_label": "research backlog vs implementation backlog is visible but not workflow-backed"
     },
     {
@@ -1287,7 +1287,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L35",
       "id": "docs_known_issues_browser_qa_is_manual",
-      "community": 7,
+      "community": 5,
       "norm_label": "browser qa is manual"
     },
     {
@@ -1296,7 +1296,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L41",
       "id": "docs_known_issues_untrusted_content_hardening_must_continue_before_live_ingestion",
-      "community": 7,
+      "community": 5,
       "norm_label": "untrusted content hardening must continue before live ingestion"
     },
     {
@@ -1305,7 +1305,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L47",
       "id": "docs_known_issues_not_implemented_yet",
-      "community": 7,
+      "community": 5,
       "norm_label": "not implemented yet"
     },
     {
@@ -1314,7 +1314,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L59",
       "id": "docs_known_issues_related_docs",
-      "community": 7,
+      "community": 5,
       "norm_label": "related docs"
     },
     {
@@ -1323,7 +1323,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L1",
       "id": "docs_user_guide_md",
-      "community": 4,
+      "community": 8,
       "norm_label": "user-guide.md"
     },
     {
@@ -1332,7 +1332,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L1",
       "id": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
-      "community": 4,
+      "community": 8,
       "norm_label": "user guide: from research source to experiment candidate"
     },
     {
@@ -1341,7 +1341,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L5",
       "id": "docs_user_guide_who_this_is_for",
-      "community": 4,
+      "community": 8,
       "norm_label": "who this is for"
     },
     {
@@ -1350,7 +1350,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L9",
       "id": "docs_user_guide_core_loop",
-      "community": 4,
+      "community": 8,
       "norm_label": "core loop"
     },
     {
@@ -1359,7 +1359,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L21",
       "id": "docs_user_guide_current_mvp_walkthrough",
-      "community": 4,
+      "community": 8,
       "norm_label": "current mvp walkthrough"
     },
     {
@@ -1368,7 +1368,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L25",
       "id": "docs_user_guide_codeblock_1",
-      "community": 4,
+      "community": 8,
       "norm_label": "code:sh (python3 -m http.server 5173)"
     },
     {
@@ -1377,7 +1377,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L41",
       "id": "docs_user_guide_how_to_read_a_candidate_card",
-      "community": 4,
+      "community": 8,
       "norm_label": "how to read a candidate card"
     },
     {
@@ -1386,7 +1386,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L57",
       "id": "docs_user_guide_how_to_use_search_filters_and_exports",
-      "community": 4,
+      "community": 8,
       "norm_label": "how to use search, filters, and exports"
     },
     {
@@ -1395,7 +1395,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L65",
       "id": "docs_user_guide_how_to_use_the_backlog_and_shortlist",
-      "community": 4,
+      "community": 8,
       "norm_label": "how to use the backlog and shortlist"
     },
     {
@@ -1404,7 +1404,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L77",
       "id": "docs_user_guide_what_to_do_with_weak_evidence",
-      "community": 4,
+      "community": 8,
       "norm_label": "what to do with weak evidence"
     },
     {
@@ -1413,7 +1413,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L81",
       "id": "docs_user_guide_current_limitations",
-      "community": 4,
+      "community": 8,
       "norm_label": "current limitations"
     },
     {
@@ -1422,7 +1422,7 @@
       "source_file": "docs/release-checklist.md",
       "source_location": "L1",
       "id": "docs_release_checklist_md",
-      "community": 11,
+      "community": 12,
       "norm_label": "release-checklist.md"
     },
     {
@@ -1431,7 +1431,7 @@
       "source_file": "docs/release-checklist.md",
       "source_location": "L1",
       "id": "docs_release_checklist_release_checklist",
-      "community": 11,
+      "community": 12,
       "norm_label": "release checklist"
     },
     {
@@ -1440,7 +1440,7 @@
       "source_file": "docs/release-checklist.md",
       "source_location": "L5",
       "id": "docs_release_checklist_release_is_blocked_until_all_gates_pass",
-      "community": 11,
+      "community": 12,
       "norm_label": "release is blocked until all gates pass"
     },
     {
@@ -1449,7 +1449,7 @@
       "source_file": "docs/release-checklist.md",
       "source_location": "L19",
       "id": "docs_release_checklist_documentation_freshness_gate",
-      "community": 11,
+      "community": 12,
       "norm_label": "documentation freshness gate"
     },
     {
@@ -1458,7 +1458,7 @@
       "source_file": "docs/release-checklist.md",
       "source_location": "L32",
       "id": "docs_release_checklist_qa_release_verification",
-      "community": 11,
+      "community": 12,
       "norm_label": "qa-release verification"
     },
     {
@@ -1467,7 +1467,7 @@
       "source_file": "docs/release-checklist.md",
       "source_location": "L45",
       "id": "docs_release_checklist_automation_in_this_repo",
-      "community": 11,
+      "community": 12,
       "norm_label": "automation in this repo"
     },
     {
@@ -1476,7 +1476,7 @@
       "source_file": "docs/release-checklist.md",
       "source_location": "L49",
       "id": "docs_release_checklist_codeblock_1",
-      "community": 11,
+      "community": 12,
       "norm_label": "code:sh (python3 -m unittest discover -s tests)"
     },
     {
@@ -1485,7 +1485,7 @@
       "source_file": "docs/release-checklist.md",
       "source_location": "L61",
       "id": "docs_release_checklist_standard_release_evidence_packet",
-      "community": 11,
+      "community": 12,
       "norm_label": "standard release evidence packet"
     },
     {
@@ -1494,7 +1494,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_md",
-      "community": 5,
+      "community": 4,
       "norm_label": "handoff.md"
     },
     {
@@ -1503,7 +1503,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_handoff_research_to_project_lab",
-      "community": 5,
+      "community": 4,
       "norm_label": "handoff: research-to-project-lab"
     },
     {
@@ -1512,7 +1512,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L5",
       "id": "docs_handoff_product_decision",
-      "community": 5,
+      "community": 4,
       "norm_label": "product decision"
     },
     {
@@ -1521,7 +1521,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L9",
       "id": "docs_handoff_current_repo_state",
-      "community": 5,
+      "community": 4,
       "norm_label": "current repo state"
     },
     {
@@ -1530,7 +1530,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L22",
       "id": "docs_handoff_key_concepts",
-      "community": 5,
+      "community": 4,
       "norm_label": "key concepts"
     },
     {
@@ -1539,7 +1539,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L34",
       "id": "docs_handoff_next_implementation_sequence",
-      "community": 5,
+      "community": 4,
       "norm_label": "next implementation sequence"
     },
     {
@@ -1548,7 +1548,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L44",
       "id": "docs_handoff_qa_gates_to_preserve",
-      "community": 5,
+      "community": 4,
       "norm_label": "qa gates to preserve"
     },
     {
@@ -1557,7 +1557,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L54",
       "id": "docs_handoff_release_blocker_policy",
-      "community": 5,
+      "community": 4,
       "norm_label": "release blocker policy"
     },
     {
@@ -1566,7 +1566,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L66",
       "id": "docs_handoff_approval_boundaries",
-      "community": 5,
+      "community": 4,
       "norm_label": "approval boundaries"
     },
     {
@@ -1575,7 +1575,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L75",
       "id": "docs_handoff_source_artifacts",
-      "community": 5,
+      "community": 4,
       "norm_label": "source artifacts"
     },
     {
@@ -1584,7 +1584,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L89",
       "id": "docs_handoff_repo_docs",
-      "community": 5,
+      "community": 4,
       "norm_label": "repo docs"
     },
     {
@@ -1692,7 +1692,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L1",
       "id": "docs_ko_readme_md",
-      "community": 8,
+      "community": 7,
       "norm_label": "readme.md"
     },
     {
@@ -1701,7 +1701,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L1",
       "id": "ko_readme_research_to_project_lab_readme",
-      "community": 8,
+      "community": 7,
       "norm_label": "research-to-project lab \u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165 readme"
     },
     {
@@ -1710,7 +1710,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L7",
       "id": "ko_readme",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u110c\u1175\u1100\u1173\u11b7 \u1103\u1169\u11bc\u110c\u1161\u11a8\u1112\u1161\u1102\u1173\u11ab \u1100\u1165\u11ba"
     },
     {
@@ -1719,7 +1719,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L22",
       "id": "ko_readme_22",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u110b\u1161\u110c\u1175\u11a8 \u110b\u1161\u11ab \u1103\u116c\u1102\u1173\u11ab \u1100\u1165\u11ba"
     },
     {
@@ -1728,7 +1728,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L30",
       "id": "ko_readme_30",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u1105\u1169\u110f\u1165\u11af \u1109\u1175\u11af\u1112\u1162\u11bc"
     },
     {
@@ -1737,7 +1737,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L32",
       "id": "ko_readme_codeblock_1",
-      "community": 8,
+      "community": 7,
       "norm_label": "code:sh (python3 -m http.server 5173)"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L40",
       "id": "ko_readme_codeblock_2",
-      "community": 8,
+      "community": 7,
       "norm_label": "code:sh (npm run serve)"
     },
     {
@@ -1755,7 +1755,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L44",
       "id": "ko_readme_44",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u1110\u1166\u1109\u1173\u1110\u1173"
     },
     {
@@ -1764,7 +1764,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L46",
       "id": "ko_readme_codeblock_3",
-      "community": 8,
+      "community": 7,
       "norm_label": "code:sh (python3 -m unittest discover -s tests)"
     },
     {
@@ -1773,7 +1773,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L51",
       "id": "ko_readme_51",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u1105\u1175\u11af\u1105\u1175\u110c\u1173 \u1106\u116e\u11ab\u1109\u1165 \u1100\u1166\u110b\u1175\u1110\u1173"
     },
     {
@@ -1782,7 +1782,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L59",
       "id": "ko_readme_59",
-      "community": 8,
+      "community": 7,
       "norm_label": "\u110c\u116e\u110b\u116d \u1106\u116e\u11ab\u1109\u1165"
     },
     {
@@ -4284,5 +4284,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "30621590901fa49d72e17e09ff891cea9e9b05e4"
+  "built_at_commit": "031ea50a3b0ef3f1634b22aed7b71b3d164f2e0f"
 }

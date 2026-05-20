@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `30621590`
+- Built from commit: `031ea50a`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -64,11 +64,11 @@ Nodes (13): code:sh (python3 -m http.server 5173), code:sh (npm run serve), code
 
 ### Community 4 - "Community 4"
 Cohesion: 0.18
-Nodes (10): code:sh (python3 -m http.server 5173), Core loop, Current limitations, Current MVP walkthrough, How to read a candidate card, How to use search, filters, and exports, How to use the backlog and shortlist, User Guide: From Research Source to Experiment Candidate (+2 more)
+Nodes (10): Approval boundaries, Current repo state, Handoff: research-to-project-lab, Key concepts, Next implementation sequence, Product decision, QA gates to preserve, Release blocker policy (+2 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.18
-Nodes (10): Approval boundaries, Current repo state, Handoff: research-to-project-lab, Key concepts, Next implementation sequence, Product decision, QA gates to preserve, Release blocker policy (+2 more)
+Nodes (10): Browser QA is manual, Known Issues and Limitations, Not implemented yet, Related docs, Research backlog vs implementation backlog is visible but not workflow-backed, Scoring is static fixture data, Source intake is local draft capture, not live ingestion, SourceRecord contract is fixture-level only (+2 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.18
@@ -76,17 +76,17 @@ Nodes (10): Current fixture examples, Dimensions, Manual override rule, Principl
 
 ### Community 7 - "Community 7"
 Cohesion: 0.18
-Nodes (10): Browser QA is manual, Known Issues and Limitations, Not implemented yet, Related docs, Research backlog vs implementation backlog is visible but not workflow-backed, Scoring is static fixture data, Source intake is local draft capture, not live ingestion, SourceRecord contract is fixture-level only (+2 more)
+Nodes (10): 지금 동작하는 것, 아직 안 되는 것, 로컬 실행, 테스트, 릴리즈 문서 게이트, 주요 문서, code:sh (python3 -m http.server 5173), code:sh (npm run serve) (+2 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.18
-Nodes (10): 지금 동작하는 것, 아직 안 되는 것, 로컬 실행, 테스트, 릴리즈 문서 게이트, 주요 문서, code:sh (python3 -m http.server 5173), code:sh (npm run serve) (+2 more)
+Nodes (10): code:sh (python3 -m http.server 5173), Core loop, Current limitations, Current MVP walkthrough, How to read a candidate card, How to use search, filters, and exports, How to use the backlog and shortlist, User Guide: From Research Source to Experiment Candidate (+2 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.2
 Nodes (9): 한국어 사용자 가이드: 연구 소스에서 실험 후보까지, 실행, 승격 전 체크, 기본 흐름, 현재 한계, Candidate card 읽는 법, code:sh (python3 -m http.server 5173), Search/filter/export (+1 more)
 
-### Community 11 - "Community 11"
+### Community 12 - "Community 12"
 Cohesion: 0.25
 Nodes (7): Automation in this repo, code:sh (python3 -m unittest discover -s tests), Documentation freshness gate, QA-release verification, Release Checklist, Release is blocked until all gates pass, Standard release evidence packet
 
