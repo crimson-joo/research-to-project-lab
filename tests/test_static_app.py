@@ -62,6 +62,69 @@ class StaticAppScaffoldTests(unittest.TestCase):
         self.assertRegex(js, r"novelty|feasibility|leverage|evidence|user_fit")
         self.assertIn(".candidate-card", css)
 
+    def test_mock_data_covers_candidate_state_matrix(self):
+        candidates = json.loads(read_text("data/candidates.json"))
+        statuses = {candidate["status"] for candidate in candidates}
+        expected_statuses = {
+            "new",
+            "needs_review",
+            "needs_scoring",
+            "scored",
+            "shortlisted",
+            "parked",
+            "rejected",
+            "duplicate_risk",
+            "conflicting_evidence",
+            "fetch_error",
+        }
+        self.assertTrue(expected_statuses.issubset(statuses), statuses)
+        self.assertTrue(any(candidate.get("evidence_strength") == "weak" for candidate in candidates))
+        self.assertTrue(any(candidate.get("tie_group") for candidate in candidates))
+        for candidate in candidates:
+            self.assertIn("confidence", candidate)
+            self.assertIn("source_count", candidate)
+            self.assertIn("next_lane", candidate)
+            self.assertIn("primary_action", candidate)
+
+    def test_candidate_ui_includes_empty_error_and_accessible_action_copy(self):
+        js = read_text("src/app.js")
+        css = read_text("src/styles.css")
+        expected_copy = [
+            "No candidate cards yet.",
+            "Add sources first, then extract candidate experiments from them.",
+            "No candidates match this view.",
+            "This card needs review before it can be ranked.",
+            "We couldn’t fetch this source. The URL is saved. Retry, or enter details manually.",
+            "Define the smallest test before this can move forward.",
+            "Sources disagree. Review the evidence before promoting.",
+            "aria-label=\"${action.label} ${candidate.title}\"",
+            "role=\"list\"",
+            "aria-live=\"polite\"",
+        ]
+        for copy in expected_copy:
+            self.assertIn(copy, js)
+        for selector in [".candidate-card--parked", ".candidate-card--rejected", ".chip--risk", ".chip--warning", ":focus-visible"]:
+            self.assertIn(selector, css)
+
+    def test_shortlist_ui_handles_empty_edges_and_keyboard_ranking(self):
+        js = read_text("src/app.js")
+        css = read_text("src/styles.css")
+        expected_copy = [
+            "No shortlist yet.",
+            "Score candidates first, then choose the experiments worth running this cycle.",
+            "Only ${ranked.length} candidates are ready. You can continue with a smaller shortlist or score more candidates.",
+            "These candidates are tied. Compare feasibility, user fit, and evidence confidence before ranking.",
+            "This candidate is promising but weakly supported. Add rationale or move it to Research next.",
+            "The shortlist is saved, but export failed. Retry or copy the brief manually.",
+            "Research next",
+            "Prototype next",
+            "Move ${candidate.title} up",
+            "Move ${candidate.title} down",
+        ]
+        for copy in expected_copy:
+            self.assertIn(copy, js)
+        self.assertIn(".shortlist-item__rank-actions", css)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -2,15 +2,22 @@
   {
     "id": "project-a-research-assistant",
     "title": "Research assistant with task management adjacency",
-    "source_ids": ["src_github_project_a"],
-    "primary_source_url": "https://github.com/6DEADSHOT9/Project-A",
     "source_type": "github",
+    "source_count": 1,
     "source_url": "https://github.com/6DEADSHOT9/Project-A",
     "summary": "An AI assistant pattern that combines web search, task management, and research paper analysis.",
-    "why_interesting": "Validates the adjacent demand for research plus task workflows, but needs a sharper experiment-selection wedge.",
+    "why_interesting": "Validates adjacent demand for research plus task workflows, but needs a sharper experiment-selection wedge.",
     "implied_experiment": "Prototype candidate cards that convert source notes into explicit next experiments and risks.",
-    "required_inputs": ["GitHub URL", "project summary", "manual review notes"],
-    "estimated_effort": "one_day",
+    "required_inputs": [
+      "GitHub URL",
+      "project summary",
+      "manual review notes"
+    ],
+    "estimated_effort": "1 day",
+    "confidence": "Medium confidence",
+    "evidence_strength": "medium",
+    "next_lane": "Prototype next",
+    "acceptance_check": "A founder can choose one card and explain the next experiment in under 10 seconds.",
     "scores": {
       "novelty": 3,
       "feasibility": 5,
@@ -18,33 +25,64 @@
       "evidence": 3,
       "user_fit": 4
     },
+    "score_reasons": {
+      "novelty": "Known assistant pattern, sharper when focused on candidate decisions.",
+      "feasibility": "Static card prototype is testable in a day.",
+      "leverage": "Creates reusable card schema for later extraction work.",
+      "evidence": "Single repo signal needs manual validation.",
+      "user_fit": "Matches the current research-to-project workflow."
+    },
     "total_score": 19,
+    "risks": [
+      "Could become a generic assistant instead of a decision-quality tool"
+    ],
+    "warnings": [],
+    "status": "shortlisted",
+    "primary_action": "Draft experiment brief",
+    "source_ids": [
+      "src_github_project_a"
+    ],
+    "primary_source_url": "https://github.com/6DEADSHOT9/Project-A",
     "evidence_summary": {
-      "strongest_signals": ["Adjacent demand for research plus task workflows"],
-      "weakest_signals": ["Generic-assistant drift risk"],
+      "strongest_signals": [
+        "Adjacent demand for research plus task workflows"
+      ],
+      "weakest_signals": [
+        "Generic-assistant drift risk"
+      ],
       "confidence": "medium"
     },
-    "risks": ["Could become a generic assistant instead of a decision-quality tool"],
-    "status": "shortlisted",
     "trace": {
       "extraction_method": "fixture",
-      "source_evidence_refs": ["src_github_project_a#evidence-0", "src_github_project_a#evidence-1"],
+      "source_evidence_refs": [
+        "src_github_project_a#evidence-0",
+        "src_github_project_a#evidence-1"
+      ],
       "rationale": "Use this as an adjacent-workflow source, not as proof that a generic assistant should be built.",
-      "reviewer_notes": ["Candidate may proceed because the source is candidate_ready and duplicate check is complete."]
+      "reviewer_notes": [
+        "Candidate may proceed because the source is candidate_ready and duplicate check is complete."
+      ]
     }
   },
   {
     "id": "code-as-agent-harness",
     "title": "Code as Agent Harness",
-    "source_ids": ["src_arxiv_code_as_agent_harness"],
-    "primary_source_url": "http://arxiv.org/abs/2605.18747v1",
     "source_type": "arxiv",
+    "source_count": 1,
     "source_url": "http://arxiv.org/abs/2605.18747v1",
-    "summary": "Frames agents as code/harness/evaluable execution units.",
+    "summary": "Frames agents as code, harnesses, and evaluable execution units.",
     "why_interesting": "Matches the need to judge candidates by concrete harnesses and acceptance criteria, not just summaries.",
     "implied_experiment": "Add an experiment brief template that requires harness, fixture, and acceptance criteria fields.",
-    "required_inputs": ["paper URL", "acceptance criteria draft", "test harness notes"],
-    "estimated_effort": "three_days",
+    "required_inputs": [
+      "paper URL",
+      "acceptance criteria draft",
+      "test harness notes"
+    ],
+    "estimated_effort": "3 days",
+    "confidence": "High confidence",
+    "evidence_strength": "strong",
+    "next_lane": "Prototype next",
+    "acceptance_check": "Every promoted brief names the harness, fixture, and pass/fail signal.",
     "scores": {
       "novelty": 4,
       "feasibility": 4,
@@ -52,33 +90,64 @@
       "evidence": 4,
       "user_fit": 5
     },
+    "score_reasons": {
+      "novelty": "Clear framing for agent experiments.",
+      "feasibility": "Template work is small and isolated.",
+      "leverage": "Improves all future implementation handoffs.",
+      "evidence": "Paper signal is strong but still early.",
+      "user_fit": "Directly supports Hermes/gstack execution workflows."
+    },
     "total_score": 22,
+    "risks": [
+      "May overfit to agent experiments before validating broader research workflows"
+    ],
+    "warnings": [],
+    "status": "shortlisted",
+    "primary_action": "Draft experiment brief",
+    "source_ids": [
+      "src_arxiv_code_as_agent_harness"
+    ],
+    "primary_source_url": "http://arxiv.org/abs/2605.18747v1",
     "evidence_summary": {
-      "strongest_signals": ["Executable harness framing maps directly to experiment brief acceptance criteria"],
-      "weakest_signals": ["May be too agent-specific for broader research workflows"],
+      "strongest_signals": [
+        "Executable harness framing maps directly to experiment brief acceptance criteria"
+      ],
+      "weakest_signals": [
+        "May be too agent-specific for broader research workflows"
+      ],
       "confidence": "high"
     },
-    "risks": ["May overfit to agent experiments before validating broader research workflows"],
-    "status": "shortlisted",
     "trace": {
       "extraction_method": "fixture",
-      "source_evidence_refs": ["src_arxiv_code_as_agent_harness#evidence-0", "src_arxiv_code_as_agent_harness#evidence-1"],
+      "source_evidence_refs": [
+        "src_arxiv_code_as_agent_harness#evidence-0",
+        "src_arxiv_code_as_agent_harness#evidence-1"
+      ],
       "rationale": "Use this source to require concrete harness, fixture, and acceptance criteria fields before implementation work.",
-      "reviewer_notes": ["Candidate may proceed because the source is candidate_ready and evidence includes a strong paper-method signal."]
+      "reviewer_notes": [
+        "Candidate may proceed because the source is candidate_ready and evidence includes a strong paper-method signal."
+      ]
     }
   },
   {
     "id": "structured-reviewer-matching",
     "title": "Structured signals outperform generative matching in reviewer selection",
-    "source_ids": ["src_arxiv_structured_reviewer_matching"],
-    "primary_source_url": "http://arxiv.org/abs/2605.18752v1",
     "source_type": "arxiv",
+    "source_count": 1,
     "source_url": "http://arxiv.org/abs/2605.18752v1",
-    "summary": "A reminder that simple statistical or structured representations can outperform generative AI for matching/scoring tasks.",
-    "why_interesting": "Supports combining LLM summaries with explicit source metadata, recency, tags, and keyword overlap.",
+    "summary": "A reminder that structured representations can outperform generative AI for matching/scoring tasks.",
+    "why_interesting": "Supports combining LLM summaries with source metadata, recency, tags, and keyword overlap.",
     "implied_experiment": "Compare manual scoring against a simple structured scoring baseline before adding LLM recommendations.",
-    "required_inputs": ["paper URL", "rubric weights", "source metadata"],
-    "estimated_effort": "one_day",
+    "required_inputs": [
+      "paper URL",
+      "rubric weights",
+      "source metadata"
+    ],
+    "estimated_effort": "1 day",
+    "confidence": "Medium confidence",
+    "evidence_strength": "medium",
+    "next_lane": "Research next",
+    "acceptance_check": "Baseline scoring is compared against one manual shortlist decision.",
     "scores": {
       "novelty": 3,
       "feasibility": 5,
@@ -86,19 +155,388 @@
       "evidence": 4,
       "user_fit": 4
     },
+    "score_reasons": {
+      "novelty": "Known structured-signal lesson applied to this workflow.",
+      "feasibility": "Can be evaluated with existing candidate data.",
+      "leverage": "Provides a cheap baseline before LLM ranking.",
+      "evidence": "Paper is relevant to matching/scoring.",
+      "user_fit": "Useful guardrail for experiment ranking."
+    },
     "total_score": 20,
+    "risks": [
+      "Structured signals may be unavailable for manually entered sources"
+    ],
+    "warnings": [],
+    "status": "new",
+    "primary_action": "Review card",
+    "source_ids": [
+      "src_arxiv_structured_reviewer_matching"
+    ],
+    "primary_source_url": "http://arxiv.org/abs/2605.18752v1",
     "evidence_summary": {
-      "strongest_signals": ["Structured scoring is a clear baseline before LLM-only recommendations"],
-      "weakest_signals": ["Manual sources may not provide complete metadata"],
+      "strongest_signals": [
+        "Structured scoring is a clear baseline before LLM-only recommendations"
+      ],
+      "weakest_signals": [
+        "Manual sources may not provide complete metadata"
+      ],
       "confidence": "medium"
     },
-    "risks": ["Structured signals may be unavailable for manually entered sources"],
-    "status": "new",
     "trace": {
       "extraction_method": "fixture",
-      "source_evidence_refs": ["src_arxiv_structured_reviewer_matching#evidence-0", "src_arxiv_structured_reviewer_matching#evidence-1"],
+      "source_evidence_refs": [
+        "src_arxiv_structured_reviewer_matching#evidence-0",
+        "src_arxiv_structured_reviewer_matching#evidence-1"
+      ],
       "rationale": "Use this source to keep scoring deterministic and visible before LLM recommendation features are introduced.",
-      "reviewer_notes": ["Candidate may proceed because the source is candidate_ready and evidence score does not exceed the source strength ceiling."]
+      "reviewer_notes": [
+        "Candidate may proceed because the source is candidate_ready and evidence score does not exceed the source strength ceiling."
+      ]
     }
+  },
+  {
+    "id": "low-confidence-manual-note",
+    "title": "Manual note clustering for founder research",
+    "source_type": "manual",
+    "source_count": 2,
+    "source_url": "https://example.com/manual-note-clustering",
+    "summary": "Cluster rough notes into candidate project cards.",
+    "why_interesting": "Manual sources are common, but extraction confidence is uneven.",
+    "implied_experiment": "Review extracted fields before ranking the manual-note card.",
+    "required_inputs": [
+      "manual note",
+      "reviewer correction"
+    ],
+    "estimated_effort": "½ day",
+    "confidence": "Low confidence",
+    "evidence_strength": "weak",
+    "next_lane": "Research next",
+    "acceptance_check": "Reviewer can correct missing fields before score/rank controls are enabled.",
+    "scores": {
+      "novelty": 3,
+      "feasibility": 4,
+      "leverage": 3,
+      "evidence": 2,
+      "user_fit": 4
+    },
+    "score_reasons": {
+      "novelty": "Useful but common workflow.",
+      "feasibility": "Review interaction is small.",
+      "leverage": "Improves manual intake quality.",
+      "evidence": "Weak source support.",
+      "user_fit": "Manual notes are in scope."
+    },
+    "total_score": 16,
+    "risks": [
+      "Weak evidence",
+      "Missing source metadata"
+    ],
+    "warnings": [
+      "low confidence extraction"
+    ],
+    "status": "needs_review",
+    "primary_action": "Resolve review items"
+  },
+  {
+    "id": "incomplete-rubric-baseline",
+    "title": "Rubric calibration baseline",
+    "source_type": "manual",
+    "source_count": 1,
+    "source_url": "https://example.com/rubric-calibration-baseline",
+    "summary": "Use a small set of known-good examples to calibrate rubric scores.",
+    "why_interesting": "Would make later shortlist decisions more consistent.",
+    "implied_experiment": "Score five seed candidates and compare ranking against founder preference.",
+    "required_inputs": [
+      "seed candidates",
+      "founder ranking"
+    ],
+    "estimated_effort": "1 day",
+    "confidence": "Medium confidence",
+    "evidence_strength": "medium",
+    "next_lane": "Research next",
+    "acceptance_check": "All score dimensions have a reason before promotion.",
+    "scores": {
+      "novelty": 2,
+      "feasibility": 5,
+      "leverage": 4,
+      "evidence": 3,
+      "user_fit": 4
+    },
+    "score_reasons": {
+      "novelty": "Calibration is expected but valuable.",
+      "feasibility": "Small manual test.",
+      "leverage": "Improves future ranking consistency.",
+      "evidence": "Needs scoring rationale.",
+      "user_fit": "Supports current candidate selection."
+    },
+    "missing_score_dimensions": [
+      "evidence"
+    ],
+    "total_score": 18,
+    "risks": [
+      "Ranking may reflect current bias"
+    ],
+    "warnings": [
+      "missing evidence score reason"
+    ],
+    "status": "needs_scoring",
+    "primary_action": "Score candidate"
+  },
+  {
+    "id": "shortlist-export-retry",
+    "title": "Saved shortlist export retry",
+    "source_type": "github",
+    "source_count": 2,
+    "source_url": "https://github.com/example/shortlist-export-retry",
+    "summary": "Keep ranked shortlist state visible even if export fails.",
+    "why_interesting": "Protects explicit promotion decisions from async failures.",
+    "implied_experiment": "Simulate export failure and verify rank, rationale, and draft brief stay visible.",
+    "required_inputs": [
+      "ranked shortlist",
+      "export target"
+    ],
+    "estimated_effort": "1 day",
+    "confidence": "Medium confidence",
+    "evidence_strength": "medium",
+    "next_lane": "Prototype next",
+    "acceptance_check": "Export failure leaves rank and draft copy visible for retry/manual copy.",
+    "scores": {
+      "novelty": 2,
+      "feasibility": 5,
+      "leverage": 4,
+      "evidence": 3,
+      "user_fit": 5
+    },
+    "score_reasons": {
+      "novelty": "Standard resilience pattern.",
+      "feasibility": "Can be represented statically now.",
+      "leverage": "Protects release-critical handoffs.",
+      "evidence": "Design artifact calls out this edge.",
+      "user_fit": "Important for no-data-loss workflows."
+    },
+    "total_score": 19,
+    "risks": [
+      "Export retry could be mistaken for implementation handoff"
+    ],
+    "warnings": [
+      "export failure fixture"
+    ],
+    "status": "scored",
+    "primary_action": "Consider for shortlist"
+  },
+  {
+    "id": "duplicate-agent-board",
+    "title": "Agent board duplicate candidate",
+    "source_type": "github",
+    "source_count": 3,
+    "source_url": "https://github.com/example/agent-board-duplicate",
+    "summary": "Potential overlap with an existing task-board experiment.",
+    "why_interesting": "Useful only if it differs from the existing board workflow.",
+    "implied_experiment": "Compare duplicate evidence before merging or rejecting.",
+    "required_inputs": [
+      "source links",
+      "existing candidate"
+    ],
+    "estimated_effort": "½ day",
+    "confidence": "Medium confidence",
+    "evidence_strength": "medium",
+    "next_lane": "Research next",
+    "acceptance_check": "Duplicate comparison is visible and no automatic merge occurs.",
+    "scores": {
+      "novelty": 2,
+      "feasibility": 4,
+      "leverage": 3,
+      "evidence": 4,
+      "user_fit": 3
+    },
+    "score_reasons": {
+      "novelty": "Likely overlaps with an existing candidate.",
+      "feasibility": "Comparison is simple.",
+      "leverage": "Prevents duplicate backlog work.",
+      "evidence": "Multiple sources available.",
+      "user_fit": "Relevant but possibly redundant."
+    },
+    "total_score": 16,
+    "risks": [
+      "Duplicate risk"
+    ],
+    "warnings": [
+      "possible duplicate"
+    ],
+    "duplicate_of": "project-a-research-assistant",
+    "status": "duplicate_risk",
+    "primary_action": "Compare duplicate"
+  },
+  {
+    "id": "conflicting-evidence-runner",
+    "title": "Conflicting evidence runner",
+    "source_type": "arxiv",
+    "source_count": 2,
+    "source_url": "http://arxiv.org/abs/2605.19000v1",
+    "summary": "Sources disagree on whether the project should be research-first or prototype-first.",
+    "why_interesting": "Forces the UI to expose disagreement instead of averaging it away.",
+    "implied_experiment": "Review source-level disagreement and choose research or prototype lane.",
+    "required_inputs": [
+      "paper",
+      "repo signal",
+      "review notes"
+    ],
+    "estimated_effort": "3 days",
+    "confidence": "Low confidence",
+    "evidence_strength": "weak",
+    "next_lane": "Research next",
+    "acceptance_check": "Conflict copy is visible and promotion requires rationale.",
+    "scores": {
+      "novelty": 4,
+      "feasibility": 3,
+      "leverage": 4,
+      "evidence": 2,
+      "user_fit": 4
+    },
+    "score_reasons": {
+      "novelty": "Interesting disagreement pattern.",
+      "feasibility": "Needs deeper review before build.",
+      "leverage": "Conflict handling helps many candidates.",
+      "evidence": "Sources conflict.",
+      "user_fit": "Relevant if handled safely."
+    },
+    "total_score": 17,
+    "risks": [
+      "Conflicting evidence",
+      "Weak evidence"
+    ],
+    "warnings": [
+      "sources disagree"
+    ],
+    "tie_group": "runner-up",
+    "status": "conflicting_evidence",
+    "primary_action": "Review evidence"
+  },
+  {
+    "id": "parked-dataset-browser",
+    "title": "Dataset browser for future sourcing",
+    "source_type": "manual",
+    "source_count": 1,
+    "source_url": "https://example.com/parked-dataset-browser",
+    "summary": "A useful future data-browser idea that is too broad for this cycle.",
+    "why_interesting": "May support sourcing later, but not the immediate shortlist interaction.",
+    "implied_experiment": "Revisit after core candidate flow is validated.",
+    "required_inputs": [
+      "dataset examples"
+    ],
+    "estimated_effort": "1 week",
+    "confidence": "Medium confidence",
+    "evidence_strength": "medium",
+    "next_lane": "Research next",
+    "acceptance_check": "Parked reason is visible and restore action is available.",
+    "scores": {
+      "novelty": 3,
+      "feasibility": 2,
+      "leverage": 4,
+      "evidence": 3,
+      "user_fit": 3
+    },
+    "score_reasons": {
+      "novelty": "Moderately novel for this product.",
+      "feasibility": "Too broad for a short experiment.",
+      "leverage": "Could help future sourcing.",
+      "evidence": "Manual-only signal.",
+      "user_fit": "Not the current focus."
+    },
+    "total_score": 15,
+    "risks": [
+      "Too broad for 1–3 day experiment"
+    ],
+    "warnings": [
+      "parked reason required"
+    ],
+    "parked_reason": "Too broad for the current cycle.",
+    "status": "parked",
+    "primary_action": "Revisit"
+  },
+  {
+    "id": "rejected-social-monitor",
+    "title": "Social monitor as generic trend feed",
+    "source_type": "manual",
+    "source_count": 1,
+    "source_url": "https://example.com/rejected-social-monitor",
+    "summary": "A generic social trend monitor without a specific experiment-selection wedge.",
+    "why_interesting": "Out of scope for the current lab unless tied to candidate evidence.",
+    "implied_experiment": "Restore only if a source-specific experiment is defined.",
+    "required_inputs": [
+      "reject reason"
+    ],
+    "estimated_effort": "unknown",
+    "confidence": "High confidence",
+    "evidence_strength": "medium",
+    "next_lane": "Research next",
+    "acceptance_check": "Rejected card is muted, keeps reason, and can be restored.",
+    "scores": {
+      "novelty": 2,
+      "feasibility": 3,
+      "leverage": 2,
+      "evidence": 3,
+      "user_fit": 2
+    },
+    "score_reasons": {
+      "novelty": "Generic trend feed pattern.",
+      "feasibility": "Possible but unfocused.",
+      "leverage": "Low reuse for current flow.",
+      "evidence": "Adequate but not compelling.",
+      "user_fit": "Out of scope."
+    },
+    "total_score": 12,
+    "risks": [
+      "Out of scope"
+    ],
+    "warnings": [
+      "rejected reason required"
+    ],
+    "reject_reason": "Too generic for the current shortlist cycle.",
+    "status": "rejected",
+    "primary_action": "Restore"
+  },
+  {
+    "id": "failed-fetch-fallback",
+    "title": "Failed fetch fallback card",
+    "source_type": "github",
+    "source_count": 1,
+    "source_url": "https://github.com/example/private-or-missing",
+    "summary": "A source URL was saved, but automatic fetching failed.",
+    "why_interesting": "Ensures source loss does not erase user input.",
+    "implied_experiment": "Retry fetch or enter details manually without clearing the URL.",
+    "required_inputs": [
+      "saved URL",
+      "manual details"
+    ],
+    "estimated_effort": "½ day",
+    "confidence": "Low confidence",
+    "evidence_strength": "weak",
+    "next_lane": "Research next",
+    "acceptance_check": "Saved URL remains visible through retry and manual-entry states.",
+    "scores": {
+      "novelty": 2,
+      "feasibility": 5,
+      "leverage": 3,
+      "evidence": 1,
+      "user_fit": 4
+    },
+    "score_reasons": {
+      "novelty": "Common error-recovery need.",
+      "feasibility": "Static fallback copy is simple.",
+      "leverage": "Protects intake reliability.",
+      "evidence": "Fetch failed, so evidence is weak.",
+      "user_fit": "Relevant to source intake."
+    },
+    "total_score": 15,
+    "risks": [
+      "Fetch failed",
+      "Weak evidence"
+    ],
+    "warnings": [
+      "fetch failed"
+    ],
+    "status": "fetch_error",
+    "primary_action": "Enter details manually"
   }
 ]
