@@ -235,7 +235,21 @@
       "low confidence extraction"
     ],
     "status": "needs_review",
-    "primary_action": "Resolve review items"
+    "primary_action": "Resolve review items",
+    "source_ids": [
+      "src_low_confidence_manual_note"
+    ],
+    "primary_source_url": "https://example.com/manual-note-clustering",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": [
+        "src_low_confidence_manual_note#evidence-0"
+      ],
+      "rationale": "Manual sources are common, but extraction confidence is uneven.",
+      "reviewer_notes": [
+        "Candidate retained from shortlist interaction fixture during integration."
+      ]
+    }
   },
   {
     "id": "incomplete-rubric-baseline",
@@ -280,7 +294,21 @@
       "missing evidence score reason"
     ],
     "status": "needs_scoring",
-    "primary_action": "Score candidate"
+    "primary_action": "Score candidate",
+    "source_ids": [
+      "src_incomplete_rubric_baseline"
+    ],
+    "primary_source_url": "https://example.com/rubric-calibration-baseline",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": [
+        "src_incomplete_rubric_baseline#evidence-0"
+      ],
+      "rationale": "Would make later shortlist decisions more consistent.",
+      "reviewer_notes": [
+        "Candidate retained from shortlist interaction fixture during integration."
+      ]
+    }
   },
   {
     "id": "shortlist-export-retry",
@@ -322,7 +350,21 @@
       "export failure fixture"
     ],
     "status": "scored",
-    "primary_action": "Consider for shortlist"
+    "primary_action": "Consider for shortlist",
+    "source_ids": [
+      "src_shortlist_export_retry"
+    ],
+    "primary_source_url": "https://github.com/example/shortlist-export-retry",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": [
+        "src_shortlist_export_retry#evidence-0"
+      ],
+      "rationale": "Protects explicit promotion decisions from async failures.",
+      "reviewer_notes": [
+        "Candidate retained from shortlist interaction fixture during integration."
+      ]
+    }
   },
   {
     "id": "duplicate-agent-board",
@@ -365,7 +407,21 @@
     ],
     "duplicate_of": "project-a-research-assistant",
     "status": "duplicate_risk",
-    "primary_action": "Compare duplicate"
+    "primary_action": "Compare duplicate",
+    "source_ids": [
+      "src_duplicate_agent_board"
+    ],
+    "primary_source_url": "https://github.com/example/agent-board-duplicate",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": [
+        "src_duplicate_agent_board#evidence-0"
+      ],
+      "rationale": "Useful only if it differs from the existing board workflow.",
+      "reviewer_notes": [
+        "Candidate retained from shortlist interaction fixture during integration."
+      ]
+    }
   },
   {
     "id": "conflicting-evidence-runner",
@@ -410,7 +466,21 @@
     ],
     "tie_group": "runner-up",
     "status": "conflicting_evidence",
-    "primary_action": "Review evidence"
+    "primary_action": "Review evidence",
+    "source_ids": [
+      "src_conflicting_evidence_runner"
+    ],
+    "primary_source_url": "http://arxiv.org/abs/2605.19000v1",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": [
+        "src_conflicting_evidence_runner#evidence-0"
+      ],
+      "rationale": "Forces the UI to expose disagreement instead of averaging it away.",
+      "reviewer_notes": [
+        "Candidate retained from shortlist interaction fixture during integration."
+      ]
+    }
   },
   {
     "id": "parked-dataset-browser",
@@ -452,7 +522,21 @@
     ],
     "parked_reason": "Too broad for the current cycle.",
     "status": "parked",
-    "primary_action": "Revisit"
+    "primary_action": "Revisit",
+    "source_ids": [
+      "src_parked_dataset_browser"
+    ],
+    "primary_source_url": "https://example.com/parked-dataset-browser",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": [
+        "src_parked_dataset_browser#evidence-0"
+      ],
+      "rationale": "May support sourcing later, but not the immediate shortlist interaction.",
+      "reviewer_notes": [
+        "Candidate retained from shortlist interaction fixture during integration."
+      ]
+    }
   },
   {
     "id": "rejected-social-monitor",
@@ -494,7 +578,21 @@
     ],
     "reject_reason": "Too generic for the current shortlist cycle.",
     "status": "rejected",
-    "primary_action": "Restore"
+    "primary_action": "Restore",
+    "source_ids": [
+      "src_rejected_social_monitor"
+    ],
+    "primary_source_url": "https://example.com/rejected-social-monitor",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": [
+        "src_rejected_social_monitor#evidence-0"
+      ],
+      "rationale": "Out of scope for the current lab unless tied to candidate evidence.",
+      "reviewer_notes": [
+        "Candidate retained from shortlist interaction fixture during integration."
+      ]
+    }
   },
   {
     "id": "failed-fetch-fallback",
@@ -537,6 +635,20 @@
       "fetch failed"
     ],
     "status": "fetch_error",
-    "primary_action": "Enter details manually"
+    "primary_action": "Enter details manually",
+    "source_ids": [
+      "src_failed_fetch_fallback"
+    ],
+    "primary_source_url": "https://github.com/example/private-or-missing",
+    "trace": {
+      "extraction_method": "fixture",
+      "source_evidence_refs": [
+        "src_failed_fetch_fallback#evidence-0"
+      ],
+      "rationale": "Ensures source loss does not erase user input.",
+      "reviewer_notes": [
+        "Candidate retained from shortlist interaction fixture during integration."
+      ]
+    }
   }
 ]
