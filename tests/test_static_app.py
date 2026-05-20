@@ -20,6 +20,8 @@ class StaticAppScaffoldTests(unittest.TestCase):
             "src/styles.css",
             "src/app.js",
             "data/candidates.json",
+            "data/sources.json",
+            "data/intake-schema.json",
         ]
         missing = [path for path in required if not (ROOT / path).exists()]
         self.assertEqual(missing, [])
@@ -61,6 +63,37 @@ class StaticAppScaffoldTests(unittest.TestCase):
         self.assertIn("renderShortlist", js)
         self.assertRegex(js, r"novelty|feasibility|leverage|evidence|user_fit")
         self.assertIn(".candidate-card", css)
+
+    def test_source_intake_form_and_validation_contract_are_present(self):
+        html = read_text("index.html")
+        js = read_text("src/app.js")
+        schema = json.loads(read_text("data/intake-schema.json"))
+
+        self.assertIn('id="source-intake-form"', html)
+        self.assertIn('id="draft-card"', html)
+        self.assertIn('role="alert"', html)
+        self.assertIn('validateSourceDraft', js)
+        self.assertIn('buildCandidateDraft', js)
+        self.assertIn('localStorage.setItem', js)
+        self.assertIn('research-to-project-lab.sourceDraft.v1', js)
+        self.assertEqual(set(schema["source_types"]), {"arxiv", "github", "article", "manual"})
+        self.assertIn("source_statuses", schema)
+        self.assertIn("localStorage", schema["validation_rules"]["persistence"])
+
+    def test_intake_schema_is_compatible_with_candidate_and_source_records(self):
+        schema = json.loads(read_text("data/intake-schema.json"))
+        candidates = json.loads(read_text("data/candidates.json"))
+        sources = json.loads(read_text("data/sources.json"))
+
+        source_types = set(schema["source_types"])
+        candidate_fields = set(schema["candidate_draft_fields"])
+        self.assertTrue({"title", "source_type", "source_url", "source_ids", "trace"}.issubset(candidate_fields))
+        for source in sources:
+            self.assertIn(source["source_type"], source_types)
+        for candidate in candidates:
+            self.assertIn(candidate["source_type"], source_types)
+            self.assertIn("source_ids", candidate)
+            self.assertIn("trace", candidate)
 
 
 if __name__ == "__main__":

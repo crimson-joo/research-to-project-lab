@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "purpose": "C-05 dependency-free source intake and candidate draft contract",
+  "source_types": ["arxiv", "github", "article", "manual"],
+  "required_source_fields": [
+    "id",
+    "source_type",
+    "source_url",
+    "title",
+    "user_note",
+    "status",
+    "evidence_strength",
+    "review_rationale"
+  ],
+  "source_statuses": ["draft", "needs_review", "candidate_ready", "blocked"],
+  "candidate_draft_fields": [
+    "title",
+    "source_type",
+    "source_url",
+    "summary",
+    "why_interesting",
+    "implied_experiment",
+    "source_ids",
+    "trace"
+  ],
+  "validation_rules": {
+    "source_type": "Must be one of source_types.",
+    "url_sources": "arxiv, github, and article require an http(s) source_url.",
+    "manual_sources": "manual sources may omit source_url only when user_note explains the origin.",
+    "title_or_note": "A title or user_note is required to create a draft.",
+    "persistence": "localStorage stores only local draft UI state; it is not production persistence or sync."
+  }
+}
