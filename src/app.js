@@ -59,18 +59,45 @@ function searchableText(candidate) {
 
 function filterCandidates(candidates, filters) {
   const query = filters.query.trim().toLowerCase();
-  return candidates.filter((candidate) => {
+  const filtered = candidates.filter((candidate) => {
     const sourceMatches = filters.sourceType === "all" || candidate.source_type === filters.sourceType;
     const queryMatches = !query || searchableText(candidate).includes(query);
     return sourceMatches && queryMatches;
   });
+  return sortCandidates(filtered, filters.sortMode);
 }
 
 function currentFilters() {
   return {
     query: document.querySelector("#candidate-search").value,
     sourceType: document.querySelector("#source-filter").value,
+    sortMode: document.querySelector("#sort-mode").value,
   };
+}
+
+function effortScore(candidate) {
+  const effort = { one_day: 3, three_days: 2, needs_review: 1 };
+  return effort[candidate.estimated_effort] || 1;
+}
+
+function confidenceScore(candidate) {
+  const confidence = { high: 3, medium: 2, low: 1 };
+  return confidence[candidate.evidence_summary?.confidence] || 1;
+}
+
+function priorityScore(candidate) {
+  return candidate.total_score + confidenceScore(candidate) + effortScore(candidate);
+}
+
+function sortCandidates(candidates, sortMode = "priority") {
+  const sorted = [...candidates];
+  if (sortMode === "title") {
+    return sorted.sort((left, right) => left.title.localeCompare(right.title));
+  }
+  if (sortMode === "source") {
+    return sorted.sort((left, right) => left.source_type.localeCompare(right.source_type) || right.total_score - left.total_score);
+  }
+  return sorted.sort((left, right) => priorityScore(right) - priorityScore(left) || right.total_score - left.total_score);
 }
 
 function scoreEntries(scores) {
@@ -124,7 +151,7 @@ function renderCandidates(candidates, filters = { query: "", sourceType: "all" }
               <p class="source-type">${escapeHtml(candidate.source_type)}</p>
               <h3>${escapeHtml(candidate.title)}</h3>
             </div>
-            <span class="score">${escapeHtml(candidate.total_score)}</span>
+            <span class="score">P${escapeHtml(priorityScore(candidate))}</span>
           </div>
           <p>${escapeHtml(candidate.summary)}</p>
           <div class="tag-list" aria-label="Candidate tags">
@@ -141,6 +168,7 @@ function renderCandidates(candidates, filters = { query: "", sourceType: "all" }
             </div>
           </dl>
           <div class="score-grid">
+            <span title="Computed backlog priority">Priority: <strong>${escapeHtml(priorityScore(candidate))}</strong></span>
             ${scoreEntries(candidate.scores)
               .map(
                 (score) => `
@@ -163,7 +191,89 @@ function renderCandidates(candidates, filters = { query: "", sourceType: "all" }
 
 function renderFilteredCandidates() {
   const filters = currentFilters();
-  renderCandidates(filterCandidates(allCandidates, filters), filters);
+  const visibleCandidates = filterCandidates(allCandidates, filters);
+  renderCandidates(visibleCandidates, filters);
+  renderBacklog(visibleCandidates);
+}
+
+function renderBacklog(candidates) {
+  const backlog = document.querySelector("#backlog");
+  backlog.innerHTML = sortCandidates(candidates, "priority")
+    .map(
+      (candidate) => `
+        <li>
+          <strong>${escapeHtml(candidate.title)}</strong>
+          <span>Priority ${escapeHtml(priorityScore(candidate))} — ${escapeHtml(candidate.estimated_effort)} — ${escapeHtml(candidate.evidence_summary?.confidence || "unknown")} confidence</span>
+        </li>
+      `,
+    )
+    .join("");
+}
+
+function candidatesToMarkdown(candidates) {
+  return candidates.map((candidate, index) => [
+    `## ${index + 1}. ${candidate.title}`,
+    `- Source: ${candidate.source_type} — ${candidate.source_url}`,
+    `- Priority: ${priorityScore(candidate)} / Rubric: ${candidate.total_score}`,
+    `- Status: ${candidate.status}`,
+    `- Experiment: ${candidate.implied_experiment}`,
+    `- Risks: ${(candidate.risks || []).join("; ")}`,
+  ].join("\n")).join("\n\n");
+}
+
+function exportPayload(candidates) {
+  return candidates.map((candidate) => ({
+    id: candidate.id,
+    title: candidate.title,
+    source_type: candidate.source_type,
+    source_url: candidate.source_url,
+    status: candidate.status,
+    total_score: candidate.total_score,
+    priority_score: priorityScore(candidate),
+    tags: tagsFor(candidate),
+    implied_experiment: candidate.implied_experiment,
+    risks: candidate.risks || [],
+  }));
+}
+
+async function copyMarkdown(candidates) {
+  const markdown = candidatesToMarkdown(candidates);
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(markdown);
+    return "Copied Markdown export to clipboard.";
+  }
+  return markdown;
+}
+
+function downloadJson(candidates) {
+  const blob = new Blob([JSON.stringify(exportPayload(candidates), null, 2)], { type: "application/json" });
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = "research-to-project-candidates.json";
+  link.click();
+  URL.revokeObjectURL(link.href);
+}
+
+function setupExports() {
+  const status = document.querySelector("#export-status");
+  document.querySelector("#export-markdown").addEventListener("click", async () => {
+    const candidates = filterCandidates(allCandidates, currentFilters());
+    if (!candidates.length) {
+      status.textContent = "Nothing to export: current filters match zero candidates.";
+      return;
+    }
+    const result = await copyMarkdown(candidates);
+    status.textContent = result.startsWith("## ") ? "Clipboard unavailable; Markdown export is prepared in memory." : result;
+  });
+  document.querySelector("#export-json").addEventListener("click", () => {
+    const candidates = filterCandidates(allCandidates, currentFilters());
+    if (!candidates.length) {
+      status.textContent = "Nothing to export: current filters match zero candidates.";
+      return;
+    }
+    downloadJson(candidates);
+    status.textContent = `Downloaded JSON export for ${candidates.length} candidates.`;
+  });
 }
 
 function setupFilters() {
@@ -196,6 +306,7 @@ function renderShortlist(candidates) {
 async function main() {
   renderRubric();
   setupFilters();
+  setupExports();
   const [candidateResponse, sourceResponse] = await Promise.all([
     fetch("data/candidates.json"),
     fetch("data/sources.json"),
@@ -203,7 +314,9 @@ async function main() {
   allCandidates = await candidateResponse.json();
   const sources = await sourceResponse.json();
   sourceById = new Map(sources.map((source) => [source.id, source]));
-  renderCandidates(allCandidates);
+  const initialCandidates = sortCandidates(allCandidates, "priority");
+  renderCandidates(initialCandidates);
+  renderBacklog(initialCandidates);
   renderShortlist(allCandidates);
 }
 

@@ -152,7 +152,7 @@ dd,
 
 .filter-bar {
   display: grid;
-  grid-template-columns: minmax(240px, 1fr) minmax(180px, 240px) auto;
+  grid-template-columns: minmax(220px, 1fr) minmax(160px, 220px) minmax(150px, 200px) auto;
   gap: 12px;
   margin: 18px 0 8px;
 }
@@ -199,6 +199,13 @@ button {
 .filter-summary {
   color: var(--muted);
   font-size: 0.94rem;
+}
+
+.export-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 10px 0;
 }
 
 .tag-list {

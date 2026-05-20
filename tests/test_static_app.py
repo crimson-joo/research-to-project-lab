@@ -104,6 +104,39 @@ class StaticAppScaffoldTests(unittest.TestCase):
         harness_tags = source_by_id[harness["source_ids"][0]]["topic_tags"]
         self.assertIn("harness", harness["title"].lower() + " " + " ".join(harness_tags))
 
+    def test_priority_backlog_and_export_controls_are_present(self):
+        html = read_text("index.html")
+        js = read_text("src/app.js")
+        css = read_text("src/styles.css")
+
+        self.assertIn('id="sort-mode"', html)
+        self.assertIn('id="backlog"', html)
+        self.assertIn('id="export-markdown"', html)
+        self.assertIn('id="export-json"', html)
+        self.assertIn("priorityScore", js)
+        self.assertIn("sortCandidates", js)
+        self.assertIn("renderBacklog", js)
+        self.assertIn("candidatesToMarkdown", js)
+        self.assertIn("downloadJson", js)
+        self.assertIn("Nothing to export", js)
+        self.assertIn(".export-actions", css)
+
+    def test_priority_score_is_derived_from_visible_rubric_confidence_and_effort(self):
+        candidates = json.loads(read_text("data/candidates.json"))
+        confidence = {"high": 3, "medium": 2, "low": 1}
+        effort = {"one_day": 3, "three_days": 2, "needs_review": 1}
+
+        scored = []
+        for candidate in candidates:
+            self.assertIn("evidence_summary", candidate)
+            score = (
+                candidate["total_score"]
+                + confidence[candidate["evidence_summary"]["confidence"]]
+                + effort[candidate["estimated_effort"]]
+            )
+            scored.append((score, candidate["title"]))
+        self.assertEqual(max(scored)[1], "Code as Agent Harness")
+
 
 if __name__ == "__main__":
     unittest.main()
