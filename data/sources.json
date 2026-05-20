@@ -1,0 +1,611 @@
+[
+  {
+    "id": "src_github_project_a",
+    "source_type": "github",
+    "source_url": "https://github.com/6DEADSHOT9/Project-A",
+    "title": "Project-A research assistant repository",
+    "discovered_at": "2026-05-19",
+    "collected_by": "fixture",
+    "intake_batch": "c04-sample",
+    "raw_summary": "An AI assistant repository pattern combining web search, task management, and research paper analysis.",
+    "user_note": "Saved as a nearby workflow signal for research-plus-task tooling, with risk of drifting into a generic assistant.",
+    "topic_tags": [
+      "research-assistant",
+      "task-management",
+      "github",
+      "workflow"
+    ],
+    "metadata": {
+      "authors": [],
+      "published_at": null,
+      "last_updated": null,
+      "stars": null,
+      "forks": null,
+      "open_issues": null,
+      "license": null,
+      "repo_language": null,
+      "paper_categories": [],
+      "benchmark_or_dataset": []
+    },
+    "evidence_notes": [
+      {
+        "claim": "Research assistant projects cluster around source collection plus task workflow features.",
+        "evidence_type": "repo_activity",
+        "source_quote_or_detail": "Repository summary references web search, task management, and research paper analysis in one assistant workflow.",
+        "strength": "medium"
+      },
+      {
+        "claim": "The repo is only indirect evidence for an experiment-selection wedge.",
+        "evidence_type": "negative_signal",
+        "source_quote_or_detail": "The current signal can support a candidate card but does not prove demand for a sharper decision-quality tool.",
+        "strength": "weak"
+      }
+    ],
+    "risks": [
+      "Could become a generic assistant instead of a decision-quality tool"
+    ],
+    "duplicate_of": null,
+    "intake_status": "candidate_ready",
+    "review": {
+      "reviewer": "agent",
+      "reviewed_at": "2026-05-19T00:00:00Z",
+      "review_notes": [
+        "Relevant to experiment selection because it shows adjacent demand for research workflow tooling.",
+        "Duplicate check completed: no existing canonical source match in fixture set."
+      ],
+      "rejection_reason": null
+    }
+  },
+  {
+    "id": "src_arxiv_code_as_agent_harness",
+    "source_type": "arxiv",
+    "source_url": "http://arxiv.org/abs/2605.18747v1",
+    "title": "Code as Agent Harness",
+    "discovered_at": "2026-05-19",
+    "collected_by": "fixture",
+    "intake_batch": "c04-sample",
+    "raw_summary": "Frames agents as code, harness, and evaluable execution units rather than freeform summaries.",
+    "user_note": "Saved because it supports making experiment briefs concrete through harness and acceptance criteria fields.",
+    "topic_tags": [
+      "agents",
+      "evaluation",
+      "harness",
+      "experiment-brief"
+    ],
+    "metadata": {
+      "authors": [],
+      "published_at": null,
+      "last_updated": null,
+      "stars": null,
+      "forks": null,
+      "open_issues": null,
+      "license": null,
+      "repo_language": null,
+      "paper_categories": [],
+      "benchmark_or_dataset": []
+    },
+    "evidence_notes": [
+      {
+        "claim": "Agent candidates should be evaluated through executable harnesses and acceptance criteria.",
+        "evidence_type": "paper_method",
+        "source_quote_or_detail": "Fixture summary frames agents as code/harness/evaluable execution units.",
+        "strength": "strong"
+      },
+      {
+        "claim": "This source has direct fit with the proposed experiment brief template.",
+        "evidence_type": "user_signal",
+        "source_quote_or_detail": "The candidate requires harness, fixture, and acceptance criteria fields before prototyping.",
+        "strength": "medium"
+      }
+    ],
+    "risks": [
+      "May overfit to agent experiments before validating broader research workflows"
+    ],
+    "duplicate_of": null,
+    "intake_status": "candidate_ready",
+    "review": {
+      "reviewer": "agent",
+      "reviewed_at": "2026-05-19T00:00:00Z",
+      "review_notes": [
+        "Relevant to experiment selection because it turns source evidence into testable implementation criteria.",
+        "Duplicate check completed: no existing canonical source match in fixture set."
+      ],
+      "rejection_reason": null
+    }
+  },
+  {
+    "id": "src_arxiv_structured_reviewer_matching",
+    "source_type": "arxiv",
+    "source_url": "http://arxiv.org/abs/2605.18752v1",
+    "title": "Structured signals outperform generative matching in reviewer selection",
+    "discovered_at": "2026-05-19",
+    "collected_by": "fixture",
+    "intake_batch": "c04-sample",
+    "raw_summary": "Simple statistical or structured representations can outperform generative AI for matching and scoring tasks.",
+    "user_note": "Saved to justify explicit scoring dimensions before LLM-only ranking is added.",
+    "topic_tags": [
+      "structured-scoring",
+      "ranking",
+      "evidence",
+      "arxiv"
+    ],
+    "metadata": {
+      "authors": [],
+      "published_at": null,
+      "last_updated": null,
+      "stars": null,
+      "forks": null,
+      "open_issues": null,
+      "license": null,
+      "repo_language": null,
+      "paper_categories": [],
+      "benchmark_or_dataset": []
+    },
+    "evidence_notes": [
+      {
+        "claim": "Structured scoring can be a useful baseline before LLM recommendations.",
+        "evidence_type": "paper_method",
+        "source_quote_or_detail": "Fixture summary says structured representations can outperform generative AI for matching/scoring tasks.",
+        "strength": "medium"
+      },
+      {
+        "claim": "Manual sources may not always provide enough structured metadata.",
+        "evidence_type": "negative_signal",
+        "source_quote_or_detail": "Candidate risk notes that structured signals may be unavailable for manually entered sources.",
+        "strength": "weak"
+      }
+    ],
+    "risks": [
+      "Structured signals may be unavailable for manually entered sources"
+    ],
+    "duplicate_of": null,
+    "intake_status": "candidate_ready",
+    "review": {
+      "reviewer": "agent",
+      "reviewed_at": "2026-05-19T00:00:00Z",
+      "review_notes": [
+        "Relevant to experiment selection because it supports visible deterministic scoring dimensions.",
+        "Duplicate check completed: no existing canonical source match in fixture set."
+      ],
+      "rejection_reason": null
+    }
+  },
+  {
+    "id": "src_manual_weekly_research_digest",
+    "source_type": "manual",
+    "source_url": null,
+    "title": "Manual note: weekly research digest intake",
+    "discovered_at": "2026-05-19",
+    "collected_by": "manual",
+    "intake_batch": "c04-sample",
+    "raw_summary": "A manually entered idea to turn a weekly research digest into experiment candidates.",
+    "user_note": "No URL because this is an offline planning note; next research step is to attach at least one primary source before candidate extraction.",
+    "topic_tags": [
+      "manual-note",
+      "weekly-digest",
+      "needs-review"
+    ],
+    "metadata": {
+      "authors": [],
+      "published_at": null,
+      "last_updated": null,
+      "stars": null,
+      "forks": null,
+      "open_issues": null,
+      "license": null,
+      "repo_language": null,
+      "paper_categories": [],
+      "benchmark_or_dataset": []
+    },
+    "evidence_notes": [
+      {
+        "claim": "User intent exists, but primary evidence is missing.",
+        "evidence_type": "user_signal",
+        "source_quote_or_detail": "Manual note has an experiment angle but no linked paper, repo, or article yet.",
+        "strength": "weak"
+      }
+    ],
+    "risks": [
+      "Missing primary source evidence before candidate extraction"
+    ],
+    "duplicate_of": null,
+    "intake_status": "needs_review",
+    "review": {
+      "reviewer": "agent",
+      "reviewed_at": null,
+      "review_notes": [
+        "No URL rationale accepted for intake only; do not extract a candidate until primary evidence is attached."
+      ],
+      "rejection_reason": null
+    }
+  },
+  {
+    "id": "src_github_project_a_duplicate",
+    "source_type": "github",
+    "source_url": "https://github.com/6DEADSHOT9/Project-A",
+    "title": "Duplicate Project-A repository link",
+    "discovered_at": "2026-05-19",
+    "collected_by": "fixture",
+    "intake_batch": "c04-sample",
+    "raw_summary": "Duplicate capture of the same Project-A repository URL.",
+    "user_note": "Saved to verify duplicate sources are preserved with an audit reason instead of disappearing.",
+    "topic_tags": [
+      "duplicate",
+      "github",
+      "audit"
+    ],
+    "metadata": {
+      "authors": [],
+      "published_at": null,
+      "last_updated": null,
+      "stars": null,
+      "forks": null,
+      "open_issues": null,
+      "license": null,
+      "repo_language": null,
+      "paper_categories": [],
+      "benchmark_or_dataset": []
+    },
+    "evidence_notes": [
+      {
+        "claim": "Exact URL duplicate should be tracked without creating another candidate.",
+        "evidence_type": "negative_signal",
+        "source_quote_or_detail": "Canonical URL matches src_github_project_a exactly.",
+        "strength": "strong"
+      }
+    ],
+    "risks": [
+      "Duplicate source could inflate evidence if merged silently"
+    ],
+    "duplicate_of": "src_github_project_a",
+    "intake_status": "ignored",
+    "review": {
+      "reviewer": "agent",
+      "reviewed_at": "2026-05-19T00:00:00Z",
+      "review_notes": [
+        "Ignored because it is an exact URL duplicate of src_github_project_a; preserve record for audit."
+      ],
+      "rejection_reason": null
+    }
+  },
+  {
+    "id": "src_article_generic_ai_ideas",
+    "source_type": "article",
+    "source_url": "https://example.com/generic-ai-ideas",
+    "title": "Generic AI ideas list",
+    "discovered_at": "2026-05-19",
+    "collected_by": "fixture",
+    "intake_batch": "c04-sample",
+    "raw_summary": "A generic article-style placeholder with broad AI project ideas and no concrete evidence trail.",
+    "user_note": "Saved as a rejected-source fixture to ensure rejection reasons remain visible.",
+    "topic_tags": [
+      "article",
+      "rejected",
+      "weak-evidence"
+    ],
+    "metadata": {
+      "authors": [],
+      "published_at": null,
+      "last_updated": null,
+      "stars": null,
+      "forks": null,
+      "open_issues": null,
+      "license": null,
+      "repo_language": null,
+      "paper_categories": [],
+      "benchmark_or_dataset": []
+    },
+    "evidence_notes": [
+      {
+        "claim": "The source lacks primary evidence and a concrete experiment angle.",
+        "evidence_type": "negative_signal",
+        "source_quote_or_detail": "Fixture intentionally uses a broad ideas-list shape rather than a paper, repo, benchmark, or user-specific note.",
+        "strength": "medium"
+      }
+    ],
+    "risks": [
+      "Would add noise to ranking without improving decision quality"
+    ],
+    "duplicate_of": null,
+    "intake_status": "rejected",
+    "review": {
+      "reviewer": "agent",
+      "reviewed_at": "2026-05-19T00:00:00Z",
+      "review_notes": [
+        "Rejected-source fixture preserves auditability for sources intentionally not ranked."
+      ],
+      "rejection_reason": "Too generic for candidate extraction; lacks source-specific evidence."
+    }
+  },
+  {
+    "id": "src_low_confidence_manual_note",
+    "source_type": "manual",
+    "source_url": "https://example.com/manual-note-clustering",
+    "title": "Manual note clustering for founder research",
+    "raw_summary": "Cluster rough notes into candidate project cards.",
+    "user_note": "",
+    "discovered_at": "2026-05-20",
+    "collected_by": "fixture",
+    "intake_batch": "integration-shortlist-fixtures",
+    "intake_status": "candidate_ready",
+    "topic_tags": [
+      "manual",
+      "integration-fixture"
+    ],
+    "metadata": {
+      "candidate_id": "low-confidence-manual-note"
+    },
+    "evidence_notes": [
+      {
+        "claim": "Manual sources are common, but extraction confidence is uneven.",
+        "evidence_type": "unknown",
+        "source_quote_or_detail": "Cluster rough notes into candidate project cards.",
+        "strength": "weak"
+      }
+    ],
+    "risks": [
+      "Weak evidence",
+      "Missing source metadata"
+    ],
+    "review": {
+      "review_notes": [
+        "Created during integration merge to preserve shortlist fixture traceability."
+      ]
+    },
+    "duplicate_of": null
+  },
+  {
+    "id": "src_incomplete_rubric_baseline",
+    "source_type": "manual",
+    "source_url": "https://example.com/rubric-calibration-baseline",
+    "title": "Rubric calibration baseline",
+    "raw_summary": "Use a small set of known-good examples to calibrate rubric scores.",
+    "user_note": "",
+    "discovered_at": "2026-05-20",
+    "collected_by": "fixture",
+    "intake_batch": "integration-shortlist-fixtures",
+    "intake_status": "candidate_ready",
+    "topic_tags": [
+      "manual",
+      "integration-fixture"
+    ],
+    "metadata": {
+      "candidate_id": "incomplete-rubric-baseline"
+    },
+    "evidence_notes": [
+      {
+        "claim": "Would make later shortlist decisions more consistent.",
+        "evidence_type": "unknown",
+        "source_quote_or_detail": "Use a small set of known-good examples to calibrate rubric scores.",
+        "strength": "medium"
+      }
+    ],
+    "risks": [
+      "Ranking may reflect current bias"
+    ],
+    "review": {
+      "review_notes": [
+        "Created during integration merge to preserve shortlist fixture traceability."
+      ]
+    },
+    "duplicate_of": null
+  },
+  {
+    "id": "src_shortlist_export_retry",
+    "source_type": "github",
+    "source_url": "https://github.com/example/shortlist-export-retry",
+    "title": "Saved shortlist export retry",
+    "raw_summary": "Keep ranked shortlist state visible even if export fails.",
+    "user_note": "",
+    "discovered_at": "2026-05-20",
+    "collected_by": "fixture",
+    "intake_batch": "integration-shortlist-fixtures",
+    "intake_status": "candidate_ready",
+    "topic_tags": [
+      "github",
+      "integration-fixture"
+    ],
+    "metadata": {
+      "candidate_id": "shortlist-export-retry"
+    },
+    "evidence_notes": [
+      {
+        "claim": "Protects explicit promotion decisions from async failures.",
+        "evidence_type": "unknown",
+        "source_quote_or_detail": "Keep ranked shortlist state visible even if export fails.",
+        "strength": "medium"
+      }
+    ],
+    "risks": [
+      "Export retry could be mistaken for implementation handoff"
+    ],
+    "review": {
+      "review_notes": [
+        "Created during integration merge to preserve shortlist fixture traceability."
+      ]
+    },
+    "duplicate_of": null
+  },
+  {
+    "id": "src_duplicate_agent_board",
+    "source_type": "github",
+    "source_url": "https://github.com/example/agent-board-duplicate",
+    "title": "Agent board duplicate candidate",
+    "raw_summary": "Potential overlap with an existing task-board experiment.",
+    "user_note": "",
+    "discovered_at": "2026-05-20",
+    "collected_by": "fixture",
+    "intake_batch": "integration-shortlist-fixtures",
+    "intake_status": "candidate_ready",
+    "topic_tags": [
+      "github",
+      "integration-fixture"
+    ],
+    "metadata": {
+      "candidate_id": "duplicate-agent-board"
+    },
+    "evidence_notes": [
+      {
+        "claim": "Useful only if it differs from the existing board workflow.",
+        "evidence_type": "unknown",
+        "source_quote_or_detail": "Potential overlap with an existing task-board experiment.",
+        "strength": "medium"
+      }
+    ],
+    "risks": [
+      "Duplicate risk"
+    ],
+    "review": {
+      "review_notes": [
+        "Created during integration merge to preserve shortlist fixture traceability."
+      ]
+    },
+    "duplicate_of": "project-a-research-assistant"
+  },
+  {
+    "id": "src_conflicting_evidence_runner",
+    "source_type": "arxiv",
+    "source_url": "http://arxiv.org/abs/2605.19000v1",
+    "title": "Conflicting evidence runner",
+    "raw_summary": "Sources disagree on whether the project should be research-first or prototype-first.",
+    "user_note": "",
+    "discovered_at": "2026-05-20",
+    "collected_by": "fixture",
+    "intake_batch": "integration-shortlist-fixtures",
+    "intake_status": "candidate_ready",
+    "topic_tags": [
+      "arxiv",
+      "integration-fixture"
+    ],
+    "metadata": {
+      "candidate_id": "conflicting-evidence-runner"
+    },
+    "evidence_notes": [
+      {
+        "claim": "Forces the UI to expose disagreement instead of averaging it away.",
+        "evidence_type": "unknown",
+        "source_quote_or_detail": "Sources disagree on whether the project should be research-first or prototype-first.",
+        "strength": "weak"
+      }
+    ],
+    "risks": [
+      "Conflicting evidence",
+      "Weak evidence"
+    ],
+    "review": {
+      "review_notes": [
+        "Created during integration merge to preserve shortlist fixture traceability."
+      ]
+    },
+    "duplicate_of": null
+  },
+  {
+    "id": "src_parked_dataset_browser",
+    "source_type": "manual",
+    "source_url": "https://example.com/parked-dataset-browser",
+    "title": "Dataset browser for future sourcing",
+    "raw_summary": "A useful future data-browser idea that is too broad for this cycle.",
+    "user_note": "",
+    "discovered_at": "2026-05-20",
+    "collected_by": "fixture",
+    "intake_batch": "integration-shortlist-fixtures",
+    "intake_status": "candidate_ready",
+    "topic_tags": [
+      "manual",
+      "integration-fixture"
+    ],
+    "metadata": {
+      "candidate_id": "parked-dataset-browser"
+    },
+    "evidence_notes": [
+      {
+        "claim": "May support sourcing later, but not the immediate shortlist interaction.",
+        "evidence_type": "unknown",
+        "source_quote_or_detail": "A useful future data-browser idea that is too broad for this cycle.",
+        "strength": "medium"
+      }
+    ],
+    "risks": [
+      "Too broad for 1–3 day experiment"
+    ],
+    "review": {
+      "review_notes": [
+        "Created during integration merge to preserve shortlist fixture traceability."
+      ]
+    },
+    "duplicate_of": null
+  },
+  {
+    "id": "src_rejected_social_monitor",
+    "source_type": "manual",
+    "source_url": "https://example.com/rejected-social-monitor",
+    "title": "Social monitor as generic trend feed",
+    "raw_summary": "A generic social trend monitor without a specific experiment-selection wedge.",
+    "user_note": "",
+    "discovered_at": "2026-05-20",
+    "collected_by": "fixture",
+    "intake_batch": "integration-shortlist-fixtures",
+    "intake_status": "candidate_ready",
+    "topic_tags": [
+      "manual",
+      "integration-fixture"
+    ],
+    "metadata": {
+      "candidate_id": "rejected-social-monitor"
+    },
+    "evidence_notes": [
+      {
+        "claim": "Out of scope for the current lab unless tied to candidate evidence.",
+        "evidence_type": "unknown",
+        "source_quote_or_detail": "A generic social trend monitor without a specific experiment-selection wedge.",
+        "strength": "medium"
+      }
+    ],
+    "risks": [
+      "Out of scope"
+    ],
+    "review": {
+      "review_notes": [
+        "Created during integration merge to preserve shortlist fixture traceability."
+      ]
+    },
+    "duplicate_of": null
+  },
+  {
+    "id": "src_failed_fetch_fallback",
+    "source_type": "github",
+    "source_url": "https://github.com/example/private-or-missing",
+    "title": "Failed fetch fallback card",
+    "raw_summary": "A source URL was saved, but automatic fetching failed.",
+    "user_note": "",
+    "discovered_at": "2026-05-20",
+    "collected_by": "fixture",
+    "intake_batch": "integration-shortlist-fixtures",
+    "intake_status": "candidate_ready",
+    "topic_tags": [
+      "github",
+      "integration-fixture"
+    ],
+    "metadata": {
+      "candidate_id": "failed-fetch-fallback"
+    },
+    "evidence_notes": [
+      {
+        "claim": "Ensures source loss does not erase user input.",
+        "evidence_type": "unknown",
+        "source_quote_or_detail": "A source URL was saved, but automatic fetching failed.",
+        "strength": "weak"
+      }
+    ],
+    "risks": [
+      "Fetch failed",
+      "Weak evidence"
+    ],
+    "review": {
+      "review_notes": [
+        "Created during integration merge to preserve shortlist fixture traceability."
+      ]
+    },
+    "duplicate_of": null
+  }
+]

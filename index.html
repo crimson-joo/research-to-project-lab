@@ -16,6 +16,45 @@
     </header>
 
     <main>
+      <section aria-labelledby="intake-title" class="panel intake-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Source intake</p>
+            <h2 id="intake-title">Capture a link or manual research lead</h2>
+          </div>
+          <span class="badge">MVP draft</span>
+        </div>
+        <form id="source-intake-form" class="intake-form" novalidate>
+          <label>
+            Source type
+            <select id="source-type" name="source_type" required>
+              <option value="github">GitHub repo</option>
+              <option value="arxiv">arXiv paper</option>
+              <option value="article">Article/blog</option>
+              <option value="manual">Manual note</option>
+            </select>
+          </label>
+          <label>
+            Source URL or query
+            <input id="source-url" name="source_url" type="url" placeholder="https://github.com/org/repo or https://arxiv.org/abs/..." />
+          </label>
+          <label>
+            Working title
+            <input id="source-title" name="title" type="text" placeholder="Short candidate title" />
+          </label>
+          <label class="full-width">
+            User note
+            <textarea id="user-note" name="user_note" rows="3" placeholder="Why this source might become an experiment"></textarea>
+          </label>
+          <div class="intake-actions full-width">
+            <button type="submit">Create candidate draft</button>
+            <button type="button" id="clear-draft" class="secondary-button">Clear draft</button>
+          </div>
+        </form>
+        <p id="intake-error" class="error" role="alert" hidden></p>
+        <article id="draft-card" class="candidate-card draft-card" hidden></article>
+      </section>
+
       <section aria-labelledby="rubric-title" class="panel rubric-panel">
         <div>
           <p class="eyebrow">Scoring rubric</p>
@@ -32,7 +71,46 @@
           </div>
           <span id="candidate-count" class="badge">Loading…</span>
         </div>
+        <form id="candidate-filters" class="filter-bar" role="search" aria-label="Search and filter candidate cards">
+          <label>
+            Search title, tag, source, or experiment
+            <input id="candidate-search" name="search" type="search" placeholder="Try harness, github, arxiv, structured-scoring…" autocomplete="off" />
+          </label>
+          <label>
+            Source type
+            <select id="source-filter" name="source_type">
+              <option value="all">All sources</option>
+              <option value="github">GitHub</option>
+              <option value="arxiv">arXiv</option>
+              <option value="manual">Manual</option>
+            </select>
+          </label>
+          <label>
+            Sort by
+            <select id="sort-mode" name="sort_mode">
+              <option value="priority">Priority score</option>
+              <option value="title">Title</option>
+              <option value="source">Source type</option>
+            </select>
+          </label>
+          <button type="reset" class="secondary-button">Reset filters</button>
+        </form>
+        <div class="export-actions" aria-label="Export current candidate view">
+          <button type="button" id="export-markdown">Copy Markdown</button>
+          <button type="button" id="export-json" class="secondary-button">Download JSON</button>
+        </div>
+        <p id="filter-summary" class="filter-summary" aria-live="polite"></p>
+        <p id="export-status" class="filter-summary" role="status" aria-live="polite"></p>
         <div id="candidate-list" class="candidate-list" aria-live="polite"></div>
+      </section>
+
+      <section aria-labelledby="backlog-title" class="panel shortlist-panel">
+        <div>
+          <p class="eyebrow">Priority backlog</p>
+          <h2 id="backlog-title">Next experiments by score</h2>
+          <p>Priority is computed from visible rubric score plus evidence confidence and estimated effort.</p>
+        </div>
+        <ol id="backlog" class="shortlist"></ol>
       </section>
 
       <section aria-labelledby="shortlist-title" class="panel shortlist-panel">
