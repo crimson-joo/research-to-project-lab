@@ -1,0 +1,74 @@
+{
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_traceability.py": {
+    "mtime": 1779279904.2823563,
+    "hash": "169ea1cf30b12f585859a96a6446281c"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_documentation.py": {
+    "mtime": 1779279904.2807655,
+    "hash": "a6871162ac983cd1d1f831ac6758d8d2"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py": {
+    "mtime": 1779279904.280924,
+    "hash": "5c39e39af6448341ad92779ab4121172"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py": {
+    "mtime": 1779279904.2810724,
+    "hash": "39791910fa48647b4037cfc053220912"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_static_app.py": {
+    "mtime": 1779279904.2813864,
+    "hash": "ec8e9f2ec165a913e47b5a73cb15ae1b"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/src/app.js": {
+    "mtime": 1779279904.2802243,
+    "hash": "f5f1ad376379bd978a63d5445f41d1a2"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/index.html": {
+    "mtime": 1779279904.2797651,
+    "hash": "446054a63919c1523c4056fa746723be"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md": {
+    "mtime": 1779279904.2737253,
+    "hash": "ecd2d9bf7a3c7de0fac477e87e57171c"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/AGENTS.md": {
+    "mtime": 1779279936.9205225,
+    "hash": "da79aa9343cd2b362206f03762160abc"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/CLAUDE.md": {
+    "mtime": 1779279936.9495924,
+    "hash": "da79aa9343cd2b362206f03762160abc"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-notes.md": {
+    "mtime": 1779279904.2791018,
+    "hash": "809b146f39fa3d2fa38ef08330d06e69"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/known-issues.md": {
+    "mtime": 1779279904.2760549,
+    "hash": "57b95066e625b7f5f29b54d12a1ae099"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/user-guide.md": {
+    "mtime": 1779279904.2795076,
+    "hash": "3bd09224c39ad43822857ea46d44fdd0"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md": {
+    "mtime": 1779279904.2789435,
+    "hash": "db22a4b7150bbd6554506dc61b0a89f7"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/handoff.md": {
+    "mtime": 1779279904.275819,
+    "hash": "282bdb944e070b302dbd702ebca77df3"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md": {
+    "mtime": 1779279904.2793484,
+    "hash": "f19a6140e6fc598e2ffe178aa62cce15"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md": {
+    "mtime": 1779279904.277399,
+    "hash": "58aee9079256e7b81d1b4be8d4e059de"
+  },
+  "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/user-guide.md": {
+    "mtime": 1779279904.2776313,
+    "hash": "12c61612421111ce59ec3302866f2bac"
+  }
+}

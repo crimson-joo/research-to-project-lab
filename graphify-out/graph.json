@@ -1,0 +1,4288 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "test_traceability.py",
+      "file_type": "code",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "test_traceability.py",
+      "id": "tests_test_traceability_py"
+    },
+    {
+      "label": "load_json()",
+      "file_type": "code",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L8",
+      "community": 11,
+      "norm_label": "load_json()",
+      "id": "tests_test_traceability_load_json"
+    },
+    {
+      "label": "CandidateTraceabilityTests",
+      "file_type": "code",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L12",
+      "community": 11,
+      "norm_label": "candidatetraceabilitytests",
+      "id": "tests_test_traceability_candidatetraceabilitytests"
+    },
+    {
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L13",
+      "community": 11,
+      "norm_label": ".setup()",
+      "id": "tests_test_traceability_candidatetraceabilitytests_setup"
+    },
+    {
+      "label": ".test_each_candidate_references_existing_candidate_ready_sources()",
+      "file_type": "code",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L17",
+      "community": 11,
+      "norm_label": ".test_each_candidate_references_existing_candidate_ready_sources()",
+      "id": "tests_test_traceability_candidatetraceabilitytests_test_each_candidate_references_existing_candidate_ready_sources"
+    },
+    {
+      "label": ".test_primary_source_url_resolves_from_source_record()",
+      "file_type": "code",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L27",
+      "community": 11,
+      "norm_label": ".test_primary_source_url_resolves_from_source_record()",
+      "id": "tests_test_traceability_candidatetraceabilitytests_test_primary_source_url_resolves_from_source_record"
+    },
+    {
+      "label": ".test_trace_keeps_extraction_method_evidence_refs_and_rationale()",
+      "file_type": "code",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L35",
+      "community": 11,
+      "norm_label": ".test_trace_keeps_extraction_method_evidence_refs_and_rationale()",
+      "id": "tests_test_traceability_candidatetraceabilitytests_test_trace_keeps_extraction_method_evidence_refs_and_rationale"
+    },
+    {
+      "label": ".test_blocked_status_sources_are_not_used_for_candidate_extraction()",
+      "file_type": "code",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L50",
+      "community": 11,
+      "norm_label": ".test_blocked_status_sources_are_not_used_for_candidate_extraction()",
+      "id": "tests_test_traceability_candidatetraceabilitytests_test_blocked_status_sources_are_not_used_for_candidate_extraction"
+    },
+    {
+      "label": "test_documentation.py",
+      "file_type": "code",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L1",
+      "community": 14,
+      "norm_label": "test_documentation.py",
+      "id": "tests_test_documentation_py"
+    },
+    {
+      "label": "DocumentationFreshnessTests",
+      "file_type": "code",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L10",
+      "community": 14,
+      "norm_label": "documentationfreshnesstests",
+      "id": "tests_test_documentation_documentationfreshnesstests"
+    },
+    {
+      "label": ".test_markdown_relative_links_resolve()",
+      "file_type": "code",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L11",
+      "community": 14,
+      "norm_label": ".test_markdown_relative_links_resolve()",
+      "id": "tests_test_documentation_documentationfreshnesstests_test_markdown_relative_links_resolve"
+    },
+    {
+      "label": ".test_readme_exposes_korean_docs_and_release_gate()",
+      "file_type": "code",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L24",
+      "community": 14,
+      "norm_label": ".test_readme_exposes_korean_docs_and_release_gate()",
+      "id": "tests_test_documentation_documentationfreshnesstests_test_readme_exposes_korean_docs_and_release_gate"
+    },
+    {
+      "label": ".test_docs_do_not_describe_shipped_features_as_absent()",
+      "file_type": "code",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L33",
+      "community": 14,
+      "norm_label": ".test_docs_do_not_describe_shipped_features_as_absent()",
+      "id": "tests_test_documentation_documentationfreshnesstests_test_docs_do_not_describe_shipped_features_as_absent"
+    },
+    {
+      "label": ".test_release_checklist_contains_documentation_blockers()",
+      "file_type": "code",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L46",
+      "community": 14,
+      "norm_label": ".test_release_checklist_contains_documentation_blockers()",
+      "id": "tests_test_documentation_documentationfreshnesstests_test_release_checklist_contains_documentation_blockers"
+    },
+    {
+      "label": "test_scoring_consistency.py",
+      "file_type": "code",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L1",
+      "community": 13,
+      "norm_label": "test_scoring_consistency.py",
+      "id": "tests_test_scoring_consistency_py"
+    },
+    {
+      "label": "load_json()",
+      "file_type": "code",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L9",
+      "community": 13,
+      "norm_label": "load_json()",
+      "id": "tests_test_scoring_consistency_load_json"
+    },
+    {
+      "label": "ScoringConsistencyTests",
+      "file_type": "code",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L13",
+      "community": 13,
+      "norm_label": "scoringconsistencytests",
+      "id": "tests_test_scoring_consistency_scoringconsistencytests"
+    },
+    {
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L14",
+      "community": 13,
+      "norm_label": ".setup()",
+      "id": "tests_test_scoring_consistency_scoringconsistencytests_setup"
+    },
+    {
+      "label": ".test_total_score_is_derived_from_visible_rubric_dimensions()",
+      "file_type": "code",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L18",
+      "community": 13,
+      "norm_label": ".test_total_score_is_derived_from_visible_rubric_dimensions()",
+      "id": "tests_test_scoring_consistency_scoringconsistencytests_test_total_score_is_derived_from_visible_rubric_dimensions"
+    },
+    {
+      "label": ".test_candidate_evidence_score_does_not_exceed_source_strength_ceiling()",
+      "file_type": "code",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L25",
+      "community": 13,
+      "norm_label": ".test_candidate_evidence_score_does_not_exceed_source_strength_ceiling()",
+      "id": "tests_test_scoring_consistency_scoringconsistencytests_test_candidate_evidence_score_does_not_exceed_source_strength_ceiling"
+    },
+    {
+      "label": ".test_shortlisted_candidates_have_medium_or_better_visible_evidence()",
+      "file_type": "code",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L36",
+      "community": 13,
+      "norm_label": ".test_shortlisted_candidates_have_medium_or_better_visible_evidence()",
+      "id": "tests_test_scoring_consistency_scoringconsistencytests_test_shortlisted_candidates_have_medium_or_better_visible_evidence"
+    },
+    {
+      "label": "test_source_records.py",
+      "file_type": "code",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "test_source_records.py",
+      "id": "tests_test_source_records_py"
+    },
+    {
+      "label": "load_json()",
+      "file_type": "code",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L32",
+      "community": 10,
+      "norm_label": "load_json()",
+      "id": "tests_test_source_records_load_json"
+    },
+    {
+      "label": "SourceRecordModelTests",
+      "file_type": "code",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L36",
+      "community": 10,
+      "norm_label": "sourcerecordmodeltests",
+      "id": "tests_test_source_records_sourcerecordmodeltests"
+    },
+    {
+      "label": ".setUp()",
+      "file_type": "code",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L37",
+      "community": 10,
+      "norm_label": ".setup()",
+      "id": "tests_test_source_records_sourcerecordmodeltests_setup"
+    },
+    {
+      "label": ".test_source_records_fixture_exists_and_covers_mvp_types()",
+      "file_type": "code",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L40",
+      "community": 10,
+      "norm_label": ".test_source_records_fixture_exists_and_covers_mvp_types()",
+      "id": "tests_test_source_records_sourcerecordmodeltests_test_source_records_fixture_exists_and_covers_mvp_types"
+    },
+    {
+      "label": ".test_source_records_have_protocol_required_fields()",
+      "file_type": "code",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L47",
+      "community": 10,
+      "norm_label": ".test_source_records_have_protocol_required_fields()",
+      "id": "tests_test_source_records_sourcerecordmodeltests_test_source_records_have_protocol_required_fields"
+    },
+    {
+      "label": ".test_manual_source_without_url_requires_no_url_rationale()",
+      "file_type": "code",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L67",
+      "community": 10,
+      "norm_label": ".test_manual_source_without_url_requires_no_url_rationale()",
+      "id": "tests_test_source_records_sourcerecordmodeltests_test_manual_source_without_url_requires_no_url_rationale"
+    },
+    {
+      "label": ".test_candidate_ready_sources_include_evidence_risk_tags_and_review_rationale()",
+      "file_type": "code",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L78",
+      "community": 10,
+      "norm_label": ".test_candidate_ready_sources_include_evidence_risk_tags_and_review_rationale()",
+      "id": "tests_test_source_records_sourcerecordmodeltests_test_candidate_ready_sources_include_evidence_risk_tags_and_review_rationale"
+    },
+    {
+      "label": ".test_non_ready_source_records_preserve_audit_reason()",
+      "file_type": "code",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L95",
+      "community": 10,
+      "norm_label": ".test_non_ready_source_records_preserve_audit_reason()",
+      "id": "tests_test_source_records_sourcerecordmodeltests_test_non_ready_source_records_preserve_audit_reason"
+    },
+    {
+      "label": "test_static_app.py",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "test_static_app.py",
+      "id": "tests_test_static_app_py"
+    },
+    {
+      "label": "read_text()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L8",
+      "community": 2,
+      "norm_label": "read_text()",
+      "id": "tests_test_static_app_read_text"
+    },
+    {
+      "label": "StaticAppScaffoldTests",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L12",
+      "community": 2,
+      "norm_label": "staticappscaffoldtests",
+      "id": "tests_test_static_app_staticappscaffoldtests"
+    },
+    {
+      "label": ".test_scaffold_files_exist()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L13",
+      "community": 2,
+      "norm_label": ".test_scaffold_files_exist()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_scaffold_files_exist"
+    },
+    {
+      "label": ".test_package_scripts_are_dependency_free_static_workflow()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L28",
+      "community": 2,
+      "norm_label": ".test_package_scripts_are_dependency_free_static_workflow()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_package_scripts_are_dependency_free_static_workflow"
+    },
+    {
+      "label": ".test_candidate_data_has_rubric_and_shortlist_statuses()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L37",
+      "community": 2,
+      "norm_label": ".test_candidate_data_has_rubric_and_shortlist_statuses()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_candidate_data_has_rubric_and_shortlist_statuses"
+    },
+    {
+      "label": ".test_app_renders_candidate_cards_rubric_and_shortlist_placeholder()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L52",
+      "community": 2,
+      "norm_label": ".test_app_renders_candidate_cards_rubric_and_shortlist_placeholder()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_app_renders_candidate_cards_rubric_and_shortlist_placeholder"
+    },
+    {
+      "label": ".test_mock_data_covers_candidate_state_matrix()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L67",
+      "community": 2,
+      "norm_label": ".test_mock_data_covers_candidate_state_matrix()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_mock_data_covers_candidate_state_matrix"
+    },
+    {
+      "label": ".test_candidate_ui_includes_empty_error_and_accessible_action_copy()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L91",
+      "community": 2,
+      "norm_label": ".test_candidate_ui_includes_empty_error_and_accessible_action_copy()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_candidate_ui_includes_empty_error_and_accessible_action_copy"
+    },
+    {
+      "label": ".test_shortlist_ui_handles_empty_edges_and_keyboard_ranking()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L111",
+      "community": 2,
+      "norm_label": ".test_shortlist_ui_handles_empty_edges_and_keyboard_ranking()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_shortlist_ui_handles_empty_edges_and_keyboard_ranking"
+    },
+    {
+      "label": ".test_source_intake_form_and_validation_contract_are_present()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L130",
+      "community": 2,
+      "norm_label": ".test_source_intake_form_and_validation_contract_are_present()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_source_intake_form_and_validation_contract_are_present"
+    },
+    {
+      "label": ".test_intake_schema_is_compatible_with_candidate_and_source_records()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L146",
+      "community": 2,
+      "norm_label": ".test_intake_schema_is_compatible_with_candidate_and_source_records()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_intake_schema_is_compatible_with_candidate_and_source_records"
+    },
+    {
+      "label": ".test_search_filter_ui_and_empty_state_are_present()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L161",
+      "community": 2,
+      "norm_label": ".test_search_filter_ui_and_empty_state_are_present()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_search_filter_ui_and_empty_state_are_present"
+    },
+    {
+      "label": ".test_search_filter_uses_candidate_and_source_tags()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L178",
+      "community": 2,
+      "norm_label": ".test_search_filter_uses_candidate_and_source_tags()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_search_filter_uses_candidate_and_source_tags"
+    },
+    {
+      "label": ".test_priority_backlog_and_export_controls_are_present()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L202",
+      "community": 2,
+      "norm_label": ".test_priority_backlog_and_export_controls_are_present()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_priority_backlog_and_export_controls_are_present"
+    },
+    {
+      "label": ".test_priority_score_is_derived_from_visible_rubric_confidence_and_effort()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L219",
+      "community": 2,
+      "norm_label": ".test_priority_score_is_derived_from_visible_rubric_confidence_and_effort()",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_priority_score_is_derived_from_visible_rubric_confidence_and_effort"
+    },
+    {
+      "label": "app.js",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "app.js",
+      "id": "src_app_js"
+    },
+    {
+      "label": "rubricLabels",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "rubriclabels",
+      "id": "src_app_rubriclabels"
+    },
+    {
+      "label": "rubricDescriptions",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L9",
+      "community": 0,
+      "norm_label": "rubricdescriptions",
+      "id": "src_app_rubricdescriptions"
+    },
+    {
+      "label": "allowedSourceTypes",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L17",
+      "community": 0,
+      "norm_label": "allowedsourcetypes",
+      "id": "src_app_allowedsourcetypes"
+    },
+    {
+      "label": "loadedCandidates",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L19",
+      "community": 0,
+      "norm_label": "loadedcandidates",
+      "id": "src_app_loadedcandidates"
+    },
+    {
+      "label": "allCandidates",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L20",
+      "community": 0,
+      "norm_label": "allcandidates",
+      "id": "src_app_allcandidates"
+    },
+    {
+      "label": "sourceById",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L21",
+      "community": 0,
+      "norm_label": "sourcebyid",
+      "id": "src_app_sourcebyid"
+    },
+    {
+      "label": "statusConfig",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L23",
+      "community": 0,
+      "norm_label": "statusconfig",
+      "id": "src_app_statusconfig"
+    },
+    {
+      "label": "candidateEmptyStates",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L36",
+      "community": 0,
+      "norm_label": "candidateemptystates",
+      "id": "src_app_candidateemptystates"
+    },
+    {
+      "label": "candidateErrorCopy",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L49",
+      "community": 0,
+      "norm_label": "candidateerrorcopy",
+      "id": "src_app_candidateerrorcopy"
+    },
+    {
+      "label": "escapeHtml()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L60",
+      "community": 0,
+      "norm_label": "escapehtml()",
+      "id": "src_app_escapehtml"
+    },
+    {
+      "label": "sourceRecordsFor()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L67",
+      "community": 0,
+      "norm_label": "sourcerecordsfor()",
+      "id": "src_app_sourcerecordsfor"
+    },
+    {
+      "label": "tagsFor()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L71",
+      "community": 0,
+      "norm_label": "tagsfor()",
+      "id": "src_app_tagsfor"
+    },
+    {
+      "label": "searchableText()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L77",
+      "community": 0,
+      "norm_label": "searchabletext()",
+      "id": "src_app_searchabletext"
+    },
+    {
+      "label": "effortScore()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L92",
+      "community": 0,
+      "norm_label": "effortscore()",
+      "id": "src_app_effortscore"
+    },
+    {
+      "label": "confidenceScore()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L97",
+      "community": 0,
+      "norm_label": "confidencescore()",
+      "id": "src_app_confidencescore"
+    },
+    {
+      "label": "priorityScore()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L103",
+      "community": 0,
+      "norm_label": "priorityscore()",
+      "id": "src_app_priorityscore"
+    },
+    {
+      "label": "sortCandidates()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L107",
+      "community": 0,
+      "norm_label": "sortcandidates()",
+      "id": "src_app_sortcandidates"
+    },
+    {
+      "label": "filterCandidates()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L114",
+      "community": 0,
+      "norm_label": "filtercandidates()",
+      "id": "src_app_filtercandidates"
+    },
+    {
+      "label": "currentFilters()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L124",
+      "community": 0,
+      "norm_label": "currentfilters()",
+      "id": "src_app_currentfilters"
+    },
+    {
+      "label": "scoreEntries()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L132",
+      "community": 0,
+      "norm_label": "scoreentries()",
+      "id": "src_app_scoreentries"
+    },
+    {
+      "label": "formatStatus()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L136",
+      "community": 0,
+      "norm_label": "formatstatus()",
+      "id": "src_app_formatstatus"
+    },
+    {
+      "label": "sourceBadge()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L140",
+      "community": 0,
+      "norm_label": "sourcebadge()",
+      "id": "src_app_sourcebadge"
+    },
+    {
+      "label": "actionButtons()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L146",
+      "community": 0,
+      "norm_label": "actionbuttons()",
+      "id": "src_app_actionbuttons"
+    },
+    {
+      "label": "chipList()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L163",
+      "community": 0,
+      "norm_label": "chiplist()",
+      "id": "src_app_chiplist"
+    },
+    {
+      "label": "renderRubric()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L167",
+      "community": 0,
+      "norm_label": "renderrubric()",
+      "id": "src_app_renderrubric"
+    },
+    {
+      "label": "renderEmptyState()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L174",
+      "community": 0,
+      "norm_label": "renderemptystate()",
+      "id": "src_app_renderemptystate"
+    },
+    {
+      "label": "renderCandidates()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L184",
+      "community": 0,
+      "norm_label": "rendercandidates()",
+      "id": "src_app_rendercandidates"
+    },
+    {
+      "label": "shortlistNotices()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L250",
+      "community": 0,
+      "norm_label": "shortlistnotices()",
+      "id": "src_app_shortlistnotices"
+    },
+    {
+      "label": "renderShortlist()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L259",
+      "community": 0,
+      "norm_label": "rendershortlist()",
+      "id": "src_app_rendershortlist"
+    },
+    {
+      "label": "renderBacklog()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L279",
+      "community": 0,
+      "norm_label": "renderbacklog()",
+      "id": "src_app_renderbacklog"
+    },
+    {
+      "label": "candidatesToMarkdown()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L287",
+      "community": 0,
+      "norm_label": "candidatestomarkdown()",
+      "id": "src_app_candidatestomarkdown"
+    },
+    {
+      "label": "exportPayload()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L298",
+      "community": 0,
+      "norm_label": "exportpayload()",
+      "id": "src_app_exportpayload"
+    },
+    {
+      "label": "copyMarkdown()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L313",
+      "community": 0,
+      "norm_label": "copymarkdown()",
+      "id": "src_app_copymarkdown"
+    },
+    {
+      "label": "downloadJson()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L322",
+      "community": 0,
+      "norm_label": "downloadjson()",
+      "id": "src_app_downloadjson"
+    },
+    {
+      "label": "renderFilteredCandidates()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L331",
+      "community": 0,
+      "norm_label": "renderfilteredcandidates()",
+      "id": "src_app_renderfilteredcandidates"
+    },
+    {
+      "label": "setupExports()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L338",
+      "community": 0,
+      "norm_label": "setupexports()",
+      "id": "src_app_setupexports"
+    },
+    {
+      "label": "setupFilters()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L354",
+      "community": 0,
+      "norm_label": "setupfilters()",
+      "id": "src_app_setupfilters"
+    },
+    {
+      "label": "normalizeDraft()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L361",
+      "community": 0,
+      "norm_label": "normalizedraft()",
+      "id": "src_app_normalizedraft"
+    },
+    {
+      "label": "isHttpUrl()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L370",
+      "community": 0,
+      "norm_label": "ishttpurl()",
+      "id": "src_app_ishttpurl"
+    },
+    {
+      "label": "validateSourceDraft()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L374",
+      "community": 0,
+      "norm_label": "validatesourcedraft()",
+      "id": "src_app_validatesourcedraft"
+    },
+    {
+      "label": "buildCandidateDraft()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L386",
+      "community": 0,
+      "norm_label": "buildcandidatedraft()",
+      "id": "src_app_buildcandidatedraft"
+    },
+    {
+      "label": "persistDraft()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L401",
+      "community": 0,
+      "norm_label": "persistdraft()",
+      "id": "src_app_persistdraft"
+    },
+    {
+      "label": "loadPersistedDraft()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L402",
+      "community": 0,
+      "norm_label": "loadpersisteddraft()",
+      "id": "src_app_loadpersisteddraft"
+    },
+    {
+      "label": "clearPersistedDraft()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L403",
+      "community": 0,
+      "norm_label": "clearpersisteddraft()",
+      "id": "src_app_clearpersisteddraft"
+    },
+    {
+      "label": "renderDraft()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L405",
+      "community": 0,
+      "norm_label": "renderdraft()",
+      "id": "src_app_renderdraft"
+    },
+    {
+      "label": "showIntakeErrors()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L417",
+      "community": 0,
+      "norm_label": "showintakeerrors()",
+      "id": "src_app_showintakeerrors"
+    },
+    {
+      "label": "hydrateFormFromDraft()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L425",
+      "community": 0,
+      "norm_label": "hydrateformfromdraft()",
+      "id": "src_app_hydrateformfromdraft"
+    },
+    {
+      "label": "setupSourceIntake()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L433",
+      "community": 0,
+      "norm_label": "setupsourceintake()",
+      "id": "src_app_setupsourceintake"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L453",
+      "community": 0,
+      "norm_label": "main()",
+      "id": "src_app_main"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "readme.md",
+      "id": "readme_md"
+    },
+    {
+      "label": "Research-to-Project Lab",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "research-to-project lab",
+      "id": "chore_graphify_bootstrap_readme_research_to_project_lab"
+    },
+    {
+      "label": "Current shipped behavior",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "community": 3,
+      "norm_label": "current shipped behavior",
+      "id": "chore_graphify_bootstrap_readme_current_shipped_behavior"
+    },
+    {
+      "label": "Still not implemented",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "community": 3,
+      "norm_label": "still not implemented",
+      "id": "chore_graphify_bootstrap_readme_still_not_implemented"
+    },
+    {
+      "label": "Run locally",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "community": 3,
+      "norm_label": "run locally",
+      "id": "chore_graphify_bootstrap_readme_run_locally"
+    },
+    {
+      "label": "code:sh (python3 -m http.server 5173)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "community": 3,
+      "norm_label": "code:sh (python3 -m http.server 5173)",
+      "id": "chore_graphify_bootstrap_readme_codeblock_1"
+    },
+    {
+      "label": "code:sh (npm run serve)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "community": 3,
+      "norm_label": "code:sh (npm run serve)",
+      "id": "chore_graphify_bootstrap_readme_codeblock_2"
+    },
+    {
+      "label": "Test",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L44",
+      "community": 3,
+      "norm_label": "test",
+      "id": "chore_graphify_bootstrap_readme_test"
+    },
+    {
+      "label": "code:sh (python3 -m unittest discover -s tests)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "community": 3,
+      "norm_label": "code:sh (python3 -m unittest discover -s tests)",
+      "id": "chore_graphify_bootstrap_readme_codeblock_3"
+    },
+    {
+      "label": "code:sh (npm test)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L52",
+      "community": 3,
+      "norm_label": "code:sh (npm test)",
+      "id": "chore_graphify_bootstrap_readme_codeblock_4"
+    },
+    {
+      "label": "Release/documentation gate",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "community": 3,
+      "norm_label": "release/documentation gate",
+      "id": "chore_graphify_bootstrap_readme_release_documentation_gate"
+    },
+    {
+      "label": "Documentation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "community": 3,
+      "norm_label": "documentation",
+      "id": "chore_graphify_bootstrap_readme_documentation"
+    },
+    {
+      "label": "Safety note",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "community": 3,
+      "norm_label": "safety note",
+      "id": "chore_graphify_bootstrap_readme_safety_note"
+    },
+    {
+      "label": "Project notes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L81",
+      "community": 3,
+      "norm_label": "project notes",
+      "id": "chore_graphify_bootstrap_readme_project_notes"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "agents.md",
+      "id": "agents_md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "graphify",
+      "id": "chore_graphify_bootstrap_agents_graphify"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "community": 15,
+      "norm_label": "claude.md",
+      "id": "claude_md"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "community": 15,
+      "norm_label": "graphify",
+      "id": "chore_graphify_bootstrap_claude_graphify"
+    },
+    {
+      "label": "release-notes.md",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "release-notes.md",
+      "id": "docs_release_notes_md"
+    },
+    {
+      "label": "Release Notes",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "release notes",
+      "id": "docs_release_notes_release_notes"
+    },
+    {
+      "label": "Option C release validation",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L5",
+      "community": 1,
+      "norm_label": "option c release validation",
+      "id": "docs_release_notes_option_c_release_validation"
+    },
+    {
+      "label": "User-visible changes",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L9",
+      "community": 1,
+      "norm_label": "user-visible changes",
+      "id": "docs_release_notes_user_visible_changes"
+    },
+    {
+      "label": "Branches, commits, and remote evidence",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L21",
+      "community": 1,
+      "norm_label": "branches, commits, and remote evidence",
+      "id": "docs_release_notes_branches_commits_and_remote_evidence"
+    },
+    {
+      "label": "Verification",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L32",
+      "community": 1,
+      "norm_label": "verification",
+      "id": "docs_release_notes_verification"
+    },
+    {
+      "label": "Known limitations",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L50",
+      "community": 1,
+      "norm_label": "known limitations",
+      "id": "docs_release_notes_known_limitations"
+    },
+    {
+      "label": "Release decision",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L58",
+      "community": 1,
+      "norm_label": "release decision",
+      "id": "docs_release_notes_release_decision"
+    },
+    {
+      "label": "Unreleased / MVP docs handoff",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L62",
+      "community": 1,
+      "norm_label": "unreleased / mvp docs handoff",
+      "id": "docs_release_notes_unreleased_mvp_docs_handoff"
+    },
+    {
+      "label": "User-visible changes",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L66",
+      "community": 1,
+      "norm_label": "user-visible changes",
+      "id": "docs_release_notes_user_visible_changes_66"
+    },
+    {
+      "label": "Verification",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L76",
+      "community": 1,
+      "norm_label": "verification",
+      "id": "docs_release_notes_verification_76"
+    },
+    {
+      "label": "Known limitations",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L82",
+      "community": 1,
+      "norm_label": "known limitations",
+      "id": "docs_release_notes_known_limitations_82"
+    },
+    {
+      "label": "Release decision",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L88",
+      "community": 1,
+      "norm_label": "release decision",
+      "id": "docs_release_notes_release_decision_88"
+    },
+    {
+      "label": "C-03 planning package",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L92",
+      "community": 1,
+      "norm_label": "c-03 planning package",
+      "id": "docs_release_notes_c_03_planning_package"
+    },
+    {
+      "label": "Planning outputs",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L94",
+      "community": 1,
+      "norm_label": "planning outputs",
+      "id": "docs_release_notes_planning_outputs"
+    },
+    {
+      "label": "Limitations",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L104",
+      "community": 1,
+      "norm_label": "limitations",
+      "id": "docs_release_notes_limitations"
+    },
+    {
+      "label": "C-02 static scaffold",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L108",
+      "community": 1,
+      "norm_label": "c-02 static scaffold",
+      "id": "docs_release_notes_c_02_static_scaffold"
+    },
+    {
+      "label": "Shipped behavior",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L110",
+      "community": 1,
+      "norm_label": "shipped behavior",
+      "id": "docs_release_notes_shipped_behavior"
+    },
+    {
+      "label": "Verification",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L119",
+      "community": 1,
+      "norm_label": "verification",
+      "id": "docs_release_notes_verification_119"
+    },
+    {
+      "label": "Required fields for future entries",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L124",
+      "community": 1,
+      "norm_label": "required fields for future entries",
+      "id": "docs_release_notes_required_fields_for_future_entries"
+    },
+    {
+      "label": "Related docs",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L137",
+      "community": 1,
+      "norm_label": "related docs",
+      "id": "docs_release_notes_related_docs"
+    },
+    {
+      "label": "known-issues.md",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "known-issues.md",
+      "id": "docs_known_issues_md"
+    },
+    {
+      "label": "Known Issues and Limitations",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "known issues and limitations",
+      "id": "docs_known_issues_known_issues_and_limitations"
+    },
+    {
+      "label": "Static fixture-backed app data",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L5",
+      "community": 4,
+      "norm_label": "static fixture-backed app data",
+      "id": "docs_known_issues_static_fixture_backed_app_data"
+    },
+    {
+      "label": "Source intake is local draft capture, not live ingestion",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L11",
+      "community": 4,
+      "norm_label": "source intake is local draft capture, not live ingestion",
+      "id": "docs_known_issues_source_intake_is_local_draft_capture_not_live_ingestion"
+    },
+    {
+      "label": "SourceRecord contract is fixture-level only",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L17",
+      "community": 4,
+      "norm_label": "sourcerecord contract is fixture-level only",
+      "id": "docs_known_issues_sourcerecord_contract_is_fixture_level_only"
+    },
+    {
+      "label": "Scoring is static fixture data",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L23",
+      "community": 4,
+      "norm_label": "scoring is static fixture data",
+      "id": "docs_known_issues_scoring_is_static_fixture_data"
+    },
+    {
+      "label": "Research backlog vs implementation backlog is visible but not workflow-backed",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L29",
+      "community": 4,
+      "norm_label": "research backlog vs implementation backlog is visible but not workflow-backed",
+      "id": "docs_known_issues_research_backlog_vs_implementation_backlog_is_visible_but_not_workflow_backed"
+    },
+    {
+      "label": "Browser QA is manual",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L35",
+      "community": 4,
+      "norm_label": "browser qa is manual",
+      "id": "docs_known_issues_browser_qa_is_manual"
+    },
+    {
+      "label": "Untrusted content hardening must continue before live ingestion",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L41",
+      "community": 4,
+      "norm_label": "untrusted content hardening must continue before live ingestion",
+      "id": "docs_known_issues_untrusted_content_hardening_must_continue_before_live_ingestion"
+    },
+    {
+      "label": "Not implemented yet",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L47",
+      "community": 4,
+      "norm_label": "not implemented yet",
+      "id": "docs_known_issues_not_implemented_yet"
+    },
+    {
+      "label": "Related docs",
+      "file_type": "document",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L59",
+      "community": 4,
+      "norm_label": "related docs",
+      "id": "docs_known_issues_related_docs"
+    },
+    {
+      "label": "user-guide.md",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "user-guide.md",
+      "id": "docs_user_guide_md"
+    },
+    {
+      "label": "User Guide: From Research Source to Experiment Candidate",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "user guide: from research source to experiment candidate",
+      "id": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate"
+    },
+    {
+      "label": "Who this is for",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L5",
+      "community": 6,
+      "norm_label": "who this is for",
+      "id": "docs_user_guide_who_this_is_for"
+    },
+    {
+      "label": "Core loop",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L9",
+      "community": 6,
+      "norm_label": "core loop",
+      "id": "docs_user_guide_core_loop"
+    },
+    {
+      "label": "Current MVP walkthrough",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L21",
+      "community": 6,
+      "norm_label": "current mvp walkthrough",
+      "id": "docs_user_guide_current_mvp_walkthrough"
+    },
+    {
+      "label": "code:sh (python3 -m http.server 5173)",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L25",
+      "community": 6,
+      "norm_label": "code:sh (python3 -m http.server 5173)",
+      "id": "docs_user_guide_codeblock_1"
+    },
+    {
+      "label": "How to read a candidate card",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L41",
+      "community": 6,
+      "norm_label": "how to read a candidate card",
+      "id": "docs_user_guide_how_to_read_a_candidate_card"
+    },
+    {
+      "label": "How to use search, filters, and exports",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L57",
+      "community": 6,
+      "norm_label": "how to use search, filters, and exports",
+      "id": "docs_user_guide_how_to_use_search_filters_and_exports"
+    },
+    {
+      "label": "How to use the backlog and shortlist",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L65",
+      "community": 6,
+      "norm_label": "how to use the backlog and shortlist",
+      "id": "docs_user_guide_how_to_use_the_backlog_and_shortlist"
+    },
+    {
+      "label": "What to do with weak evidence",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L77",
+      "community": 6,
+      "norm_label": "what to do with weak evidence",
+      "id": "docs_user_guide_what_to_do_with_weak_evidence"
+    },
+    {
+      "label": "Current limitations",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L81",
+      "community": 6,
+      "norm_label": "current limitations",
+      "id": "docs_user_guide_current_limitations"
+    },
+    {
+      "label": "release-checklist.md",
+      "file_type": "document",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "release-checklist.md",
+      "id": "docs_release_checklist_md"
+    },
+    {
+      "label": "Release Checklist",
+      "file_type": "document",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "release checklist",
+      "id": "docs_release_checklist_release_checklist"
+    },
+    {
+      "label": "Release is blocked until all gates pass",
+      "file_type": "document",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L5",
+      "community": 12,
+      "norm_label": "release is blocked until all gates pass",
+      "id": "docs_release_checklist_release_is_blocked_until_all_gates_pass"
+    },
+    {
+      "label": "Documentation freshness gate",
+      "file_type": "document",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L19",
+      "community": 12,
+      "norm_label": "documentation freshness gate",
+      "id": "docs_release_checklist_documentation_freshness_gate"
+    },
+    {
+      "label": "QA-release verification",
+      "file_type": "document",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L32",
+      "community": 12,
+      "norm_label": "qa-release verification",
+      "id": "docs_release_checklist_qa_release_verification"
+    },
+    {
+      "label": "Automation in this repo",
+      "file_type": "document",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L45",
+      "community": 12,
+      "norm_label": "automation in this repo",
+      "id": "docs_release_checklist_automation_in_this_repo"
+    },
+    {
+      "label": "code:sh (python3 -m unittest discover -s tests)",
+      "file_type": "document",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L49",
+      "community": 12,
+      "norm_label": "code:sh (python3 -m unittest discover -s tests)",
+      "id": "docs_release_checklist_codeblock_1"
+    },
+    {
+      "label": "Standard release evidence packet",
+      "file_type": "document",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L61",
+      "community": 12,
+      "norm_label": "standard release evidence packet",
+      "id": "docs_release_checklist_standard_release_evidence_packet"
+    },
+    {
+      "label": "handoff.md",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "handoff.md",
+      "id": "docs_handoff_md"
+    },
+    {
+      "label": "Handoff: research-to-project-lab",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "handoff: research-to-project-lab",
+      "id": "docs_handoff_handoff_research_to_project_lab"
+    },
+    {
+      "label": "Product decision",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L5",
+      "community": 7,
+      "norm_label": "product decision",
+      "id": "docs_handoff_product_decision"
+    },
+    {
+      "label": "Current repo state",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L9",
+      "community": 7,
+      "norm_label": "current repo state",
+      "id": "docs_handoff_current_repo_state"
+    },
+    {
+      "label": "Key concepts",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L22",
+      "community": 7,
+      "norm_label": "key concepts",
+      "id": "docs_handoff_key_concepts"
+    },
+    {
+      "label": "Next implementation sequence",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L34",
+      "community": 7,
+      "norm_label": "next implementation sequence",
+      "id": "docs_handoff_next_implementation_sequence"
+    },
+    {
+      "label": "QA gates to preserve",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L44",
+      "community": 7,
+      "norm_label": "qa gates to preserve",
+      "id": "docs_handoff_qa_gates_to_preserve"
+    },
+    {
+      "label": "Release blocker policy",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L54",
+      "community": 7,
+      "norm_label": "release blocker policy",
+      "id": "docs_handoff_release_blocker_policy"
+    },
+    {
+      "label": "Approval boundaries",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L66",
+      "community": 7,
+      "norm_label": "approval boundaries",
+      "id": "docs_handoff_approval_boundaries"
+    },
+    {
+      "label": "Source artifacts",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L75",
+      "community": 7,
+      "norm_label": "source artifacts",
+      "id": "docs_handoff_source_artifacts"
+    },
+    {
+      "label": "Repo docs",
+      "file_type": "document",
+      "source_file": "docs/handoff.md",
+      "source_location": "L89",
+      "community": 7,
+      "norm_label": "repo docs",
+      "id": "docs_handoff_repo_docs"
+    },
+    {
+      "label": "scoring-rubric.md",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "scoring-rubric.md",
+      "id": "docs_scoring_rubric_md"
+    },
+    {
+      "label": "Scoring Rubric Reference",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "scoring rubric reference",
+      "id": "docs_scoring_rubric_scoring_rubric_reference"
+    },
+    {
+      "label": "Principles",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L5",
+      "community": 8,
+      "norm_label": "principles",
+      "id": "docs_scoring_rubric_principles"
+    },
+    {
+      "label": "Score scale",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L12",
+      "community": 8,
+      "norm_label": "score scale",
+      "id": "docs_scoring_rubric_score_scale"
+    },
+    {
+      "label": "Dimensions",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L24",
+      "community": 8,
+      "norm_label": "dimensions",
+      "id": "docs_scoring_rubric_dimensions"
+    },
+    {
+      "label": "Total score rule",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L34",
+      "community": 8,
+      "norm_label": "total score rule",
+      "id": "docs_scoring_rubric_total_score_rule"
+    },
+    {
+      "label": "Tie-breakers for future implementation",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L42",
+      "community": 8,
+      "norm_label": "tie-breakers for future implementation",
+      "id": "docs_scoring_rubric_tie_breakers_for_future_implementation"
+    },
+    {
+      "label": "Weak-evidence rule",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L51",
+      "community": 8,
+      "norm_label": "weak-evidence rule",
+      "id": "docs_scoring_rubric_weak_evidence_rule"
+    },
+    {
+      "label": "Manual override rule",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L55",
+      "community": 8,
+      "norm_label": "manual override rule",
+      "id": "docs_scoring_rubric_manual_override_rule"
+    },
+    {
+      "label": "Current fixture examples",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L59",
+      "community": 8,
+      "norm_label": "current fixture examples",
+      "id": "docs_scoring_rubric_current_fixture_examples"
+    },
+    {
+      "label": "Related docs",
+      "file_type": "document",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L67",
+      "community": 8,
+      "norm_label": "related docs",
+      "id": "docs_scoring_rubric_related_docs"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "readme.md",
+      "id": "docs_ko_readme_md"
+    },
+    {
+      "label": "Research-to-Project Lab \ud55c\uad6d\uc5b4 README",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "research-to-project lab \u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165 readme",
+      "id": "ko_readme_research_to_project_lab_readme"
+    },
+    {
+      "label": "\uc9c0\uae08 \ub3d9\uc791\ud558\ub294 \uac83",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L7",
+      "community": 5,
+      "norm_label": "\u110c\u1175\u1100\u1173\u11b7 \u1103\u1169\u11bc\u110c\u1161\u11a8\u1112\u1161\u1102\u1173\u11ab \u1100\u1165\u11ba",
+      "id": "ko_readme"
+    },
+    {
+      "label": "\uc544\uc9c1 \uc548 \ub418\ub294 \uac83",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L22",
+      "community": 5,
+      "norm_label": "\u110b\u1161\u110c\u1175\u11a8 \u110b\u1161\u11ab \u1103\u116c\u1102\u1173\u11ab \u1100\u1165\u11ba",
+      "id": "ko_readme_22"
+    },
+    {
+      "label": "\ub85c\uceec \uc2e4\ud589",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L30",
+      "community": 5,
+      "norm_label": "\u1105\u1169\u110f\u1165\u11af \u1109\u1175\u11af\u1112\u1162\u11bc",
+      "id": "ko_readme_30"
+    },
+    {
+      "label": "code:sh (python3 -m http.server 5173)",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L32",
+      "community": 5,
+      "norm_label": "code:sh (python3 -m http.server 5173)",
+      "id": "ko_readme_codeblock_1"
+    },
+    {
+      "label": "code:sh (npm run serve)",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L40",
+      "community": 5,
+      "norm_label": "code:sh (npm run serve)",
+      "id": "ko_readme_codeblock_2"
+    },
+    {
+      "label": "\ud14c\uc2a4\ud2b8",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L44",
+      "community": 5,
+      "norm_label": "\u1110\u1166\u1109\u1173\u1110\u1173",
+      "id": "ko_readme_44"
+    },
+    {
+      "label": "code:sh (python3 -m unittest discover -s tests)",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L46",
+      "community": 5,
+      "norm_label": "code:sh (python3 -m unittest discover -s tests)",
+      "id": "ko_readme_codeblock_3"
+    },
+    {
+      "label": "\ub9b4\ub9ac\uc988 \ubb38\uc11c \uac8c\uc774\ud2b8",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L51",
+      "community": 5,
+      "norm_label": "\u1105\u1175\u11af\u1105\u1175\u110c\u1173 \u1106\u116e\u11ab\u1109\u1165 \u1100\u1166\u110b\u1175\u1110\u1173",
+      "id": "ko_readme_51"
+    },
+    {
+      "label": "\uc8fc\uc694 \ubb38\uc11c",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L59",
+      "community": 5,
+      "norm_label": "\u110c\u116e\u110b\u116d \u1106\u116e\u11ab\u1109\u1165",
+      "id": "ko_readme_59"
+    },
+    {
+      "label": "user-guide.md",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "user-guide.md",
+      "id": "docs_ko_user_guide_md"
+    },
+    {
+      "label": "\ud55c\uad6d\uc5b4 \uc0ac\uc6a9\uc790 \uac00\uc774\ub4dc: \uc5f0\uad6c \uc18c\uc2a4\uc5d0\uc11c \uc2e4\ud5d8 \ud6c4\ubcf4\uae4c\uc9c0",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165 \u1109\u1161\u110b\u116d\u11bc\u110c\u1161 \u1100\u1161\u110b\u1175\u1103\u1173: \u110b\u1167\u11ab\u1100\u116e \u1109\u1169\u1109\u1173\u110b\u1166\u1109\u1165 \u1109\u1175\u11af\u1112\u1165\u11b7 \u1112\u116e\u1107\u1169\u1101\u1161\u110c\u1175",
+      "id": "ko_user_guide"
+    },
+    {
+      "label": "\uae30\ubcf8 \ud750\ub984",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L5",
+      "community": 9,
+      "norm_label": "\u1100\u1175\u1107\u1169\u11ab \u1112\u1173\u1105\u1173\u11b7",
+      "id": "ko_user_guide_5"
+    },
+    {
+      "label": "\uc2e4\ud589",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L14",
+      "community": 9,
+      "norm_label": "\u1109\u1175\u11af\u1112\u1162\u11bc",
+      "id": "ko_user_guide_14"
+    },
+    {
+      "label": "code:sh (python3 -m http.server 5173)",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L16",
+      "community": 9,
+      "norm_label": "code:sh (python3 -m http.server 5173)",
+      "id": "ko_user_guide_codeblock_1"
+    },
+    {
+      "label": "Source intake \uc0ac\uc6a9\ubc95",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L22",
+      "community": 9,
+      "norm_label": "source intake \u1109\u1161\u110b\u116d\u11bc\u1107\u1165\u11b8",
+      "id": "ko_user_guide_source_intake"
+    },
+    {
+      "label": "Candidate card \uc77d\ub294 \ubc95",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L29",
+      "community": 9,
+      "norm_label": "candidate card \u110b\u1175\u11b0\u1102\u1173\u11ab \u1107\u1165\u11b8",
+      "id": "ko_user_guide_candidate_card"
+    },
+    {
+      "label": "Search/filter/export",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L40",
+      "community": 9,
+      "norm_label": "search/filter/export",
+      "id": "ko_user_guide_search_filter_export"
+    },
+    {
+      "label": "\uc2b9\uaca9 \uc804 \uccb4\ud06c",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L48",
+      "community": 9,
+      "norm_label": "\u1109\u1173\u11bc\u1100\u1167\u11a8 \u110c\u1165\u11ab \u110e\u1166\u110f\u1173",
+      "id": "ko_user_guide_48"
+    },
+    {
+      "label": "\ud604\uc7ac \ud55c\uacc4",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L58",
+      "community": 9,
+      "norm_label": "\u1112\u1167\u11ab\u110c\u1162 \u1112\u1161\u11ab\u1100\u1168",
+      "id": "ko_user_guide_58"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_traceability_py",
+      "target": "tests_test_traceability_load_json"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_traceability_py",
+      "target": "tests_test_traceability_candidatetraceabilitytests"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_traceability_candidatetraceabilitytests_setup",
+      "target": "tests_test_traceability_load_json"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_traceability_candidatetraceabilitytests",
+      "target": "tests_test_traceability_candidatetraceabilitytests_setup"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_traceability_candidatetraceabilitytests",
+      "target": "tests_test_traceability_candidatetraceabilitytests_test_each_candidate_references_existing_candidate_ready_sources"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_traceability_candidatetraceabilitytests",
+      "target": "tests_test_traceability_candidatetraceabilitytests_test_primary_source_url_resolves_from_source_record"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_traceability_candidatetraceabilitytests",
+      "target": "tests_test_traceability_candidatetraceabilitytests_test_trace_keeps_extraction_method_evidence_refs_and_rationale"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_traceability.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_traceability_candidatetraceabilitytests",
+      "target": "tests_test_traceability_candidatetraceabilitytests_test_blocked_status_sources_are_not_used_for_candidate_extraction"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_documentation_py",
+      "target": "tests_test_documentation_documentationfreshnesstests"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_documentation_documentationfreshnesstests",
+      "target": "tests_test_documentation_documentationfreshnesstests_test_markdown_relative_links_resolve"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_documentation_documentationfreshnesstests",
+      "target": "tests_test_documentation_documentationfreshnesstests_test_readme_exposes_korean_docs_and_release_gate"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_documentation_documentationfreshnesstests",
+      "target": "tests_test_documentation_documentationfreshnesstests_test_docs_do_not_describe_shipped_features_as_absent"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_documentation.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_documentation_documentationfreshnesstests",
+      "target": "tests_test_documentation_documentationfreshnesstests_test_release_checklist_contains_documentation_blockers"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_scoring_consistency_py",
+      "target": "tests_test_scoring_consistency_load_json"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_scoring_consistency_py",
+      "target": "tests_test_scoring_consistency_scoringconsistencytests"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_scoring_consistency_scoringconsistencytests_setup",
+      "target": "tests_test_scoring_consistency_load_json"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_scoring_consistency_scoringconsistencytests",
+      "target": "tests_test_scoring_consistency_scoringconsistencytests_setup"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_scoring_consistency_scoringconsistencytests",
+      "target": "tests_test_scoring_consistency_scoringconsistencytests_test_total_score_is_derived_from_visible_rubric_dimensions"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_scoring_consistency_scoringconsistencytests",
+      "target": "tests_test_scoring_consistency_scoringconsistencytests_test_candidate_evidence_score_does_not_exceed_source_strength_ceiling"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_scoring_consistency.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_scoring_consistency_scoringconsistencytests",
+      "target": "tests_test_scoring_consistency_scoringconsistencytests_test_shortlisted_candidates_have_medium_or_better_visible_evidence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_source_records_py",
+      "target": "tests_test_source_records_load_json"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_source_records_py",
+      "target": "tests_test_source_records_sourcerecordmodeltests"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_source_records_sourcerecordmodeltests_setup",
+      "target": "tests_test_source_records_load_json"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_source_records_sourcerecordmodeltests",
+      "target": "tests_test_source_records_sourcerecordmodeltests_setup"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_source_records_sourcerecordmodeltests",
+      "target": "tests_test_source_records_sourcerecordmodeltests_test_source_records_fixture_exists_and_covers_mvp_types"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_source_records_sourcerecordmodeltests",
+      "target": "tests_test_source_records_sourcerecordmodeltests_test_source_records_have_protocol_required_fields"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_source_records_sourcerecordmodeltests",
+      "target": "tests_test_source_records_sourcerecordmodeltests_test_manual_source_without_url_requires_no_url_rationale"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_source_records_sourcerecordmodeltests",
+      "target": "tests_test_source_records_sourcerecordmodeltests_test_candidate_ready_sources_include_evidence_risk_tags_and_review_rationale"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_source_records.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_source_records_sourcerecordmodeltests",
+      "target": "tests_test_source_records_sourcerecordmodeltests_test_non_ready_source_records_preserve_audit_reason"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_py",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_py",
+      "target": "tests_test_static_app_staticappscaffoldtests"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_package_scripts_are_dependency_free_static_workflow",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_candidate_data_has_rubric_and_shortlist_statuses",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_app_renders_candidate_cards_rubric_and_shortlist_placeholder",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_mock_data_covers_candidate_state_matrix",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_candidate_ui_includes_empty_error_and_accessible_action_copy",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_shortlist_ui_handles_empty_edges_and_keyboard_ranking",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_source_intake_form_and_validation_contract_are_present",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_intake_schema_is_compatible_with_candidate_and_source_records",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_search_filter_ui_and_empty_state_are_present",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_search_filter_uses_candidate_and_source_tags",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L203",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_priority_backlog_and_export_controls_are_present",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L220",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_priority_score_is_derived_from_visible_rubric_confidence_and_effort",
+      "target": "tests_test_static_app_read_text"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_scaffold_files_exist"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_package_scripts_are_dependency_free_static_workflow"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_candidate_data_has_rubric_and_shortlist_statuses"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_app_renders_candidate_cards_rubric_and_shortlist_placeholder"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_mock_data_covers_candidate_state_matrix"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_candidate_ui_includes_empty_error_and_accessible_action_copy"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_shortlist_ui_handles_empty_edges_and_keyboard_ranking"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_source_intake_form_and_validation_contract_are_present"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_intake_schema_is_compatible_with_candidate_and_source_records"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L161",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_search_filter_ui_and_empty_state_are_present"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_search_filter_uses_candidate_and_source_tags"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L202",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_priority_backlog_and_export_controls_are_present"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L219",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_priority_score_is_derived_from_visible_rubric_confidence_and_effort"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_rubriclabels"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_rubricdescriptions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_allowedsourcetypes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_loadedcandidates"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_allcandidates"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_sourcebyid"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_statusconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_candidateemptystates"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_candidateerrorcopy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_escapehtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_sourcerecordsfor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_tagsfor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_searchabletext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_effortscore"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L97",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_confidencescore"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_priorityscore"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_sortcandidates"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_filtercandidates"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_currentfilters"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_scoreentries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_formatstatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L140",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_sourcebadge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L146",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_actionbuttons"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L163",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_chiplist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L167",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_renderrubric"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L174",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_renderemptystate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L184",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_rendercandidates"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L250",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_shortlistnotices"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L259",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_rendershortlist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L279",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_renderbacklog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L287",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_candidatestomarkdown"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L298",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_exportpayload"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L313",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_copymarkdown"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L322",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_downloadjson"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L331",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_renderfilteredcandidates"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L338",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_setupexports"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L354",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_setupfilters"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L361",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_normalizedraft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L370",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_ishttpurl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L374",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_validatesourcedraft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L386",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_buildcandidatedraft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L401",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_persistdraft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L402",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_loadpersisteddraft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L403",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_clearpersisteddraft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L405",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_renderdraft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L417",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_showintakeerrors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L425",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_hydrateformfromdraft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L433",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_setupsourceintake"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L453",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_sourcebadge",
+      "target": "src_app_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_actionbuttons",
+      "target": "src_app_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L177",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_renderemptystate",
+      "target": "src_app_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L411",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_renderdraft",
+      "target": "src_app_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_tagsfor",
+      "target": "src_app_sourcerecordsfor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_searchabletext",
+      "target": "src_app_sourcerecordsfor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_searchabletext",
+      "target": "src_app_tagsfor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_priorityscore",
+      "target": "src_app_effortscore"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_priorityscore",
+      "target": "src_app_confidencescore"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_filtercandidates",
+      "target": "src_app_sortcandidates"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L282",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_renderbacklog",
+      "target": "src_app_sortcandidates"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L333",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_renderfilteredcandidates",
+      "target": "src_app_filtercandidates"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L332",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_renderfilteredcandidates",
+      "target": "src_app_currentfilters"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L148",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_actionbuttons",
+      "target": "src_app_formatstatus"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L454",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main",
+      "target": "src_app_renderrubric"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L196",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_rendercandidates",
+      "target": "src_app_renderemptystate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L334",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_renderfilteredcandidates",
+      "target": "src_app_rendercandidates"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L266",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_rendershortlist",
+      "target": "src_app_shortlistnotices"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L464",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main",
+      "target": "src_app_rendershortlist"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L335",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_renderfilteredcandidates",
+      "target": "src_app_renderbacklog"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L314",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_copymarkdown",
+      "target": "src_app_candidatestomarkdown"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L323",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_downloadjson",
+      "target": "src_app_exportpayload"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L463",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main",
+      "target": "src_app_renderfilteredcandidates"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L457",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main",
+      "target": "src_app_setupexports"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L456",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main",
+      "target": "src_app_setupfilters"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L380",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_validatesourcedraft",
+      "target": "src_app_ishttpurl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L437",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_setupsourceintake",
+      "target": "src_app_loadpersisteddraft"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L439",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_setupsourceintake",
+      "target": "src_app_renderdraft"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L438",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_setupsourceintake",
+      "target": "src_app_hydrateformfromdraft"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L455",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_app_main",
+      "target": "src_app_setupsourceintake"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "chore_graphify_bootstrap_readme_research_to_project_lab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_research_to_project_lab",
+      "target": "chore_graphify_bootstrap_readme_current_shipped_behavior"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_research_to_project_lab",
+      "target": "chore_graphify_bootstrap_readme_still_not_implemented"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_research_to_project_lab",
+      "target": "chore_graphify_bootstrap_readme_run_locally"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_research_to_project_lab",
+      "target": "chore_graphify_bootstrap_readme_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_research_to_project_lab",
+      "target": "chore_graphify_bootstrap_readme_release_documentation_gate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_research_to_project_lab",
+      "target": "chore_graphify_bootstrap_readme_documentation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_research_to_project_lab",
+      "target": "chore_graphify_bootstrap_readme_safety_note"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_research_to_project_lab",
+      "target": "chore_graphify_bootstrap_readme_project_notes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_run_locally",
+      "target": "chore_graphify_bootstrap_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_run_locally",
+      "target": "chore_graphify_bootstrap_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_test",
+      "target": "chore_graphify_bootstrap_readme_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "chore_graphify_bootstrap_readme_test",
+      "target": "chore_graphify_bootstrap_readme_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_md",
+      "target": "chore_graphify_bootstrap_agents_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_md",
+      "target": "chore_graphify_bootstrap_claude_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_md",
+      "target": "docs_release_notes_release_notes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_release_notes",
+      "target": "docs_release_notes_option_c_release_validation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_release_notes",
+      "target": "docs_release_notes_unreleased_mvp_docs_handoff"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_release_notes",
+      "target": "docs_release_notes_c_03_planning_package"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_release_notes",
+      "target": "docs_release_notes_c_02_static_scaffold"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_release_notes",
+      "target": "docs_release_notes_required_fields_for_future_entries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_release_notes",
+      "target": "docs_release_notes_related_docs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_option_c_release_validation",
+      "target": "docs_release_notes_user_visible_changes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_option_c_release_validation",
+      "target": "docs_release_notes_branches_commits_and_remote_evidence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_option_c_release_validation",
+      "target": "docs_release_notes_verification"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_option_c_release_validation",
+      "target": "docs_release_notes_known_limitations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_option_c_release_validation",
+      "target": "docs_release_notes_release_decision"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_unreleased_mvp_docs_handoff",
+      "target": "docs_release_notes_user_visible_changes_66"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_unreleased_mvp_docs_handoff",
+      "target": "docs_release_notes_verification_76"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_unreleased_mvp_docs_handoff",
+      "target": "docs_release_notes_known_limitations_82"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_unreleased_mvp_docs_handoff",
+      "target": "docs_release_notes_release_decision_88"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_c_03_planning_package",
+      "target": "docs_release_notes_planning_outputs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_c_03_planning_package",
+      "target": "docs_release_notes_limitations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_c_02_static_scaffold",
+      "target": "docs_release_notes_shipped_behavior"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L119",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_c_02_static_scaffold",
+      "target": "docs_release_notes_verification_119"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_md",
+      "target": "docs_known_issues_known_issues_and_limitations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_known_issues_and_limitations",
+      "target": "docs_known_issues_static_fixture_backed_app_data"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_known_issues_and_limitations",
+      "target": "docs_known_issues_source_intake_is_local_draft_capture_not_live_ingestion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_known_issues_and_limitations",
+      "target": "docs_known_issues_sourcerecord_contract_is_fixture_level_only"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_known_issues_and_limitations",
+      "target": "docs_known_issues_scoring_is_static_fixture_data"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_known_issues_and_limitations",
+      "target": "docs_known_issues_research_backlog_vs_implementation_backlog_is_visible_but_not_workflow_backed"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_known_issues_and_limitations",
+      "target": "docs_known_issues_browser_qa_is_manual"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_known_issues_and_limitations",
+      "target": "docs_known_issues_untrusted_content_hardening_must_continue_before_live_ingestion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_known_issues_and_limitations",
+      "target": "docs_known_issues_not_implemented_yet"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/known-issues.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_known_issues_known_issues_and_limitations",
+      "target": "docs_known_issues_related_docs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_md",
+      "target": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
+      "target": "docs_user_guide_who_this_is_for"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
+      "target": "docs_user_guide_core_loop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
+      "target": "docs_user_guide_current_mvp_walkthrough"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
+      "target": "docs_user_guide_how_to_read_a_candidate_card"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
+      "target": "docs_user_guide_how_to_use_search_filters_and_exports"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
+      "target": "docs_user_guide_how_to_use_the_backlog_and_shortlist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
+      "target": "docs_user_guide_what_to_do_with_weak_evidence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
+      "target": "docs_user_guide_current_limitations"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_user_guide_current_mvp_walkthrough",
+      "target": "docs_user_guide_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_checklist_md",
+      "target": "docs_release_checklist_release_checklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_checklist_release_checklist",
+      "target": "docs_release_checklist_release_is_blocked_until_all_gates_pass"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_checklist_release_checklist",
+      "target": "docs_release_checklist_documentation_freshness_gate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_checklist_release_checklist",
+      "target": "docs_release_checklist_qa_release_verification"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_checklist_release_checklist",
+      "target": "docs_release_checklist_automation_in_this_repo"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_checklist_release_checklist",
+      "target": "docs_release_checklist_standard_release_evidence_packet"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-checklist.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_checklist_automation_in_this_repo",
+      "target": "docs_release_checklist_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_md",
+      "target": "docs_handoff_handoff_research_to_project_lab"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_handoff_research_to_project_lab",
+      "target": "docs_handoff_product_decision"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_handoff_research_to_project_lab",
+      "target": "docs_handoff_current_repo_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_handoff_research_to_project_lab",
+      "target": "docs_handoff_key_concepts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_handoff_research_to_project_lab",
+      "target": "docs_handoff_next_implementation_sequence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_handoff_research_to_project_lab",
+      "target": "docs_handoff_qa_gates_to_preserve"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_handoff_research_to_project_lab",
+      "target": "docs_handoff_release_blocker_policy"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_handoff_research_to_project_lab",
+      "target": "docs_handoff_approval_boundaries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_handoff_research_to_project_lab",
+      "target": "docs_handoff_source_artifacts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/handoff.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_handoff_handoff_research_to_project_lab",
+      "target": "docs_handoff_repo_docs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_md",
+      "target": "docs_scoring_rubric_scoring_rubric_reference"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_scoring_rubric_reference",
+      "target": "docs_scoring_rubric_principles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_scoring_rubric_reference",
+      "target": "docs_scoring_rubric_score_scale"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_scoring_rubric_reference",
+      "target": "docs_scoring_rubric_dimensions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_scoring_rubric_reference",
+      "target": "docs_scoring_rubric_total_score_rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_scoring_rubric_reference",
+      "target": "docs_scoring_rubric_tie_breakers_for_future_implementation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_scoring_rubric_reference",
+      "target": "docs_scoring_rubric_weak_evidence_rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_scoring_rubric_reference",
+      "target": "docs_scoring_rubric_manual_override_rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_scoring_rubric_reference",
+      "target": "docs_scoring_rubric_current_fixture_examples"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/scoring-rubric.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_scoring_rubric_scoring_rubric_reference",
+      "target": "docs_scoring_rubric_related_docs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_ko_readme_md",
+      "target": "ko_readme_research_to_project_lab_readme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_22"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_30"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_44"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_51"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_59"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_30",
+      "target": "ko_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_30",
+      "target": "ko_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_44",
+      "target": "ko_readme_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_ko_user_guide_md",
+      "target": "ko_user_guide"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_14"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_source_intake"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_candidate_card"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_search_filter_export"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_48"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_58"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide_14",
+      "target": "ko_user_guide_codeblock_1"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "7e145453f01838dc594e5559f6d86e6f5e8d5044"
+}
