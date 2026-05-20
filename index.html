@@ -32,6 +32,23 @@
           </div>
           <span id="candidate-count" class="badge">Loading…</span>
         </div>
+        <form id="candidate-filters" class="filter-bar" role="search" aria-label="Search and filter candidate cards">
+          <label>
+            Search title, tag, source, or experiment
+            <input id="candidate-search" name="search" type="search" placeholder="Try harness, github, arxiv, structured-scoring…" autocomplete="off" />
+          </label>
+          <label>
+            Source type
+            <select id="source-filter" name="source_type">
+              <option value="all">All sources</option>
+              <option value="github">GitHub</option>
+              <option value="arxiv">arXiv</option>
+              <option value="manual">Manual</option>
+            </select>
+          </label>
+          <button type="reset" class="secondary-button">Reset filters</button>
+        </form>
+        <p id="filter-summary" class="filter-summary" aria-live="polite"></p>
         <div id="candidate-list" class="candidate-list" aria-live="polite"></div>
       </section>
 

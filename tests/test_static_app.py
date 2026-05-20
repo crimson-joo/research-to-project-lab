@@ -57,10 +57,52 @@ class StaticAppScaffoldTests(unittest.TestCase):
         self.assertIn("candidate-list", html)
         self.assertIn("shortlist", html)
         self.assertIn('fetch("data/candidates.json")', js)
+        self.assertIn('fetch("data/sources.json")', js)
         self.assertIn("renderCandidates", js)
         self.assertIn("renderShortlist", js)
         self.assertRegex(js, r"novelty|feasibility|leverage|evidence|user_fit")
         self.assertIn(".candidate-card", css)
+
+    def test_search_filter_ui_and_empty_state_are_present(self):
+        html = read_text("index.html")
+        js = read_text("src/app.js")
+        css = read_text("src/styles.css")
+
+        self.assertIn('id="candidate-filters"', html)
+        self.assertIn('id="candidate-search"', html)
+        self.assertIn('id="source-filter"', html)
+        self.assertIn('id="filter-summary"', html)
+        self.assertIn("filterCandidates", js)
+        self.assertIn("searchableText", js)
+        self.assertIn("tagsFor", js)
+        self.assertIn("No candidates match those filters", js)
+        self.assertIn("title, tag, source", html.lower())
+        self.assertIn(".filter-bar", css)
+        self.assertIn(".empty-state", css)
+
+    def test_search_filter_uses_candidate_and_source_tags(self):
+        candidates = json.loads(read_text("data/candidates.json"))
+        sources = json.loads(read_text("data/sources.json"))
+        source_by_id = {source["id"]: source for source in sources}
+
+        for candidate in candidates:
+            self.assertTrue(candidate["source_ids"])
+            tags = []
+            for source_id in candidate["source_ids"]:
+                tags.extend(source_by_id[source_id]["topic_tags"])
+            searchable = " ".join([
+                candidate["title"],
+                candidate["source_type"],
+                candidate["summary"],
+                candidate["implied_experiment"],
+                *tags,
+            ]).lower()
+            self.assertIn(candidate["source_type"], searchable)
+            self.assertTrue(any(tag in searchable for tag in tags))
+
+        harness = next(candidate for candidate in candidates if "Harness" in candidate["title"])
+        harness_tags = source_by_id[harness["source_ids"][0]]["topic_tags"]
+        self.assertIn("harness", harness["title"].lower() + " " + " ".join(harness_tags))
 
 
 if __name__ == "__main__":
