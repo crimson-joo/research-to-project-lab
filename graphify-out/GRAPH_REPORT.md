@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 278 nodes · 387 edges · 23 communities (16 shown, 7 thin omitted)
+- 278 nodes · 387 edges · 22 communities (15 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2932eebb`
+- Built from commit: `54fd798e`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,7 +37,6 @@
 - [[_COMMUNITY_Community 19|Community 19]]
 - [[_COMMUNITY_Community 20|Community 20]]
 - [[_COMMUNITY_Community 21|Community 21]]
-- [[_COMMUNITY_Community 22|Community 22]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `StaticAppScaffoldTests` - 17 edges
@@ -53,17 +52,17 @@
 
 ## Surprising Connections (you probably didn't know these)
 - `fillBriefForm()` --calls--> `escapeHtml()`  [EXTRACTED]
-  src/app.js → src/app.js  _Bridges community 17 → community 2_
+  src/app.js → src/app.js  _Bridges community 16 → community 2_
 - `renderFilteredCandidates()` --calls--> `renderCandidates()`  [EXTRACTED]
-  src/app.js → src/app.js  _Bridges community 17 → community 19_
+  src/app.js → src/app.js  _Bridges community 16 → community 19_
 - `createOrUpdateBrief()` --calls--> `renderFilteredCandidates()`  [EXTRACTED]
   src/app.js → src/app.js  _Bridges community 2 → community 19_
 - `main()` --calls--> `setupBriefWorkflow()`  [EXTRACTED]
-  src/app.js → src/app.js  _Bridges community 2 → community 13_
+  src/app.js → src/app.js  _Bridges community 2 → community 17_
 - `main()` --calls--> `renderFilteredCandidates()`  [EXTRACTED]
-  src/app.js → src/app.js  _Bridges community 19 → community 13_
+  src/app.js → src/app.js  _Bridges community 19 → community 17_
 
-## Communities (23 total, 7 thin omitted)
+## Communities (22 total, 7 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
@@ -74,12 +73,12 @@ Cohesion: 0.07
 Nodes (26): code:sh (python3 -m http.server 5173), code:sh (npm run serve), code:sh (python3 -m unittest discover -s tests), code:sh (npm test), Current shipped behavior, Documentation, Project notes, Release/documentation gate (+18 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.16
-Nodes (20): briefToMarkdown(), buildCandidateDraft(), candidateDecisions, createOrUpdateBrief(), defaultBriefFor(), experimentBriefs, fillBriefForm(), hydrateBriefState() (+12 more)
+Cohesion: 0.14
+Nodes (22): briefToMarkdown(), candidateDecisions, createOrUpdateBrief(), defaultBriefFor(), experimentBriefs, fillBriefForm(), hydrateBriefState(), hydrateFormFromDraft() (+14 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.12
-Nodes (18): allCandidates, allowedSourceTypes, candidateEmptyStates, candidateErrorCopy, chipList(), clearPersistedDraft(), confidenceScore(), effortScore() (+10 more)
+Cohesion: 0.11
+Nodes (22): allCandidates, allowedSourceTypes, buildCandidateDraft(), candidateEmptyStates, candidateErrorCopy, chipList(), clearPersistedDraft(), confidenceScore() (+14 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.14
@@ -95,27 +94,27 @@ Nodes (11): Browser QA is manual, Experiment Brief workflow is browser-local onl
 
 ### Community 8 - "Community 8"
 Cohesion: 0.17
-Nodes (10): Current fixture examples, Dimensions, Manual override rule, Principles, Related docs, Score scale, Scoring Rubric Reference, Tie-breakers for future implementation (+2 more)
+Nodes (10): code:sh (python3 -m http.server 5173), Core loop, Current limitations, Current MVP walkthrough, How to read a candidate card, How to use search, filters, and exports, How to use the backlog and shortlist, User Guide: From Research Source to Experiment Candidate (+2 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.17
-Nodes (10): Approval boundaries, Current repo state, Handoff: research-to-project-lab, Key concepts, Next implementation sequence, Product decision, QA gates to preserve, Release blocker policy (+2 more)
+Nodes (10): Current fixture examples, Dimensions, Manual override rule, Principles, Related docs, Score scale, Scoring Rubric Reference, Tie-breakers for future implementation (+2 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.17
-Nodes (10): code:sh (python3 -m http.server 5173), Core loop, Current limitations, Current MVP walkthrough, How to read a candidate card, How to use search, filters, and exports, How to use the backlog and shortlist, User Guide: From Research Source to Experiment Candidate (+2 more)
+Nodes (10): Approval boundaries, Current repo state, Handoff: research-to-project-lab, Key concepts, Next implementation sequence, Product decision, QA gates to preserve, Release blocker policy (+2 more)
 
 ### Community 13 - "Community 13"
 Cohesion: 0.22
-Nodes (9): hydrateFormFromDraft(), loadPersistedDraft(), main(), renderRubric(), renderShortlist(), setupExports(), setupFilters(), setupSourceIntake() (+1 more)
-
-### Community 14 - "Community 14"
-Cohesion: 0.22
 Nodes (7): Automation in this repo, code:sh (python3 -m unittest discover -s tests), Documentation freshness gate, QA-release verification, Release Checklist, Release is blocked until all gates pass, Standard release evidence packet
 
-### Community 17 - "Community 17"
+### Community 16 - "Community 16"
 Cohesion: 0.29
 Nodes (7): actionButtons(), escapeHtml(), formatStatus(), renderCandidates(), renderDraft(), renderEmptyState(), sourceBadge()
+
+### Community 17 - "Community 17"
+Cohesion: 0.33
+Nodes (6): main(), renderRubric(), renderShortlist(), setupExports(), setupFilters(), shortlistNotices()
 
 ### Community 18 - "Community 18"
 Cohesion: 0.4
@@ -124,10 +123,6 @@ Nodes (5): candidatesToMarkdown(), copyMarkdown(), downloadJson(), exportPayload
 ### Community 19 - "Community 19"
 Cohesion: 0.5
 Nodes (5): currentFilters(), filterCandidates(), renderBacklog(), renderFilteredCandidates(), sortCandidates()
-
-### Community 20 - "Community 20"
-Cohesion: 1.0
-Nodes (3): searchableText(), sourceRecordsFor(), tagsFor()
 
 ## Knowledge Gaps
 - **100 isolated node(s):** `experimentBriefs`, `candidateDecisions`, `laneConfig`, `Current shipped behavior`, `Still not implemented` (+95 more)
@@ -143,8 +138,10 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.07 - nodes in this community are weakly interconnected._
+- **Should `Community 2` be split into smaller, more focused modules?**
+  _Cohesion score 0.14 - nodes in this community are weakly interconnected._
 - **Should `Community 3` be split into smaller, more focused modules?**
-  _Cohesion score 0.12 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.11 - nodes in this community are weakly interconnected._
 - **Should `Community 5` be split into smaller, more focused modules?**
   _Cohesion score 0.14 - nodes in this community are weakly interconnected._
 - **Should `Community 6` be split into smaller, more focused modules?**
