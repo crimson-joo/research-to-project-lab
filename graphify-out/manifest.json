@@ -16,20 +16,20 @@
     "hash": "39791910fa48647b4037cfc053220912"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/tests/test_static_app.py": {
-    "mtime": 1779333306.9556673,
-    "hash": "087291c1ad05c4be5f7bff376d599535"
+    "mtime": 1779334537.6161532,
+    "hash": "c0f7d6e14560ac0e3cd7ce306c81cc82"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/src/app.js": {
-    "mtime": 1779333482.0044324,
-    "hash": "c4ebc773eb38887eb6d462cdff434cb8"
+    "mtime": 1779334518.162578,
+    "hash": "bea5f48feef2bd81877c9f29d8077de4"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/index.html": {
     "mtime": 1779333364.402405,
     "hash": "d99e9ae775ff7e4cb7f28a855d524b29"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/README.md": {
-    "mtime": 1779333554.068768,
-    "hash": "25cb4314e0904397074fd2db8d39e3e0"
+    "mtime": 1779334020.5891213,
+    "hash": "99d9d850313b19700f230376dabde48a"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/AGENTS.md": {
     "mtime": 1779332996.3417149,
@@ -40,16 +40,16 @@
     "hash": "da79aa9343cd2b362206f03762160abc"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/release-notes.md": {
-    "mtime": 1779333554.069693,
-    "hash": "1d76fd6ad862eefcdd8340c62244a54f"
+    "mtime": 1779334072.2064898,
+    "hash": "2ed779cb1bfcbaee75825263d5929607"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/known-issues.md": {
     "mtime": 1779333554.0691333,
     "hash": "0eae0e5d2c7671808283b8bb3a3e4a4c"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/user-guide.md": {
-    "mtime": 1779333554.0690043,
-    "hash": "8c74448944e35c8204351f767df328eb"
+    "mtime": 1779334046.2417462,
+    "hash": "836eac10e3a72e51b9a36866e4a0b7ba"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/release-checklist.md": {
     "mtime": 1779332365.7934544,
@@ -64,11 +64,11 @@
     "hash": "f19a6140e6fc598e2ffe178aa62cce15"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/ko/README.md": {
-    "mtime": 1779333554.0694318,
-    "hash": "d7c9b95c03aa0a60431b93711cede1be"
+    "mtime": 1779334030.9854712,
+    "hash": "247e3cf98dcff02aa3327aa30830201c"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/ko/user-guide.md": {
-    "mtime": 1779333554.0695593,
-    "hash": "4f8904cb0adcf6b1dd60d28bc06d4c2d"
+    "mtime": 1779334065.1992652,
+    "hash": "332a100db71f7f869175d59a456e65d9"
   }
 }

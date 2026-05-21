@@ -81,7 +81,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L1",
       "id": "tests_test_documentation_py",
-      "community": 15,
+      "community": 14,
       "norm_label": "test_documentation.py"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L10",
       "id": "tests_test_documentation_documentationfreshnesstests",
-      "community": 15,
+      "community": 14,
       "norm_label": "documentationfreshnesstests"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L11",
       "id": "tests_test_documentation_documentationfreshnesstests_test_markdown_relative_links_resolve",
-      "community": 15,
+      "community": 14,
       "norm_label": ".test_markdown_relative_links_resolve()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L24",
       "id": "tests_test_documentation_documentationfreshnesstests_test_readme_exposes_korean_docs_and_release_gate",
-      "community": 15,
+      "community": 14,
       "norm_label": ".test_readme_exposes_korean_docs_and_release_gate()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L33",
       "id": "tests_test_documentation_documentationfreshnesstests_test_docs_do_not_describe_shipped_features_as_absent",
-      "community": 15,
+      "community": 14,
       "norm_label": ".test_docs_do_not_describe_shipped_features_as_absent()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L46",
       "id": "tests_test_documentation_documentationfreshnesstests_test_release_checklist_contains_documentation_blockers",
-      "community": 15,
+      "community": 14,
       "norm_label": ".test_release_checklist_contains_documentation_blockers()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L56",
       "id": "tests_test_documentation_documentationfreshnesstests_test_docs_describe_shipped_experiment_brief_workflow",
-      "community": 15,
+      "community": 14,
       "norm_label": ".test_docs_describe_shipped_experiment_brief_workflow()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_scoring_consistency_py",
-      "community": 14,
+      "community": 13,
       "norm_label": "test_scoring_consistency.py"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L9",
       "id": "tests_test_scoring_consistency_load_json",
-      "community": 14,
+      "community": 13,
       "norm_label": "load_json()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L13",
       "id": "tests_test_scoring_consistency_scoringconsistencytests",
-      "community": 14,
+      "community": 13,
       "norm_label": "scoringconsistencytests"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L14",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_setup",
-      "community": 14,
+      "community": 13,
       "norm_label": ".setup()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L18",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_total_score_is_derived_from_visible_rubric_dimensions",
-      "community": 14,
+      "community": 13,
       "norm_label": ".test_total_score_is_derived_from_visible_rubric_dimensions()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L25",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_candidate_evidence_score_does_not_exceed_source_strength_ceiling",
-      "community": 14,
+      "community": 13,
       "norm_label": ".test_candidate_evidence_score_does_not_exceed_source_strength_ceiling()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L36",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_shortlisted_candidates_have_medium_or_better_visible_evidence",
-      "community": 14,
+      "community": 13,
       "norm_label": ".test_shortlisted_candidates_have_medium_or_better_visible_evidence()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_source_records_py",
-      "community": 11,
+      "community": 10,
       "norm_label": "test_source_records.py"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L32",
       "id": "tests_test_source_records_load_json",
-      "community": 11,
+      "community": 10,
       "norm_label": "load_json()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L36",
       "id": "tests_test_source_records_sourcerecordmodeltests",
-      "community": 11,
+      "community": 10,
       "norm_label": "sourcerecordmodeltests"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L37",
       "id": "tests_test_source_records_sourcerecordmodeltests_setup",
-      "community": 11,
+      "community": 10,
       "norm_label": ".setup()"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L40",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_source_records_fixture_exists_and_covers_mvp_types",
-      "community": 11,
+      "community": 10,
       "norm_label": ".test_source_records_fixture_exists_and_covers_mvp_types()"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L47",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_source_records_have_protocol_required_fields",
-      "community": 11,
+      "community": 10,
       "norm_label": ".test_source_records_have_protocol_required_fields()"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L67",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_manual_source_without_url_requires_no_url_rationale",
-      "community": 11,
+      "community": 10,
       "norm_label": ".test_manual_source_without_url_requires_no_url_rationale()"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L78",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_candidate_ready_sources_include_evidence_risk_tags_and_review_rationale",
-      "community": 11,
+      "community": 10,
       "norm_label": ".test_candidate_ready_sources_include_evidence_risk_tags_and_review_rationale()"
     },
     {
@@ -279,7 +279,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L95",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_non_ready_source_records_preserve_audit_reason",
-      "community": 11,
+      "community": 10,
       "norm_label": ".test_non_ready_source_records_preserve_audit_reason()"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L1",
       "id": "tests_test_static_app_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_static_app.py"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L8",
       "id": "tests_test_static_app_read_text",
-      "community": 4,
+      "community": 3,
       "norm_label": "read_text()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L12",
       "id": "tests_test_static_app_staticappscaffoldtests",
-      "community": 4,
+      "community": 3,
       "norm_label": "staticappscaffoldtests"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L13",
       "id": "tests_test_static_app_staticappscaffoldtests_test_scaffold_files_exist",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_scaffold_files_exist()"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L28",
       "id": "tests_test_static_app_staticappscaffoldtests_test_package_scripts_are_dependency_free_static_workflow",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_package_scripts_are_dependency_free_static_workflow()"
     },
     {
@@ -333,7 +333,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L37",
       "id": "tests_test_static_app_staticappscaffoldtests_test_candidate_data_has_rubric_and_shortlist_statuses",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_candidate_data_has_rubric_and_shortlist_statuses()"
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L52",
       "id": "tests_test_static_app_staticappscaffoldtests_test_app_renders_candidate_cards_rubric_and_shortlist_placeholder",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_app_renders_candidate_cards_rubric_and_shortlist_placeholder()"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L67",
       "id": "tests_test_static_app_staticappscaffoldtests_test_mock_data_covers_candidate_state_matrix",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_mock_data_covers_candidate_state_matrix()"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L91",
       "id": "tests_test_static_app_staticappscaffoldtests_test_candidate_ui_includes_empty_error_and_accessible_action_copy",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_candidate_ui_includes_empty_error_and_accessible_action_copy()"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L111",
       "id": "tests_test_static_app_staticappscaffoldtests_test_shortlist_ui_handles_empty_edges_and_keyboard_ranking",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_shortlist_ui_handles_empty_edges_and_keyboard_ranking()"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L130",
       "id": "tests_test_static_app_staticappscaffoldtests_test_source_intake_form_and_validation_contract_are_present",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_source_intake_form_and_validation_contract_are_present()"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L146",
       "id": "tests_test_static_app_staticappscaffoldtests_test_intake_schema_is_compatible_with_candidate_and_source_records",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_intake_schema_is_compatible_with_candidate_and_source_records()"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L161",
       "id": "tests_test_static_app_staticappscaffoldtests_test_search_filter_ui_and_empty_state_are_present",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_search_filter_ui_and_empty_state_are_present()"
     },
     {
@@ -405,7 +405,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L178",
       "id": "tests_test_static_app_staticappscaffoldtests_test_search_filter_uses_candidate_and_source_tags",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_search_filter_uses_candidate_and_source_tags()"
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L202",
       "id": "tests_test_static_app_staticappscaffoldtests_test_priority_backlog_and_export_controls_are_present",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_priority_backlog_and_export_controls_are_present()"
     },
     {
@@ -423,7 +423,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L219",
       "id": "tests_test_static_app_staticappscaffoldtests_test_priority_score_is_derived_from_visible_rubric_confidence_and_effort",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_priority_score_is_derived_from_visible_rubric_confidence_and_effort()"
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L235",
       "id": "tests_test_static_app_staticappscaffoldtests_test_onboarding_explains_experiment_brief_workflow",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_onboarding_explains_experiment_brief_workflow()"
     },
     {
@@ -441,8 +441,17 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L256",
       "id": "tests_test_static_app_staticappscaffoldtests_test_experiment_brief_lane_actions_persist_and_export",
-      "community": 4,
+      "community": 3,
       "norm_label": ".test_experiment_brief_lane_actions_persist_and_export()"
+    },
+    {
+      "label": ".test_experiment_brief_storage_and_export_are_hardened()",
+      "file_type": "code",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L292",
+      "id": "tests_test_static_app_staticappscaffoldtests_test_experiment_brief_storage_and_export_are_hardened",
+      "community": 3,
+      "norm_label": ".test_experiment_brief_storage_and_export_are_hardened()"
     },
     {
       "label": "app.js",
@@ -450,7 +459,7 @@
       "source_file": "src/app.js",
       "source_location": "L1",
       "id": "src_app_js",
-      "community": 2,
+      "community": 0,
       "norm_label": "app.js"
     },
     {
@@ -459,7 +468,7 @@
       "source_file": "src/app.js",
       "source_location": "L1",
       "id": "src_app_rubriclabels",
-      "community": 3,
+      "community": 0,
       "norm_label": "rubriclabels"
     },
     {
@@ -468,7 +477,7 @@
       "source_file": "src/app.js",
       "source_location": "L9",
       "id": "src_app_rubricdescriptions",
-      "community": 3,
+      "community": 0,
       "norm_label": "rubricdescriptions"
     },
     {
@@ -477,7 +486,7 @@
       "source_file": "src/app.js",
       "source_location": "L17",
       "id": "src_app_allowedsourcetypes",
-      "community": 3,
+      "community": 0,
       "norm_label": "allowedsourcetypes"
     },
     {
@@ -486,7 +495,7 @@
       "source_file": "src/app.js",
       "source_location": "L21",
       "id": "src_app_loadedcandidates",
-      "community": 3,
+      "community": 0,
       "norm_label": "loadedcandidates"
     },
     {
@@ -495,7 +504,7 @@
       "source_file": "src/app.js",
       "source_location": "L22",
       "id": "src_app_allcandidates",
-      "community": 3,
+      "community": 0,
       "norm_label": "allcandidates"
     },
     {
@@ -504,7 +513,7 @@
       "source_file": "src/app.js",
       "source_location": "L23",
       "id": "src_app_sourcebyid",
-      "community": 2,
+      "community": 0,
       "norm_label": "sourcebyid"
     },
     {
@@ -513,7 +522,7 @@
       "source_file": "src/app.js",
       "source_location": "L24",
       "id": "src_app_experimentbriefs",
-      "community": 2,
+      "community": 0,
       "norm_label": "experimentbriefs"
     },
     {
@@ -522,7 +531,7 @@
       "source_file": "src/app.js",
       "source_location": "L25",
       "id": "src_app_candidatedecisions",
-      "community": 2,
+      "community": 0,
       "norm_label": "candidatedecisions"
     },
     {
@@ -531,7 +540,7 @@
       "source_file": "src/app.js",
       "source_location": "L28",
       "id": "src_app_laneconfig",
-      "community": 2,
+      "community": 0,
       "norm_label": "laneconfig"
     },
     {
@@ -540,7 +549,7 @@
       "source_file": "src/app.js",
       "source_location": "L35",
       "id": "src_app_statusconfig",
-      "community": 2,
+      "community": 0,
       "norm_label": "statusconfig"
     },
     {
@@ -549,7 +558,7 @@
       "source_file": "src/app.js",
       "source_location": "L48",
       "id": "src_app_candidateemptystates",
-      "community": 3,
+      "community": 0,
       "norm_label": "candidateemptystates"
     },
     {
@@ -558,7 +567,7 @@
       "source_file": "src/app.js",
       "source_location": "L61",
       "id": "src_app_candidateerrorcopy",
-      "community": 3,
+      "community": 0,
       "norm_label": "candidateerrorcopy"
     },
     {
@@ -567,7 +576,7 @@
       "source_file": "src/app.js",
       "source_location": "L72",
       "id": "src_app_escapehtml",
-      "community": 16,
+      "community": 0,
       "norm_label": "escapehtml()"
     },
     {
@@ -576,7 +585,7 @@
       "source_file": "src/app.js",
       "source_location": "L79",
       "id": "src_app_sourcerecordsfor",
-      "community": 3,
+      "community": 0,
       "norm_label": "sourcerecordsfor()"
     },
     {
@@ -585,7 +594,7 @@
       "source_file": "src/app.js",
       "source_location": "L83",
       "id": "src_app_tagsfor",
-      "community": 3,
+      "community": 0,
       "norm_label": "tagsfor()"
     },
     {
@@ -594,7 +603,7 @@
       "source_file": "src/app.js",
       "source_location": "L89",
       "id": "src_app_searchabletext",
-      "community": 3,
+      "community": 0,
       "norm_label": "searchabletext()"
     },
     {
@@ -603,7 +612,7 @@
       "source_file": "src/app.js",
       "source_location": "L104",
       "id": "src_app_effortscore",
-      "community": 3,
+      "community": 0,
       "norm_label": "effortscore()"
     },
     {
@@ -612,7 +621,7 @@
       "source_file": "src/app.js",
       "source_location": "L109",
       "id": "src_app_confidencescore",
-      "community": 3,
+      "community": 0,
       "norm_label": "confidencescore()"
     },
     {
@@ -621,7 +630,7 @@
       "source_file": "src/app.js",
       "source_location": "L115",
       "id": "src_app_priorityscore",
-      "community": 3,
+      "community": 0,
       "norm_label": "priorityscore()"
     },
     {
@@ -630,7 +639,7 @@
       "source_file": "src/app.js",
       "source_location": "L119",
       "id": "src_app_sortcandidates",
-      "community": 19,
+      "community": 0,
       "norm_label": "sortcandidates()"
     },
     {
@@ -639,7 +648,7 @@
       "source_file": "src/app.js",
       "source_location": "L126",
       "id": "src_app_filtercandidates",
-      "community": 19,
+      "community": 0,
       "norm_label": "filtercandidates()"
     },
     {
@@ -648,7 +657,7 @@
       "source_file": "src/app.js",
       "source_location": "L136",
       "id": "src_app_currentfilters",
-      "community": 19,
+      "community": 0,
       "norm_label": "currentfilters()"
     },
     {
@@ -657,412 +666,448 @@
       "source_file": "src/app.js",
       "source_location": "L144",
       "id": "src_app_scoreentries",
-      "community": 3,
+      "community": 0,
       "norm_label": "scoreentries()"
+    },
+    {
+      "label": "normalizedStatus()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L148",
+      "id": "src_app_normalizedstatus",
+      "community": 0,
+      "norm_label": "normalizedstatus()"
     },
     {
       "label": "formatStatus()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L148",
+      "source_location": "L153",
       "id": "src_app_formatstatus",
-      "community": 16,
+      "community": 0,
       "norm_label": "formatstatus()"
     },
     {
       "label": "sourceBadge()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L153",
+      "source_location": "L159",
       "id": "src_app_sourcebadge",
-      "community": 16,
+      "community": 0,
       "norm_label": "sourcebadge()"
     },
     {
       "label": "actionButtons()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L159",
+      "source_location": "L165",
       "id": "src_app_actionbuttons",
-      "community": 16,
+      "community": 0,
       "norm_label": "actionbuttons()"
     },
     {
       "label": "chipList()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L169",
+      "source_location": "L175",
       "id": "src_app_chiplist",
-      "community": 3,
+      "community": 0,
       "norm_label": "chiplist()"
     },
     {
       "label": "renderRubric()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L173",
+      "source_location": "L179",
       "id": "src_app_renderrubric",
-      "community": 17,
+      "community": 0,
       "norm_label": "renderrubric()"
     },
     {
       "label": "renderEmptyState()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L180",
+      "source_location": "L186",
       "id": "src_app_renderemptystate",
-      "community": 16,
+      "community": 0,
       "norm_label": "renderemptystate()"
     },
     {
       "label": "renderCandidates()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L190",
+      "source_location": "L196",
       "id": "src_app_rendercandidates",
-      "community": 16,
+      "community": 0,
       "norm_label": "rendercandidates()"
     },
     {
       "label": "shortlistNotices()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L258",
+      "source_location": "L264",
       "id": "src_app_shortlistnotices",
-      "community": 17,
+      "community": 0,
       "norm_label": "shortlistnotices()"
     },
     {
       "label": "renderShortlist()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L267",
+      "source_location": "L273",
       "id": "src_app_rendershortlist",
-      "community": 17,
+      "community": 0,
       "norm_label": "rendershortlist()"
     },
     {
       "label": "renderBacklog()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L288",
+      "source_location": "L294",
       "id": "src_app_renderbacklog",
-      "community": 19,
+      "community": 0,
       "norm_label": "renderbacklog()"
     },
     {
       "label": "listItems()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L296",
+      "source_location": "L302",
       "id": "src_app_listitems",
-      "community": 2,
+      "community": 0,
       "norm_label": "listitems()"
     },
     {
       "label": "visibleBriefsFor()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L300",
+      "source_location": "L306",
       "id": "src_app_visiblebriefsfor",
-      "community": 18,
+      "community": 0,
       "norm_label": "visiblebriefsfor()"
     },
     {
       "label": "briefToMarkdown()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L305",
+      "source_location": "L311",
       "id": "src_app_brieftomarkdown",
-      "community": 2,
+      "community": 0,
       "norm_label": "brieftomarkdown()"
+    },
+    {
+      "label": "candidateExportStatus()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L332",
+      "id": "src_app_candidateexportstatus",
+      "community": 0,
+      "norm_label": "candidateexportstatus()"
     },
     {
       "label": "candidatesToMarkdown()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L326",
+      "source_location": "L336",
       "id": "src_app_candidatestomarkdown",
-      "community": 18,
+      "community": 0,
       "norm_label": "candidatestomarkdown()"
     },
     {
       "label": "exportPayload()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L340",
+      "source_location": "L350",
       "id": "src_app_exportpayload",
-      "community": 18,
+      "community": 0,
       "norm_label": "exportpayload()"
     },
     {
       "label": "copyMarkdown()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L358",
+      "source_location": "L368",
       "id": "src_app_copymarkdown",
-      "community": 18,
+      "community": 0,
       "norm_label": "copymarkdown()"
     },
     {
       "label": "downloadJson()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L367",
+      "source_location": "L381",
       "id": "src_app_downloadjson",
-      "community": 18,
+      "community": 0,
       "norm_label": "downloadjson()"
     },
     {
       "label": "parseLines()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L377",
+      "source_location": "L391",
       "id": "src_app_parselines",
-      "community": 2,
+      "community": 0,
       "norm_label": "parselines()"
     },
     {
       "label": "loadJson()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L381",
+      "source_location": "L395",
       "id": "src_app_loadjson",
-      "community": 2,
+      "community": 0,
       "norm_label": "loadjson()"
     },
     {
       "label": "persistBriefState()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L385",
+      "source_location": "L399",
       "id": "src_app_persistbriefstate",
-      "community": 2,
+      "community": 0,
       "norm_label": "persistbriefstate()"
+    },
+    {
+      "label": "sanitizeBrief()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L411",
+      "id": "src_app_sanitizebrief",
+      "community": 0,
+      "norm_label": "sanitizebrief()"
+    },
+    {
+      "label": "sanitizeCandidateDecision()",
+      "file_type": "code",
+      "source_file": "src/app.js",
+      "source_location": "L431",
+      "id": "src_app_sanitizecandidatedecision",
+      "community": 0,
+      "norm_label": "sanitizecandidatedecision()"
     },
     {
       "label": "hydrateBriefState()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L397",
+      "source_location": "L442",
       "id": "src_app_hydratebriefstate",
-      "community": 2,
+      "community": 0,
       "norm_label": "hydratebriefstate()"
     },
     {
       "label": "candidateById()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L403",
+      "source_location": "L454",
       "id": "src_app_candidatebyid",
-      "community": 2,
+      "community": 0,
       "norm_label": "candidatebyid()"
     },
     {
       "label": "defaultBriefFor()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L407",
+      "source_location": "L458",
       "id": "src_app_defaultbrieffor",
-      "community": 2,
+      "community": 0,
       "norm_label": "defaultbrieffor()"
     },
     {
       "label": "createOrUpdateBrief()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L438",
+      "source_location": "L489",
       "id": "src_app_createorupdatebrief",
-      "community": 2,
+      "community": 0,
       "norm_label": "createorupdatebrief()"
     },
     {
       "label": "readinessForBrief()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L452",
+      "source_location": "L503",
       "id": "src_app_readinessforbrief",
-      "community": 2,
+      "community": 0,
       "norm_label": "readinessforbrief()"
     },
     {
       "label": "renderBriefList()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L464",
+      "source_location": "L515",
       "id": "src_app_renderbrieflist",
-      "community": 2,
+      "community": 0,
       "norm_label": "renderbrieflist()"
     },
     {
       "label": "fillBriefForm()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L485",
+      "source_location": "L536",
       "id": "src_app_fillbriefform",
-      "community": 2,
+      "community": 0,
       "norm_label": "fillbriefform()"
     },
     {
       "label": "renderBriefPanel()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L512",
+      "source_location": "L563",
       "id": "src_app_renderbriefpanel",
-      "community": 2,
+      "community": 0,
       "norm_label": "renderbriefpanel()"
     },
     {
       "label": "saveSelectedBriefFromForm()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L517",
+      "source_location": "L568",
       "id": "src_app_saveselectedbrieffromform",
-      "community": 2,
+      "community": 0,
       "norm_label": "saveselectedbrieffromform()"
     },
     {
       "label": "setupBriefWorkflow()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L548",
+      "source_location": "L599",
       "id": "src_app_setupbriefworkflow",
-      "community": 2,
+      "community": 0,
       "norm_label": "setupbriefworkflow()"
     },
     {
       "label": "renderFilteredCandidates()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L570",
+      "source_location": "L621",
       "id": "src_app_renderfilteredcandidates",
-      "community": 19,
+      "community": 0,
       "norm_label": "renderfilteredcandidates()"
     },
     {
       "label": "setupExports()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L577",
+      "source_location": "L628",
       "id": "src_app_setupexports",
-      "community": 17,
+      "community": 0,
       "norm_label": "setupexports()"
     },
     {
       "label": "setupFilters()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L593",
+      "source_location": "L644",
       "id": "src_app_setupfilters",
-      "community": 17,
+      "community": 0,
       "norm_label": "setupfilters()"
     },
     {
       "label": "normalizeDraft()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L600",
+      "source_location": "L651",
       "id": "src_app_normalizedraft",
-      "community": 3,
+      "community": 0,
       "norm_label": "normalizedraft()"
     },
     {
       "label": "isHttpUrl()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L609",
+      "source_location": "L660",
       "id": "src_app_ishttpurl",
-      "community": 3,
+      "community": 0,
       "norm_label": "ishttpurl()"
     },
     {
       "label": "validateSourceDraft()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L613",
+      "source_location": "L664",
       "id": "src_app_validatesourcedraft",
-      "community": 3,
+      "community": 0,
       "norm_label": "validatesourcedraft()"
     },
     {
       "label": "buildCandidateDraft()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L625",
+      "source_location": "L676",
       "id": "src_app_buildcandidatedraft",
-      "community": 3,
+      "community": 0,
       "norm_label": "buildcandidatedraft()"
     },
     {
       "label": "persistDraft()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L640",
+      "source_location": "L691",
       "id": "src_app_persistdraft",
-      "community": 3,
+      "community": 0,
       "norm_label": "persistdraft()"
     },
     {
       "label": "loadPersistedDraft()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L641",
+      "source_location": "L692",
       "id": "src_app_loadpersisteddraft",
-      "community": 2,
+      "community": 0,
       "norm_label": "loadpersisteddraft()"
     },
     {
       "label": "clearPersistedDraft()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L642",
+      "source_location": "L693",
       "id": "src_app_clearpersisteddraft",
-      "community": 3,
+      "community": 0,
       "norm_label": "clearpersisteddraft()"
     },
     {
       "label": "renderDraft()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L644",
+      "source_location": "L695",
       "id": "src_app_renderdraft",
-      "community": 16,
+      "community": 0,
       "norm_label": "renderdraft()"
     },
     {
       "label": "showIntakeErrors()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L656",
+      "source_location": "L707",
       "id": "src_app_showintakeerrors",
-      "community": 3,
+      "community": 0,
       "norm_label": "showintakeerrors()"
     },
     {
       "label": "hydrateFormFromDraft()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L664",
+      "source_location": "L715",
       "id": "src_app_hydrateformfromdraft",
-      "community": 2,
+      "community": 0,
       "norm_label": "hydrateformfromdraft()"
     },
     {
       "label": "setupSourceIntake()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L672",
+      "source_location": "L723",
       "id": "src_app_setupsourceintake",
-      "community": 2,
+      "community": 0,
       "norm_label": "setupsourceintake()"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "src/app.js",
-      "source_location": "L692",
+      "source_location": "L743",
       "id": "src_app_main",
-      "community": 17,
+      "community": 0,
       "norm_label": "main()"
     },
     {
@@ -1071,7 +1116,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 1,
+      "community": 2,
       "norm_label": "readme.md"
     },
     {
@@ -1080,115 +1125,115 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "experiment_brief_workflow_readme_research_to_project_lab",
-      "community": 1,
+      "community": 2,
       "norm_label": "research-to-project lab"
     },
     {
       "label": "Current shipped behavior",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L7",
+      "source_location": "L13",
       "id": "experiment_brief_workflow_readme_current_shipped_behavior",
-      "community": 1,
+      "community": 2,
       "norm_label": "current shipped behavior"
     },
     {
       "label": "Still not implemented",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L23",
+      "source_location": "L30",
       "id": "experiment_brief_workflow_readme_still_not_implemented",
-      "community": 1,
+      "community": 2,
       "norm_label": "still not implemented"
     },
     {
       "label": "Run locally",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L31",
+      "source_location": "L38",
       "id": "experiment_brief_workflow_readme_run_locally",
-      "community": 1,
+      "community": 2,
       "norm_label": "run locally"
     },
     {
       "label": "code:sh (python3 -m http.server 5173)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L33",
+      "source_location": "L40",
       "id": "experiment_brief_workflow_readme_codeblock_1",
-      "community": 1,
+      "community": 2,
       "norm_label": "code:sh (python3 -m http.server 5173)"
     },
     {
       "label": "code:sh (npm run serve)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L41",
+      "source_location": "L48",
       "id": "experiment_brief_workflow_readme_codeblock_2",
-      "community": 1,
+      "community": 2,
       "norm_label": "code:sh (npm run serve)"
     },
     {
       "label": "Test",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L45",
+      "source_location": "L52",
       "id": "experiment_brief_workflow_readme_test",
-      "community": 1,
+      "community": 2,
       "norm_label": "test"
     },
     {
       "label": "code:sh (python3 -m unittest discover -s tests)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L47",
+      "source_location": "L54",
       "id": "experiment_brief_workflow_readme_codeblock_3",
-      "community": 1,
+      "community": 2,
       "norm_label": "code:sh (python3 -m unittest discover -s tests)"
     },
     {
       "label": "code:sh (npm test)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L53",
+      "source_location": "L60",
       "id": "experiment_brief_workflow_readme_codeblock_4",
-      "community": 1,
+      "community": 2,
       "norm_label": "code:sh (npm test)"
     },
     {
       "label": "Release/documentation gate",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L57",
+      "source_location": "L64",
       "id": "experiment_brief_workflow_readme_release_documentation_gate",
-      "community": 1,
+      "community": 2,
       "norm_label": "release/documentation gate"
     },
     {
       "label": "Documentation",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L67",
+      "source_location": "L74",
       "id": "experiment_brief_workflow_readme_documentation",
-      "community": 1,
+      "community": 2,
       "norm_label": "documentation"
     },
     {
       "label": "Safety note",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L78",
+      "source_location": "L85",
       "id": "experiment_brief_workflow_readme_safety_note",
-      "community": 1,
+      "community": 2,
       "norm_label": "safety note"
     },
     {
       "label": "Project notes",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L82",
+      "source_location": "L89",
       "id": "experiment_brief_workflow_readme_project_notes",
-      "community": 1,
+      "community": 2,
       "norm_label": "project notes"
     },
     {
@@ -1197,7 +1242,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/AGENTS.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_agents_md",
-      "community": 20,
+      "community": 16,
       "norm_label": "agents.md"
     },
     {
@@ -1206,7 +1251,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/AGENTS.md",
       "source_location": "L1",
       "id": "chore_graphify_bootstrap_agents_graphify",
-      "community": 20,
+      "community": 16,
       "norm_label": "graphify"
     },
     {
@@ -1215,7 +1260,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/CLAUDE.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_claude_md",
-      "community": 21,
+      "community": 15,
       "norm_label": "claude.md"
     },
     {
@@ -1224,7 +1269,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/CLAUDE.md",
       "source_location": "L1",
       "id": "chore_graphify_bootstrap_claude_graphify",
-      "community": 21,
+      "community": 15,
       "norm_label": "graphify"
     },
     {
@@ -1233,7 +1278,7 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L1",
       "id": "docs_release_notes_md",
-      "community": 0,
+      "community": 1,
       "norm_label": "release-notes.md"
     },
     {
@@ -1242,7 +1287,7 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L1",
       "id": "docs_release_notes_release_notes",
-      "community": 0,
+      "community": 1,
       "norm_label": "release notes"
     },
     {
@@ -1251,7 +1296,7 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L5",
       "id": "docs_release_notes_experiment_brief_workflow_update",
-      "community": 0,
+      "community": 1,
       "norm_label": "experiment brief workflow update"
     },
     {
@@ -1260,187 +1305,196 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L9",
       "id": "docs_release_notes_user_visible_changes",
-      "community": 0,
+      "community": 1,
       "norm_label": "user-visible changes"
+    },
+    {
+      "label": "Verification",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L17",
+      "id": "docs_release_notes_verification",
+      "community": 1,
+      "norm_label": "verification"
     },
     {
       "label": "Known limitations",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L17",
+      "source_location": "L25",
       "id": "docs_release_notes_known_limitations",
-      "community": 0,
+      "community": 1,
       "norm_label": "known limitations"
     },
     {
       "label": "Option C release validation",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L23",
+      "source_location": "L31",
       "id": "docs_release_notes_option_c_release_validation",
-      "community": 0,
+      "community": 1,
       "norm_label": "option c release validation"
     },
     {
       "label": "User-visible changes",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L27",
-      "id": "docs_release_notes_user_visible_changes_27",
-      "community": 0,
+      "source_location": "L35",
+      "id": "docs_release_notes_user_visible_changes_35",
+      "community": 1,
       "norm_label": "user-visible changes"
     },
     {
       "label": "Branches, commits, and remote evidence",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L39",
+      "source_location": "L47",
       "id": "docs_release_notes_branches_commits_and_remote_evidence",
-      "community": 0,
+      "community": 1,
       "norm_label": "branches, commits, and remote evidence"
     },
     {
       "label": "Verification",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L50",
-      "id": "docs_release_notes_verification",
-      "community": 0,
+      "source_location": "L58",
+      "id": "docs_release_notes_verification_58",
+      "community": 1,
       "norm_label": "verification"
     },
     {
       "label": "Known limitations",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L68",
-      "id": "docs_release_notes_known_limitations_68",
-      "community": 0,
+      "source_location": "L76",
+      "id": "docs_release_notes_known_limitations_76",
+      "community": 1,
       "norm_label": "known limitations"
     },
     {
       "label": "Release decision",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L76",
+      "source_location": "L84",
       "id": "docs_release_notes_release_decision",
-      "community": 0,
+      "community": 1,
       "norm_label": "release decision"
     },
     {
       "label": "Unreleased / MVP docs handoff",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L80",
+      "source_location": "L88",
       "id": "docs_release_notes_unreleased_mvp_docs_handoff",
-      "community": 0,
+      "community": 1,
       "norm_label": "unreleased / mvp docs handoff"
     },
     {
       "label": "User-visible changes",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L84",
-      "id": "docs_release_notes_user_visible_changes_84",
-      "community": 0,
+      "source_location": "L92",
+      "id": "docs_release_notes_user_visible_changes_92",
+      "community": 1,
       "norm_label": "user-visible changes"
     },
     {
       "label": "Verification",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L94",
-      "id": "docs_release_notes_verification_94",
-      "community": 0,
+      "source_location": "L102",
+      "id": "docs_release_notes_verification_102",
+      "community": 1,
       "norm_label": "verification"
     },
     {
       "label": "Known limitations",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L100",
-      "id": "docs_release_notes_known_limitations_100",
-      "community": 0,
+      "source_location": "L108",
+      "id": "docs_release_notes_known_limitations_108",
+      "community": 1,
       "norm_label": "known limitations"
     },
     {
       "label": "Release decision",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L106",
-      "id": "docs_release_notes_release_decision_106",
-      "community": 0,
+      "source_location": "L114",
+      "id": "docs_release_notes_release_decision_114",
+      "community": 1,
       "norm_label": "release decision"
     },
     {
       "label": "C-03 planning package",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L110",
+      "source_location": "L118",
       "id": "docs_release_notes_c_03_planning_package",
-      "community": 0,
+      "community": 1,
       "norm_label": "c-03 planning package"
     },
     {
       "label": "Planning outputs",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L112",
+      "source_location": "L120",
       "id": "docs_release_notes_planning_outputs",
-      "community": 0,
+      "community": 1,
       "norm_label": "planning outputs"
     },
     {
       "label": "Limitations",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L122",
+      "source_location": "L130",
       "id": "docs_release_notes_limitations",
-      "community": 0,
+      "community": 1,
       "norm_label": "limitations"
     },
     {
       "label": "C-02 static scaffold",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L126",
+      "source_location": "L134",
       "id": "docs_release_notes_c_02_static_scaffold",
-      "community": 0,
+      "community": 1,
       "norm_label": "c-02 static scaffold"
     },
     {
       "label": "Shipped behavior",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L128",
+      "source_location": "L136",
       "id": "docs_release_notes_shipped_behavior",
-      "community": 0,
+      "community": 1,
       "norm_label": "shipped behavior"
     },
     {
       "label": "Verification",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L137",
-      "id": "docs_release_notes_verification_137",
-      "community": 0,
+      "source_location": "L145",
+      "id": "docs_release_notes_verification_145",
+      "community": 1,
       "norm_label": "verification"
     },
     {
       "label": "Required fields for future entries",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L142",
+      "source_location": "L150",
       "id": "docs_release_notes_required_fields_for_future_entries",
-      "community": 0,
+      "community": 1,
       "norm_label": "required fields for future entries"
     },
     {
       "label": "Related docs",
       "file_type": "document",
       "source_file": "docs/release-notes.md",
-      "source_location": "L155",
+      "source_location": "L163",
       "id": "docs_release_notes_related_docs",
-      "community": 0,
+      "community": 1,
       "norm_label": "related docs"
     },
     {
@@ -1548,7 +1602,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L1",
       "id": "docs_user_guide_md",
-      "community": 8,
+      "community": 6,
       "norm_label": "user-guide.md"
     },
     {
@@ -1557,7 +1611,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L1",
       "id": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
-      "community": 8,
+      "community": 6,
       "norm_label": "user guide: from research source to experiment candidate"
     },
     {
@@ -1566,7 +1620,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L5",
       "id": "docs_user_guide_who_this_is_for",
-      "community": 8,
+      "community": 6,
       "norm_label": "who this is for"
     },
     {
@@ -1575,7 +1629,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L9",
       "id": "docs_user_guide_core_loop",
-      "community": 8,
+      "community": 6,
       "norm_label": "core loop"
     },
     {
@@ -1584,7 +1638,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L22",
       "id": "docs_user_guide_current_mvp_walkthrough",
-      "community": 8,
+      "community": 6,
       "norm_label": "current mvp walkthrough"
     },
     {
@@ -1593,52 +1647,61 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L26",
       "id": "docs_user_guide_codeblock_1",
-      "community": 8,
+      "community": 6,
       "norm_label": "code:sh (python3 -m http.server 5173)"
+    },
+    {
+      "label": "How to use Experiment Briefs",
+      "file_type": "document",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L44",
+      "id": "docs_user_guide_how_to_use_experiment_briefs",
+      "community": 6,
+      "norm_label": "how to use experiment briefs"
     },
     {
       "label": "How to read a candidate card",
       "file_type": "document",
       "source_file": "docs/user-guide.md",
-      "source_location": "L44",
+      "source_location": "L65",
       "id": "docs_user_guide_how_to_read_a_candidate_card",
-      "community": 8,
+      "community": 6,
       "norm_label": "how to read a candidate card"
     },
     {
       "label": "How to use search, filters, and exports",
       "file_type": "document",
       "source_file": "docs/user-guide.md",
-      "source_location": "L61",
+      "source_location": "L82",
       "id": "docs_user_guide_how_to_use_search_filters_and_exports",
-      "community": 8,
+      "community": 6,
       "norm_label": "how to use search, filters, and exports"
     },
     {
       "label": "How to use the backlog and shortlist",
       "file_type": "document",
       "source_file": "docs/user-guide.md",
-      "source_location": "L69",
+      "source_location": "L90",
       "id": "docs_user_guide_how_to_use_the_backlog_and_shortlist",
-      "community": 8,
+      "community": 6,
       "norm_label": "how to use the backlog and shortlist"
     },
     {
       "label": "What to do with weak evidence",
       "file_type": "document",
       "source_file": "docs/user-guide.md",
-      "source_location": "L81",
+      "source_location": "L102",
       "id": "docs_user_guide_what_to_do_with_weak_evidence",
-      "community": 8,
+      "community": 6,
       "norm_label": "what to do with weak evidence"
     },
     {
       "label": "Current limitations",
       "file_type": "document",
       "source_file": "docs/user-guide.md",
-      "source_location": "L85",
+      "source_location": "L106",
       "id": "docs_user_guide_current_limitations",
-      "community": 8,
+      "community": 6,
       "norm_label": "current limitations"
     },
     {
@@ -1647,7 +1710,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_release_checklist_md",
-      "community": 13,
+      "community": 11,
       "norm_label": "release-checklist.md"
     },
     {
@@ -1656,7 +1719,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L1",
       "id": "docs_release_checklist_release_checklist",
-      "community": 13,
+      "community": 11,
       "norm_label": "release checklist"
     },
     {
@@ -1665,7 +1728,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L5",
       "id": "docs_release_checklist_release_is_blocked_until_all_gates_pass",
-      "community": 13,
+      "community": 11,
       "norm_label": "release is blocked until all gates pass"
     },
     {
@@ -1674,7 +1737,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L19",
       "id": "docs_release_checklist_documentation_freshness_gate",
-      "community": 13,
+      "community": 11,
       "norm_label": "documentation freshness gate"
     },
     {
@@ -1683,7 +1746,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L32",
       "id": "docs_release_checklist_qa_release_verification",
-      "community": 13,
+      "community": 11,
       "norm_label": "qa-release verification"
     },
     {
@@ -1692,7 +1755,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L45",
       "id": "docs_release_checklist_automation_in_this_repo",
-      "community": 13,
+      "community": 11,
       "norm_label": "automation in this repo"
     },
     {
@@ -1701,7 +1764,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L49",
       "id": "docs_release_checklist_codeblock_1",
-      "community": 13,
+      "community": 11,
       "norm_label": "code:sh (python3 -m unittest discover -s tests)"
     },
     {
@@ -1710,7 +1773,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L61",
       "id": "docs_release_checklist_standard_release_evidence_packet",
-      "community": 13,
+      "community": 11,
       "norm_label": "standard release evidence packet"
     },
     {
@@ -1719,7 +1782,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_md",
-      "community": 10,
+      "community": 8,
       "norm_label": "handoff.md"
     },
     {
@@ -1728,7 +1791,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_handoff_research_to_project_lab",
-      "community": 10,
+      "community": 8,
       "norm_label": "handoff: research-to-project-lab"
     },
     {
@@ -1737,7 +1800,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L5",
       "id": "docs_handoff_product_decision",
-      "community": 10,
+      "community": 8,
       "norm_label": "product decision"
     },
     {
@@ -1746,7 +1809,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L9",
       "id": "docs_handoff_current_repo_state",
-      "community": 10,
+      "community": 8,
       "norm_label": "current repo state"
     },
     {
@@ -1755,7 +1818,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L22",
       "id": "docs_handoff_key_concepts",
-      "community": 10,
+      "community": 8,
       "norm_label": "key concepts"
     },
     {
@@ -1764,7 +1827,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L34",
       "id": "docs_handoff_next_implementation_sequence",
-      "community": 10,
+      "community": 8,
       "norm_label": "next implementation sequence"
     },
     {
@@ -1773,7 +1836,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L44",
       "id": "docs_handoff_qa_gates_to_preserve",
-      "community": 10,
+      "community": 8,
       "norm_label": "qa gates to preserve"
     },
     {
@@ -1782,7 +1845,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L54",
       "id": "docs_handoff_release_blocker_policy",
-      "community": 10,
+      "community": 8,
       "norm_label": "release blocker policy"
     },
     {
@@ -1791,7 +1854,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L66",
       "id": "docs_handoff_approval_boundaries",
-      "community": 10,
+      "community": 8,
       "norm_label": "approval boundaries"
     },
     {
@@ -1800,7 +1863,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L75",
       "id": "docs_handoff_source_artifacts",
-      "community": 10,
+      "community": 8,
       "norm_label": "source artifacts"
     },
     {
@@ -1809,7 +1872,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L89",
       "id": "docs_handoff_repo_docs",
-      "community": 10,
+      "community": 8,
       "norm_label": "repo docs"
     },
     {
@@ -1933,7 +1996,7 @@
       "label": "\uc9c0\uae08 \ub3d9\uc791\ud558\ub294 \uac83",
       "file_type": "document",
       "source_file": "docs/ko/README.md",
-      "source_location": "L7",
+      "source_location": "L13",
       "id": "ko_readme",
       "community": 5,
       "norm_label": "\u110c\u1175\u1100\u1173\u11b7 \u1103\u1169\u11bc\u110c\u1161\u11a8\u1112\u1161\u1102\u1173\u11ab \u1100\u1165\u11ba"
@@ -1942,8 +2005,8 @@
       "label": "\uc544\uc9c1 \uc548 \ub418\ub294 \uac83",
       "file_type": "document",
       "source_file": "docs/ko/README.md",
-      "source_location": "L23",
-      "id": "ko_readme_23",
+      "source_location": "L30",
+      "id": "ko_readme_30",
       "community": 5,
       "norm_label": "\u110b\u1161\u110c\u1175\u11a8 \u110b\u1161\u11ab \u1103\u116c\u1102\u1173\u11ab \u1100\u1165\u11ba"
     },
@@ -1951,8 +2014,8 @@
       "label": "\ub85c\uceec \uc2e4\ud589",
       "file_type": "document",
       "source_file": "docs/ko/README.md",
-      "source_location": "L31",
-      "id": "ko_readme_31",
+      "source_location": "L38",
+      "id": "ko_readme_38",
       "community": 5,
       "norm_label": "\u1105\u1169\u110f\u1165\u11af \u1109\u1175\u11af\u1112\u1162\u11bc"
     },
@@ -1960,7 +2023,7 @@
       "label": "code:sh (python3 -m http.server 5173)",
       "file_type": "document",
       "source_file": "docs/ko/README.md",
-      "source_location": "L33",
+      "source_location": "L40",
       "id": "ko_readme_codeblock_1",
       "community": 5,
       "norm_label": "code:sh (python3 -m http.server 5173)"
@@ -1969,7 +2032,7 @@
       "label": "code:sh (npm run serve)",
       "file_type": "document",
       "source_file": "docs/ko/README.md",
-      "source_location": "L41",
+      "source_location": "L48",
       "id": "ko_readme_codeblock_2",
       "community": 5,
       "norm_label": "code:sh (npm run serve)"
@@ -1978,8 +2041,8 @@
       "label": "\ud14c\uc2a4\ud2b8",
       "file_type": "document",
       "source_file": "docs/ko/README.md",
-      "source_location": "L45",
-      "id": "ko_readme_45",
+      "source_location": "L52",
+      "id": "ko_readme_52",
       "community": 5,
       "norm_label": "\u1110\u1166\u1109\u1173\u1110\u1173"
     },
@@ -1987,7 +2050,7 @@
       "label": "code:sh (python3 -m unittest discover -s tests)",
       "file_type": "document",
       "source_file": "docs/ko/README.md",
-      "source_location": "L47",
+      "source_location": "L54",
       "id": "ko_readme_codeblock_3",
       "community": 5,
       "norm_label": "code:sh (python3 -m unittest discover -s tests)"
@@ -1996,8 +2059,8 @@
       "label": "\ub9b4\ub9ac\uc988 \ubb38\uc11c \uac8c\uc774\ud2b8",
       "file_type": "document",
       "source_file": "docs/ko/README.md",
-      "source_location": "L52",
-      "id": "ko_readme_52",
+      "source_location": "L59",
+      "id": "ko_readme_59",
       "community": 5,
       "norm_label": "\u1105\u1175\u11af\u1105\u1175\u110c\u1173 \u1106\u116e\u11ab\u1109\u1165 \u1100\u1166\u110b\u1175\u1110\u1173"
     },
@@ -2005,8 +2068,8 @@
       "label": "\uc8fc\uc694 \ubb38\uc11c",
       "file_type": "document",
       "source_file": "docs/ko/README.md",
-      "source_location": "L60",
-      "id": "ko_readme_60",
+      "source_location": "L67",
+      "id": "ko_readme_67",
       "community": 5,
       "norm_label": "\u110c\u116e\u110b\u116d \u1106\u116e\u11ab\u1109\u1165"
     },
@@ -2016,7 +2079,7 @@
       "source_file": "docs/ko/user-guide.md",
       "source_location": "L1",
       "id": "docs_ko_user_guide_md",
-      "community": 6,
+      "community": 4,
       "norm_label": "user-guide.md"
     },
     {
@@ -2025,96 +2088,231 @@
       "source_file": "docs/ko/user-guide.md",
       "source_location": "L1",
       "id": "ko_user_guide",
-      "community": 6,
+      "community": 4,
       "norm_label": "\u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165 \u1109\u1161\u110b\u116d\u11bc\u110c\u1161 \u1100\u1161\u110b\u1175\u1103\u1173: \u110b\u1167\u11ab\u1100\u116e \u1109\u1169\u1109\u1173\u110b\u1166\u1109\u1165 \u1109\u1175\u11af\u1112\u1165\u11b7 \u1112\u116e\u1107\u1169\u1101\u1161\u110c\u1175"
+    },
+    {
+      "label": "\ub204\uad6c\ub97c \uc704\ud55c \ub3c4\uad6c\uc778\uac00",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L5",
+      "id": "ko_user_guide_5",
+      "community": 4,
+      "norm_label": "\u1102\u116e\u1100\u116e\u1105\u1173\u11af \u110b\u1171\u1112\u1161\u11ab \u1103\u1169\u1100\u116e\u110b\u1175\u11ab\u1100\u1161"
     },
     {
       "label": "\uae30\ubcf8 \ud750\ub984",
       "file_type": "document",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L5",
-      "id": "ko_user_guide_5",
-      "community": 6,
+      "source_location": "L9",
+      "id": "ko_user_guide_9",
+      "community": 4,
       "norm_label": "\u1100\u1175\u1107\u1169\u11ab \u1112\u1173\u1105\u1173\u11b7"
     },
     {
       "label": "\uc2e4\ud589",
       "file_type": "document",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L16",
-      "id": "ko_user_guide_16",
-      "community": 6,
+      "source_location": "L20",
+      "id": "ko_user_guide_20",
+      "community": 4,
       "norm_label": "\u1109\u1175\u11af\u1112\u1162\u11bc"
     },
     {
       "label": "code:sh (python3 -m http.server 5173)",
       "file_type": "document",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L18",
+      "source_location": "L22",
       "id": "ko_user_guide_codeblock_1",
-      "community": 6,
+      "community": 4,
       "norm_label": "code:sh (python3 -m http.server 5173)"
     },
     {
       "label": "Source intake \uc0ac\uc6a9\ubc95",
       "file_type": "document",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L24",
+      "source_location": "L28",
       "id": "ko_user_guide_source_intake",
-      "community": 6,
+      "community": 4,
       "norm_label": "source intake \u1109\u1161\u110b\u116d\u11bc\u1107\u1165\u11b8"
     },
     {
       "label": "Candidate card \uc77d\ub294 \ubc95",
       "file_type": "document",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L31",
+      "source_location": "L35",
       "id": "ko_user_guide_candidate_card",
-      "community": 6,
+      "community": 4,
       "norm_label": "candidate card \u110b\u1175\u11b0\u1102\u1173\u11ab \u1107\u1165\u11b8"
     },
     {
       "label": "Search/filter/export",
       "file_type": "document",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L42",
+      "source_location": "L46",
       "id": "ko_user_guide_search_filter_export",
-      "community": 6,
+      "community": 4,
       "norm_label": "search/filter/export"
+    },
+    {
+      "label": "Experiment Briefs",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L55",
+      "id": "ko_user_guide_experiment_briefs",
+      "community": 4,
+      "norm_label": "experiment briefs"
     },
     {
       "label": "\uc2b9\uaca9 \uc804 \uccb4\ud06c",
       "file_type": "document",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L50",
-      "id": "ko_user_guide_50",
-      "community": 6,
+      "source_location": "L76",
+      "id": "ko_user_guide_76",
+      "community": 4,
       "norm_label": "\u1109\u1173\u11bc\u1100\u1167\u11a8 \u110c\u1165\u11ab \u110e\u1166\u110f\u1173"
     },
     {
       "label": "\ud604\uc7ac \ud55c\uacc4",
       "file_type": "document",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L60",
-      "id": "ko_user_guide_60",
-      "community": 6,
+      "source_location": "L86",
+      "id": "ko_user_guide_86",
+      "community": 4,
       "norm_label": "\u1112\u1167\u11ab\u110c\u1162 \u1112\u1161\u11ab\u1100\u1168"
     },
     {
-      "label": "Experiment Briefs",
+      "label": "User-visible changes",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L27",
+      "community": 1,
+      "norm_label": "user-visible changes",
+      "id": "docs_release_notes_user_visible_changes_27"
+    },
+    {
+      "label": "Known limitations",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L68",
+      "community": 1,
+      "norm_label": "known limitations",
+      "id": "docs_release_notes_known_limitations_68"
+    },
+    {
+      "label": "User-visible changes",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L84",
+      "community": 1,
+      "norm_label": "user-visible changes",
+      "id": "docs_release_notes_user_visible_changes_84"
+    },
+    {
+      "label": "Verification",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L94",
+      "community": 1,
+      "norm_label": "verification",
+      "id": "docs_release_notes_verification_94"
+    },
+    {
+      "label": "Known limitations",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L100",
+      "community": 1,
+      "norm_label": "known limitations",
+      "id": "docs_release_notes_known_limitations_100"
+    },
+    {
+      "label": "Release decision",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L106",
+      "community": 1,
+      "norm_label": "release decision",
+      "id": "docs_release_notes_release_decision_106"
+    },
+    {
+      "label": "Verification",
+      "file_type": "document",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L137",
+      "community": 1,
+      "norm_label": "verification",
+      "id": "docs_release_notes_verification_137"
+    },
+    {
+      "label": "\uc544\uc9c1 \uc548 \ub418\ub294 \uac83",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L23",
+      "community": 5,
+      "norm_label": "\u110b\u1161\u110c\u1175\u11a8 \u110b\u1161\u11ab \u1103\u116c\u1102\u1173\u11ab \u1100\u1165\u11ba",
+      "id": "ko_readme_23"
+    },
+    {
+      "label": "\ub85c\uceec \uc2e4\ud589",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L31",
+      "community": 5,
+      "norm_label": "\u1105\u1169\u110f\u1165\u11af \u1109\u1175\u11af\u1112\u1162\u11bc",
+      "id": "ko_readme_31"
+    },
+    {
+      "label": "\ud14c\uc2a4\ud2b8",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L45",
+      "community": 5,
+      "norm_label": "\u1110\u1166\u1109\u1173\u1110\u1173",
+      "id": "ko_readme_45"
+    },
+    {
+      "label": "\uc8fc\uc694 \ubb38\uc11c",
+      "file_type": "document",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L60",
+      "community": 5,
+      "norm_label": "\u110c\u116e\u110b\u116d \u1106\u116e\u11ab\u1109\u1165",
+      "id": "ko_readme_60"
+    },
+    {
+      "label": "\uc2e4\ud589",
       "file_type": "document",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L72",
-      "id": "ko_user_guide_experiment_briefs",
-      "community": 6,
-      "norm_label": "experiment briefs"
+      "source_location": "L16",
+      "community": 4,
+      "norm_label": "\u1109\u1175\u11af\u1112\u1162\u11bc",
+      "id": "ko_user_guide_16"
+    },
+    {
+      "label": "\uc2b9\uaca9 \uc804 \uccb4\ud06c",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L50",
+      "community": 4,
+      "norm_label": "\u1109\u1173\u11bc\u1100\u1167\u11a8 \u110c\u1165\u11ab \u110e\u1166\u110f\u1173",
+      "id": "ko_user_guide_50"
+    },
+    {
+      "label": "\ud604\uc7ac \ud55c\uacc4",
+      "file_type": "document",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L60",
+      "community": 4,
+      "norm_label": "\u1112\u1167\u11ab\u110c\u1162 \u1112\u1161\u11ab\u1100\u1168",
+      "id": "ko_user_guide_60"
     },
     {
       "label": "test_documentation.py",
       "file_type": "code",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_documentation.py",
       "source_location": "L1",
-      "community": 15,
+      "community": 14,
       "norm_label": "test_documentation.py",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_documentation_py"
     },
@@ -2123,7 +2321,7 @@
       "file_type": "code",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_static_app.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_static_app.py",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_static_app_py"
     },
@@ -2132,7 +2330,7 @@
       "file_type": "code",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/src/app.js",
       "source_location": "L1",
-      "community": 3,
+      "community": 0,
       "norm_label": "app.js",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_src_app_js"
     },
@@ -2141,7 +2339,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L1",
-      "community": 1,
+      "community": 2,
       "norm_label": "readme.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_readme_md"
     },
@@ -2150,7 +2348,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L1",
-      "community": 1,
+      "community": 2,
       "norm_label": "research-to-project lab",
       "id": "chore_graphify_bootstrap_readme_research_to_project_lab"
     },
@@ -2159,7 +2357,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L7",
-      "community": 1,
+      "community": 2,
       "norm_label": "current shipped behavior",
       "id": "chore_graphify_bootstrap_readme_current_shipped_behavior"
     },
@@ -2168,7 +2366,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L22",
-      "community": 1,
+      "community": 2,
       "norm_label": "still not implemented",
       "id": "chore_graphify_bootstrap_readme_still_not_implemented"
     },
@@ -2177,7 +2375,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L30",
-      "community": 1,
+      "community": 2,
       "norm_label": "run locally",
       "id": "chore_graphify_bootstrap_readme_run_locally"
     },
@@ -2186,7 +2384,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L32",
-      "community": 1,
+      "community": 2,
       "norm_label": "code:sh (python3 -m http.server 5173)",
       "id": "chore_graphify_bootstrap_readme_codeblock_1"
     },
@@ -2195,7 +2393,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L40",
-      "community": 1,
+      "community": 2,
       "norm_label": "code:sh (npm run serve)",
       "id": "chore_graphify_bootstrap_readme_codeblock_2"
     },
@@ -2204,7 +2402,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L44",
-      "community": 1,
+      "community": 2,
       "norm_label": "test",
       "id": "chore_graphify_bootstrap_readme_test"
     },
@@ -2213,7 +2411,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L46",
-      "community": 1,
+      "community": 2,
       "norm_label": "code:sh (python3 -m unittest discover -s tests)",
       "id": "chore_graphify_bootstrap_readme_codeblock_3"
     },
@@ -2222,7 +2420,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L52",
-      "community": 1,
+      "community": 2,
       "norm_label": "code:sh (npm test)",
       "id": "chore_graphify_bootstrap_readme_codeblock_4"
     },
@@ -2231,7 +2429,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L56",
-      "community": 1,
+      "community": 2,
       "norm_label": "release/documentation gate",
       "id": "chore_graphify_bootstrap_readme_release_documentation_gate"
     },
@@ -2240,7 +2438,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L66",
-      "community": 1,
+      "community": 2,
       "norm_label": "documentation",
       "id": "chore_graphify_bootstrap_readme_documentation"
     },
@@ -2249,7 +2447,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L77",
-      "community": 1,
+      "community": 2,
       "norm_label": "safety note",
       "id": "chore_graphify_bootstrap_readme_safety_note"
     },
@@ -2258,7 +2456,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/README.md",
       "source_location": "L81",
-      "community": 1,
+      "community": 2,
       "norm_label": "project notes",
       "id": "chore_graphify_bootstrap_readme_project_notes"
     },
@@ -2267,7 +2465,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-notes.md",
       "source_location": "L1",
-      "community": 0,
+      "community": 1,
       "norm_label": "release-notes.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_release_notes_md"
     },
@@ -2276,7 +2474,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-notes.md",
       "source_location": "L66",
-      "community": 0,
+      "community": 1,
       "norm_label": "user-visible changes",
       "id": "docs_release_notes_user_visible_changes_66"
     },
@@ -2285,7 +2483,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-notes.md",
       "source_location": "L76",
-      "community": 0,
+      "community": 1,
       "norm_label": "verification",
       "id": "docs_release_notes_verification_76"
     },
@@ -2294,7 +2492,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-notes.md",
       "source_location": "L82",
-      "community": 0,
+      "community": 1,
       "norm_label": "known limitations",
       "id": "docs_release_notes_known_limitations_82"
     },
@@ -2303,7 +2501,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-notes.md",
       "source_location": "L88",
-      "community": 0,
+      "community": 1,
       "norm_label": "release decision",
       "id": "docs_release_notes_release_decision_88"
     },
@@ -2312,7 +2510,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-notes.md",
       "source_location": "L119",
-      "community": 0,
+      "community": 1,
       "norm_label": "verification",
       "id": "docs_release_notes_verification_119"
     },
@@ -2339,7 +2537,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/user-guide.md",
       "source_location": "L1",
-      "community": 8,
+      "community": 6,
       "norm_label": "user-guide.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_user_guide_md"
     },
@@ -2348,7 +2546,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/handoff.md",
       "source_location": "L1",
-      "community": 10,
+      "community": 8,
       "norm_label": "handoff.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_handoff_md"
     },
@@ -2371,15 +2569,6 @@
       "id": "ko_readme_22"
     },
     {
-      "label": "\ub85c\uceec \uc2e4\ud589",
-      "file_type": "document",
-      "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md",
-      "source_location": "L30",
-      "community": 5,
-      "norm_label": "\u1105\u1169\u110f\u1165\u11af \u1109\u1175\u11af\u1112\u1162\u11bc",
-      "id": "ko_readme_30"
-    },
-    {
       "label": "\ud14c\uc2a4\ud2b8",
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md",
@@ -2398,20 +2587,11 @@
       "id": "ko_readme_51"
     },
     {
-      "label": "\uc8fc\uc694 \ubb38\uc11c",
-      "file_type": "document",
-      "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md",
-      "source_location": "L59",
-      "community": 5,
-      "norm_label": "\u110c\u116e\u110b\u116d \u1106\u116e\u11ab\u1109\u1165",
-      "id": "ko_readme_59"
-    },
-    {
       "label": "user-guide.md",
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/user-guide.md",
       "source_location": "L1",
-      "community": 6,
+      "community": 4,
       "norm_label": "user-guide.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_ko_user_guide_md"
     },
@@ -2420,7 +2600,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/user-guide.md",
       "source_location": "L14",
-      "community": 6,
+      "community": 4,
       "norm_label": "\u1109\u1175\u11af\u1112\u1162\u11bc",
       "id": "ko_user_guide_14"
     },
@@ -2429,7 +2609,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/user-guide.md",
       "source_location": "L48",
-      "community": 6,
+      "community": 4,
       "norm_label": "\u1109\u1173\u11bc\u1100\u1167\u11a8 \u110c\u1165\u11ab \u110e\u1166\u110f\u1173",
       "id": "ko_user_guide_48"
     },
@@ -2438,7 +2618,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/user-guide.md",
       "source_location": "L58",
-      "community": 6,
+      "community": 4,
       "norm_label": "\u1112\u1167\u11ab\u110c\u1162 \u1112\u1161\u11ab\u1100\u1168",
       "id": "ko_user_guide_58"
     },
@@ -2456,7 +2636,7 @@
       "file_type": "code",
       "source_file": "tests/test_scoring_consistency.py",
       "source_location": "L1",
-      "community": 14,
+      "community": 13,
       "norm_label": "test_scoring_consistency.py",
       "id": "tests_test_scoring_consistency_py"
     },
@@ -2465,7 +2645,7 @@
       "file_type": "code",
       "source_file": "tests/test_source_records.py",
       "source_location": "L1",
-      "community": 11,
+      "community": 10,
       "norm_label": "test_source_records.py",
       "id": "tests_test_source_records_py"
     },
@@ -2474,7 +2654,7 @@
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L1",
-      "community": 20,
+      "community": 16,
       "norm_label": "agents.md",
       "id": "agents_md"
     },
@@ -2483,7 +2663,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
-      "community": 21,
+      "community": 15,
       "norm_label": "claude.md",
       "id": "claude_md"
     },
@@ -2492,7 +2672,7 @@
       "file_type": "document",
       "source_file": "docs/release-checklist.md",
       "source_location": "L1",
-      "community": 13,
+      "community": 11,
       "norm_label": "release-checklist.md",
       "id": "docs_release_checklist_md"
     },
@@ -3055,6 +3235,17 @@
       "target": "tests_test_static_app_read_text"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L293",
+      "weight": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests_test_experiment_brief_storage_and_export_are_hardened",
+      "target": "tests_test_static_app_read_text",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_static_app.py",
@@ -3213,6 +3404,16 @@
       "confidence_score": 1.0,
       "source": "tests_test_static_app_staticappscaffoldtests",
       "target": "tests_test_static_app_staticappscaffoldtests_test_experiment_brief_lane_actions_persist_and_export"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_static_app.py",
+      "source_location": "L292",
+      "weight": 1.0,
+      "source": "tests_test_static_app_staticappscaffoldtests",
+      "target": "tests_test_static_app_staticappscaffoldtests_test_experiment_brief_storage_and_export_are_hardened",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3458,6 +3659,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/app.js",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_normalizedstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
       "source_location": "L136",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3588,6 +3799,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/app.js",
+      "source_location": "L332",
+      "weight": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_candidateexportstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
       "source_location": "L287",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3653,6 +3874,26 @@
       "confidence_score": 1.0,
       "source": "src_app_js",
       "target": "src_app_persistbriefstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L411",
+      "weight": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_sanitizebrief",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L431",
+      "weight": 1.0,
+      "source": "src_app_js",
+      "target": "src_app_sanitizecandidatedecision",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4259,6 +4500,50 @@
       "target": "src_app_scoreentries"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "src_app_formatstatus",
+      "target": "src_app_normalizedstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L333",
+      "weight": 1.0,
+      "source": "src_app_candidateexportstatus",
+      "target": "src_app_normalizedstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L413",
+      "weight": 1.0,
+      "source": "src_app_sanitizebrief",
+      "target": "src_app_normalizedstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L433",
+      "weight": 1.0,
+      "source": "src_app_sanitizecandidatedecision",
+      "target": "src_app_normalizedstatus",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/src/app.js",
@@ -4478,6 +4763,17 @@
       "confidence_score": 1.0,
       "source": "src_app_brieftomarkdown",
       "target": "src_app_readinessforbrief"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/app.js",
+      "source_location": "L333",
+      "weight": 1.0,
+      "source": "src_app_candidateexportstatus",
+      "target": "src_app_sanitizecandidatedecision",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5241,6 +5537,16 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L17",
       "weight": 1.0,
+      "source": "docs_release_notes_experiment_brief_workflow_update",
+      "target": "docs_release_notes_verification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L17",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_release_notes_experiment_brief_workflow_update",
       "target": "docs_release_notes_known_limitations"
@@ -5259,6 +5565,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/release-notes.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_option_c_release_validation",
+      "target": "docs_release_notes_verification"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
       "source_location": "L50",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5269,11 +5585,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/release-notes.md",
-      "source_location": "L27",
+      "source_location": "L35",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "docs_release_notes_option_c_release_validation",
-      "target": "docs_release_notes_user_visible_changes_27"
+      "target": "docs_release_notes_user_visible_changes_35",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5289,11 +5605,41 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/release-notes.md",
-      "source_location": "L32",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "docs_release_notes_option_c_release_validation",
+      "target": "docs_release_notes_verification_58",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "docs_release_notes_option_c_release_validation",
+      "target": "docs_release_notes_known_limitations_76",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L58",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_release_notes_option_c_release_validation",
-      "target": "docs_release_notes_verification"
+      "target": "docs_release_notes_release_decision"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_release_notes_option_c_release_validation",
+      "target": "docs_release_notes_user_visible_changes_27"
     },
     {
       "relation": "contains",
@@ -5309,11 +5655,41 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/release-notes.md",
-      "source_location": "L58",
+      "source_location": "L92",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_release_notes_option_c_release_validation",
-      "target": "docs_release_notes_release_decision"
+      "source": "docs_release_notes_unreleased_mvp_docs_handoff",
+      "target": "docs_release_notes_user_visible_changes_92",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "docs_release_notes_unreleased_mvp_docs_handoff",
+      "target": "docs_release_notes_verification_102",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "docs_release_notes_unreleased_mvp_docs_handoff",
+      "target": "docs_release_notes_known_limitations_108",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "docs_release_notes_unreleased_mvp_docs_handoff",
+      "target": "docs_release_notes_release_decision_114",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5424,6 +5800,16 @@
       "confidence_score": 1.0,
       "source": "docs_release_notes_c_02_static_scaffold",
       "target": "docs_release_notes_shipped_behavior"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/release-notes.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "source": "docs_release_notes_c_02_static_scaffold",
+      "target": "docs_release_notes_verification_145",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5604,6 +5990,16 @@
       "confidence_score": 1.0,
       "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
       "target": "docs_user_guide_current_mvp_walkthrough"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/user-guide.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
+      "target": "docs_user_guide_how_to_use_experiment_briefs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5999,6 +6395,56 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/ko/README.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_30"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_38",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_52"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_59"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "ko_readme_research_to_project_lab_readme",
+      "target": "ko_readme_67",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
       "source_location": "L23",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6024,16 +6470,6 @@
       "confidence_score": 1.0,
       "source": "ko_readme_research_to_project_lab_readme",
       "target": "ko_readme_45"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ko/README.md",
-      "source_location": "L52",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ko_readme_research_to_project_lab_readme",
-      "target": "ko_readme_52"
     },
     {
       "relation": "contains",
@@ -6069,16 +6505,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/ko/README.md",
-      "source_location": "L30",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ko_readme_research_to_project_lab_readme",
-      "target": "ko_readme_30"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ko/README.md",
       "source_location": "L44",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6099,11 +6525,41 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/ko/README.md",
-      "source_location": "L59",
+      "source_location": "L32",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "ko_readme_research_to_project_lab_readme",
-      "target": "ko_readme_59"
+      "source": "ko_readme_30",
+      "target": "ko_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_readme_30",
+      "target": "ko_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "ko_readme_38",
+      "target": "ko_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "ko_readme_38",
+      "target": "ko_readme_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6129,21 +6585,11 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/ko/README.md",
-      "source_location": "L32",
+      "source_location": "L54",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ko_readme_30",
-      "target": "ko_readme_codeblock_1"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ko/README.md",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ko_readme_30",
-      "target": "ko_readme_codeblock_2"
+      "source": "ko_readme_52",
+      "target": "ko_readme_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6189,11 +6635,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/ko/user-guide.md",
-      "source_location": "L16",
+      "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "ko_user_guide",
-      "target": "ko_user_guide_16"
+      "target": "ko_user_guide_9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_20",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6229,6 +6685,46 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/ko/user-guide.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_experiment_briefs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_76",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_86",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ko_user_guide",
+      "target": "ko_user_guide_16"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
       "source_location": "L50",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -6244,16 +6740,6 @@
       "confidence_score": 1.0,
       "source": "ko_user_guide",
       "target": "ko_user_guide_60"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/ko/user-guide.md",
-      "source_location": "L72",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "ko_user_guide",
-      "target": "ko_user_guide_experiment_briefs"
     },
     {
       "relation": "contains",
@@ -6294,6 +6780,16 @@
       "confidence_score": 1.0,
       "source": "ko_user_guide",
       "target": "ko_user_guide_58"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/ko/user-guide.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "ko_user_guide_20",
+      "target": "ko_user_guide_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6447,5 +6943,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "54fd798eddafbdb3c903bc94d6a50d99f6bd7efa"
+  "built_at_commit": "3016220b541f0488325fa1eff746464b17735d99"
 }
