@@ -5,12 +5,12 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 298 nodes · 418 edges · 17 communities (10 shown, 7 thin omitted)
+- 298 nodes · 418 edges · 18 communities (11 shown, 7 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3016220b`
+- Built from commit: `ac076509`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -32,6 +32,7 @@
 - [[_COMMUNITY_Community 14|Community 14]]
 - [[_COMMUNITY_Community 15|Community 15]]
 - [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `StaticAppScaffoldTests` - 18 edges
@@ -46,13 +47,14 @@
 10. `Scoring Rubric Reference` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `formatStatus()` --calls--> `normalizedStatus()`  [EXTRACTED]
+  src/app.js → src/app.js  _Bridges community 15 → community 0_
 
-## Communities (17 total, 7 thin omitted)
+## Communities (18 total, 7 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.07
-Nodes (71): actionButtons(), allCandidates, allowedSourceTypes, briefToMarkdown(), buildCandidateDraft(), candidateDecisions, candidateEmptyStates, candidateErrorCopy (+63 more)
+Nodes (67): actionButtons(), allCandidates, allowedSourceTypes, briefToMarkdown(), buildCandidateDraft(), candidateDecisions, candidateEmptyStates, candidateErrorCopy (+59 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.06
@@ -80,15 +82,19 @@ Nodes (11): Browser QA is manual, Experiment Brief workflow is browser-local onl
 
 ### Community 8 - "Community 8"
 Cohesion: 0.17
-Nodes (10): Approval boundaries, Current repo state, Handoff: research-to-project-lab, Key concepts, Next implementation sequence, Product decision, QA gates to preserve, Release blocker policy (+2 more)
+Nodes (10): Current fixture examples, Dimensions, Manual override rule, Principles, Related docs, Score scale, Scoring Rubric Reference, Tie-breakers for future implementation (+2 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.17
-Nodes (10): Current fixture examples, Dimensions, Manual override rule, Principles, Related docs, Score scale, Scoring Rubric Reference, Tie-breakers for future implementation (+2 more)
+Nodes (10): Approval boundaries, Current repo state, Handoff: research-to-project-lab, Key concepts, Next implementation sequence, Product decision, QA gates to preserve, Release blocker policy (+2 more)
 
 ### Community 11 - "Community 11"
 Cohesion: 0.22
 Nodes (7): Automation in this repo, code:sh (python3 -m unittest discover -s tests), Documentation freshness gate, QA-release verification, Release Checklist, Release is blocked until all gates pass, Standard release evidence packet
+
+### Community 15 - "Community 15"
+Cohesion: 0.67
+Nodes (4): candidateExportStatus(), normalizedStatus(), sanitizeBrief(), sanitizeCandidateDecision()
 
 ## Knowledge Gaps
 - **111 isolated node(s):** `experimentBriefs`, `candidateDecisions`, `laneConfig`, `Current shipped behavior`, `Still not implemented` (+106 more)
