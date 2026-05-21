@@ -81,7 +81,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L1",
       "id": "tests_test_documentation_py",
-      "community": 13,
+      "community": 14,
       "norm_label": "test_documentation.py"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L10",
       "id": "tests_test_documentation_documentationfreshnesstests",
-      "community": 13,
+      "community": 14,
       "norm_label": "documentationfreshnesstests"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L11",
       "id": "tests_test_documentation_documentationfreshnesstests_test_markdown_relative_links_resolve",
-      "community": 13,
+      "community": 14,
       "norm_label": ".test_markdown_relative_links_resolve()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L24",
       "id": "tests_test_documentation_documentationfreshnesstests_test_readme_exposes_korean_docs_and_release_gate",
-      "community": 13,
+      "community": 14,
       "norm_label": ".test_readme_exposes_korean_docs_and_release_gate()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L33",
       "id": "tests_test_documentation_documentationfreshnesstests_test_docs_do_not_describe_shipped_features_as_absent",
-      "community": 13,
+      "community": 14,
       "norm_label": ".test_docs_do_not_describe_shipped_features_as_absent()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L46",
       "id": "tests_test_documentation_documentationfreshnesstests_test_release_checklist_contains_documentation_blockers",
-      "community": 13,
+      "community": 14,
       "norm_label": ".test_release_checklist_contains_documentation_blockers()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L56",
       "id": "tests_test_documentation_documentationfreshnesstests_test_docs_describe_shipped_experiment_brief_workflow",
-      "community": 13,
+      "community": 14,
       "norm_label": ".test_docs_describe_shipped_experiment_brief_workflow()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_scoring_consistency_py",
-      "community": 14,
+      "community": 13,
       "norm_label": "test_scoring_consistency.py"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L9",
       "id": "tests_test_scoring_consistency_load_json",
-      "community": 14,
+      "community": 13,
       "norm_label": "load_json()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L13",
       "id": "tests_test_scoring_consistency_scoringconsistencytests",
-      "community": 14,
+      "community": 13,
       "norm_label": "scoringconsistencytests"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L14",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_setup",
-      "community": 14,
+      "community": 13,
       "norm_label": ".setup()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L18",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_total_score_is_derived_from_visible_rubric_dimensions",
-      "community": 14,
+      "community": 13,
       "norm_label": ".test_total_score_is_derived_from_visible_rubric_dimensions()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L25",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_candidate_evidence_score_does_not_exceed_source_strength_ceiling",
-      "community": 14,
+      "community": 13,
       "norm_label": ".test_candidate_evidence_score_does_not_exceed_source_strength_ceiling()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L36",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_shortlisted_candidates_have_medium_or_better_visible_evidence",
-      "community": 14,
+      "community": 13,
       "norm_label": ".test_shortlisted_candidates_have_medium_or_better_visible_evidence()"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "src/app.js",
       "source_location": "L148",
       "id": "src_app_normalizedstatus",
-      "community": 15,
+      "community": 0,
       "norm_label": "normalizedstatus()"
     },
     {
@@ -801,7 +801,7 @@
       "source_file": "src/app.js",
       "source_location": "L332",
       "id": "src_app_candidateexportstatus",
-      "community": 15,
+      "community": 0,
       "norm_label": "candidateexportstatus()"
     },
     {
@@ -873,7 +873,7 @@
       "source_file": "src/app.js",
       "source_location": "L411",
       "id": "src_app_sanitizebrief",
-      "community": 15,
+      "community": 0,
       "norm_label": "sanitizebrief()"
     },
     {
@@ -882,7 +882,7 @@
       "source_file": "src/app.js",
       "source_location": "L431",
       "id": "src_app_sanitizecandidatedecision",
-      "community": 15,
+      "community": 0,
       "norm_label": "sanitizecandidatedecision()"
     },
     {
@@ -1242,7 +1242,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/AGENTS.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_agents_md",
-      "community": 17,
+      "community": 15,
       "norm_label": "agents.md"
     },
     {
@@ -1251,7 +1251,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/AGENTS.md",
       "source_location": "L1",
       "id": "chore_graphify_bootstrap_agents_graphify",
-      "community": 17,
+      "community": 15,
       "norm_label": "graphify"
     },
     {
@@ -1503,7 +1503,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L1",
       "id": "docs_known_issues_md",
-      "community": 7,
+      "community": 6,
       "norm_label": "known-issues.md"
     },
     {
@@ -1512,7 +1512,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L1",
       "id": "docs_known_issues_known_issues_and_limitations",
-      "community": 7,
+      "community": 6,
       "norm_label": "known issues and limitations"
     },
     {
@@ -1521,7 +1521,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L5",
       "id": "docs_known_issues_static_fixture_backed_app_data",
-      "community": 7,
+      "community": 6,
       "norm_label": "static fixture-backed app data"
     },
     {
@@ -1530,7 +1530,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L11",
       "id": "docs_known_issues_source_intake_is_local_draft_capture_not_live_ingestion",
-      "community": 7,
+      "community": 6,
       "norm_label": "source intake is local draft capture, not live ingestion"
     },
     {
@@ -1539,7 +1539,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L17",
       "id": "docs_known_issues_sourcerecord_contract_is_fixture_level_only",
-      "community": 7,
+      "community": 6,
       "norm_label": "sourcerecord contract is fixture-level only"
     },
     {
@@ -1548,7 +1548,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L23",
       "id": "docs_known_issues_scoring_is_static_fixture_data",
-      "community": 7,
+      "community": 6,
       "norm_label": "scoring is static fixture data"
     },
     {
@@ -1557,7 +1557,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L29",
       "id": "docs_known_issues_experiment_brief_workflow_is_browser_local_only",
-      "community": 7,
+      "community": 6,
       "norm_label": "experiment brief workflow is browser-local only"
     },
     {
@@ -1566,7 +1566,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L35",
       "id": "docs_known_issues_browser_qa_is_manual",
-      "community": 7,
+      "community": 6,
       "norm_label": "browser qa is manual"
     },
     {
@@ -1575,7 +1575,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L41",
       "id": "docs_known_issues_untrusted_content_hardening_must_continue_before_live_ingestion",
-      "community": 7,
+      "community": 6,
       "norm_label": "untrusted content hardening must continue before live ingestion"
     },
     {
@@ -1584,7 +1584,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L47",
       "id": "docs_known_issues_not_implemented_yet",
-      "community": 7,
+      "community": 6,
       "norm_label": "not implemented yet"
     },
     {
@@ -1593,7 +1593,7 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L59",
       "id": "docs_known_issues_related_docs",
-      "community": 7,
+      "community": 6,
       "norm_label": "related docs"
     },
     {
@@ -1602,7 +1602,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L1",
       "id": "docs_user_guide_md",
-      "community": 6,
+      "community": 7,
       "norm_label": "user-guide.md"
     },
     {
@@ -1611,7 +1611,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L1",
       "id": "docs_user_guide_user_guide_from_research_source_to_experiment_candidate",
-      "community": 6,
+      "community": 7,
       "norm_label": "user guide: from research source to experiment candidate"
     },
     {
@@ -1620,7 +1620,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L5",
       "id": "docs_user_guide_who_this_is_for",
-      "community": 6,
+      "community": 7,
       "norm_label": "who this is for"
     },
     {
@@ -1629,7 +1629,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L9",
       "id": "docs_user_guide_core_loop",
-      "community": 6,
+      "community": 7,
       "norm_label": "core loop"
     },
     {
@@ -1638,7 +1638,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L22",
       "id": "docs_user_guide_current_mvp_walkthrough",
-      "community": 6,
+      "community": 7,
       "norm_label": "current mvp walkthrough"
     },
     {
@@ -1647,7 +1647,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L26",
       "id": "docs_user_guide_codeblock_1",
-      "community": 6,
+      "community": 7,
       "norm_label": "code:sh (python3 -m http.server 5173)"
     },
     {
@@ -1656,7 +1656,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L44",
       "id": "docs_user_guide_how_to_use_experiment_briefs",
-      "community": 6,
+      "community": 7,
       "norm_label": "how to use experiment briefs"
     },
     {
@@ -1665,7 +1665,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L65",
       "id": "docs_user_guide_how_to_read_a_candidate_card",
-      "community": 6,
+      "community": 7,
       "norm_label": "how to read a candidate card"
     },
     {
@@ -1674,7 +1674,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L82",
       "id": "docs_user_guide_how_to_use_search_filters_and_exports",
-      "community": 6,
+      "community": 7,
       "norm_label": "how to use search, filters, and exports"
     },
     {
@@ -1683,7 +1683,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L90",
       "id": "docs_user_guide_how_to_use_the_backlog_and_shortlist",
-      "community": 6,
+      "community": 7,
       "norm_label": "how to use the backlog and shortlist"
     },
     {
@@ -1692,7 +1692,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L102",
       "id": "docs_user_guide_what_to_do_with_weak_evidence",
-      "community": 6,
+      "community": 7,
       "norm_label": "what to do with weak evidence"
     },
     {
@@ -1701,7 +1701,7 @@
       "source_file": "docs/user-guide.md",
       "source_location": "L106",
       "id": "docs_user_guide_current_limitations",
-      "community": 6,
+      "community": 7,
       "norm_label": "current limitations"
     },
     {
@@ -1782,7 +1782,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_md",
-      "community": 9,
+      "community": 8,
       "norm_label": "handoff.md"
     },
     {
@@ -1791,7 +1791,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_handoff_research_to_project_lab",
-      "community": 9,
+      "community": 8,
       "norm_label": "handoff: research-to-project-lab"
     },
     {
@@ -1800,7 +1800,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L5",
       "id": "docs_handoff_product_decision",
-      "community": 9,
+      "community": 8,
       "norm_label": "product decision"
     },
     {
@@ -1809,7 +1809,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L9",
       "id": "docs_handoff_current_repo_state",
-      "community": 9,
+      "community": 8,
       "norm_label": "current repo state"
     },
     {
@@ -1818,7 +1818,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L22",
       "id": "docs_handoff_key_concepts",
-      "community": 9,
+      "community": 8,
       "norm_label": "key concepts"
     },
     {
@@ -1827,7 +1827,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L34",
       "id": "docs_handoff_next_implementation_sequence",
-      "community": 9,
+      "community": 8,
       "norm_label": "next implementation sequence"
     },
     {
@@ -1836,7 +1836,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L44",
       "id": "docs_handoff_qa_gates_to_preserve",
-      "community": 9,
+      "community": 8,
       "norm_label": "qa gates to preserve"
     },
     {
@@ -1845,7 +1845,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L54",
       "id": "docs_handoff_release_blocker_policy",
-      "community": 9,
+      "community": 8,
       "norm_label": "release blocker policy"
     },
     {
@@ -1854,7 +1854,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L66",
       "id": "docs_handoff_approval_boundaries",
-      "community": 9,
+      "community": 8,
       "norm_label": "approval boundaries"
     },
     {
@@ -1863,7 +1863,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L75",
       "id": "docs_handoff_source_artifacts",
-      "community": 9,
+      "community": 8,
       "norm_label": "source artifacts"
     },
     {
@@ -1872,7 +1872,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L89",
       "id": "docs_handoff_repo_docs",
-      "community": 9,
+      "community": 8,
       "norm_label": "repo docs"
     },
     {
@@ -1881,7 +1881,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_scoring_rubric_md",
-      "community": 8,
+      "community": 9,
       "norm_label": "scoring-rubric.md"
     },
     {
@@ -1890,7 +1890,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L1",
       "id": "docs_scoring_rubric_scoring_rubric_reference",
-      "community": 8,
+      "community": 9,
       "norm_label": "scoring rubric reference"
     },
     {
@@ -1899,7 +1899,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L5",
       "id": "docs_scoring_rubric_principles",
-      "community": 8,
+      "community": 9,
       "norm_label": "principles"
     },
     {
@@ -1908,7 +1908,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L12",
       "id": "docs_scoring_rubric_score_scale",
-      "community": 8,
+      "community": 9,
       "norm_label": "score scale"
     },
     {
@@ -1917,7 +1917,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L24",
       "id": "docs_scoring_rubric_dimensions",
-      "community": 8,
+      "community": 9,
       "norm_label": "dimensions"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L34",
       "id": "docs_scoring_rubric_total_score_rule",
-      "community": 8,
+      "community": 9,
       "norm_label": "total score rule"
     },
     {
@@ -1935,7 +1935,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L42",
       "id": "docs_scoring_rubric_tie_breakers_for_future_implementation",
-      "community": 8,
+      "community": 9,
       "norm_label": "tie-breakers for future implementation"
     },
     {
@@ -1944,7 +1944,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L51",
       "id": "docs_scoring_rubric_weak_evidence_rule",
-      "community": 8,
+      "community": 9,
       "norm_label": "weak-evidence rule"
     },
     {
@@ -1953,7 +1953,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L55",
       "id": "docs_scoring_rubric_manual_override_rule",
-      "community": 8,
+      "community": 9,
       "norm_label": "manual override rule"
     },
     {
@@ -1962,7 +1962,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L59",
       "id": "docs_scoring_rubric_current_fixture_examples",
-      "community": 8,
+      "community": 9,
       "norm_label": "current fixture examples"
     },
     {
@@ -1971,7 +1971,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L67",
       "id": "docs_scoring_rubric_related_docs",
-      "community": 8,
+      "community": 9,
       "norm_label": "related docs"
     },
     {
@@ -2312,7 +2312,7 @@
       "file_type": "code",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_documentation.py",
       "source_location": "L1",
-      "community": 13,
+      "community": 14,
       "norm_label": "test_documentation.py",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_documentation_py"
     },
@@ -2519,7 +2519,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/known-issues.md",
       "source_location": "L1",
-      "community": 7,
+      "community": 6,
       "norm_label": "known-issues.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_known_issues_md"
     },
@@ -2528,7 +2528,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/known-issues.md",
       "source_location": "L29",
-      "community": 7,
+      "community": 6,
       "norm_label": "research backlog vs implementation backlog is visible but not workflow-backed",
       "id": "docs_known_issues_research_backlog_vs_implementation_backlog_is_visible_but_not_workflow_backed"
     },
@@ -2537,7 +2537,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/user-guide.md",
       "source_location": "L1",
-      "community": 6,
+      "community": 7,
       "norm_label": "user-guide.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_user_guide_md"
     },
@@ -2546,7 +2546,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/handoff.md",
       "source_location": "L1",
-      "community": 9,
+      "community": 8,
       "norm_label": "handoff.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_handoff_md"
     },
@@ -2636,7 +2636,7 @@
       "file_type": "code",
       "source_file": "tests/test_scoring_consistency.py",
       "source_location": "L1",
-      "community": 14,
+      "community": 13,
       "norm_label": "test_scoring_consistency.py",
       "id": "tests_test_scoring_consistency_py"
     },
@@ -2654,7 +2654,7 @@
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L1",
-      "community": 17,
+      "community": 15,
       "norm_label": "agents.md",
       "id": "agents_md"
     },
@@ -2681,7 +2681,7 @@
       "file_type": "document",
       "source_file": "docs/scoring-rubric.md",
       "source_location": "L1",
-      "community": 8,
+      "community": 9,
       "norm_label": "scoring-rubric.md",
       "id": "docs_scoring_rubric_md"
     }
@@ -6943,5 +6943,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ac0765097b746590f89015190315068bb89e356a"
+  "built_at_commit": "20ee015542dadeb5d1461075e020b3a983f22672"
 }
