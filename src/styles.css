@@ -461,3 +461,164 @@ button {
 .draft-card {
   margin-top: 18px;
 }
+
+.hero-actions,
+.workflow-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.hero-actions a.button {
+  text-decoration: none;
+}
+
+.workflow-chips {
+  padding: 0;
+  list-style: none;
+}
+
+.workflow-chips li,
+.workflow-grid li,
+.use-case-grid article {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: white;
+  padding: 14px 16px;
+}
+
+.workflow-chips li {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 900;
+}
+
+.local-note {
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.workflow-grid,
+.use-case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.workflow-grid li,
+.use-case-grid article {
+  display: grid;
+  gap: 8px;
+}
+
+.workflow-grid span,
+.use-case-grid p {
+  color: var(--muted);
+}
+
+.brief-workspace {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.8fr) minmax(320px, 1.2fr);
+  gap: 18px;
+  align-items: start;
+  margin-top: 18px;
+}
+
+.brief-list {
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.brief-list-item button {
+  width: 100%;
+  display: grid;
+  justify-items: start;
+  gap: 8px;
+  border-radius: 18px;
+  text-align: left;
+  white-space: normal;
+}
+
+.brief-list-item.is-selected button {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 2px var(--accent-soft);
+}
+
+.brief-editor {
+  display: grid;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: white;
+  padding: 18px;
+}
+
+.brief-editor label {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.brief-editor input,
+.brief-editor select,
+.brief-editor textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  padding: 12px 14px;
+}
+
+.lane-pill {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  padding: 5px 10px;
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.lane-pill--research_next {
+  border-color: #fedf89;
+  background: var(--warning-soft);
+  color: var(--warning);
+}
+
+.lane-pill--prototype_next {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.lane-pill--parked {
+  border-style: dashed;
+  background: var(--neutral-soft);
+  color: var(--muted);
+}
+
+.lane-pill--rejected {
+  border-color: #fda29b;
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.readiness-warning {
+  color: var(--danger);
+  font-weight: 800;
+}
+
+@media (max-width: 760px) {
+  .brief-workspace {
+    grid-template-columns: 1fr;
+  }
+}

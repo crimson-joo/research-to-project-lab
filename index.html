@@ -8,14 +8,52 @@
   </head>
   <body>
     <header class="hero">
-      <p class="eyebrow">Research intake → project shortlist</p>
-      <h1>Research-to-Project Lab</h1>
+      <p class="eyebrow">Research intake → experiment brief</p>
+      <h1>Choose the next project with evidence, not vibes.</h1>
       <p class="lede">
-        Turn recent papers, GitHub repositories, and manual notes into scored experiment candidates.
+        Capture papers, repos, articles, and notes; rank candidate experiments; then export a concise brief with rationale, risks, and pass/fail criteria for solo builders, research-heavy founders, and small product/engineering teams.
       </p>
+      <div class="hero-actions" aria-label="Primary workflow actions">
+        <a class="button button--primary" href="#intake-title">Add a source</a>
+        <a class="button button--secondary" href="#candidates-title">Inspect sample candidates</a>
+      </div>
+      <ol class="workflow-chips" aria-label="Research-to-brief workflow">
+        <li>Capture source</li>
+        <li>Review candidate</li>
+        <li>Pick lane</li>
+        <li>Export brief</li>
+      </ol>
+      <p class="local-note">Saved in this browser only. Export Markdown/JSON before sharing or switching devices.</p>
     </header>
 
     <main>
+      <section aria-labelledby="workflow-title" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">How it works</p>
+            <h2 id="workflow-title">From research signal to handoff-ready brief</h2>
+          </div>
+        </div>
+        <ol class="workflow-grid">
+          <li><strong>1. Capture</strong><span>Paste a GitHub repo, arXiv paper, article, or manual note.</span></li>
+          <li><strong>2. Score</strong><span>Review evidence, confidence, feasibility, and risks on candidate cards.</span></li>
+          <li><strong>3. Pick a lane</strong><span>Choose Research next, Prototype next, Park, or Reject with a reason.</span></li>
+          <li><strong>4. Export</strong><span>Copy Markdown or download JSON with candidate and brief decisions.</span></li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="use-cases-title" class="panel">
+        <div>
+          <p class="eyebrow">Use cases</p>
+          <h2 id="use-cases-title">Product clarity for research-heavy builders</h2>
+        </div>
+        <div class="use-case-grid">
+          <article><h3>Weekly experiment shortlist</h3><p>Review saved leads and promote 1–3 candidates into briefs for the next build cycle.</p></article>
+          <article><h3>Paper/repo-to-prototype handoff</h3><p>Turn an arXiv paper or GitHub repo into a prototype brief with inputs, risks, and checks.</p></article>
+          <article><h3>Research parking lot hygiene</h3><p>Park or reject weak/duplicate ideas without losing rationale or traceability.</p></article>
+        </div>
+      </section>
+
       <section aria-labelledby="intake-title" class="panel intake-panel">
         <div class="section-heading">
           <div>
@@ -113,15 +151,63 @@
         <ol id="backlog" class="shortlist"></ol>
       </section>
 
-      <section aria-labelledby="shortlist-title" class="panel shortlist-panel">
-        <div>
-          <p class="eyebrow">Shortlist placeholder</p>
-          <h2 id="shortlist-title">Top experiments to brief next</h2>
-          <p>
-            This area will become the weekly shortlist once source ingestion and human review are added.
-          </p>
+      <section id="experiment-briefs" aria-labelledby="briefs-title" class="panel brief-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Experiment Briefs</p>
+            <h2 id="briefs-title" tabindex="-1">Briefs to run next</h2>
+            <p>Choose a lane on any candidate card to create a local brief. Complete the prompts, then export Markdown or JSON for handoff.</p>
+            <p class="local-note">Saved in this browser only.</p>
+          </div>
+          <span id="brief-count" class="badge">0 briefs</span>
         </div>
-        <ol id="shortlist" class="shortlist"></ol>
+        <div class="brief-workspace">
+          <div>
+            <h3>Brief list</h3>
+            <ol id="brief-list" class="brief-list" aria-live="polite"></ol>
+          </div>
+          <form id="brief-form" class="brief-editor" novalidate>
+            <h3 id="brief-detail-title">No briefs yet. Choose Research next or Prototype next on a candidate card to create one.</h3>
+            <p id="brief-status" class="filter-summary" role="status" aria-live="polite">Select a brief to review fields and export readiness.</p>
+            <input type="hidden" name="brief_id" />
+            <label>Status
+              <select name="status">
+                <option value="research_next">Research next</option>
+                <option value="prototype_next">Prototype next</option>
+                <option value="parked">Parked</option>
+                <option value="rejected">Rejected</option>
+              </select>
+            </label>
+            <label>Problem
+              <textarea name="problem" rows="2" placeholder="What user/project problem does this experiment test?"></textarea>
+            </label>
+            <label>Hypothesis
+              <textarea name="hypothesis" rows="2" placeholder="If we run this, what should change or become clear?"></textarea>
+            </label>
+            <label>Smallest test
+              <textarea name="smallest_test" rows="2" placeholder="1–3 day test or research step"></textarea>
+            </label>
+            <label>Success criteria
+              <textarea name="success_criteria" rows="3" placeholder="One observable pass/fail signal per line"></textarea>
+            </label>
+            <label>Required inputs
+              <textarea name="required_inputs" rows="2" placeholder="Data, APIs, owner time, evals, design, etc."></textarea>
+            </label>
+            <label>Evidence
+              <textarea name="evidence" rows="3" placeholder="Strongest and weakest source signals"></textarea>
+            </label>
+            <label>Risks
+              <textarea name="risks" rows="2" placeholder="Known risks or reasons to slow down"></textarea>
+            </label>
+            <label>Decision reason
+              <textarea name="decision_reason" rows="2" placeholder="Required for Park/Reject; useful for Research/Prototype"></textarea>
+            </label>
+            <label>Next owner
+              <input name="next_owner" type="text" placeholder="product-planner or cto-engineering" />
+            </label>
+            <button type="submit">Save brief locally</button>
+          </form>
+        </div>
       </section>
     </main>
 

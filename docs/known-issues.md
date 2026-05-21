@@ -26,10 +26,10 @@ This project is still a dependency-free static MVP. Keep these limitations visib
 - Impact: there is no score editing, override reason, confidence model, or reviewer history yet.
 - Next owner: cto-engineering + design-engineer.
 
-## Research backlog vs implementation backlog is visible but not workflow-backed
+## Experiment Brief workflow is browser-local only
 
-- Current behavior: the UI shows candidate actions, next lanes, priority backlog, and shortlist placeholder.
-- Impact: these are planning aids only; they do not create implementation tickets, PRs, or experiment briefs.
+- Current behavior: the UI shows candidate actions, next lanes, priority backlog, and browser-local Experiment Briefs. Research next, Prototype next, Park, and Reject decisions persist in `research-to-project-lab.experimentBriefs.v1` and export through Markdown/JSON.
+- Impact: briefs are auditable handoff artifacts, but they do not create implementation tickets, PRs, synced records, or server-side workflow state.
 - Next owner: design-engineer + cto-engineering.
 
 ## Browser QA is manual

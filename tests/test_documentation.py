@@ -53,6 +53,20 @@ class DocumentationFreshnessTests(unittest.TestCase):
             "Stale shipped/planned claims",
         ]:
             self.assertIn(required, checklist)
+    def test_docs_describe_shipped_experiment_brief_workflow(self):
+        combined = "\n".join(doc.read_text(encoding="utf-8") for doc in DOC_FILES)
+        required = [
+            "Experiment Briefs",
+            "Research next",
+            "Prototype next",
+            "Park",
+            "Reject",
+            "browser-local Experiment Brief",
+            "research-to-project-lab.experimentBriefs.v1",
+            "Markdown and JSON exports include Experiment Brief data",
+        ]
+        for copy in required:
+            self.assertIn(copy, combined)
 
 
 if __name__ == "__main__":

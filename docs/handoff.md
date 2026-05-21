@@ -13,7 +13,7 @@ Research-to-Project Lab is a human-in-the-loop research-to-experiment planning a
 - Local fixture data in `data/sources.json` and `data/candidates.json`.
 - Browser source intake draft form backed by `localStorage` only.
 - Candidate cards with source traceability, state labels, risks, actions, score reasons, and evidence warnings.
-- Search, source filter, priority/title/source sorting, priority backlog, shortlist placeholder, Markdown export, and JSON export.
+- Search, source filter, priority/title/source sorting, priority backlog, browser-local Experiment Briefs, Markdown export, and JSON export.
 - Python stdlib unittest gate, including data contract and documentation checks.
 - `package.json` exists for script conventions.
 - GitHub Actions CI and GitHub Pages workflow are configured.
@@ -27,7 +27,7 @@ Research-to-Project Lab is a human-in-the-loop research-to-experiment planning a
 - Score: five visible rubric dimensions plus a total.
 - Priority score: deterministic UI ranking signal derived from rubric total, evidence confidence, and estimated effort.
 - Shortlist: a small ranked set for human review.
-- ExperimentBrief: future output that should turn a selected candidate into an implementation-ready plan.
+- ExperimentBrief: browser-local output that turns a selected candidate lane decision into a handoff-ready plan with rationale, risks, success criteria, owner, and source traceability.
 - Research backlog: ideas needing more source review or validation.
 - Implementation backlog: approved, scoped work ready for engineering.
 
@@ -37,7 +37,7 @@ Research-to-Project Lab is a human-in-the-loop research-to-experiment planning a
 2. Replace local-only intake drafts with a real source-review workflow and persisted SourceRecord store.
 3. Add duplicate handling and source merge decisions around the SourceRecord contract.
 4. Add reviewer-owned score editing, override rationale, confidence model, and history.
-5. Add experiment brief output after candidate review.
+5. Extract the browser-local Experiment Brief model into a more testable domain layer when the app grows beyond static HTML/JS.
 6. Add automated browser QA for the integrated flow.
 7. Update docs after behavior ships, then run the release documentation gate.
 

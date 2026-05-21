@@ -16,9 +16,21 @@ const rubricDescriptions = {
 
 const allowedSourceTypes = new Set(["arxiv", "github", "article", "manual"]);
 const draftStorageKey = "research-to-project-lab.sourceDraft.v1";
+const briefStorageKey = "research-to-project-lab.experimentBriefs.v1";
+const decisionStorageKey = "research-to-project-lab.candidateDecisions.v1";
 let loadedCandidates = [];
 let allCandidates = [];
 let sourceById = new Map();
+let experimentBriefs = [];
+let candidateDecisions = {};
+let selectedBriefId = null;
+
+const laneConfig = {
+  research_next: { label: "Research next", decision: "Research next", attr: 'data-lane="research_next"', owner: "product-planner", microcopy: "Define what evidence would make this worth prototyping." },
+  prototype_next: { label: "Prototype next", decision: "Prototype next", attr: 'data-lane="prototype_next"', owner: "cto-engineering", microcopy: "Write the smallest test and pass/fail signal before handoff." },
+  parked: { label: "Park", decision: "Parked", attr: 'data-lane="parked"', owner: "product-planner", microcopy: "Save the idea with a reason so the backlog stays clean." },
+  rejected: { label: "Reject", decision: "Rejected", attr: 'data-lane="rejected"', owner: "product-planner", microcopy: "Keep the rationale so the team does not re-litigate this lead later." },
+};
 
 const statusConfig = {
   new: { label: "New", primary: "Review card", guardrail: "Review extracted fields before ranking." },
@@ -133,8 +145,15 @@ function scoreEntries(scores) {
   return Object.entries(rubricLabels).map(([key, label]) => ({ key, label, value: scores[key] }));
 }
 
+function normalizedStatus(status, fallback = "needs_review") {
+  const raw = String(status || "");
+  return laneConfig[raw] || statusConfig[raw] ? raw : fallback;
+}
+
 function formatStatus(status) {
-  return statusConfig[status] ?? { label: status.replaceAll("_", " "), primary: "Review card", guardrail: "Review before promotion." };
+  const safeStatus = normalizedStatus(status);
+  if (laneConfig[safeStatus]) return { label: laneConfig[safeStatus].decision, primary: laneConfig[safeStatus].label, guardrail: laneConfig[safeStatus].microcopy };
+  return statusConfig[safeStatus] ?? { label: safeStatus.replaceAll("_", " "), primary: "Review card", guardrail: "Review before promotion." };
 }
 
 function sourceBadge(candidate) {
@@ -145,16 +164,9 @@ function sourceBadge(candidate) {
 
 function actionButtons(candidate) {
   const title = escapeHtml(candidate.title);
-  const configured = formatStatus(candidate.status);
-  const actions = [
-    { label: candidate.primary_action || configured.primary, kind: "primary" },
-    { label: "Research next", kind: "secondary" },
-    { label: "Prototype next", kind: "secondary" },
-    { label: "Park", kind: "secondary" },
-    { label: "Reject", kind: "secondary" },
-  ];
+  const actions = Object.entries(laneConfig).map(([lane, config]) => ({ lane, ...config, kind: lane === "prototype_next" ? "primary" : "secondary" }));
   return actions.map((action) => `
-    <button class="button button--${action.kind}" type="button" aria-label="${escapeHtml(action.label)} ${title}">
+    <button class="button button--${action.kind}" type="button" data-candidate-id="${escapeHtml(candidate.id)}" ${action.attr} aria-label="${escapeHtml(action.label)} ${title}">
       ${escapeHtml(action.label)}
     </button>
   `).join("");
@@ -200,8 +212,10 @@ function renderCandidates(candidates, filters = { query: "", sourceType: "all", 
   list.setAttribute("role", "list");
   list.setAttribute("aria-live", "polite");
   list.innerHTML = candidates.map((candidate) => {
-    const status = formatStatus(candidate.status);
-    const stateClass = `candidate-card--${candidate.status.replaceAll("_", "-")}`;
+    const decision = sanitizeCandidateDecision(candidateDecisions[candidate.id]);
+    const displayedStatus = normalizedStatus(decision?.status || candidate.status, candidate.status);
+    const status = formatStatus(displayedStatus);
+    const stateClass = `candidate-card--${displayedStatus.replaceAll("_", "-")}`;
     const evidenceWarnings = [...(candidate.warnings || [])];
     const tags = tagsFor(candidate);
     if (candidate.status === "fetch_error") evidenceWarnings.push(candidateErrorCopy.fetchFailed);
@@ -220,7 +234,7 @@ function renderCandidates(candidates, filters = { query: "", sourceType: "all", 
         <div class="status-row">
           <span class="status-label">${escapeHtml(status.label)}</span>
           <span>${escapeHtml(candidate.confidence || candidate.evidence_summary?.confidence || "unknown confidence")}</span>
-          <span>${escapeHtml(candidate.next_lane || candidate.estimated_effort || "needs review")}</span>
+          <span>${escapeHtml(decision?.decision || candidate.next_lane || candidate.estimated_effort || "needs review")}</span>
         </div>
         <p>${escapeHtml(candidate.summary)}</p>
         <div class="tag-list" aria-label="Candidate tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
@@ -258,6 +272,7 @@ function shortlistNotices(ranked) {
 
 function renderShortlist(candidates) {
   const shortlist = document.querySelector("#shortlist");
+  if (!shortlist) return;
   const ranked = [...candidates].filter((candidate) => candidate.status === "shortlisted").sort((left, right) => right.total_score - left.total_score).slice(0, 3);
   if (ranked.length === 0) {
     shortlist.innerHTML = `<li class="empty-state" role="status" aria-live="polite"><strong>No shortlist yet.</strong><span>Score candidates first, then choose the experiments worth running this cycle.</span><button class="button" type="button">Open scoring</button></li>`;
@@ -284,37 +299,81 @@ function renderBacklog(candidates) {
   `).join("");
 }
 
+function listItems(items) {
+  return (items || []).filter(Boolean).map((item) => `  - ${item}`).join("\n") || "  - Not specified";
+}
+
+function visibleBriefsFor(candidates) {
+  const ids = new Set(candidates.map((candidate) => candidate.id));
+  return experimentBriefs.filter((brief) => ids.has(brief.candidate_id));
+}
+
+function briefToMarkdown(brief) {
+  const readiness = readinessForBrief(brief);
+  return [
+    `## ${brief.title}`,
+    `- Status: ${laneConfig[brief.status]?.decision || brief.status}`,
+    `- Readiness: ${readiness.label}`,
+    `- Candidate: ${brief.candidate_id}`,
+    `- Problem: ${brief.problem || "Not specified"}`,
+    `- Hypothesis: ${brief.hypothesis || "Not specified"}`,
+    `- Smallest test: ${brief.smallest_test || "Not specified"}`,
+    `- Success criteria:\n${listItems(brief.success_criteria)}`,
+    `- Required inputs:\n${listItems(brief.required_inputs)}`,
+    `- Evidence: ${brief.evidence?.strongest_signals?.join("; ") || "Not specified"}`,
+    `- Risks:\n${listItems(brief.risks)}`,
+    `- Decision reason: ${brief.decision_reason || "Not specified"}`,
+    `- Next owner: ${brief.next_owner || "Not specified"}`,
+    `- Source refs: ${(brief.evidence?.source_refs || []).join("; ") || "Not specified"}`,
+    `- Updated: ${brief.updated_at}`,
+  ].join("\n");
+}
+
+function candidateExportStatus(candidate) {
+  return normalizedStatus(sanitizeCandidateDecision(candidateDecisions[candidate.id])?.status || candidate.status, candidate.status);
+}
+
 function candidatesToMarkdown(candidates) {
-  return candidates.map((candidate, index) => [
+  const candidateMarkdown = candidates.map((candidate, index) => [
     `## ${index + 1}. ${candidate.title}`,
     `- Source: ${candidate.source_type} — ${candidate.source_url}`,
     `- Priority: ${priorityScore(candidate)} / Rubric: ${candidate.total_score}`,
-    `- Status: ${candidate.status}`,
+    `- Status: ${candidateExportStatus(candidate)}`,
     `- Experiment: ${candidate.implied_experiment}`,
     `- Risks: ${(candidate.risks || []).join("; ")}`,
   ].join("\n")).join("\n\n");
+  const briefs = visibleBriefsFor(candidates);
+  const briefMarkdown = briefs.length ? `\n\n# Experiment Briefs\n\n${briefs.map(briefToMarkdown).join("\n\n")}` : "\n\n# Experiment Briefs\n\nNo browser-local Experiment Briefs saved for this filtered view.";
+  return `${candidateMarkdown}${briefMarkdown}`;
 }
 
 function exportPayload(candidates) {
-  return candidates.map((candidate) => ({
-    id: candidate.id,
-    title: candidate.title,
-    source_type: candidate.source_type,
-    source_url: candidate.source_url,
-    status: candidate.status,
-    total_score: candidate.total_score,
-    priority_score: priorityScore(candidate),
-    tags: tagsFor(candidate),
-    implied_experiment: candidate.implied_experiment,
-    risks: candidate.risks || [],
-  }));
+  return {
+    candidates: candidates.map((candidate) => ({
+      id: candidate.id,
+      title: candidate.title,
+      source_type: candidate.source_type,
+      source_url: candidate.source_url,
+      status: candidateExportStatus(candidate),
+      total_score: candidate.total_score,
+      priority_score: priorityScore(candidate),
+      tags: tagsFor(candidate),
+      implied_experiment: candidate.implied_experiment,
+      risks: candidate.risks || [],
+    })),
+    experiment_briefs: visibleBriefsFor(candidates),
+  };
 }
 
 async function copyMarkdown(candidates) {
   const markdown = candidatesToMarkdown(candidates);
   if (navigator.clipboard?.writeText) {
-    await navigator.clipboard.writeText(markdown);
-    return "Copied Markdown export to clipboard.";
+    try {
+      await navigator.clipboard.writeText(markdown);
+      return "Copied Markdown export to clipboard.";
+    } catch (_error) {
+      return `Clipboard copy failed. Select and copy this Markdown manually:\n\n${markdown}`;
+    }
   }
   return markdown;
 }
@@ -326,6 +385,237 @@ function downloadJson(candidates) {
   link.download = "research-to-project-candidates.json";
   link.click();
   URL.revokeObjectURL(link.href);
+}
+
+
+function parseLines(value) {
+  return String(value || "").split("\n").map((line) => line.trim()).filter(Boolean);
+}
+
+function loadJson(key, fallback) {
+  try { const raw = window.localStorage.getItem(key); return raw ? JSON.parse(raw) : fallback; } catch (_error) { return fallback; }
+}
+
+function persistBriefState() {
+  try {
+    window.localStorage.setItem(briefStorageKey, JSON.stringify(experimentBriefs));
+    window.localStorage.setItem(decisionStorageKey, JSON.stringify(candidateDecisions));
+    return true;
+  } catch (_error) {
+    const status = document.querySelector("#brief-status");
+    if (status) status.textContent = "Could not save locally. Copy or export your brief before leaving this page.";
+    return false;
+  }
+}
+
+function sanitizeBrief(brief) {
+  if (!brief || typeof brief !== "object" || !brief.brief_id || !brief.candidate_id) return null;
+  const status = normalizedStatus(brief.status, "research_next");
+  return {
+    ...brief,
+    status,
+    decision: laneConfig[status]?.decision || brief.decision || "Research next",
+    success_criteria: Array.isArray(brief.success_criteria) ? brief.success_criteria : [],
+    required_inputs: Array.isArray(brief.required_inputs) ? brief.required_inputs : [],
+    risks: Array.isArray(brief.risks) ? brief.risks : [],
+    non_goals: Array.isArray(brief.non_goals) ? brief.non_goals : [],
+    evidence: brief.evidence && typeof brief.evidence === "object" ? {
+      strongest_signals: Array.isArray(brief.evidence.strongest_signals) ? brief.evidence.strongest_signals : [],
+      weakest_signals: Array.isArray(brief.evidence.weakest_signals) ? brief.evidence.weakest_signals : [],
+      confidence: brief.evidence.confidence || "medium",
+      source_refs: Array.isArray(brief.evidence.source_refs) ? brief.evidence.source_refs : [],
+    } : { strongest_signals: [], weakest_signals: [], confidence: "medium", source_refs: [] },
+  };
+}
+
+function sanitizeCandidateDecision(decision) {
+  if (!decision || typeof decision !== "object") return null;
+  const status = normalizedStatus(decision.status, "");
+  if (!status) return null;
+  return {
+    status,
+    decision: laneConfig[status]?.decision || statusConfig[status]?.label || "Review card",
+    updated_at: typeof decision.updated_at === "string" ? decision.updated_at : new Date().toISOString(),
+  };
+}
+
+function hydrateBriefState() {
+  const storedBriefs = loadJson(briefStorageKey, []);
+  experimentBriefs = Array.isArray(storedBriefs) ? storedBriefs.map(sanitizeBrief).filter(Boolean) : [];
+  const storedDecisions = loadJson(decisionStorageKey, {});
+  candidateDecisions = Object.fromEntries(
+    Object.entries(storedDecisions && typeof storedDecisions === "object" && !Array.isArray(storedDecisions) ? storedDecisions : {})
+      .map(([candidateId, decision]) => [candidateId, sanitizeCandidateDecision(decision)])
+      .filter(([, decision]) => Boolean(decision))
+  );
+  selectedBriefId = experimentBriefs[0]?.brief_id || null;
+}
+
+function candidateById(candidateId) {
+  return allCandidates.find((candidate) => candidate.id === candidateId);
+}
+
+function defaultBriefFor(candidate, status) {
+  const now = new Date().toISOString();
+  const sourceRefs = [...(candidate.trace?.evidence_refs || []), ...(candidate.source_ids || [])];
+  return {
+    brief_id: `brief-${candidate.id}`,
+    candidate_id: candidate.id,
+    title: candidate.title,
+    status,
+    decision: laneConfig[status].decision,
+    problem: candidate.summary || "",
+    hypothesis: candidate.why_interesting || "",
+    smallest_test: status === "prototype_next" ? candidate.implied_experiment || "" : "",
+    success_criteria: candidate.acceptance_check ? [candidate.acceptance_check] : [],
+    required_inputs: candidate.required_inputs || [],
+    evidence: {
+      strongest_signals: [candidate.evidence_summary?.summary || candidate.trace?.review_rationale || ""].filter(Boolean),
+      weakest_signals: candidate.warnings || [],
+      confidence: candidate.evidence_summary?.confidence || candidate.confidence || "medium",
+      source_refs: sourceRefs,
+    },
+    risks: candidate.risks || [],
+    decision_reason: "",
+    next_owner: laneConfig[status].owner,
+    non_goals: [],
+    notes: laneConfig[status].microcopy,
+    created_at: now,
+    updated_at: now,
+    export_version: "experiment-brief.v1",
+  };
+}
+
+function createOrUpdateBrief(candidate, status) {
+  const existing = experimentBriefs.find((brief) => brief.candidate_id === candidate.id);
+  const now = new Date().toISOString();
+  const brief = existing ? { ...existing, status, decision: laneConfig[status].decision, next_owner: existing.next_owner || laneConfig[status].owner, updated_at: now } : defaultBriefFor(candidate, status);
+  if (existing) experimentBriefs = experimentBriefs.map((item) => item.brief_id === brief.brief_id ? brief : item);
+  else experimentBriefs = [brief, ...experimentBriefs];
+  candidateDecisions[candidate.id] = { status, decision: laneConfig[status].decision, updated_at: now };
+  selectedBriefId = brief.brief_id;
+  persistBriefState();
+  renderFilteredCandidates();
+  renderBriefPanel();
+  document.querySelector("#briefs-title")?.focus();
+}
+
+function readinessForBrief(brief) {
+  const criteriaCount = (brief.success_criteria || []).length;
+  if (brief.status === "prototype_next" && (!brief.smallest_test || criteriaCount === 0)) {
+    return { label: "Needs details", message: "Prototype next needs a smallest test and at least one observable success criterion before handoff.", complete: false };
+  }
+  if (["parked", "rejected"].includes(brief.status) && !brief.decision_reason) {
+    return { label: "Needs reason", message: "Add a reason so this decision remains auditable.", complete: false };
+  }
+  if (["parked", "rejected"].includes(brief.status)) return { label: "Auditable decision", message: "Decision rationale is exportable with source traceability.", complete: true };
+  return { label: "Ready to export", message: "Brief has enough detail for a Markdown or JSON handoff.", complete: true };
+}
+
+function renderBriefList() {
+  const list = document.querySelector("#brief-list");
+  const count = document.querySelector("#brief-count");
+  if (count) count.textContent = `${experimentBriefs.length} ${experimentBriefs.length === 1 ? "brief" : "briefs"}`;
+  if (!list) return;
+  if (!experimentBriefs.length) {
+    list.innerHTML = `<li class="empty-state" role="status">No briefs yet. Choose Research next or Prototype next on a candidate card to create one.</li>`;
+    return;
+  }
+  list.innerHTML = experimentBriefs.map((brief) => {
+    const readiness = readinessForBrief(brief);
+    return `<li class="brief-list-item ${selectedBriefId === brief.brief_id ? "is-selected" : ""}">
+      <button type="button" class="button" data-brief-id="${escapeHtml(brief.brief_id)}" aria-label="Select brief ${escapeHtml(brief.title)}">
+        <strong>${escapeHtml(brief.title)}</strong>
+        <span class="lane-pill lane-pill--${escapeHtml(brief.status)}">${escapeHtml(laneConfig[brief.status]?.decision || brief.status)}</span>
+        <span>${escapeHtml(readiness.label)} — From candidate ${escapeHtml(brief.candidate_id)}</span>
+      </button>
+    </li>`;
+  }).join("");
+}
+
+function fillBriefForm(brief) {
+  const form = document.querySelector("#brief-form");
+  const title = document.querySelector("#brief-detail-title");
+  const status = document.querySelector("#brief-status");
+  if (!form || !title || !status) return;
+  if (!brief) {
+    form.reset();
+    title.textContent = "No briefs yet. Choose Research next or Prototype next on a candidate card to create one.";
+    status.textContent = "Select a brief to review fields and export readiness.";
+    return;
+  }
+  const readiness = readinessForBrief(brief);
+  title.textContent = brief.title;
+  status.innerHTML = `<span class="lane-pill lane-pill--${escapeHtml(brief.status)}">${escapeHtml(laneConfig[brief.status]?.decision || brief.status)}</span> <span class="${readiness.complete ? "" : "readiness-warning"}">${escapeHtml(readiness.message)}</span>`;
+  form.elements.brief_id.value = brief.brief_id;
+  form.elements.status.value = brief.status;
+  form.elements.problem.value = brief.problem || "";
+  form.elements.hypothesis.value = brief.hypothesis || "";
+  form.elements.smallest_test.value = brief.smallest_test || "";
+  form.elements.success_criteria.value = (brief.success_criteria || []).join("\n");
+  form.elements.required_inputs.value = (brief.required_inputs || []).join("\n");
+  form.elements.evidence.value = (brief.evidence?.strongest_signals || []).join("\n");
+  form.elements.risks.value = (brief.risks || []).join("\n");
+  form.elements.decision_reason.value = brief.decision_reason || "";
+  form.elements.next_owner.value = brief.next_owner || "";
+}
+
+function renderBriefPanel() {
+  renderBriefList();
+  fillBriefForm(experimentBriefs.find((brief) => brief.brief_id === selectedBriefId));
+}
+
+function saveSelectedBriefFromForm(form) {
+  const formData = new FormData(form);
+  const briefId = String(formData.get("brief_id") || "");
+  const current = experimentBriefs.find((brief) => brief.brief_id === briefId);
+  if (!current) return;
+  const status = String(formData.get("status") || current.status);
+  const updated = {
+    ...current,
+    status,
+    decision: laneConfig[status]?.decision || status,
+    problem: String(formData.get("problem") || "").trim(),
+    hypothesis: String(formData.get("hypothesis") || "").trim(),
+    smallest_test: String(formData.get("smallest_test") || "").trim(),
+    success_criteria: parseLines(formData.get("success_criteria")),
+    required_inputs: parseLines(formData.get("required_inputs")),
+    evidence: { ...current.evidence, strongest_signals: parseLines(formData.get("evidence")) },
+    risks: parseLines(formData.get("risks")),
+    decision_reason: String(formData.get("decision_reason") || "").trim(),
+    next_owner: String(formData.get("next_owner") || laneConfig[status]?.owner || "").trim(),
+    updated_at: new Date().toISOString(),
+  };
+  experimentBriefs = experimentBriefs.map((brief) => brief.brief_id === briefId ? updated : brief);
+  candidateDecisions[updated.candidate_id] = { status, decision: updated.decision, updated_at: updated.updated_at };
+  persistBriefState();
+  renderFilteredCandidates();
+  renderBriefPanel();
+  const readiness = readinessForBrief(updated);
+  const statusNode = document.querySelector("#brief-status");
+  if (statusNode) statusNode.textContent = `Saved locally at ${new Date(updated.updated_at).toLocaleTimeString()}. ${readiness.message}`;
+}
+
+function setupBriefWorkflow() {
+  hydrateBriefState();
+  document.querySelector("#candidate-list")?.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-lane][data-candidate-id]");
+    if (!button) return;
+    const candidate = candidateById(button.dataset.candidateId);
+    const lane = button.dataset.lane;
+    if (candidate && laneConfig[lane]) createOrUpdateBrief(candidate, lane);
+  });
+  document.querySelector("#brief-list")?.addEventListener("click", (event) => {
+    const button = event.target.closest("button[data-brief-id]");
+    if (!button) return;
+    selectedBriefId = button.dataset.briefId;
+    renderBriefPanel();
+  });
+  document.querySelector("#brief-form")?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    saveSelectedBriefFromForm(event.currentTarget);
+  });
+  renderBriefPanel();
 }
 
 function renderFilteredCandidates() {
@@ -460,6 +750,7 @@ async function main() {
   allCandidates = loadedCandidates;
   const sources = await sourceResponse.json();
   sourceById = new Map(sources.map((source) => [source.id, source]));
+  setupBriefWorkflow();
   renderFilteredCandidates();
   renderShortlist(loadedCandidates);
 }

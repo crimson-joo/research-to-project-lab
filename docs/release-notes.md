@@ -2,6 +2,32 @@
 
 These notes record user-visible repo behavior and planning milestones. They are not a production SaaS deployment log.
 
+## Experiment Brief workflow update
+
+Date: 2026-05-21
+
+### User-visible changes
+
+- Added first-run product clarity copy for the research intake → experiment brief workflow.
+- Added How it works and Use cases panels for solo builders, research-heavy founders, and small product/engineering teams.
+- Added candidate lane actions for Research next, Prototype next, Park, and Reject.
+- Added browser-local Experiment Briefs persisted under `research-to-project-lab.experimentBriefs.v1`.
+- Markdown and JSON exports include Experiment Brief data when present.
+
+### Verification
+
+- `python3 -m unittest discover -s tests` → pass, 32 tests in the implementation handoff.
+- `node --check src/app.js` → pass in the implementation handoff.
+- `npm test` → pass, 32 tests in the implementation handoff.
+- Browser smoke reported pass for creating lane briefs and exporting brief data.
+- Documentation freshness pass: README, Korean README, English user guide, and Korean user guide now describe shipped Experiment Brief behavior.
+
+### Known limitations
+
+- Experiment Briefs are browser-local and unsynced.
+- Lane actions do not create implementation tickets, PRs, or external workflow records.
+- Browser QA remains manual until a dedicated automated browser gate is added.
+
 ## Option C release validation
 
 Date: 2026-05-20
