@@ -232,6 +232,63 @@ class StaticAppScaffoldTests(unittest.TestCase):
             scored.append((score, candidate["title"]))
         self.assertEqual(max(scored)[1], "Code as Agent Harness")
 
+    def test_onboarding_explains_experiment_brief_workflow(self):
+        html = read_text("index.html")
+        css = read_text("src/styles.css")
+
+        for copy in [
+            "Research intake → experiment brief",
+            "Choose the next project with evidence, not vibes.",
+            "solo builders, research-heavy founders, and small product/engineering teams",
+            "Capture source",
+            "Review candidate",
+            "Pick lane",
+            "Export brief",
+            "Saved in this browser only. Export Markdown/JSON before sharing or switching devices.",
+            "Weekly experiment shortlist",
+            "Paper/repo-to-prototype handoff",
+            "Research parking lot hygiene",
+        ]:
+            self.assertIn(copy, html)
+        for selector in [".workflow-grid", ".use-case-grid", ".hero-actions", ".local-note"]:
+            self.assertIn(selector, css)
+
+    def test_experiment_brief_lane_actions_persist_and_export(self):
+        html = read_text("index.html")
+        js = read_text("src/app.js")
+        css = read_text("src/styles.css")
+
+        for markup in [
+            'id="experiment-briefs"',
+            'id="brief-list"',
+            'id="brief-form"',
+            'id="brief-status"',
+            'name="smallest_test"',
+            'name="success_criteria"',
+            'name="decision_reason"',
+        ]:
+            self.assertIn(markup, html)
+        for behavior in [
+            "research-to-project-lab.experimentBriefs.v1",
+            "research-to-project-lab.candidateDecisions.v1",
+            "laneConfig",
+            "createOrUpdateBrief",
+            "renderBriefPanel",
+            "saveSelectedBriefFromForm",
+            "readinessForBrief",
+            "experiment_briefs",
+            "# Experiment Briefs",
+            "Prototype next needs a smallest test and at least one observable success criterion before handoff.",
+            "Add a reason so this decision remains auditable.",
+            "data-lane=\"research_next\"",
+            "data-lane=\"prototype_next\"",
+            "data-lane=\"parked\"",
+            "data-lane=\"rejected\"",
+        ]:
+            self.assertIn(behavior, js)
+        for selector in [".brief-workspace", ".brief-list", ".brief-editor", ".lane-pill--prototype_next", ".readiness-warning"]:
+            self.assertIn(selector, css)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -2,7 +2,7 @@
 
 [한국어 문서](docs/ko/README.md) · [User guide](docs/user-guide.md) · [Live demo](https://crimson-joo.github.io/research-to-project-lab/)
 
-Research-to-Project Lab is a dependency-free static MVP for turning research sources into scored experiment candidates. It helps a solo or small-team builder decide which research-backed experiment deserves attention next.
+Research-to-Project Lab is a dependency-free static MVP for turning research sources into scored experiment candidates and browser-local Experiment Briefs. It helps a solo or small-team builder decide which research-backed experiment deserves attention next.
 
 ## Current shipped behavior
 
@@ -14,8 +14,9 @@ Research-to-Project Lab is a dependency-free static MVP for turning research sou
 - Candidate search, source-type filter, and sorting by priority score, title, or source type.
 - Five-dimension scoring rubric: novelty, feasibility, leverage, evidence strength, and user fit.
 - Priority backlog computed from rubric total, evidence confidence, and estimated effort.
-- Shortlist placeholder for candidates marked `shortlisted`.
-- Markdown clipboard export and JSON download for the current filtered candidate view.
+- Candidate lane actions: Research next, Prototype next, Park, and Reject create a browser-local Experiment Brief.
+- Experiment Briefs persist through `research-to-project-lab.experimentBriefs.v1` in `localStorage`; this is browser-only state, not synced storage.
+- Markdown clipboard export and JSON download for the current filtered candidate view. Markdown and JSON exports include Experiment Brief data when present.
 - Python unittest gates and GitHub Actions CI.
 - GitHub Pages deploy workflow and canary-smoked public demo.
 

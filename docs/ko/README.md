@@ -14,8 +14,9 @@ Research-to-Project Lab은 논문, GitHub 저장소, 글, 수동 메모를 **실
 - candidate 검색, source type 필터, priority/title/source 정렬
 - novelty, feasibility, leverage, evidence strength, user fit 5개 점수 기준
 - rubric total + confidence + effort 기반 priority backlog
-- shortlisted fixture 후보를 보여주는 shortlist placeholder
-- 현재 필터 결과 Markdown 복사와 JSON 다운로드
+- Candidate lane action: Research next, Prototype next, Park, Reject가 브라우저 로컬 Experiment Brief를 생성
+- `research-to-project-lab.experimentBriefs.v1` localStorage 기반 Experiment Brief 저장
+- 현재 필터 결과 Markdown 복사와 JSON 다운로드. Markdown and JSON exports include Experiment Brief data
 - Python unittest와 GitHub Actions CI
 - GitHub Pages 배포: `https://crimson-joo.github.io/research-to-project-lab/`
 

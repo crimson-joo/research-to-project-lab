@@ -1,6 +1,6 @@
 # User Guide: From Research Source to Experiment Candidate
 
-Research-to-Project Lab helps a builder compare research inputs as possible experiments. The current app is a static MVP: it has a working browser UI, fixture-backed source/candidate data, local draft intake, search/filter, backlog ranking, and export controls. It is not a live research crawler or multi-user product yet.
+Research-to-Project Lab helps a builder compare research inputs as possible experiments. The current app is a static MVP: it has a working browser UI, fixture-backed source/candidate data, local draft intake, search/filter, backlog ranking, browser-local Experiment Briefs, and export controls. It is not a live research crawler or multi-user product yet.
 
 ## Who this is for
 
@@ -13,10 +13,11 @@ Use this when you are a solo or small-team AI/product builder choosing the next 
 3. Scoring: rate the candidate on five visible dimensions.
 4. Search/filter/sort: narrow the candidate set by source, keyword, or priority.
 5. Backlog/shortlist: compare the strongest candidates.
-6. Export: copy Markdown or download JSON for review and handoff.
-7. Experiment brief: write the next build/test plan after human review.
+6. Lane decision: choose Research next, Prototype next, Park, or Reject on a candidate card.
+7. Experiment brief: complete the browser-local Experiment Brief with rationale, risks, owner, and pass/fail criteria.
+8. Export: copy Markdown or download JSON for review and handoff.
 
-The current MVP represents steps 1-6 in a static browser scaffold. Experiment brief generation remains future work.
+The current MVP keeps Experiment Briefs in browser `localStorage` under `research-to-project-lab.experimentBriefs.v1`; this is not synced/server persistence.
 
 ## Current MVP walkthrough
 
@@ -35,8 +36,10 @@ The current MVP represents steps 1-6 in a static browser scaffold. Experiment br
 5. Read candidate cards loaded from `data/candidates.json` and source records in `data/sources.json`.
 6. Search candidate text, tags, source metadata, source type, and experiment text.
 7. Filter by source type and sort by priority score, title, or source type.
-8. Review the **Priority backlog** and **Shortlist placeholder**.
-9. Export the current filtered candidate view with **Copy Markdown** or **Download JSON**.
+8. Review the **Priority backlog**.
+9. Click **Research next**, **Prototype next**, **Park**, or **Reject** on a candidate card to create or update an Experiment Brief.
+10. Complete the brief fields. Prototype next needs a smallest test and at least one success criterion before it is ready for handoff; Park/Reject need a decision reason to stay auditable.
+11. Export the current filtered candidate view with **Copy Markdown** or **Download JSON**. Markdown and JSON exports include Experiment Brief data when present.
 
 ## How to read a candidate card
 
@@ -52,15 +55,16 @@ Each fixture candidate includes:
 - score breakdown: novelty, feasibility, leverage, evidence strength, and user fit;
 - priority score: rubric total plus confidence and effort signal;
 - risks and warnings: reasons to slow down or research more;
-- status: current fixture status such as `shortlisted`, `needs_review`, `parked`, or `fetch_error`.
+- status: current fixture status such as `shortlisted`, `needs_review`, `parked`, or `fetch_error`;
+- lane actions: Research next, Prototype next, Park, and Reject create a browser-local Experiment Brief with candidate/source traceability.
 
 ## How to use search, filters, and exports
 
 - Search covers titles, tags, source metadata, source type, and experiment text.
 - Source filters narrow to GitHub, arXiv, or manual fixture candidates.
 - Priority sorting favors high rubric score, stronger evidence confidence, and smaller estimated effort.
-- Markdown export is useful for a planning note or review thread.
-- JSON export is useful for downstream tooling, but it is still a static browser export, not server persistence.
+- Markdown export is useful for a planning note or review thread and includes an `Experiment Briefs` section.
+- JSON export is useful for downstream tooling and includes a top-level `experiment_briefs` list, but it is still a static browser export, not server persistence.
 
 ## How to use the backlog and shortlist
 
@@ -72,7 +76,7 @@ Before promoting a candidate into implementation work:
 - check component scores, not only the total;
 - read the risks and warnings;
 - confirm whether the next lane is research, prototype, park, or reject;
-- write a human-reviewed experiment brief.
+- complete and export a human-reviewed browser-local Experiment Brief.
 
 ## What to do with weak evidence
 

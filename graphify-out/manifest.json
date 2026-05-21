@@ -4,8 +4,8 @@
     "hash": "169ea1cf30b12f585859a96a6446281c"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/tests/test_documentation.py": {
-    "mtime": 1779332365.7951941,
-    "hash": "a6871162ac983cd1d1f831ac6758d8d2"
+    "mtime": 1779333313.4397178,
+    "hash": "397db2e7a6af083c409fb6996465c720"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/tests/test_scoring_consistency.py": {
     "mtime": 1779332365.7954435,
@@ -16,20 +16,20 @@
     "hash": "39791910fa48647b4037cfc053220912"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/tests/test_static_app.py": {
-    "mtime": 1779332365.7957067,
-    "hash": "ec8e9f2ec165a913e47b5a73cb15ae1b"
+    "mtime": 1779333306.9556673,
+    "hash": "087291c1ad05c4be5f7bff376d599535"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/src/app.js": {
-    "mtime": 1779332365.7948012,
-    "hash": "f5f1ad376379bd978a63d5445f41d1a2"
+    "mtime": 1779333482.0044324,
+    "hash": "c4ebc773eb38887eb6d462cdff434cb8"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/index.html": {
-    "mtime": 1779332365.794292,
-    "hash": "446054a63919c1523c4056fa746723be"
+    "mtime": 1779333364.402405,
+    "hash": "d99e9ae775ff7e4cb7f28a855d524b29"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/README.md": {
-    "mtime": 1779332365.791486,
-    "hash": "ecd2d9bf7a3c7de0fac477e87e57171c"
+    "mtime": 1779333554.068768,
+    "hash": "25cb4314e0904397074fd2db8d39e3e0"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/AGENTS.md": {
     "mtime": 1779332996.3417149,
@@ -40,35 +40,35 @@
     "hash": "da79aa9343cd2b362206f03762160abc"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/release-notes.md": {
-    "mtime": 1779332365.7935898,
-    "hash": "809b146f39fa3d2fa38ef08330d06e69"
+    "mtime": 1779333554.069693,
+    "hash": "1d76fd6ad862eefcdd8340c62244a54f"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/known-issues.md": {
-    "mtime": 1779332365.793033,
-    "hash": "57b95066e625b7f5f29b54d12a1ae099"
+    "mtime": 1779333554.0691333,
+    "hash": "0eae0e5d2c7671808283b8bb3a3e4a4c"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/user-guide.md": {
-    "mtime": 1779332365.7939458,
-    "hash": "3bd09224c39ad43822857ea46d44fdd0"
+    "mtime": 1779333554.0690043,
+    "hash": "8c74448944e35c8204351f767df328eb"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/release-checklist.md": {
     "mtime": 1779332365.7934544,
     "hash": "db22a4b7150bbd6554506dc61b0a89f7"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/handoff.md": {
-    "mtime": 1779332365.7927158,
-    "hash": "282bdb944e070b302dbd702ebca77df3"
+    "mtime": 1779333554.0692885,
+    "hash": "e1e87b2981934618cafb1af39bd68a0d"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/scoring-rubric.md": {
     "mtime": 1779332365.7938166,
     "hash": "f19a6140e6fc598e2ffe178aa62cce15"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/ko/README.md": {
-    "mtime": 1779332365.7931893,
-    "hash": "58aee9079256e7b81d1b4be8d4e059de"
+    "mtime": 1779333554.0694318,
+    "hash": "d7c9b95c03aa0a60431b93711cede1be"
   },
   "/Users/crimson/worktrees/research-to-project-lab/feature/experiment-brief-workflow/docs/ko/user-guide.md": {
-    "mtime": 1779332365.7933266,
-    "hash": "12c61612421111ce59ec3302866f2bac"
+    "mtime": 1779333554.0695593,
+    "hash": "4f8904cb0adcf6b1dd60d28bc06d4c2d"
   }
 }
