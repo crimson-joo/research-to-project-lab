@@ -14,6 +14,14 @@ Date: 2026-05-21
 - Added browser-local Experiment Briefs persisted under `research-to-project-lab.experimentBriefs.v1`.
 - Markdown and JSON exports include Experiment Brief data when present.
 
+### Verification
+
+- `python3 -m unittest discover -s tests` → pass, 32 tests in the implementation handoff.
+- `node --check src/app.js` → pass in the implementation handoff.
+- `npm test` → pass, 32 tests in the implementation handoff.
+- Browser smoke reported pass for creating lane briefs and exporting brief data.
+- Documentation freshness pass: README, Korean README, English user guide, and Korean user guide now describe shipped Experiment Brief behavior.
+
 ### Known limitations
 
 - Experiment Briefs are browser-local and unsynced.

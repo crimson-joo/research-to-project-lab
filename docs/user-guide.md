@@ -41,6 +41,27 @@ The current MVP keeps Experiment Briefs in browser `localStorage` under `researc
 10. Complete the brief fields. Prototype next needs a smallest test and at least one success criterion before it is ready for handoff; Park/Reject need a decision reason to stay auditable.
 11. Export the current filtered candidate view with **Copy Markdown** or **Download JSON**. Markdown and JSON exports include Experiment Brief data when present.
 
+## How to use Experiment Briefs
+
+Experiment Briefs are the handoff layer between “this source looks promising” and “someone should research or prototype this next.” They are created from candidate cards, then edited in the **Experiment Briefs** panel.
+
+1. Choose a lane on a candidate card:
+   - **Research next**: keep the candidate in research until the team knows what evidence would justify a prototype.
+   - **Prototype next**: prepare a small build/test handoff. The brief needs a smallest test and at least one success criterion.
+   - **Park**: save the idea with a decision reason so it can be revisited without cluttering the active backlog.
+   - **Reject**: save why the idea should not move forward so the team does not re-litigate it later.
+2. Review the generated brief. It starts with the candidate title, source refs, evidence signal, risks, required inputs, and lane-specific next owner.
+3. Edit the fields that make the handoff clear: problem, hypothesis, smallest test, success criteria, required inputs, evidence, risks, decision reason, and next owner.
+4. Click **Save brief locally**. The app stores the brief in browser `localStorage` and updates the card status for this browser.
+5. Export Markdown or JSON before sharing, switching browsers, or clearing site data.
+
+Readiness labels mean:
+
+- **Ready to export**: the brief has enough detail for a Markdown or JSON handoff.
+- **Needs details**: Prototype next is missing a smallest test or success criterion.
+- **Needs reason**: Park or Reject is missing a decision reason.
+- **Auditable decision**: Park or Reject has enough rationale to export with source traceability.
+
 ## How to read a candidate card
 
 Each fixture candidate includes:
@@ -88,6 +109,7 @@ If an idea looks valuable but the evidence is thin, keep it in research. Do not 
 - Data is still fixture-backed JSON.
 - Scores are static and not editable in the UI.
 - No server persistence, auth, multi-user sync, or automatic implementation tickets exist.
+- Experiment Briefs are stored per browser. Clearing site data or using another device will not carry them over unless you export first.
 - Browser QA remains manual.
 
 See [Known issues](known-issues.md), [Scoring rubric](scoring-rubric.md), and [Release checklist](release-checklist.md) for details.

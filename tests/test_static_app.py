@@ -289,6 +289,22 @@ class StaticAppScaffoldTests(unittest.TestCase):
         for selector in [".brief-workspace", ".brief-list", ".brief-editor", ".lane-pill--prototype_next", ".readiness-warning"]:
             self.assertIn(selector, css)
 
+    def test_experiment_brief_storage_and_export_are_hardened(self):
+        js = read_text("src/app.js")
+        for behavior in [
+            "function normalizedStatus",
+            "function sanitizeBrief",
+            "function sanitizeCandidateDecision",
+            "Array.isArray(storedBriefs)",
+            "!Array.isArray(storedDecisions)",
+            "candidateExportStatus(candidate)",
+            "Clipboard copy failed. Select and copy this Markdown manually:",
+            "try {\n      await navigator.clipboard.writeText(markdown);",
+        ]:
+            self.assertIn(behavior, js)
+        self.assertNotIn('const displayedStatus = decision?.status || candidate.status;', js)
+        self.assertNotIn('status: candidateDecisions[candidate.id]?.status || candidate.status', js)
+
 
 if __name__ == "__main__":
     unittest.main()

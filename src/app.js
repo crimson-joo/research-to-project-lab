@@ -145,9 +145,15 @@ function scoreEntries(scores) {
   return Object.entries(rubricLabels).map(([key, label]) => ({ key, label, value: scores[key] }));
 }
 
+function normalizedStatus(status, fallback = "needs_review") {
+  const raw = String(status || "");
+  return laneConfig[raw] || statusConfig[raw] ? raw : fallback;
+}
+
 function formatStatus(status) {
-  if (laneConfig[status]) return { label: laneConfig[status].decision, primary: laneConfig[status].label, guardrail: laneConfig[status].microcopy };
-  return statusConfig[status] ?? { label: status.replaceAll("_", " "), primary: "Review card", guardrail: "Review before promotion." };
+  const safeStatus = normalizedStatus(status);
+  if (laneConfig[safeStatus]) return { label: laneConfig[safeStatus].decision, primary: laneConfig[safeStatus].label, guardrail: laneConfig[safeStatus].microcopy };
+  return statusConfig[safeStatus] ?? { label: safeStatus.replaceAll("_", " "), primary: "Review card", guardrail: "Review before promotion." };
 }
 
 function sourceBadge(candidate) {
@@ -206,8 +212,8 @@ function renderCandidates(candidates, filters = { query: "", sourceType: "all", 
   list.setAttribute("role", "list");
   list.setAttribute("aria-live", "polite");
   list.innerHTML = candidates.map((candidate) => {
-    const decision = candidateDecisions[candidate.id];
-    const displayedStatus = decision?.status || candidate.status;
+    const decision = sanitizeCandidateDecision(candidateDecisions[candidate.id]);
+    const displayedStatus = normalizedStatus(decision?.status || candidate.status, candidate.status);
     const status = formatStatus(displayedStatus);
     const stateClass = `candidate-card--${displayedStatus.replaceAll("_", "-")}`;
     const evidenceWarnings = [...(candidate.warnings || [])];
@@ -323,12 +329,16 @@ function briefToMarkdown(brief) {
   ].join("\n");
 }
 
+function candidateExportStatus(candidate) {
+  return normalizedStatus(sanitizeCandidateDecision(candidateDecisions[candidate.id])?.status || candidate.status, candidate.status);
+}
+
 function candidatesToMarkdown(candidates) {
   const candidateMarkdown = candidates.map((candidate, index) => [
     `## ${index + 1}. ${candidate.title}`,
     `- Source: ${candidate.source_type} — ${candidate.source_url}`,
     `- Priority: ${priorityScore(candidate)} / Rubric: ${candidate.total_score}`,
-    `- Status: ${candidateDecisions[candidate.id]?.status || candidate.status}`,
+    `- Status: ${candidateExportStatus(candidate)}`,
     `- Experiment: ${candidate.implied_experiment}`,
     `- Risks: ${(candidate.risks || []).join("; ")}`,
   ].join("\n")).join("\n\n");
@@ -344,7 +354,7 @@ function exportPayload(candidates) {
       title: candidate.title,
       source_type: candidate.source_type,
       source_url: candidate.source_url,
-      status: candidateDecisions[candidate.id]?.status || candidate.status,
+      status: candidateExportStatus(candidate),
       total_score: candidate.total_score,
       priority_score: priorityScore(candidate),
       tags: tagsFor(candidate),
@@ -358,8 +368,12 @@ function exportPayload(candidates) {
 async function copyMarkdown(candidates) {
   const markdown = candidatesToMarkdown(candidates);
   if (navigator.clipboard?.writeText) {
-    await navigator.clipboard.writeText(markdown);
-    return "Copied Markdown export to clipboard.";
+    try {
+      await navigator.clipboard.writeText(markdown);
+      return "Copied Markdown export to clipboard.";
+    } catch (_error) {
+      return `Clipboard copy failed. Select and copy this Markdown manually:\n\n${markdown}`;
+    }
   }
   return markdown;
 }
@@ -394,9 +408,46 @@ function persistBriefState() {
   }
 }
 
+function sanitizeBrief(brief) {
+  if (!brief || typeof brief !== "object" || !brief.brief_id || !brief.candidate_id) return null;
+  const status = normalizedStatus(brief.status, "research_next");
+  return {
+    ...brief,
+    status,
+    decision: laneConfig[status]?.decision || brief.decision || "Research next",
+    success_criteria: Array.isArray(brief.success_criteria) ? brief.success_criteria : [],
+    required_inputs: Array.isArray(brief.required_inputs) ? brief.required_inputs : [],
+    risks: Array.isArray(brief.risks) ? brief.risks : [],
+    non_goals: Array.isArray(brief.non_goals) ? brief.non_goals : [],
+    evidence: brief.evidence && typeof brief.evidence === "object" ? {
+      strongest_signals: Array.isArray(brief.evidence.strongest_signals) ? brief.evidence.strongest_signals : [],
+      weakest_signals: Array.isArray(brief.evidence.weakest_signals) ? brief.evidence.weakest_signals : [],
+      confidence: brief.evidence.confidence || "medium",
+      source_refs: Array.isArray(brief.evidence.source_refs) ? brief.evidence.source_refs : [],
+    } : { strongest_signals: [], weakest_signals: [], confidence: "medium", source_refs: [] },
+  };
+}
+
+function sanitizeCandidateDecision(decision) {
+  if (!decision || typeof decision !== "object") return null;
+  const status = normalizedStatus(decision.status, "");
+  if (!status) return null;
+  return {
+    status,
+    decision: laneConfig[status]?.decision || statusConfig[status]?.label || "Review card",
+    updated_at: typeof decision.updated_at === "string" ? decision.updated_at : new Date().toISOString(),
+  };
+}
+
 function hydrateBriefState() {
-  experimentBriefs = loadJson(briefStorageKey, []);
-  candidateDecisions = loadJson(decisionStorageKey, {});
+  const storedBriefs = loadJson(briefStorageKey, []);
+  experimentBriefs = Array.isArray(storedBriefs) ? storedBriefs.map(sanitizeBrief).filter(Boolean) : [];
+  const storedDecisions = loadJson(decisionStorageKey, {});
+  candidateDecisions = Object.fromEntries(
+    Object.entries(storedDecisions && typeof storedDecisions === "object" && !Array.isArray(storedDecisions) ? storedDecisions : {})
+      .map(([candidateId, decision]) => [candidateId, sanitizeCandidateDecision(decision)])
+      .filter(([, decision]) => Boolean(decision))
+  );
   selectedBriefId = experimentBriefs[0]?.brief_id || null;
 }
 

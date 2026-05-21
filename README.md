@@ -4,6 +4,12 @@
 
 Research-to-Project Lab is a dependency-free static MVP for turning research sources into scored experiment candidates and browser-local Experiment Briefs. It helps a solo or small-team builder decide which research-backed experiment deserves attention next.
 
+Use it for:
+
+- weekly experiment shortlist reviews from papers, repos, articles, and notes;
+- paper/repo-to-prototype handoff with inputs, risks, and pass/fail checks;
+- parking or rejecting weak ideas without losing source traceability or rationale.
+
 ## Current shipped behavior
 
 - Static HTML/CSS/JS app deployable on GitHub Pages.
@@ -16,6 +22,7 @@ Research-to-Project Lab is a dependency-free static MVP for turning research sou
 - Priority backlog computed from rubric total, evidence confidence, and estimated effort.
 - Candidate lane actions: Research next, Prototype next, Park, and Reject create a browser-local Experiment Brief.
 - Experiment Briefs persist through `research-to-project-lab.experimentBriefs.v1` in `localStorage`; this is browser-only state, not synced storage.
+- Experiment Brief fields cover problem, hypothesis, smallest test, success criteria, required inputs, evidence, risks, decision reason, and next owner.
 - Markdown clipboard export and JSON download for the current filtered candidate view. Markdown and JSON exports include Experiment Brief data when present.
 - Python unittest gates and GitHub Actions CI.
 - GitHub Pages deploy workflow and canary-smoked public demo.

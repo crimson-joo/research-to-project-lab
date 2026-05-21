@@ -4,6 +4,12 @@
 
 Research-to-Project Lab은 논문, GitHub 저장소, 글, 수동 메모를 **실험 후보**로 정리하고 점수화해서 “다음에 무엇을 만들지” 고르는 정적 MVP입니다.
 
+주요 사용 사례:
+
+- 논문, repo, 글, 메모에서 주간 experiment shortlist 만들기
+- arXiv/GitHub source를 prototype handoff brief로 바꾸기
+- 근거가 약하거나 중복된 아이디어를 traceability와 rationale을 남기고 Park/Reject하기
+
 ## 지금 동작하는 것
 
 - 의존성 없는 정적 HTML/CSS/JS 앱
@@ -16,7 +22,8 @@ Research-to-Project Lab은 논문, GitHub 저장소, 글, 수동 메모를 **실
 - rubric total + confidence + effort 기반 priority backlog
 - Candidate lane action: Research next, Prototype next, Park, Reject가 브라우저 로컬 Experiment Brief를 생성
 - `research-to-project-lab.experimentBriefs.v1` localStorage 기반 Experiment Brief 저장
-- 현재 필터 결과 Markdown 복사와 JSON 다운로드. Markdown and JSON exports include Experiment Brief data
+- Experiment Brief field: problem, hypothesis, smallest test, success criteria, required inputs, evidence, risks, decision reason, next owner
+- 현재 필터 결과 Markdown 복사와 JSON 다운로드. Markdown과 JSON export는 Experiment Brief data를 포함
 - Python unittest와 GitHub Actions CI
 - GitHub Pages 배포: `https://crimson-joo.github.io/research-to-project-lab/`
 
