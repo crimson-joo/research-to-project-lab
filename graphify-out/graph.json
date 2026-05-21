@@ -81,7 +81,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L1",
       "id": "tests_test_documentation_py",
-      "community": 16,
+      "community": 15,
       "norm_label": "test_documentation.py"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L10",
       "id": "tests_test_documentation_documentationfreshnesstests",
-      "community": 16,
+      "community": 15,
       "norm_label": "documentationfreshnesstests"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L11",
       "id": "tests_test_documentation_documentationfreshnesstests_test_markdown_relative_links_resolve",
-      "community": 16,
+      "community": 15,
       "norm_label": ".test_markdown_relative_links_resolve()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L24",
       "id": "tests_test_documentation_documentationfreshnesstests_test_readme_exposes_korean_docs_and_release_gate",
-      "community": 16,
+      "community": 15,
       "norm_label": ".test_readme_exposes_korean_docs_and_release_gate()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L33",
       "id": "tests_test_documentation_documentationfreshnesstests_test_docs_do_not_describe_shipped_features_as_absent",
-      "community": 16,
+      "community": 15,
       "norm_label": ".test_docs_do_not_describe_shipped_features_as_absent()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L46",
       "id": "tests_test_documentation_documentationfreshnesstests_test_release_checklist_contains_documentation_blockers",
-      "community": 16,
+      "community": 15,
       "norm_label": ".test_release_checklist_contains_documentation_blockers()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L56",
       "id": "tests_test_documentation_documentationfreshnesstests_test_docs_describe_shipped_experiment_brief_workflow",
-      "community": 16,
+      "community": 15,
       "norm_label": ".test_docs_describe_shipped_experiment_brief_workflow()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_scoring_consistency_py",
-      "community": 15,
+      "community": 16,
       "norm_label": "test_scoring_consistency.py"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L9",
       "id": "tests_test_scoring_consistency_load_json",
-      "community": 15,
+      "community": 16,
       "norm_label": "load_json()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L13",
       "id": "tests_test_scoring_consistency_scoringconsistencytests",
-      "community": 15,
+      "community": 16,
       "norm_label": "scoringconsistencytests"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L14",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_setup",
-      "community": 15,
+      "community": 16,
       "norm_label": ".setup()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L18",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_total_score_is_derived_from_visible_rubric_dimensions",
-      "community": 15,
+      "community": 16,
       "norm_label": ".test_total_score_is_derived_from_visible_rubric_dimensions()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L25",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_candidate_evidence_score_does_not_exceed_source_strength_ceiling",
-      "community": 15,
+      "community": 16,
       "norm_label": ".test_candidate_evidence_score_does_not_exceed_source_strength_ceiling()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L36",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_shortlisted_candidates_have_medium_or_better_visible_evidence",
-      "community": 15,
+      "community": 16,
       "norm_label": ".test_shortlisted_candidates_have_medium_or_better_visible_evidence()"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "src/app.js",
       "source_location": "L17",
       "id": "src_app_allowedsourcetypes",
-      "community": 2,
+      "community": 3,
       "norm_label": "allowedsourcetypes"
     },
     {
@@ -504,7 +504,7 @@
       "source_file": "src/app.js",
       "source_location": "L23",
       "id": "src_app_sourcebyid",
-      "community": 2,
+      "community": 3,
       "norm_label": "sourcebyid"
     },
     {
@@ -567,7 +567,7 @@
       "source_file": "src/app.js",
       "source_location": "L72",
       "id": "src_app_escapehtml",
-      "community": 14,
+      "community": 17,
       "norm_label": "escapehtml()"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "src/app.js",
       "source_location": "L79",
       "id": "src_app_sourcerecordsfor",
-      "community": 21,
+      "community": 20,
       "norm_label": "sourcerecordsfor()"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "src/app.js",
       "source_location": "L83",
       "id": "src_app_tagsfor",
-      "community": 21,
+      "community": 20,
       "norm_label": "tagsfor()"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "src/app.js",
       "source_location": "L89",
       "id": "src_app_searchabletext",
-      "community": 21,
+      "community": 20,
       "norm_label": "searchabletext()"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "src/app.js",
       "source_location": "L119",
       "id": "src_app_sortcandidates",
-      "community": 17,
+      "community": 19,
       "norm_label": "sortcandidates()"
     },
     {
@@ -639,7 +639,7 @@
       "source_file": "src/app.js",
       "source_location": "L126",
       "id": "src_app_filtercandidates",
-      "community": 17,
+      "community": 19,
       "norm_label": "filtercandidates()"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "src/app.js",
       "source_location": "L136",
       "id": "src_app_currentfilters",
-      "community": 17,
+      "community": 19,
       "norm_label": "currentfilters()"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "src/app.js",
       "source_location": "L144",
       "id": "src_app_scoreentries",
-      "community": 3,
+      "community": 2,
       "norm_label": "scoreentries()"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "src/app.js",
       "source_location": "L148",
       "id": "src_app_formatstatus",
-      "community": 14,
+      "community": 17,
       "norm_label": "formatstatus()"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "src/app.js",
       "source_location": "L153",
       "id": "src_app_sourcebadge",
-      "community": 14,
+      "community": 17,
       "norm_label": "sourcebadge()"
     },
     {
@@ -684,7 +684,7 @@
       "source_file": "src/app.js",
       "source_location": "L159",
       "id": "src_app_actionbuttons",
-      "community": 14,
+      "community": 17,
       "norm_label": "actionbuttons()"
     },
     {
@@ -702,7 +702,7 @@
       "source_file": "src/app.js",
       "source_location": "L173",
       "id": "src_app_renderrubric",
-      "community": 18,
+      "community": 13,
       "norm_label": "renderrubric()"
     },
     {
@@ -729,7 +729,7 @@
       "source_file": "src/app.js",
       "source_location": "L258",
       "id": "src_app_shortlistnotices",
-      "community": 18,
+      "community": 13,
       "norm_label": "shortlistnotices()"
     },
     {
@@ -738,7 +738,7 @@
       "source_file": "src/app.js",
       "source_location": "L267",
       "id": "src_app_rendershortlist",
-      "community": 18,
+      "community": 13,
       "norm_label": "rendershortlist()"
     },
     {
@@ -747,7 +747,7 @@
       "source_file": "src/app.js",
       "source_location": "L288",
       "id": "src_app_renderbacklog",
-      "community": 17,
+      "community": 19,
       "norm_label": "renderbacklog()"
     },
     {
@@ -765,7 +765,7 @@
       "source_file": "src/app.js",
       "source_location": "L300",
       "id": "src_app_visiblebriefsfor",
-      "community": 19,
+      "community": 18,
       "norm_label": "visiblebriefsfor()"
     },
     {
@@ -783,7 +783,7 @@
       "source_file": "src/app.js",
       "source_location": "L326",
       "id": "src_app_candidatestomarkdown",
-      "community": 19,
+      "community": 18,
       "norm_label": "candidatestomarkdown()"
     },
     {
@@ -792,7 +792,7 @@
       "source_file": "src/app.js",
       "source_location": "L340",
       "id": "src_app_exportpayload",
-      "community": 19,
+      "community": 18,
       "norm_label": "exportpayload()"
     },
     {
@@ -801,7 +801,7 @@
       "source_file": "src/app.js",
       "source_location": "L358",
       "id": "src_app_copymarkdown",
-      "community": 19,
+      "community": 18,
       "norm_label": "copymarkdown()"
     },
     {
@@ -810,7 +810,7 @@
       "source_file": "src/app.js",
       "source_location": "L367",
       "id": "src_app_downloadjson",
-      "community": 19,
+      "community": 18,
       "norm_label": "downloadjson()"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "src/app.js",
       "source_location": "L570",
       "id": "src_app_renderfilteredcandidates",
-      "community": 17,
+      "community": 19,
       "norm_label": "renderfilteredcandidates()"
     },
     {
@@ -945,7 +945,7 @@
       "source_file": "src/app.js",
       "source_location": "L577",
       "id": "src_app_setupexports",
-      "community": 18,
+      "community": 13,
       "norm_label": "setupexports()"
     },
     {
@@ -954,7 +954,7 @@
       "source_file": "src/app.js",
       "source_location": "L593",
       "id": "src_app_setupfilters",
-      "community": 18,
+      "community": 13,
       "norm_label": "setupfilters()"
     },
     {
@@ -963,7 +963,7 @@
       "source_file": "src/app.js",
       "source_location": "L600",
       "id": "src_app_normalizedraft",
-      "community": 3,
+      "community": 2,
       "norm_label": "normalizedraft()"
     },
     {
@@ -990,7 +990,7 @@
       "source_file": "src/app.js",
       "source_location": "L625",
       "id": "src_app_buildcandidatedraft",
-      "community": 3,
+      "community": 2,
       "norm_label": "buildcandidatedraft()"
     },
     {
@@ -1008,7 +1008,7 @@
       "source_file": "src/app.js",
       "source_location": "L641",
       "id": "src_app_loadpersisteddraft",
-      "community": 14,
+      "community": 13,
       "norm_label": "loadpersisteddraft()"
     },
     {
@@ -1026,7 +1026,7 @@
       "source_file": "src/app.js",
       "source_location": "L644",
       "id": "src_app_renderdraft",
-      "community": 14,
+      "community": 17,
       "norm_label": "renderdraft()"
     },
     {
@@ -1044,7 +1044,7 @@
       "source_file": "src/app.js",
       "source_location": "L664",
       "id": "src_app_hydrateformfromdraft",
-      "community": 14,
+      "community": 13,
       "norm_label": "hydrateformfromdraft()"
     },
     {
@@ -1053,7 +1053,7 @@
       "source_file": "src/app.js",
       "source_location": "L672",
       "id": "src_app_setupsourceintake",
-      "community": 14,
+      "community": 13,
       "norm_label": "setupsourceintake()"
     },
     {
@@ -1062,7 +1062,7 @@
       "source_file": "src/app.js",
       "source_location": "L692",
       "id": "src_app_main",
-      "community": 18,
+      "community": 13,
       "norm_label": "main()"
     },
     {
@@ -1197,7 +1197,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/AGENTS.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_agents_md",
-      "community": 20,
+      "community": 22,
       "norm_label": "agents.md"
     },
     {
@@ -1206,7 +1206,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/AGENTS.md",
       "source_location": "L1",
       "id": "chore_graphify_bootstrap_agents_graphify",
-      "community": 20,
+      "community": 22,
       "norm_label": "graphify"
     },
     {
@@ -1215,7 +1215,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/CLAUDE.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_claude_md",
-      "community": 22,
+      "community": 21,
       "norm_label": "claude.md"
     },
     {
@@ -1224,7 +1224,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/CLAUDE.md",
       "source_location": "L1",
       "id": "chore_graphify_bootstrap_claude_graphify",
-      "community": 22,
+      "community": 21,
       "norm_label": "graphify"
     },
     {
@@ -1647,7 +1647,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_release_checklist_md",
-      "community": 13,
+      "community": 14,
       "norm_label": "release-checklist.md"
     },
     {
@@ -1656,7 +1656,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L1",
       "id": "docs_release_checklist_release_checklist",
-      "community": 13,
+      "community": 14,
       "norm_label": "release checklist"
     },
     {
@@ -1665,7 +1665,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L5",
       "id": "docs_release_checklist_release_is_blocked_until_all_gates_pass",
-      "community": 13,
+      "community": 14,
       "norm_label": "release is blocked until all gates pass"
     },
     {
@@ -1674,7 +1674,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L19",
       "id": "docs_release_checklist_documentation_freshness_gate",
-      "community": 13,
+      "community": 14,
       "norm_label": "documentation freshness gate"
     },
     {
@@ -1683,7 +1683,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L32",
       "id": "docs_release_checklist_qa_release_verification",
-      "community": 13,
+      "community": 14,
       "norm_label": "qa-release verification"
     },
     {
@@ -1692,7 +1692,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L45",
       "id": "docs_release_checklist_automation_in_this_repo",
-      "community": 13,
+      "community": 14,
       "norm_label": "automation in this repo"
     },
     {
@@ -1701,7 +1701,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L49",
       "id": "docs_release_checklist_codeblock_1",
-      "community": 13,
+      "community": 14,
       "norm_label": "code:sh (python3 -m unittest discover -s tests)"
     },
     {
@@ -1710,7 +1710,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/release-checklist.md",
       "source_location": "L61",
       "id": "docs_release_checklist_standard_release_evidence_packet",
-      "community": 13,
+      "community": 14,
       "norm_label": "standard release evidence packet"
     },
     {
@@ -1719,7 +1719,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_md",
-      "community": 8,
+      "community": 9,
       "norm_label": "handoff.md"
     },
     {
@@ -1728,7 +1728,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_handoff_research_to_project_lab",
-      "community": 8,
+      "community": 9,
       "norm_label": "handoff: research-to-project-lab"
     },
     {
@@ -1737,7 +1737,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L5",
       "id": "docs_handoff_product_decision",
-      "community": 8,
+      "community": 9,
       "norm_label": "product decision"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L9",
       "id": "docs_handoff_current_repo_state",
-      "community": 8,
+      "community": 9,
       "norm_label": "current repo state"
     },
     {
@@ -1755,7 +1755,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L22",
       "id": "docs_handoff_key_concepts",
-      "community": 8,
+      "community": 9,
       "norm_label": "key concepts"
     },
     {
@@ -1764,7 +1764,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L34",
       "id": "docs_handoff_next_implementation_sequence",
-      "community": 8,
+      "community": 9,
       "norm_label": "next implementation sequence"
     },
     {
@@ -1773,7 +1773,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L44",
       "id": "docs_handoff_qa_gates_to_preserve",
-      "community": 8,
+      "community": 9,
       "norm_label": "qa gates to preserve"
     },
     {
@@ -1782,7 +1782,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L54",
       "id": "docs_handoff_release_blocker_policy",
-      "community": 8,
+      "community": 9,
       "norm_label": "release blocker policy"
     },
     {
@@ -1791,7 +1791,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L66",
       "id": "docs_handoff_approval_boundaries",
-      "community": 8,
+      "community": 9,
       "norm_label": "approval boundaries"
     },
     {
@@ -1800,7 +1800,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L75",
       "id": "docs_handoff_source_artifacts",
-      "community": 8,
+      "community": 9,
       "norm_label": "source artifacts"
     },
     {
@@ -1809,7 +1809,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L89",
       "id": "docs_handoff_repo_docs",
-      "community": 8,
+      "community": 9,
       "norm_label": "repo docs"
     },
     {
@@ -1818,7 +1818,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_scoring_rubric_md",
-      "community": 9,
+      "community": 8,
       "norm_label": "scoring-rubric.md"
     },
     {
@@ -1827,7 +1827,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L1",
       "id": "docs_scoring_rubric_scoring_rubric_reference",
-      "community": 9,
+      "community": 8,
       "norm_label": "scoring rubric reference"
     },
     {
@@ -1836,7 +1836,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L5",
       "id": "docs_scoring_rubric_principles",
-      "community": 9,
+      "community": 8,
       "norm_label": "principles"
     },
     {
@@ -1845,7 +1845,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L12",
       "id": "docs_scoring_rubric_score_scale",
-      "community": 9,
+      "community": 8,
       "norm_label": "score scale"
     },
     {
@@ -1854,7 +1854,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L24",
       "id": "docs_scoring_rubric_dimensions",
-      "community": 9,
+      "community": 8,
       "norm_label": "dimensions"
     },
     {
@@ -1863,7 +1863,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L34",
       "id": "docs_scoring_rubric_total_score_rule",
-      "community": 9,
+      "community": 8,
       "norm_label": "total score rule"
     },
     {
@@ -1872,7 +1872,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L42",
       "id": "docs_scoring_rubric_tie_breakers_for_future_implementation",
-      "community": 9,
+      "community": 8,
       "norm_label": "tie-breakers for future implementation"
     },
     {
@@ -1881,7 +1881,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L51",
       "id": "docs_scoring_rubric_weak_evidence_rule",
-      "community": 9,
+      "community": 8,
       "norm_label": "weak-evidence rule"
     },
     {
@@ -1890,7 +1890,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L55",
       "id": "docs_scoring_rubric_manual_override_rule",
-      "community": 9,
+      "community": 8,
       "norm_label": "manual override rule"
     },
     {
@@ -1899,7 +1899,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L59",
       "id": "docs_scoring_rubric_current_fixture_examples",
-      "community": 9,
+      "community": 8,
       "norm_label": "current fixture examples"
     },
     {
@@ -1908,7 +1908,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L67",
       "id": "docs_scoring_rubric_related_docs",
-      "community": 9,
+      "community": 8,
       "norm_label": "related docs"
     },
     {
@@ -2114,7 +2114,7 @@
       "file_type": "code",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_documentation.py",
       "source_location": "L1",
-      "community": 16,
+      "community": 15,
       "norm_label": "test_documentation.py",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_documentation_py"
     },
@@ -2348,7 +2348,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/handoff.md",
       "source_location": "L1",
-      "community": 8,
+      "community": 9,
       "norm_label": "handoff.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_handoff_md"
     },
@@ -2456,7 +2456,7 @@
       "file_type": "code",
       "source_file": "tests/test_scoring_consistency.py",
       "source_location": "L1",
-      "community": 15,
+      "community": 16,
       "norm_label": "test_scoring_consistency.py",
       "id": "tests_test_scoring_consistency_py"
     },
@@ -2474,7 +2474,7 @@
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L1",
-      "community": 20,
+      "community": 22,
       "norm_label": "agents.md",
       "id": "agents_md"
     },
@@ -2483,7 +2483,7 @@
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L1",
-      "community": 22,
+      "community": 21,
       "norm_label": "claude.md",
       "id": "claude_md"
     },
@@ -2492,7 +2492,7 @@
       "file_type": "document",
       "source_file": "docs/release-checklist.md",
       "source_location": "L1",
-      "community": 13,
+      "community": 14,
       "norm_label": "release-checklist.md",
       "id": "docs_release_checklist_md"
     },
@@ -2501,7 +2501,7 @@
       "file_type": "document",
       "source_file": "docs/scoring-rubric.md",
       "source_location": "L1",
-      "community": 9,
+      "community": 8,
       "norm_label": "scoring-rubric.md",
       "id": "docs_scoring_rubric_md"
     }
@@ -6447,5 +6447,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "34609ca5155862cffcfd8ade155cc3c1310ff211"
+  "built_at_commit": "2932eebb1c676e6879e717dff7efa8d950e52a54"
 }
