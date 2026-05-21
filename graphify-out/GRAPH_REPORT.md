@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3cae38c6`
+- Built from commit: `34609ca5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -52,16 +52,16 @@
 10. `renderFilteredCandidates()` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `renderEmptyState()` --calls--> `escapeHtml()`  [EXTRACTED]
+  src/app.js → src/app.js  _Bridges community 14 → community 17_
 - `fillBriefForm()` --calls--> `escapeHtml()`  [EXTRACTED]
-  src/app.js → src/app.js  _Bridges community 17 → community 8_
-- `renderDraft()` --calls--> `escapeHtml()`  [EXTRACTED]
-  src/app.js → src/app.js  _Bridges community 17 → community 20_
-- `renderFilteredCandidates()` --calls--> `renderCandidates()`  [EXTRACTED]
-  src/app.js → src/app.js  _Bridges community 17 → community 19_
-- `briefToMarkdown()` --calls--> `readinessForBrief()`  [EXTRACTED]
-  src/app.js → src/app.js  _Bridges community 5 → community 8_
+  src/app.js → src/app.js  _Bridges community 14 → community 2_
 - `createOrUpdateBrief()` --calls--> `renderFilteredCandidates()`  [EXTRACTED]
-  src/app.js → src/app.js  _Bridges community 8 → community 19_
+  src/app.js → src/app.js  _Bridges community 2 → community 17_
+- `main()` --calls--> `setupBriefWorkflow()`  [EXTRACTED]
+  src/app.js → src/app.js  _Bridges community 2 → community 18_
+- `main()` --calls--> `renderFilteredCandidates()`  [EXTRACTED]
+  src/app.js → src/app.js  _Bridges community 17 → community 18_
 
 ## Communities (23 total, 7 thin omitted)
 
@@ -74,16 +74,16 @@ Cohesion: 0.07
 Nodes (26): code:sh (python3 -m http.server 5173), code:sh (npm run serve), code:sh (python3 -m unittest discover -s tests), code:sh (npm test), Current shipped behavior, Documentation, Project notes, Release/documentation gate (+18 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.12
-Nodes (19): allCandidates, allowedSourceTypes, buildCandidateDraft(), candidateEmptyStates, candidateErrorCopy, chipList(), isHttpUrl(), loadedCandidates (+11 more)
+Cohesion: 0.17
+Nodes (19): allowedSourceTypes, briefToMarkdown(), candidateDecisions, createOrUpdateBrief(), defaultBriefFor(), experimentBriefs, fillBriefForm(), hydrateBriefState() (+11 more)
 
-### Community 4 - "Community 4"
-Cohesion: 0.14
-Nodes (15): 지금 동작하는 것, 아직 안 되는 것, 아직 안 되는 것, 로컬 실행, 로컬 실행, 테스트, 테스트, 릴리즈 문서 게이트 (+7 more)
+### Community 3 - "Community 3"
+Cohesion: 0.12
+Nodes (19): allCandidates, buildCandidateDraft(), candidateEmptyStates, candidateErrorCopy, chipList(), clearPersistedDraft(), confidenceScore(), effortScore() (+11 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.17
-Nodes (15): briefToMarkdown(), candidateDecisions, candidatesToMarkdown(), clearPersistedDraft(), confidenceScore(), copyMarkdown(), downloadJson(), effortScore() (+7 more)
+Cohesion: 0.14
+Nodes (15): 지금 동작하는 것, 아직 안 되는 것, 아직 안 되는 것, 로컬 실행, 로컬 실행, 테스트, 테스트, 릴리즈 문서 게이트 (+7 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.14
@@ -94,40 +94,40 @@ Cohesion: 0.15
 Nodes (11): Browser QA is manual, Experiment Brief workflow is browser-local only, Known Issues and Limitations, Not implemented yet, Related docs, Research backlog vs implementation backlog is visible but not workflow-backed, Scoring is static fixture data, Source intake is local draft capture, not live ingestion (+3 more)
 
 ### Community 8 - "Community 8"
-Cohesion: 0.2
-Nodes (12): createOrUpdateBrief(), defaultBriefFor(), fillBriefForm(), hydrateBriefState(), loadJson(), parseLines(), persistBriefState(), readinessForBrief() (+4 more)
+Cohesion: 0.17
+Nodes (10): Approval boundaries, Current repo state, Handoff: research-to-project-lab, Key concepts, Next implementation sequence, Product decision, QA gates to preserve, Release blocker policy (+2 more)
 
 ### Community 9 - "Community 9"
 Cohesion: 0.17
-Nodes (10): Approval boundaries, Current repo state, Handoff: research-to-project-lab, Key concepts, Next implementation sequence, Product decision, QA gates to preserve, Release blocker policy (+2 more)
+Nodes (10): Current fixture examples, Dimensions, Manual override rule, Principles, Related docs, Score scale, Scoring Rubric Reference, Tie-breakers for future implementation (+2 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.17
 Nodes (10): code:sh (python3 -m http.server 5173), Core loop, Current limitations, Current MVP walkthrough, How to read a candidate card, How to use search, filters, and exports, How to use the backlog and shortlist, User Guide: From Research Source to Experiment Candidate (+2 more)
 
-### Community 11 - "Community 11"
-Cohesion: 0.17
-Nodes (10): Current fixture examples, Dimensions, Manual override rule, Principles, Related docs, Score scale, Scoring Rubric Reference, Tie-breakers for future implementation (+2 more)
-
 ### Community 13 - "Community 13"
 Cohesion: 0.22
 Nodes (7): Automation in this repo, code:sh (python3 -m unittest discover -s tests), Documentation freshness gate, QA-release verification, Release Checklist, Release is blocked until all gates pass, Standard release evidence packet
 
+### Community 14 - "Community 14"
+Cohesion: 0.25
+Nodes (8): actionButtons(), escapeHtml(), formatStatus(), hydrateFormFromDraft(), loadPersistedDraft(), renderDraft(), setupSourceIntake(), sourceBadge()
+
 ### Community 17 - "Community 17"
 Cohesion: 0.33
-Nodes (6): actionButtons(), escapeHtml(), formatStatus(), renderCandidates(), renderEmptyState(), sourceBadge()
+Nodes (7): currentFilters(), filterCandidates(), renderBacklog(), renderCandidates(), renderEmptyState(), renderFilteredCandidates(), sortCandidates()
 
 ### Community 18 - "Community 18"
 Cohesion: 0.33
 Nodes (6): main(), renderRubric(), renderShortlist(), setupExports(), setupFilters(), shortlistNotices()
 
 ### Community 19 - "Community 19"
-Cohesion: 0.5
-Nodes (5): currentFilters(), filterCandidates(), renderBacklog(), renderFilteredCandidates(), sortCandidates()
+Cohesion: 0.4
+Nodes (5): candidatesToMarkdown(), copyMarkdown(), downloadJson(), exportPayload(), visibleBriefsFor()
 
-### Community 20 - "Community 20"
-Cohesion: 0.5
-Nodes (4): hydrateFormFromDraft(), loadPersistedDraft(), renderDraft(), setupSourceIntake()
+### Community 21 - "Community 21"
+Cohesion: 1.0
+Nodes (3): searchableText(), sourceRecordsFor(), tagsFor()
 
 ## Knowledge Gaps
 - **100 isolated node(s):** `experimentBriefs`, `candidateDecisions`, `laneConfig`, `Current shipped behavior`, `Still not implemented` (+95 more)
@@ -143,9 +143,9 @@ _Questions this graph is uniquely positioned to answer:_
   _Cohesion score 0.07 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.07 - nodes in this community are weakly interconnected._
-- **Should `Community 2` be split into smaller, more focused modules?**
+- **Should `Community 3` be split into smaller, more focused modules?**
   _Cohesion score 0.12 - nodes in this community are weakly interconnected._
-- **Should `Community 4` be split into smaller, more focused modules?**
+- **Should `Community 5` be split into smaller, more focused modules?**
   _Cohesion score 0.14 - nodes in this community are weakly interconnected._
 - **Should `Community 6` be split into smaller, more focused modules?**
   _Cohesion score 0.14 - nodes in this community are weakly interconnected._

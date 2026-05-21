@@ -9,7 +9,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_traceability.py",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_traceability_py",
-      "community": 14,
+      "community": 12,
       "norm_label": "test_traceability.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_traceability.py",
       "source_location": "L8",
       "id": "tests_test_traceability_load_json",
-      "community": 14,
+      "community": 12,
       "norm_label": "load_json()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_traceability.py",
       "source_location": "L12",
       "id": "tests_test_traceability_candidatetraceabilitytests",
-      "community": 14,
+      "community": 12,
       "norm_label": "candidatetraceabilitytests"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_traceability.py",
       "source_location": "L13",
       "id": "tests_test_traceability_candidatetraceabilitytests_setup",
-      "community": 14,
+      "community": 12,
       "norm_label": ".setup()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_traceability.py",
       "source_location": "L17",
       "id": "tests_test_traceability_candidatetraceabilitytests_test_each_candidate_references_existing_candidate_ready_sources",
-      "community": 14,
+      "community": 12,
       "norm_label": ".test_each_candidate_references_existing_candidate_ready_sources()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_traceability.py",
       "source_location": "L27",
       "id": "tests_test_traceability_candidatetraceabilitytests_test_primary_source_url_resolves_from_source_record",
-      "community": 14,
+      "community": 12,
       "norm_label": ".test_primary_source_url_resolves_from_source_record()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_traceability.py",
       "source_location": "L35",
       "id": "tests_test_traceability_candidatetraceabilitytests_test_trace_keeps_extraction_method_evidence_refs_and_rationale",
-      "community": 14,
+      "community": 12,
       "norm_label": ".test_trace_keeps_extraction_method_evidence_refs_and_rationale()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_traceability.py",
       "source_location": "L50",
       "id": "tests_test_traceability_candidatetraceabilitytests_test_blocked_status_sources_are_not_used_for_candidate_extraction",
-      "community": 14,
+      "community": 12,
       "norm_label": ".test_blocked_status_sources_are_not_used_for_candidate_extraction()"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L1",
       "id": "tests_test_documentation_py",
-      "community": 15,
+      "community": 16,
       "norm_label": "test_documentation.py"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L10",
       "id": "tests_test_documentation_documentationfreshnesstests",
-      "community": 15,
+      "community": 16,
       "norm_label": "documentationfreshnesstests"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L11",
       "id": "tests_test_documentation_documentationfreshnesstests_test_markdown_relative_links_resolve",
-      "community": 15,
+      "community": 16,
       "norm_label": ".test_markdown_relative_links_resolve()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L24",
       "id": "tests_test_documentation_documentationfreshnesstests_test_readme_exposes_korean_docs_and_release_gate",
-      "community": 15,
+      "community": 16,
       "norm_label": ".test_readme_exposes_korean_docs_and_release_gate()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L33",
       "id": "tests_test_documentation_documentationfreshnesstests_test_docs_do_not_describe_shipped_features_as_absent",
-      "community": 15,
+      "community": 16,
       "norm_label": ".test_docs_do_not_describe_shipped_features_as_absent()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L46",
       "id": "tests_test_documentation_documentationfreshnesstests_test_release_checklist_contains_documentation_blockers",
-      "community": 15,
+      "community": 16,
       "norm_label": ".test_release_checklist_contains_documentation_blockers()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L56",
       "id": "tests_test_documentation_documentationfreshnesstests_test_docs_describe_shipped_experiment_brief_workflow",
-      "community": 15,
+      "community": 16,
       "norm_label": ".test_docs_describe_shipped_experiment_brief_workflow()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_scoring_consistency_py",
-      "community": 16,
+      "community": 15,
       "norm_label": "test_scoring_consistency.py"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L9",
       "id": "tests_test_scoring_consistency_load_json",
-      "community": 16,
+      "community": 15,
       "norm_label": "load_json()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L13",
       "id": "tests_test_scoring_consistency_scoringconsistencytests",
-      "community": 16,
+      "community": 15,
       "norm_label": "scoringconsistencytests"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L14",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_setup",
-      "community": 16,
+      "community": 15,
       "norm_label": ".setup()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L18",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_total_score_is_derived_from_visible_rubric_dimensions",
-      "community": 16,
+      "community": 15,
       "norm_label": ".test_total_score_is_derived_from_visible_rubric_dimensions()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L25",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_candidate_evidence_score_does_not_exceed_source_strength_ceiling",
-      "community": 16,
+      "community": 15,
       "norm_label": ".test_candidate_evidence_score_does_not_exceed_source_strength_ceiling()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_scoring_consistency.py",
       "source_location": "L36",
       "id": "tests_test_scoring_consistency_scoringconsistencytests_test_shortlisted_candidates_have_medium_or_better_visible_evidence",
-      "community": 16,
+      "community": 15,
       "norm_label": ".test_shortlisted_candidates_have_medium_or_better_visible_evidence()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_source_records_py",
-      "community": 12,
+      "community": 11,
       "norm_label": "test_source_records.py"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L32",
       "id": "tests_test_source_records_load_json",
-      "community": 12,
+      "community": 11,
       "norm_label": "load_json()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L36",
       "id": "tests_test_source_records_sourcerecordmodeltests",
-      "community": 12,
+      "community": 11,
       "norm_label": "sourcerecordmodeltests"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L37",
       "id": "tests_test_source_records_sourcerecordmodeltests_setup",
-      "community": 12,
+      "community": 11,
       "norm_label": ".setup()"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L40",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_source_records_fixture_exists_and_covers_mvp_types",
-      "community": 12,
+      "community": 11,
       "norm_label": ".test_source_records_fixture_exists_and_covers_mvp_types()"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L47",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_source_records_have_protocol_required_fields",
-      "community": 12,
+      "community": 11,
       "norm_label": ".test_source_records_have_protocol_required_fields()"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L67",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_manual_source_without_url_requires_no_url_rationale",
-      "community": 12,
+      "community": 11,
       "norm_label": ".test_manual_source_without_url_requires_no_url_rationale()"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L78",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_candidate_ready_sources_include_evidence_risk_tags_and_review_rationale",
-      "community": 12,
+      "community": 11,
       "norm_label": ".test_candidate_ready_sources_include_evidence_risk_tags_and_review_rationale()"
     },
     {
@@ -279,7 +279,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_source_records.py",
       "source_location": "L95",
       "id": "tests_test_source_records_sourcerecordmodeltests_test_non_ready_source_records_preserve_audit_reason",
-      "community": 12,
+      "community": 11,
       "norm_label": ".test_non_ready_source_records_preserve_audit_reason()"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L1",
       "id": "tests_test_static_app_py",
-      "community": 3,
+      "community": 4,
       "norm_label": "test_static_app.py"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L8",
       "id": "tests_test_static_app_read_text",
-      "community": 3,
+      "community": 4,
       "norm_label": "read_text()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L12",
       "id": "tests_test_static_app_staticappscaffoldtests",
-      "community": 3,
+      "community": 4,
       "norm_label": "staticappscaffoldtests"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L13",
       "id": "tests_test_static_app_staticappscaffoldtests_test_scaffold_files_exist",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_scaffold_files_exist()"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L28",
       "id": "tests_test_static_app_staticappscaffoldtests_test_package_scripts_are_dependency_free_static_workflow",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_package_scripts_are_dependency_free_static_workflow()"
     },
     {
@@ -333,7 +333,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L37",
       "id": "tests_test_static_app_staticappscaffoldtests_test_candidate_data_has_rubric_and_shortlist_statuses",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_candidate_data_has_rubric_and_shortlist_statuses()"
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L52",
       "id": "tests_test_static_app_staticappscaffoldtests_test_app_renders_candidate_cards_rubric_and_shortlist_placeholder",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_app_renders_candidate_cards_rubric_and_shortlist_placeholder()"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L67",
       "id": "tests_test_static_app_staticappscaffoldtests_test_mock_data_covers_candidate_state_matrix",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_mock_data_covers_candidate_state_matrix()"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L91",
       "id": "tests_test_static_app_staticappscaffoldtests_test_candidate_ui_includes_empty_error_and_accessible_action_copy",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_candidate_ui_includes_empty_error_and_accessible_action_copy()"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L111",
       "id": "tests_test_static_app_staticappscaffoldtests_test_shortlist_ui_handles_empty_edges_and_keyboard_ranking",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_shortlist_ui_handles_empty_edges_and_keyboard_ranking()"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L130",
       "id": "tests_test_static_app_staticappscaffoldtests_test_source_intake_form_and_validation_contract_are_present",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_source_intake_form_and_validation_contract_are_present()"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L146",
       "id": "tests_test_static_app_staticappscaffoldtests_test_intake_schema_is_compatible_with_candidate_and_source_records",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_intake_schema_is_compatible_with_candidate_and_source_records()"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L161",
       "id": "tests_test_static_app_staticappscaffoldtests_test_search_filter_ui_and_empty_state_are_present",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_search_filter_ui_and_empty_state_are_present()"
     },
     {
@@ -405,7 +405,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L178",
       "id": "tests_test_static_app_staticappscaffoldtests_test_search_filter_uses_candidate_and_source_tags",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_search_filter_uses_candidate_and_source_tags()"
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L202",
       "id": "tests_test_static_app_staticappscaffoldtests_test_priority_backlog_and_export_controls_are_present",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_priority_backlog_and_export_controls_are_present()"
     },
     {
@@ -423,7 +423,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L219",
       "id": "tests_test_static_app_staticappscaffoldtests_test_priority_score_is_derived_from_visible_rubric_confidence_and_effort",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_priority_score_is_derived_from_visible_rubric_confidence_and_effort()"
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L235",
       "id": "tests_test_static_app_staticappscaffoldtests_test_onboarding_explains_experiment_brief_workflow",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_onboarding_explains_experiment_brief_workflow()"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L256",
       "id": "tests_test_static_app_staticappscaffoldtests_test_experiment_brief_lane_actions_persist_and_export",
-      "community": 3,
+      "community": 4,
       "norm_label": ".test_experiment_brief_lane_actions_persist_and_export()"
     },
     {
@@ -450,7 +450,7 @@
       "source_file": "src/app.js",
       "source_location": "L1",
       "id": "src_app_js",
-      "community": 5,
+      "community": 2,
       "norm_label": "app.js"
     },
     {
@@ -459,7 +459,7 @@
       "source_file": "src/app.js",
       "source_location": "L1",
       "id": "src_app_rubriclabels",
-      "community": 5,
+      "community": 3,
       "norm_label": "rubriclabels"
     },
     {
@@ -468,7 +468,7 @@
       "source_file": "src/app.js",
       "source_location": "L9",
       "id": "src_app_rubricdescriptions",
-      "community": 2,
+      "community": 3,
       "norm_label": "rubricdescriptions"
     },
     {
@@ -486,7 +486,7 @@
       "source_file": "src/app.js",
       "source_location": "L21",
       "id": "src_app_loadedcandidates",
-      "community": 2,
+      "community": 3,
       "norm_label": "loadedcandidates"
     },
     {
@@ -495,7 +495,7 @@
       "source_file": "src/app.js",
       "source_location": "L22",
       "id": "src_app_allcandidates",
-      "community": 2,
+      "community": 3,
       "norm_label": "allcandidates"
     },
     {
@@ -513,7 +513,7 @@
       "source_file": "src/app.js",
       "source_location": "L24",
       "id": "src_app_experimentbriefs",
-      "community": 5,
+      "community": 2,
       "norm_label": "experimentbriefs"
     },
     {
@@ -522,7 +522,7 @@
       "source_file": "src/app.js",
       "source_location": "L25",
       "id": "src_app_candidatedecisions",
-      "community": 5,
+      "community": 2,
       "norm_label": "candidatedecisions"
     },
     {
@@ -531,7 +531,7 @@
       "source_file": "src/app.js",
       "source_location": "L28",
       "id": "src_app_laneconfig",
-      "community": 5,
+      "community": 2,
       "norm_label": "laneconfig"
     },
     {
@@ -540,7 +540,7 @@
       "source_file": "src/app.js",
       "source_location": "L35",
       "id": "src_app_statusconfig",
-      "community": 2,
+      "community": 3,
       "norm_label": "statusconfig"
     },
     {
@@ -549,7 +549,7 @@
       "source_file": "src/app.js",
       "source_location": "L48",
       "id": "src_app_candidateemptystates",
-      "community": 2,
+      "community": 3,
       "norm_label": "candidateemptystates"
     },
     {
@@ -558,7 +558,7 @@
       "source_file": "src/app.js",
       "source_location": "L61",
       "id": "src_app_candidateerrorcopy",
-      "community": 2,
+      "community": 3,
       "norm_label": "candidateerrorcopy"
     },
     {
@@ -567,7 +567,7 @@
       "source_file": "src/app.js",
       "source_location": "L72",
       "id": "src_app_escapehtml",
-      "community": 17,
+      "community": 14,
       "norm_label": "escapehtml()"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "src/app.js",
       "source_location": "L79",
       "id": "src_app_sourcerecordsfor",
-      "community": 2,
+      "community": 21,
       "norm_label": "sourcerecordsfor()"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "src/app.js",
       "source_location": "L83",
       "id": "src_app_tagsfor",
-      "community": 2,
+      "community": 21,
       "norm_label": "tagsfor()"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "src/app.js",
       "source_location": "L89",
       "id": "src_app_searchabletext",
-      "community": 2,
+      "community": 21,
       "norm_label": "searchabletext()"
     },
     {
@@ -603,7 +603,7 @@
       "source_file": "src/app.js",
       "source_location": "L104",
       "id": "src_app_effortscore",
-      "community": 5,
+      "community": 3,
       "norm_label": "effortscore()"
     },
     {
@@ -612,7 +612,7 @@
       "source_file": "src/app.js",
       "source_location": "L109",
       "id": "src_app_confidencescore",
-      "community": 5,
+      "community": 3,
       "norm_label": "confidencescore()"
     },
     {
@@ -621,7 +621,7 @@
       "source_file": "src/app.js",
       "source_location": "L115",
       "id": "src_app_priorityscore",
-      "community": 5,
+      "community": 3,
       "norm_label": "priorityscore()"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "src/app.js",
       "source_location": "L119",
       "id": "src_app_sortcandidates",
-      "community": 19,
+      "community": 17,
       "norm_label": "sortcandidates()"
     },
     {
@@ -639,7 +639,7 @@
       "source_file": "src/app.js",
       "source_location": "L126",
       "id": "src_app_filtercandidates",
-      "community": 19,
+      "community": 17,
       "norm_label": "filtercandidates()"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "src/app.js",
       "source_location": "L136",
       "id": "src_app_currentfilters",
-      "community": 19,
+      "community": 17,
       "norm_label": "currentfilters()"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "src/app.js",
       "source_location": "L144",
       "id": "src_app_scoreentries",
-      "community": 2,
+      "community": 3,
       "norm_label": "scoreentries()"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "src/app.js",
       "source_location": "L148",
       "id": "src_app_formatstatus",
-      "community": 17,
+      "community": 14,
       "norm_label": "formatstatus()"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "src/app.js",
       "source_location": "L153",
       "id": "src_app_sourcebadge",
-      "community": 17,
+      "community": 14,
       "norm_label": "sourcebadge()"
     },
     {
@@ -684,7 +684,7 @@
       "source_file": "src/app.js",
       "source_location": "L159",
       "id": "src_app_actionbuttons",
-      "community": 17,
+      "community": 14,
       "norm_label": "actionbuttons()"
     },
     {
@@ -693,7 +693,7 @@
       "source_file": "src/app.js",
       "source_location": "L169",
       "id": "src_app_chiplist",
-      "community": 2,
+      "community": 3,
       "norm_label": "chiplist()"
     },
     {
@@ -747,7 +747,7 @@
       "source_file": "src/app.js",
       "source_location": "L288",
       "id": "src_app_renderbacklog",
-      "community": 19,
+      "community": 17,
       "norm_label": "renderbacklog()"
     },
     {
@@ -756,7 +756,7 @@
       "source_file": "src/app.js",
       "source_location": "L296",
       "id": "src_app_listitems",
-      "community": 5,
+      "community": 2,
       "norm_label": "listitems()"
     },
     {
@@ -765,7 +765,7 @@
       "source_file": "src/app.js",
       "source_location": "L300",
       "id": "src_app_visiblebriefsfor",
-      "community": 5,
+      "community": 19,
       "norm_label": "visiblebriefsfor()"
     },
     {
@@ -774,7 +774,7 @@
       "source_file": "src/app.js",
       "source_location": "L305",
       "id": "src_app_brieftomarkdown",
-      "community": 5,
+      "community": 2,
       "norm_label": "brieftomarkdown()"
     },
     {
@@ -783,7 +783,7 @@
       "source_file": "src/app.js",
       "source_location": "L326",
       "id": "src_app_candidatestomarkdown",
-      "community": 5,
+      "community": 19,
       "norm_label": "candidatestomarkdown()"
     },
     {
@@ -792,7 +792,7 @@
       "source_file": "src/app.js",
       "source_location": "L340",
       "id": "src_app_exportpayload",
-      "community": 5,
+      "community": 19,
       "norm_label": "exportpayload()"
     },
     {
@@ -801,7 +801,7 @@
       "source_file": "src/app.js",
       "source_location": "L358",
       "id": "src_app_copymarkdown",
-      "community": 5,
+      "community": 19,
       "norm_label": "copymarkdown()"
     },
     {
@@ -810,7 +810,7 @@
       "source_file": "src/app.js",
       "source_location": "L367",
       "id": "src_app_downloadjson",
-      "community": 5,
+      "community": 19,
       "norm_label": "downloadjson()"
     },
     {
@@ -819,7 +819,7 @@
       "source_file": "src/app.js",
       "source_location": "L377",
       "id": "src_app_parselines",
-      "community": 8,
+      "community": 2,
       "norm_label": "parselines()"
     },
     {
@@ -828,7 +828,7 @@
       "source_file": "src/app.js",
       "source_location": "L381",
       "id": "src_app_loadjson",
-      "community": 8,
+      "community": 2,
       "norm_label": "loadjson()"
     },
     {
@@ -837,7 +837,7 @@
       "source_file": "src/app.js",
       "source_location": "L385",
       "id": "src_app_persistbriefstate",
-      "community": 8,
+      "community": 2,
       "norm_label": "persistbriefstate()"
     },
     {
@@ -846,7 +846,7 @@
       "source_file": "src/app.js",
       "source_location": "L397",
       "id": "src_app_hydratebriefstate",
-      "community": 8,
+      "community": 2,
       "norm_label": "hydratebriefstate()"
     },
     {
@@ -855,7 +855,7 @@
       "source_file": "src/app.js",
       "source_location": "L403",
       "id": "src_app_candidatebyid",
-      "community": 5,
+      "community": 2,
       "norm_label": "candidatebyid()"
     },
     {
@@ -864,7 +864,7 @@
       "source_file": "src/app.js",
       "source_location": "L407",
       "id": "src_app_defaultbrieffor",
-      "community": 8,
+      "community": 2,
       "norm_label": "defaultbrieffor()"
     },
     {
@@ -873,7 +873,7 @@
       "source_file": "src/app.js",
       "source_location": "L438",
       "id": "src_app_createorupdatebrief",
-      "community": 8,
+      "community": 2,
       "norm_label": "createorupdatebrief()"
     },
     {
@@ -882,7 +882,7 @@
       "source_file": "src/app.js",
       "source_location": "L452",
       "id": "src_app_readinessforbrief",
-      "community": 8,
+      "community": 2,
       "norm_label": "readinessforbrief()"
     },
     {
@@ -891,7 +891,7 @@
       "source_file": "src/app.js",
       "source_location": "L464",
       "id": "src_app_renderbrieflist",
-      "community": 8,
+      "community": 2,
       "norm_label": "renderbrieflist()"
     },
     {
@@ -900,7 +900,7 @@
       "source_file": "src/app.js",
       "source_location": "L485",
       "id": "src_app_fillbriefform",
-      "community": 8,
+      "community": 2,
       "norm_label": "fillbriefform()"
     },
     {
@@ -909,7 +909,7 @@
       "source_file": "src/app.js",
       "source_location": "L512",
       "id": "src_app_renderbriefpanel",
-      "community": 8,
+      "community": 2,
       "norm_label": "renderbriefpanel()"
     },
     {
@@ -918,7 +918,7 @@
       "source_file": "src/app.js",
       "source_location": "L517",
       "id": "src_app_saveselectedbrieffromform",
-      "community": 8,
+      "community": 2,
       "norm_label": "saveselectedbrieffromform()"
     },
     {
@@ -927,7 +927,7 @@
       "source_file": "src/app.js",
       "source_location": "L548",
       "id": "src_app_setupbriefworkflow",
-      "community": 8,
+      "community": 2,
       "norm_label": "setupbriefworkflow()"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "src/app.js",
       "source_location": "L570",
       "id": "src_app_renderfilteredcandidates",
-      "community": 19,
+      "community": 17,
       "norm_label": "renderfilteredcandidates()"
     },
     {
@@ -963,7 +963,7 @@
       "source_file": "src/app.js",
       "source_location": "L600",
       "id": "src_app_normalizedraft",
-      "community": 2,
+      "community": 3,
       "norm_label": "normalizedraft()"
     },
     {
@@ -972,7 +972,7 @@
       "source_file": "src/app.js",
       "source_location": "L609",
       "id": "src_app_ishttpurl",
-      "community": 2,
+      "community": 3,
       "norm_label": "ishttpurl()"
     },
     {
@@ -981,7 +981,7 @@
       "source_file": "src/app.js",
       "source_location": "L613",
       "id": "src_app_validatesourcedraft",
-      "community": 2,
+      "community": 3,
       "norm_label": "validatesourcedraft()"
     },
     {
@@ -990,7 +990,7 @@
       "source_file": "src/app.js",
       "source_location": "L625",
       "id": "src_app_buildcandidatedraft",
-      "community": 2,
+      "community": 3,
       "norm_label": "buildcandidatedraft()"
     },
     {
@@ -999,7 +999,7 @@
       "source_file": "src/app.js",
       "source_location": "L640",
       "id": "src_app_persistdraft",
-      "community": 2,
+      "community": 3,
       "norm_label": "persistdraft()"
     },
     {
@@ -1008,7 +1008,7 @@
       "source_file": "src/app.js",
       "source_location": "L641",
       "id": "src_app_loadpersisteddraft",
-      "community": 20,
+      "community": 14,
       "norm_label": "loadpersisteddraft()"
     },
     {
@@ -1017,7 +1017,7 @@
       "source_file": "src/app.js",
       "source_location": "L642",
       "id": "src_app_clearpersisteddraft",
-      "community": 5,
+      "community": 3,
       "norm_label": "clearpersisteddraft()"
     },
     {
@@ -1026,7 +1026,7 @@
       "source_file": "src/app.js",
       "source_location": "L644",
       "id": "src_app_renderdraft",
-      "community": 20,
+      "community": 14,
       "norm_label": "renderdraft()"
     },
     {
@@ -1035,7 +1035,7 @@
       "source_file": "src/app.js",
       "source_location": "L656",
       "id": "src_app_showintakeerrors",
-      "community": 2,
+      "community": 3,
       "norm_label": "showintakeerrors()"
     },
     {
@@ -1044,7 +1044,7 @@
       "source_file": "src/app.js",
       "source_location": "L664",
       "id": "src_app_hydrateformfromdraft",
-      "community": 20,
+      "community": 14,
       "norm_label": "hydrateformfromdraft()"
     },
     {
@@ -1053,7 +1053,7 @@
       "source_file": "src/app.js",
       "source_location": "L672",
       "id": "src_app_setupsourceintake",
-      "community": 20,
+      "community": 14,
       "norm_label": "setupsourceintake()"
     },
     {
@@ -1197,7 +1197,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/AGENTS.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_agents_md",
-      "community": 21,
+      "community": 20,
       "norm_label": "agents.md"
     },
     {
@@ -1206,7 +1206,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/AGENTS.md",
       "source_location": "L1",
       "id": "chore_graphify_bootstrap_agents_graphify",
-      "community": 21,
+      "community": 20,
       "norm_label": "graphify"
     },
     {
@@ -1719,7 +1719,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_md",
-      "community": 9,
+      "community": 8,
       "norm_label": "handoff.md"
     },
     {
@@ -1728,7 +1728,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L1",
       "id": "docs_handoff_handoff_research_to_project_lab",
-      "community": 9,
+      "community": 8,
       "norm_label": "handoff: research-to-project-lab"
     },
     {
@@ -1737,7 +1737,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L5",
       "id": "docs_handoff_product_decision",
-      "community": 9,
+      "community": 8,
       "norm_label": "product decision"
     },
     {
@@ -1746,7 +1746,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L9",
       "id": "docs_handoff_current_repo_state",
-      "community": 9,
+      "community": 8,
       "norm_label": "current repo state"
     },
     {
@@ -1755,7 +1755,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L22",
       "id": "docs_handoff_key_concepts",
-      "community": 9,
+      "community": 8,
       "norm_label": "key concepts"
     },
     {
@@ -1764,7 +1764,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L34",
       "id": "docs_handoff_next_implementation_sequence",
-      "community": 9,
+      "community": 8,
       "norm_label": "next implementation sequence"
     },
     {
@@ -1773,7 +1773,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L44",
       "id": "docs_handoff_qa_gates_to_preserve",
-      "community": 9,
+      "community": 8,
       "norm_label": "qa gates to preserve"
     },
     {
@@ -1782,7 +1782,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L54",
       "id": "docs_handoff_release_blocker_policy",
-      "community": 9,
+      "community": 8,
       "norm_label": "release blocker policy"
     },
     {
@@ -1791,7 +1791,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L66",
       "id": "docs_handoff_approval_boundaries",
-      "community": 9,
+      "community": 8,
       "norm_label": "approval boundaries"
     },
     {
@@ -1800,7 +1800,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L75",
       "id": "docs_handoff_source_artifacts",
-      "community": 9,
+      "community": 8,
       "norm_label": "source artifacts"
     },
     {
@@ -1809,7 +1809,7 @@
       "source_file": "docs/handoff.md",
       "source_location": "L89",
       "id": "docs_handoff_repo_docs",
-      "community": 9,
+      "community": 8,
       "norm_label": "repo docs"
     },
     {
@@ -1818,7 +1818,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L1",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_scoring_rubric_md",
-      "community": 11,
+      "community": 9,
       "norm_label": "scoring-rubric.md"
     },
     {
@@ -1827,7 +1827,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L1",
       "id": "docs_scoring_rubric_scoring_rubric_reference",
-      "community": 11,
+      "community": 9,
       "norm_label": "scoring rubric reference"
     },
     {
@@ -1836,7 +1836,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L5",
       "id": "docs_scoring_rubric_principles",
-      "community": 11,
+      "community": 9,
       "norm_label": "principles"
     },
     {
@@ -1845,7 +1845,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L12",
       "id": "docs_scoring_rubric_score_scale",
-      "community": 11,
+      "community": 9,
       "norm_label": "score scale"
     },
     {
@@ -1854,7 +1854,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L24",
       "id": "docs_scoring_rubric_dimensions",
-      "community": 11,
+      "community": 9,
       "norm_label": "dimensions"
     },
     {
@@ -1863,7 +1863,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L34",
       "id": "docs_scoring_rubric_total_score_rule",
-      "community": 11,
+      "community": 9,
       "norm_label": "total score rule"
     },
     {
@@ -1872,7 +1872,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L42",
       "id": "docs_scoring_rubric_tie_breakers_for_future_implementation",
-      "community": 11,
+      "community": 9,
       "norm_label": "tie-breakers for future implementation"
     },
     {
@@ -1881,7 +1881,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L51",
       "id": "docs_scoring_rubric_weak_evidence_rule",
-      "community": 11,
+      "community": 9,
       "norm_label": "weak-evidence rule"
     },
     {
@@ -1890,7 +1890,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L55",
       "id": "docs_scoring_rubric_manual_override_rule",
-      "community": 11,
+      "community": 9,
       "norm_label": "manual override rule"
     },
     {
@@ -1899,7 +1899,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L59",
       "id": "docs_scoring_rubric_current_fixture_examples",
-      "community": 11,
+      "community": 9,
       "norm_label": "current fixture examples"
     },
     {
@@ -1908,7 +1908,7 @@
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/scoring-rubric.md",
       "source_location": "L67",
       "id": "docs_scoring_rubric_related_docs",
-      "community": 11,
+      "community": 9,
       "norm_label": "related docs"
     },
     {
@@ -1917,7 +1917,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L1",
       "id": "docs_ko_readme_md",
-      "community": 4,
+      "community": 5,
       "norm_label": "readme.md"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L1",
       "id": "ko_readme_research_to_project_lab_readme",
-      "community": 4,
+      "community": 5,
       "norm_label": "research-to-project lab \u1112\u1161\u11ab\u1100\u116e\u11a8\u110b\u1165 readme"
     },
     {
@@ -1935,7 +1935,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L7",
       "id": "ko_readme",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u110c\u1175\u1100\u1173\u11b7 \u1103\u1169\u11bc\u110c\u1161\u11a8\u1112\u1161\u1102\u1173\u11ab \u1100\u1165\u11ba"
     },
     {
@@ -1944,7 +1944,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L23",
       "id": "ko_readme_23",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u110b\u1161\u110c\u1175\u11a8 \u110b\u1161\u11ab \u1103\u116c\u1102\u1173\u11ab \u1100\u1165\u11ba"
     },
     {
@@ -1953,7 +1953,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L31",
       "id": "ko_readme_31",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u1105\u1169\u110f\u1165\u11af \u1109\u1175\u11af\u1112\u1162\u11bc"
     },
     {
@@ -1962,7 +1962,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L33",
       "id": "ko_readme_codeblock_1",
-      "community": 4,
+      "community": 5,
       "norm_label": "code:sh (python3 -m http.server 5173)"
     },
     {
@@ -1971,7 +1971,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L41",
       "id": "ko_readme_codeblock_2",
-      "community": 4,
+      "community": 5,
       "norm_label": "code:sh (npm run serve)"
     },
     {
@@ -1980,7 +1980,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L45",
       "id": "ko_readme_45",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u1110\u1166\u1109\u1173\u1110\u1173"
     },
     {
@@ -1989,7 +1989,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L47",
       "id": "ko_readme_codeblock_3",
-      "community": 4,
+      "community": 5,
       "norm_label": "code:sh (python3 -m unittest discover -s tests)"
     },
     {
@@ -1998,7 +1998,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L52",
       "id": "ko_readme_52",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u1105\u1175\u11af\u1105\u1175\u110c\u1173 \u1106\u116e\u11ab\u1109\u1165 \u1100\u1166\u110b\u1175\u1110\u1173"
     },
     {
@@ -2007,7 +2007,7 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L60",
       "id": "ko_readme_60",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u110c\u116e\u110b\u116d \u1106\u116e\u11ab\u1109\u1165"
     },
     {
@@ -2114,7 +2114,7 @@
       "file_type": "code",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_documentation.py",
       "source_location": "L1",
-      "community": 15,
+      "community": 16,
       "norm_label": "test_documentation.py",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_documentation_py"
     },
@@ -2123,7 +2123,7 @@
       "file_type": "code",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/tests/test_static_app.py",
       "source_location": "L1",
-      "community": 3,
+      "community": 4,
       "norm_label": "test_static_app.py",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_tests_test_static_app_py"
     },
@@ -2132,7 +2132,7 @@
       "file_type": "code",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/src/app.js",
       "source_location": "L1",
-      "community": 2,
+      "community": 3,
       "norm_label": "app.js",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_src_app_js"
     },
@@ -2348,7 +2348,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/handoff.md",
       "source_location": "L1",
-      "community": 9,
+      "community": 8,
       "norm_label": "handoff.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_handoff_md"
     },
@@ -2357,7 +2357,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md",
       "source_location": "L1",
-      "community": 4,
+      "community": 5,
       "norm_label": "readme.md",
       "id": "users_crimson_worktrees_research_to_project_lab_chore_graphify_bootstrap_docs_ko_readme_md"
     },
@@ -2366,7 +2366,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md",
       "source_location": "L22",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u110b\u1161\u110c\u1175\u11a8 \u110b\u1161\u11ab \u1103\u116c\u1102\u1173\u11ab \u1100\u1165\u11ba",
       "id": "ko_readme_22"
     },
@@ -2375,7 +2375,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md",
       "source_location": "L30",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u1105\u1169\u110f\u1165\u11af \u1109\u1175\u11af\u1112\u1162\u11bc",
       "id": "ko_readme_30"
     },
@@ -2384,7 +2384,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md",
       "source_location": "L44",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u1110\u1166\u1109\u1173\u1110\u1173",
       "id": "ko_readme_44"
     },
@@ -2393,7 +2393,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md",
       "source_location": "L51",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u1105\u1175\u11af\u1105\u1175\u110c\u1173 \u1106\u116e\u11ab\u1109\u1165 \u1100\u1166\u110b\u1175\u1110\u1173",
       "id": "ko_readme_51"
     },
@@ -2402,7 +2402,7 @@
       "file_type": "document",
       "source_file": "/Users/crimson/worktrees/research-to-project-lab/chore-graphify-bootstrap/docs/ko/README.md",
       "source_location": "L59",
-      "community": 4,
+      "community": 5,
       "norm_label": "\u110c\u116e\u110b\u116d \u1106\u116e\u11ab\u1109\u1165",
       "id": "ko_readme_59"
     },
@@ -2447,7 +2447,7 @@
       "file_type": "code",
       "source_file": "tests/test_traceability.py",
       "source_location": "L1",
-      "community": 14,
+      "community": 12,
       "norm_label": "test_traceability.py",
       "id": "tests_test_traceability_py"
     },
@@ -2456,7 +2456,7 @@
       "file_type": "code",
       "source_file": "tests/test_scoring_consistency.py",
       "source_location": "L1",
-      "community": 16,
+      "community": 15,
       "norm_label": "test_scoring_consistency.py",
       "id": "tests_test_scoring_consistency_py"
     },
@@ -2465,7 +2465,7 @@
       "file_type": "code",
       "source_file": "tests/test_source_records.py",
       "source_location": "L1",
-      "community": 12,
+      "community": 11,
       "norm_label": "test_source_records.py",
       "id": "tests_test_source_records_py"
     },
@@ -2474,7 +2474,7 @@
       "file_type": "document",
       "source_file": "AGENTS.md",
       "source_location": "L1",
-      "community": 21,
+      "community": 20,
       "norm_label": "agents.md",
       "id": "agents_md"
     },
@@ -2501,7 +2501,7 @@
       "file_type": "document",
       "source_file": "docs/scoring-rubric.md",
       "source_location": "L1",
-      "community": 11,
+      "community": 9,
       "norm_label": "scoring-rubric.md",
       "id": "docs_scoring_rubric_md"
     }
@@ -2664,9 +2664,9 @@
       "source_file": "tests/test_documentation.py",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_documentation_documentationfreshnesstests",
-      "target": "tests_test_documentation_documentationfreshnesstests_test_docs_describe_shipped_experiment_brief_workflow",
-      "confidence_score": 1.0
+      "target": "tests_test_documentation_documentationfreshnesstests_test_docs_describe_shipped_experiment_brief_workflow"
     },
     {
       "relation": "contains",
@@ -3039,9 +3039,9 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L236",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_static_app_staticappscaffoldtests_test_onboarding_explains_experiment_brief_workflow",
-      "target": "tests_test_static_app_read_text",
-      "confidence_score": 1.0
+      "target": "tests_test_static_app_read_text"
     },
     {
       "relation": "calls",
@@ -3050,9 +3050,9 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L257",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_static_app_staticappscaffoldtests_test_experiment_brief_lane_actions_persist_and_export",
-      "target": "tests_test_static_app_read_text",
-      "confidence_score": 1.0
+      "target": "tests_test_static_app_read_text"
     },
     {
       "relation": "contains",
@@ -3200,9 +3200,9 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L235",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_static_app_staticappscaffoldtests",
-      "target": "tests_test_static_app_staticappscaffoldtests_test_onboarding_explains_experiment_brief_workflow",
-      "confidence_score": 1.0
+      "target": "tests_test_static_app_staticappscaffoldtests_test_onboarding_explains_experiment_brief_workflow"
     },
     {
       "relation": "method",
@@ -3210,9 +3210,9 @@
       "source_file": "tests/test_static_app.py",
       "source_location": "L256",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tests_test_static_app_staticappscaffoldtests",
-      "target": "tests_test_static_app_staticappscaffoldtests_test_experiment_brief_lane_actions_persist_and_export",
-      "confidence_score": 1.0
+      "target": "tests_test_static_app_staticappscaffoldtests_test_experiment_brief_lane_actions_persist_and_export"
     },
     {
       "relation": "contains",
@@ -3290,9 +3290,9 @@
       "source_file": "src/app.js",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_experimentbriefs",
-      "confidence_score": 1.0
+      "target": "src_app_experimentbriefs"
     },
     {
       "relation": "contains",
@@ -3300,9 +3300,9 @@
       "source_file": "src/app.js",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_candidatedecisions",
-      "confidence_score": 1.0
+      "target": "src_app_candidatedecisions"
     },
     {
       "relation": "contains",
@@ -3310,9 +3310,9 @@
       "source_file": "src/app.js",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_laneconfig",
-      "confidence_score": 1.0
+      "target": "src_app_laneconfig"
     },
     {
       "relation": "contains",
@@ -3560,9 +3560,9 @@
       "source_file": "src/app.js",
       "source_location": "L296",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_listitems",
-      "confidence_score": 1.0
+      "target": "src_app_listitems"
     },
     {
       "relation": "contains",
@@ -3570,9 +3570,9 @@
       "source_file": "src/app.js",
       "source_location": "L300",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_visiblebriefsfor",
-      "confidence_score": 1.0
+      "target": "src_app_visiblebriefsfor"
     },
     {
       "relation": "contains",
@@ -3580,9 +3580,9 @@
       "source_file": "src/app.js",
       "source_location": "L305",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_brieftomarkdown",
-      "confidence_score": 1.0
+      "target": "src_app_brieftomarkdown"
     },
     {
       "relation": "contains",
@@ -3630,9 +3630,9 @@
       "source_file": "src/app.js",
       "source_location": "L377",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_parselines",
-      "confidence_score": 1.0
+      "target": "src_app_parselines"
     },
     {
       "relation": "contains",
@@ -3640,9 +3640,9 @@
       "source_file": "src/app.js",
       "source_location": "L381",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_loadjson",
-      "confidence_score": 1.0
+      "target": "src_app_loadjson"
     },
     {
       "relation": "contains",
@@ -3650,9 +3650,9 @@
       "source_file": "src/app.js",
       "source_location": "L385",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_persistbriefstate",
-      "confidence_score": 1.0
+      "target": "src_app_persistbriefstate"
     },
     {
       "relation": "contains",
@@ -3660,9 +3660,9 @@
       "source_file": "src/app.js",
       "source_location": "L397",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_hydratebriefstate",
-      "confidence_score": 1.0
+      "target": "src_app_hydratebriefstate"
     },
     {
       "relation": "contains",
@@ -3670,9 +3670,9 @@
       "source_file": "src/app.js",
       "source_location": "L403",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_candidatebyid",
-      "confidence_score": 1.0
+      "target": "src_app_candidatebyid"
     },
     {
       "relation": "contains",
@@ -3680,9 +3680,9 @@
       "source_file": "src/app.js",
       "source_location": "L407",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_defaultbrieffor",
-      "confidence_score": 1.0
+      "target": "src_app_defaultbrieffor"
     },
     {
       "relation": "contains",
@@ -3690,9 +3690,9 @@
       "source_file": "src/app.js",
       "source_location": "L438",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_createorupdatebrief",
-      "confidence_score": 1.0
+      "target": "src_app_createorupdatebrief"
     },
     {
       "relation": "contains",
@@ -3700,9 +3700,9 @@
       "source_file": "src/app.js",
       "source_location": "L452",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_readinessforbrief",
-      "confidence_score": 1.0
+      "target": "src_app_readinessforbrief"
     },
     {
       "relation": "contains",
@@ -3710,9 +3710,9 @@
       "source_file": "src/app.js",
       "source_location": "L464",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_renderbrieflist",
-      "confidence_score": 1.0
+      "target": "src_app_renderbrieflist"
     },
     {
       "relation": "contains",
@@ -3720,9 +3720,9 @@
       "source_file": "src/app.js",
       "source_location": "L485",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_fillbriefform",
-      "confidence_score": 1.0
+      "target": "src_app_fillbriefform"
     },
     {
       "relation": "contains",
@@ -3730,9 +3730,9 @@
       "source_file": "src/app.js",
       "source_location": "L512",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_renderbriefpanel",
-      "confidence_score": 1.0
+      "target": "src_app_renderbriefpanel"
     },
     {
       "relation": "contains",
@@ -3740,9 +3740,9 @@
       "source_file": "src/app.js",
       "source_location": "L517",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_saveselectedbrieffromform",
-      "confidence_score": 1.0
+      "target": "src_app_saveselectedbrieffromform"
     },
     {
       "relation": "contains",
@@ -3750,9 +3750,9 @@
       "source_file": "src/app.js",
       "source_location": "L548",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_js",
-      "target": "src_app_setupbriefworkflow",
-      "confidence_score": 1.0
+      "target": "src_app_setupbriefworkflow"
     },
     {
       "relation": "contains",
@@ -4034,9 +4034,9 @@
       "source_file": "src/app.js",
       "source_location": "L498",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_fillbriefform",
-      "target": "src_app_escapehtml",
-      "confidence_score": 1.0
+      "target": "src_app_escapehtml"
     },
     {
       "relation": "calls",
@@ -4442,9 +4442,9 @@
       "source_file": "src/app.js",
       "source_location": "L315",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_brieftomarkdown",
-      "target": "src_app_listitems",
-      "confidence_score": 1.0
+      "target": "src_app_listitems"
     },
     {
       "relation": "calls",
@@ -4453,9 +4453,9 @@
       "source_file": "src/app.js",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_candidatestomarkdown",
-      "target": "src_app_visiblebriefsfor",
-      "confidence_score": 1.0
+      "target": "src_app_visiblebriefsfor"
     },
     {
       "relation": "calls",
@@ -4464,9 +4464,9 @@
       "source_file": "src/app.js",
       "source_location": "L354",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_exportpayload",
-      "target": "src_app_visiblebriefsfor",
-      "confidence_score": 1.0
+      "target": "src_app_visiblebriefsfor"
     },
     {
       "relation": "calls",
@@ -4475,9 +4475,9 @@
       "source_file": "src/app.js",
       "source_location": "L306",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_brieftomarkdown",
-      "target": "src_app_readinessforbrief",
-      "confidence_score": 1.0
+      "target": "src_app_readinessforbrief"
     },
     {
       "relation": "calls",
@@ -4548,9 +4548,9 @@
       "source_file": "src/app.js",
       "source_location": "L530",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_saveselectedbrieffromform",
-      "target": "src_app_parselines",
-      "confidence_score": 1.0
+      "target": "src_app_parselines"
     },
     {
       "relation": "calls",
@@ -4559,9 +4559,9 @@
       "source_file": "src/app.js",
       "source_location": "L398",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_hydratebriefstate",
-      "target": "src_app_loadjson",
-      "confidence_score": 1.0
+      "target": "src_app_loadjson"
     },
     {
       "relation": "calls",
@@ -4570,9 +4570,9 @@
       "source_file": "src/app.js",
       "source_location": "L446",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_createorupdatebrief",
-      "target": "src_app_persistbriefstate",
-      "confidence_score": 1.0
+      "target": "src_app_persistbriefstate"
     },
     {
       "relation": "calls",
@@ -4581,9 +4581,9 @@
       "source_file": "src/app.js",
       "source_location": "L540",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_saveselectedbrieffromform",
-      "target": "src_app_persistbriefstate",
-      "confidence_score": 1.0
+      "target": "src_app_persistbriefstate"
     },
     {
       "relation": "calls",
@@ -4592,9 +4592,9 @@
       "source_file": "src/app.js",
       "source_location": "L549",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_setupbriefworkflow",
-      "target": "src_app_hydratebriefstate",
-      "confidence_score": 1.0
+      "target": "src_app_hydratebriefstate"
     },
     {
       "relation": "calls",
@@ -4603,9 +4603,9 @@
       "source_file": "src/app.js",
       "source_location": "L441",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_createorupdatebrief",
-      "target": "src_app_defaultbrieffor",
-      "confidence_score": 1.0
+      "target": "src_app_defaultbrieffor"
     },
     {
       "relation": "calls",
@@ -4614,9 +4614,9 @@
       "source_file": "src/app.js",
       "source_location": "L447",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_createorupdatebrief",
-      "target": "src_app_renderfilteredcandidates",
-      "confidence_score": 1.0
+      "target": "src_app_renderfilteredcandidates"
     },
     {
       "relation": "calls",
@@ -4625,9 +4625,9 @@
       "source_file": "src/app.js",
       "source_location": "L448",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_createorupdatebrief",
-      "target": "src_app_renderbriefpanel",
-      "confidence_score": 1.0
+      "target": "src_app_renderbriefpanel"
     },
     {
       "relation": "calls",
@@ -4636,9 +4636,9 @@
       "source_file": "src/app.js",
       "source_location": "L496",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_fillbriefform",
-      "target": "src_app_readinessforbrief",
-      "confidence_score": 1.0
+      "target": "src_app_readinessforbrief"
     },
     {
       "relation": "calls",
@@ -4647,9 +4647,9 @@
       "source_file": "src/app.js",
       "source_location": "L543",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_saveselectedbrieffromform",
-      "target": "src_app_readinessforbrief",
-      "confidence_score": 1.0
+      "target": "src_app_readinessforbrief"
     },
     {
       "relation": "calls",
@@ -4658,9 +4658,9 @@
       "source_file": "src/app.js",
       "source_location": "L513",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_renderbriefpanel",
-      "target": "src_app_renderbrieflist",
-      "confidence_score": 1.0
+      "target": "src_app_renderbrieflist"
     },
     {
       "relation": "calls",
@@ -4669,9 +4669,9 @@
       "source_file": "src/app.js",
       "source_location": "L514",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_renderbriefpanel",
-      "target": "src_app_fillbriefform",
-      "confidence_score": 1.0
+      "target": "src_app_fillbriefform"
     },
     {
       "relation": "calls",
@@ -4680,9 +4680,9 @@
       "source_file": "src/app.js",
       "source_location": "L542",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_saveselectedbrieffromform",
-      "target": "src_app_renderbriefpanel",
-      "confidence_score": 1.0
+      "target": "src_app_renderbriefpanel"
     },
     {
       "relation": "calls",
@@ -4691,9 +4691,9 @@
       "source_file": "src/app.js",
       "source_location": "L567",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_setupbriefworkflow",
-      "target": "src_app_renderbriefpanel",
-      "confidence_score": 1.0
+      "target": "src_app_renderbriefpanel"
     },
     {
       "relation": "calls",
@@ -4702,9 +4702,9 @@
       "source_file": "src/app.js",
       "source_location": "L541",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_saveselectedbrieffromform",
-      "target": "src_app_renderfilteredcandidates",
-      "confidence_score": 1.0
+      "target": "src_app_renderfilteredcandidates"
     },
     {
       "relation": "calls",
@@ -4713,9 +4713,9 @@
       "source_file": "src/app.js",
       "source_location": "L702",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app_main",
-      "target": "src_app_setupbriefworkflow",
-      "confidence_score": 1.0
+      "target": "src_app_setupbriefworkflow"
     },
     {
       "relation": "calls",
@@ -4961,9 +4961,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "experiment_brief_workflow_readme_research_to_project_lab",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_research_to_project_lab"
     },
     {
       "relation": "contains",
@@ -4981,9 +4981,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_research_to_project_lab",
-      "target": "experiment_brief_workflow_readme_current_shipped_behavior",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_current_shipped_behavior"
     },
     {
       "relation": "contains",
@@ -4991,9 +4991,9 @@
       "source_file": "README.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_research_to_project_lab",
-      "target": "experiment_brief_workflow_readme_still_not_implemented",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_still_not_implemented"
     },
     {
       "relation": "contains",
@@ -5001,9 +5001,9 @@
       "source_file": "README.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_research_to_project_lab",
-      "target": "experiment_brief_workflow_readme_run_locally",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_run_locally"
     },
     {
       "relation": "contains",
@@ -5011,9 +5011,9 @@
       "source_file": "README.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_research_to_project_lab",
-      "target": "experiment_brief_workflow_readme_test",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_test"
     },
     {
       "relation": "contains",
@@ -5021,9 +5021,9 @@
       "source_file": "README.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_research_to_project_lab",
-      "target": "experiment_brief_workflow_readme_release_documentation_gate",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_release_documentation_gate"
     },
     {
       "relation": "contains",
@@ -5031,9 +5031,9 @@
       "source_file": "README.md",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_research_to_project_lab",
-      "target": "experiment_brief_workflow_readme_documentation",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_documentation"
     },
     {
       "relation": "contains",
@@ -5041,9 +5041,9 @@
       "source_file": "README.md",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_research_to_project_lab",
-      "target": "experiment_brief_workflow_readme_safety_note",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_safety_note"
     },
     {
       "relation": "contains",
@@ -5051,9 +5051,9 @@
       "source_file": "README.md",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_research_to_project_lab",
-      "target": "experiment_brief_workflow_readme_project_notes",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_project_notes"
     },
     {
       "relation": "contains",
@@ -5061,9 +5061,9 @@
       "source_file": "README.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_run_locally",
-      "target": "experiment_brief_workflow_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -5071,9 +5071,9 @@
       "source_file": "README.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_run_locally",
-      "target": "experiment_brief_workflow_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -5081,9 +5081,9 @@
       "source_file": "README.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_test",
-      "target": "experiment_brief_workflow_readme_codeblock_3",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -5091,9 +5091,9 @@
       "source_file": "README.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "experiment_brief_workflow_readme_test",
-      "target": "experiment_brief_workflow_readme_codeblock_4",
-      "confidence_score": 1.0
+      "target": "experiment_brief_workflow_readme_codeblock_4"
     },
     {
       "relation": "contains",
@@ -5151,9 +5151,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_release_notes",
-      "target": "docs_release_notes_experiment_brief_workflow_update",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_experiment_brief_workflow_update"
     },
     {
       "relation": "contains",
@@ -5231,9 +5231,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_experiment_brief_workflow_update",
-      "target": "docs_release_notes_user_visible_changes",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_user_visible_changes"
     },
     {
       "relation": "contains",
@@ -5241,9 +5241,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_experiment_brief_workflow_update",
-      "target": "docs_release_notes_known_limitations",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_known_limitations"
     },
     {
       "relation": "contains",
@@ -5271,9 +5271,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_option_c_release_validation",
-      "target": "docs_release_notes_user_visible_changes_27",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_user_visible_changes_27"
     },
     {
       "relation": "contains",
@@ -5301,9 +5301,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_option_c_release_validation",
-      "target": "docs_release_notes_known_limitations_68",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_known_limitations_68"
     },
     {
       "relation": "contains",
@@ -5321,9 +5321,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_unreleased_mvp_docs_handoff",
-      "target": "docs_release_notes_user_visible_changes_84",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_user_visible_changes_84"
     },
     {
       "relation": "contains",
@@ -5331,9 +5331,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_unreleased_mvp_docs_handoff",
-      "target": "docs_release_notes_verification_94",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_verification_94"
     },
     {
       "relation": "contains",
@@ -5341,9 +5341,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_unreleased_mvp_docs_handoff",
-      "target": "docs_release_notes_known_limitations_100",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_known_limitations_100"
     },
     {
       "relation": "contains",
@@ -5351,9 +5351,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_unreleased_mvp_docs_handoff",
-      "target": "docs_release_notes_release_decision_106",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_release_decision_106"
     },
     {
       "relation": "contains",
@@ -5431,9 +5431,9 @@
       "source_file": "docs/release-notes.md",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_release_notes_c_02_static_scaffold",
-      "target": "docs_release_notes_verification_137",
-      "confidence_score": 1.0
+      "target": "docs_release_notes_verification_137"
     },
     {
       "relation": "contains",
@@ -5501,9 +5501,9 @@
       "source_file": "docs/known-issues.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_known_issues_known_issues_and_limitations",
-      "target": "docs_known_issues_experiment_brief_workflow_is_browser_local_only",
-      "confidence_score": 1.0
+      "target": "docs_known_issues_experiment_brief_workflow_is_browser_local_only"
     },
     {
       "relation": "contains",
@@ -6001,9 +6001,9 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_readme_research_to_project_lab_readme",
-      "target": "ko_readme_23",
-      "confidence_score": 1.0
+      "target": "ko_readme_23"
     },
     {
       "relation": "contains",
@@ -6011,9 +6011,9 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_readme_research_to_project_lab_readme",
-      "target": "ko_readme_31",
-      "confidence_score": 1.0
+      "target": "ko_readme_31"
     },
     {
       "relation": "contains",
@@ -6021,9 +6021,9 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_readme_research_to_project_lab_readme",
-      "target": "ko_readme_45",
-      "confidence_score": 1.0
+      "target": "ko_readme_45"
     },
     {
       "relation": "contains",
@@ -6031,9 +6031,9 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_readme_research_to_project_lab_readme",
-      "target": "ko_readme_52",
-      "confidence_score": 1.0
+      "target": "ko_readme_52"
     },
     {
       "relation": "contains",
@@ -6041,9 +6041,9 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_readme_research_to_project_lab_readme",
-      "target": "ko_readme_60",
-      "confidence_score": 1.0
+      "target": "ko_readme_60"
     },
     {
       "relation": "contains",
@@ -6111,9 +6111,9 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_readme_31",
-      "target": "ko_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "ko_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -6121,9 +6121,9 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_readme_31",
-      "target": "ko_readme_codeblock_2",
-      "confidence_score": 1.0
+      "target": "ko_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -6151,9 +6151,9 @@
       "source_file": "docs/ko/README.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_readme_45",
-      "target": "ko_readme_codeblock_3",
-      "confidence_score": 1.0
+      "target": "ko_readme_codeblock_3"
     },
     {
       "relation": "contains",
@@ -6191,9 +6191,9 @@
       "source_file": "docs/ko/user-guide.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_user_guide",
-      "target": "ko_user_guide_16",
-      "confidence_score": 1.0
+      "target": "ko_user_guide_16"
     },
     {
       "relation": "contains",
@@ -6231,9 +6231,9 @@
       "source_file": "docs/ko/user-guide.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_user_guide",
-      "target": "ko_user_guide_50",
-      "confidence_score": 1.0
+      "target": "ko_user_guide_50"
     },
     {
       "relation": "contains",
@@ -6241,9 +6241,9 @@
       "source_file": "docs/ko/user-guide.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_user_guide",
-      "target": "ko_user_guide_60",
-      "confidence_score": 1.0
+      "target": "ko_user_guide_60"
     },
     {
       "relation": "contains",
@@ -6251,9 +6251,9 @@
       "source_file": "docs/ko/user-guide.md",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_user_guide",
-      "target": "ko_user_guide_experiment_briefs",
-      "confidence_score": 1.0
+      "target": "ko_user_guide_experiment_briefs"
     },
     {
       "relation": "contains",
@@ -6301,9 +6301,9 @@
       "source_file": "docs/ko/user-guide.md",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ko_user_guide_16",
-      "target": "ko_user_guide_codeblock_1",
-      "confidence_score": 1.0
+      "target": "ko_user_guide_codeblock_1"
     },
     {
       "relation": "contains",
@@ -6447,5 +6447,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3cae38c6433c8a43034331c3b9004aaada8c033c"
+  "built_at_commit": "34609ca5155862cffcfd8ade155cc3c1310ff211"
 }
